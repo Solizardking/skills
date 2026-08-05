@@ -3,8 +3,8 @@
   "slug": "google/cloud/agent-platform-inference",
   "name": "agent-platform-inference",
   "description": "Connects to and performs inference with Google Cloud Agent Platform GenAI models, including First-Party Gemini models and Third-Party OpenMaaS models (Llama, DeepSeek, Qwen, etc.). Use when you need to generate code for calling Gemini or OpenMaaS models, authenticate with GenAI SDK, OpenAI SDK, or legacy Agent Platform SDK, configure base URLs and global/regional endpoints, or troubleshoot 429 Resource Exhausted (DSQ), 400 User Validation, or 404 Not Found errors. Don't use for deploying models to endpoints or for running model evaluations.",
-  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-inference/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-inference/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/cloud/agent-platform-inference/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/cloud/agent-platform-inference/metadata.json",
   "bundleHash": "sha256-c475c4810f0c550a7093c32243997227ef65c8886c14ca26bb5431cd50bddb97",
   "merkleLeaf": "sha256-33a355f50c6b382d64e93a5b434c8be96cd50baeca26a3f23ef49093ec027885",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-d42d697cd9619b1437938ff8d3f0119f06acb3c3551247fd418997fcf01a060f"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

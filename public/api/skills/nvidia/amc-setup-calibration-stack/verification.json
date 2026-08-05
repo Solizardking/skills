@@ -3,8 +3,8 @@
   "slug": "nvidia/amc-setup-calibration-stack",
   "name": "amc-setup-calibration-stack",
   "description": "Launch AutoMagicCalib microservice and web UI from NGC release images via Docker Compose. Use when user says 'deploy auto calibration', 'launch auto calibration', 'launch AMC', 'start MS+UI', or 'set up auto-magic-calib'. Requires NGC API key.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/amc-setup-calibration-stack/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/amc-setup-calibration-stack/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/amc-setup-calibration-stack/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/amc-setup-calibration-stack/metadata.json",
   "bundleHash": "sha256-169b067ed3dbfec628ad911f48ec12892721340fc3253e5e8c1ae84fbc32bf04",
   "merkleLeaf": "sha256-f3af672774ceeb6b6867fcd0dad70443ecd3737b346e6057e6ae818215a0f69a",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-16076fa12c71a349fa47022c861fce4708389addafb5a69b0fec1cb37ff55271"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

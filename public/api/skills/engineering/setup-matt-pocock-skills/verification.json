@@ -3,8 +3,8 @@
   "slug": "engineering/setup-matt-pocock-skills",
   "name": "setup-matt-pocock-skills",
   "description": "Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
-  "source": "https://skills.x402.wtf/api/skills/engineering/setup-matt-pocock-skills/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/engineering/setup-matt-pocock-skills/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/engineering/setup-matt-pocock-skills/metadata.json",
   "bundleHash": "sha256-01316c227ff66f4434ce65bf9465dc33b48f018a8284127a816ce6f464d3ef12",
   "merkleLeaf": "sha256-9615f05ff53b479f54d9f512ea8f730b0b14a11e0793b340dc1a45bb1b918e1d",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-4f53c9b40ce2651e3611aa090eaedbd6dbc9b71ef8c5f7e65eac0d8263190d0d"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

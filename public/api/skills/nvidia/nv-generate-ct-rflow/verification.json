@@ -3,8 +3,8 @@
   "slug": "nvidia/nv-generate-ct-rflow",
   "name": "nv-generate-ct-rflow",
   "description": "Used for generating synthetic CT volumes and masks with NV-Generate-CTMR rflow-ct. Not for production training data without review.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nv-generate-ct-rflow/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nv-generate-ct-rflow/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nv-generate-ct-rflow/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nv-generate-ct-rflow/metadata.json",
   "bundleHash": "sha256-a4cd9ff0ad6a37206cb27951bc109a8d5bad1c3d34cb59553a20e575b4937f0d",
   "merkleLeaf": "sha256-fee815a9bafe167023c096d9d3fc0ca44ccc7f4a3a143794dba4532ccfe01594",
   "files": [
@@ -84,7 +84,7 @@
       "sha256": "sha256-f74c0f8063554f05b5d0306ccb262b7629a9bf13f6ad675cee1db353de9447d4"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

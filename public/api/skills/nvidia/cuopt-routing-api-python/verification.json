@@ -3,8 +3,8 @@
   "slug": "nvidia/cuopt-routing-api-python",
   "name": "cuopt-routing-api-python",
   "description": "Vehicle routing (VRP, TSP, PDP) with cuOpt — Python API only. Use when the user is building or solving routing in Python.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/cuopt-routing-api-python/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cuopt-routing-api-python/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/cuopt-routing-api-python/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/cuopt-routing-api-python/metadata.json",
   "bundleHash": "sha256-5444508bc0b8d81e96f63b1cf3352c73163e19b2a47e4d3d9dc1132a0e866945",
   "merkleLeaf": "sha256-8dc4d9cb37c1706db7e056a42e74cafbff29af606638cd593b6228db500ecd14",
   "files": [
@@ -59,7 +59,7 @@
       "sha256": "sha256-3d885c036008464266ab3775fd573d0ab04f7d55749042989ab1ded81331560c"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

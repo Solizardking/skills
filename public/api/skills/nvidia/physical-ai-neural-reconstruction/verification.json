@@ -3,8 +3,8 @@
   "slug": "nvidia/physical-ai-neural-reconstruction",
   "name": "physical-ai-neural-reconstruction",
   "description": "Router for NVIDIA NuRec/NRE: USDZ rendering, NCore conversion, 3DGS, gRPC sensor sim, PhysicalAI HF datasets. Do NOT use for SimReady or infra setup.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-neural-reconstruction/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-neural-reconstruction/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/physical-ai-neural-reconstruction/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/physical-ai-neural-reconstruction/metadata.json",
   "bundleHash": "sha256-41609cc186c1de57c46cb52454ed3bc2bc9078a7d110869a6cdaf163b4a65001",
   "merkleLeaf": "sha256-b126715e473c34cc9cef18c8eb4c7536f9bebfb2ae67da01ff0edf3fa4a538a7",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-dc96c51e191a5e528bd41fd24aa2c711d488d88641480ea66b105ebeb5358c72"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

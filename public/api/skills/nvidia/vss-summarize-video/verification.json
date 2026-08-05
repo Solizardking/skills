@@ -3,8 +3,8 @@
   "slug": "nvidia/vss-summarize-video",
   "name": "vss-summarize-video",
   "description": "Use to summarize a recorded video via the LVS summarization microservice (HITL-gated) with a VLM fallback. Not for report generation or live RTSP captioning.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-summarize-video/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-summarize-video/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/vss-summarize-video/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/vss-summarize-video/metadata.json",
   "bundleHash": "sha256-2fa2ac4e8e7724707aed889f0602f3d8b355fb4633c455d00bab56d163752835",
   "merkleLeaf": "sha256-33bd51e48bb840e7dc2bab9593e512589d66a1537ef526284d6138569b9e3e1d",
   "files": [
@@ -59,7 +59,7 @@
       "sha256": "sha256-2de2f42deeb237c4b4ce0b581a40fcb215611bb5e7e38a351163adba7f551b62"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "cloudflare",
   "name": "cloudflare",
   "description": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), feature flags (Flagship), networking (Tunnel, Spectrum), security (WAF, DDoS), and infrastructure-as-code (Terraform, Pulumi). Use for any Cloudflare development task. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
-  "source": "https://skills.x402.wtf/api/skills/cloudflare/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/cloudflare/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/cloudflare/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/cloudflare/metadata.json",
   "bundleHash": "sha256-504eaae5f316bf238f6c1cef5f166c8f0573a0f79e3b28ae787bef14fda614f0",
   "merkleLeaf": "sha256-d26354a4cafdc93bafb931f2622c639b7a9998702a0927154965edc5f441c139",
   "files": [
@@ -1609,7 +1609,7 @@
       "sha256": "sha256-89bcccbb0b6dc77bec5e348f54a5ed8f1943d6ce56c33231a71fd2cd6bb05714"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-rl-brev-etiquette",
   "name": "nemo-rl-brev-etiquette",
   "description": "Brev instance operating guidance for NeMo-RL agents working in /home/ubuntu/RL with limited workspace disk, a larger /ephemeral volume, and optional /home/ubuntu/RL/.env secrets. Use when running nemo-rl-auto-research campaigns, experiments, training jobs, model or dataset downloads, shared cache-heavy commands, log-producing runs, checkpoint generation, W&B or Hugging Face authenticated workflows, or any workflow that may create large files on Brev.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-rl-brev-etiquette/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-rl-brev-etiquette/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-rl-brev-etiquette/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-rl-brev-etiquette/metadata.json",
   "bundleHash": "sha256-3a5e97996946bf55d95e2c6f7c834f98644c5a9885023443abaa49537e4d342d",
   "merkleLeaf": "sha256-3711940af96893881ba881df8ae5e8008f64e345a959ce86df5e00464de97d0a",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-ac8382cb0c563c809e9a61e5e03dadc20f027d8c472ba7f9a79f69478f4c5989"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

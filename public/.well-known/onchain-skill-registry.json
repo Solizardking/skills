@@ -1,7 +1,7 @@
 {
   "schemaVersion": "onchain-skill-registry/v1",
   "name": "Onchain AI Skill Hub",
-  "url": "https://skills.x402.wtf",
+  "url": "https://skills.x402agent.io",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "chain": "solana",
   "cluster": "mainnet-beta",
@@ -9,21 +9,21 @@
   "hashAlgorithm": "sha256",
   "totalSkills": 558,
   "catalogHash": "sha256-e9a98c6339fd6390b00a46063220a64c44d68cc5b495cb7b7704c6dad4b29103",
-  "merkleRoot": "sha256-3232172cd852237bc775ead1e6b7083109d8e8a621f05415cae05b8213d7a9f4",
+  "merkleRoot": "sha256-756d590156eb3a22f17dabe8d99cc21cd8b9d40ba5c9965996c66b477b3ff3f6",
   "solana": {
     "registryProgramId": null,
     "registryPda": null,
     "authority": null,
     "seedHint": [
       "skill-registry",
-      "skills.x402.wtf"
+      "skills.x402agent.io"
     ],
     "instruction": "Anchor this merkleRoot and catalogHash in a Solana registry account controlled by the hub authority."
   },
   "endpoints": {
-    "catalog": "https://skills.x402.wtf/api/skills.json",
-    "skillVerification": "https://skills.x402.wtf/api/skills/{skill}/verification.json",
-    "skillSource": "https://skills.x402.wtf/api/skills/{skill}/SKILL.md"
+    "catalog": "https://skills.x402agent.io/api/skills.json",
+    "skillVerification": "https://skills.x402agent.io/api/skills/{skill}/verification.json",
+    "skillSource": "https://skills.x402agent.io/api/skills/{skill}/SKILL.md"
   },
   "skills": [
     {
@@ -2418,8 +2418,8 @@
       "name": "gke-upgrades",
       "description": "Plans, executes, and validates Google Kubernetes Engine (GKE) cluster upgrades and maintenance operations for both Standard and Autopilot clusters. Produces upgrade plans, pre/post-upgrade checklists, maintenance runbooks with gcloud commands, release channel strategy, and troubleshooting guides. Handles node pool upgrade strategies (surge, blue-green), version compatibility, PDB management, and workload-specific concerns (stateful, GPU, operators). Use this skill whenever the user mentions GKE upgrades, Kubernetes version bumps, node pool maintenance, GKE patching, cluster version management, release channel selection, maintenance windows, surge upgrades, stuck upgrades, or any GKE lifecycle management task — even casual mentions like \"we need to upgrade our clusters\" or \"plan our next GKE maintenance\" or \"our upgrade is stuck.\" Don't use for GKE cluster creation, application onboarding, general networking/routing setup, or security policy configurations (use gke-basics or relevant GKE skills instead).",
       "category": "Google / Cloud",
-      "bundleHash": "sha256-50944d037655c33267ead2666317d521f4ed21d8471710f974ca30c82cdc82e0",
-      "merkleLeaf": "sha256-f4e75d629c31fb14ca4223991cd91d9959c67c2c2611b4d0d453d6fba3ed0c74",
+      "bundleHash": "sha256-03b2d1c5bda28281a4d46a2e8ea616c8c897c641125a73df91235efa47be3efa",
+      "merkleLeaf": "sha256-eef16108fe6f0bb3ea10e6e45ccabcbfb0738114ed2c7d25e702a62b7a75b4c4",
       "fileCount": 4,
       "metadata": "/api/skills/google/cloud/gke-upgrades/metadata.json",
       "verification": "/api/skills/google/cloud/gke-upgrades/verification.json"
@@ -2990,8 +2990,8 @@
       "name": "earth2studio-create-diagnostic",
       "description": "Create Earth2Studio diagnostic model wrappers for single-step data transformations, including simple derived diagnostics, packaged AutoModel diagnostics, and generative or diffusion diagnostics. Do NOT use for prognostic time-stepping models, data sources, or installation.",
       "category": "NVIDIA / Accelerated Computing",
-      "bundleHash": "sha256-ae77de7d7866dcbf93b753b39b08e57d84f3f18993eb4b1769eb1eff21700e13",
-      "merkleLeaf": "sha256-c1603d27f75b880b2227eb85b022c50dd77ae402d6921b1c3e4a6e99e8ab711f",
+      "bundleHash": "sha256-17af10352a1859fd5e2bfabb8c0ab46e0b20cfb4cc42531b36fa0f618c556028",
+      "merkleLeaf": "sha256-d6a2f3caa09fb58d6145c0c3aa0f00f05dc6ae0914c7d73a85ba974e5791c938",
       "fileCount": 9,
       "metadata": "/api/skills/nvidia/earth2studio-create-diagnostic/metadata.json",
       "verification": "/api/skills/nvidia/earth2studio-create-diagnostic/verification.json"
@@ -4167,9 +4167,9 @@
       "name": "physical-ai-video-data-augmentation",
       "description": "Use when running video data augmentation and auto-labeling workflows on OSMO: flow selection, preflight, submit-time interpolation, monitoring, and output retrieval. Trigger keywords: video data augmentation, data enrichment, auto labeling, VDA demo, OSMO workflow, pseudo labeling.",
       "category": "NVIDIA / Accelerated Computing",
-      "bundleHash": "sha256-04cfe8af953223f749e7bd10408614c2fb42298f7e381700454369e2e1b0b3d1",
-      "merkleLeaf": "sha256-4a6ff570398e4c484b43eb024311d15b29dc3b4203ba3788f8e1a2e2ed36fd3b",
-      "fileCount": 73,
+      "bundleHash": "sha256-f5c7f7fb5cd078f6bf9cb19591f897a689adf96bd74d22342fc19f3726e9bd14",
+      "merkleLeaf": "sha256-d6ab90894614c9d13a9de1e683b2344f6a6a465fa30c2d796c7336d7d0e89061",
+      "fileCount": 58,
       "metadata": "/api/skills/nvidia/physical-ai-video-data-augmentation/metadata.json",
       "verification": "/api/skills/nvidia/physical-ai-video-data-augmentation/verification.json"
     },

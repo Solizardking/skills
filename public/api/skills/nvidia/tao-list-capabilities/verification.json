@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-list-capabilities",
   "name": "tao-list-capabilities",
   "description": "Answer what the TAO Skill Bank plugin can do by generating the response from packaged application, data, model, AutoML, and platform manifests. Use when the user asks \"what can TAO Skill Bank do\", \"list TAO models\", \"which TAO workflows are available\", or \"what supports AutoML\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-list-capabilities/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-list-capabilities/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-list-capabilities/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-list-capabilities/metadata.json",
   "bundleHash": "sha256-2c05cdebe5d610799bfdc572cbdf714f437d2b2d1ea8c3eee06d3b8db1ef4d67",
   "merkleLeaf": "sha256-c99bd290a30935d86fafb91127e610c5a823d4099333b7e1ab5187d774498b74",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-92f936daeb442febf4354994857a5ae00d44b78b2772887b8de014faf8f95eff"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

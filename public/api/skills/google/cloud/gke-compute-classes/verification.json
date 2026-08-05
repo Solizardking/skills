@@ -3,8 +3,8 @@
   "slug": "google/cloud/gke-compute-classes",
   "name": "gke-compute-classes",
   "description": "Configures, optimizes, and troubleshoots GKE ComputeClasses. Use when configuring Spot VMs with on-demand fallback, targeting specific accelerators (GPUs/TPUs) or machine families, restricting ComputeClass access, or debugging pending pods related to node pool auto-creation. Do not use for cluster-level Node Auto Provisioning configuration or general GKE cluster creation.",
-  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-compute-classes/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-compute-classes/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/cloud/gke-compute-classes/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/cloud/gke-compute-classes/metadata.json",
   "bundleHash": "sha256-0ce568d266487bbe0389a55a15df57ebb87fb647f60bd482b1cc01e3a797795a",
   "merkleLeaf": "sha256-ae7d6b02d28af669e67ab6f500f62323d60a88515244b04e6ecc4a9605c007fa",
   "files": [
@@ -144,7 +144,7 @@
       "sha256": "sha256-229307c017b3b58d72ffc7b4a3cf71a70ff86356a0e56332847e952684078070"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

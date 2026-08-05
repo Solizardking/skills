@@ -3,8 +3,8 @@
   "slug": "nvidia/vss-deploy-profile",
   "name": "vss-deploy-profile",
   "description": "Use to select, configure, deploy, verify, debug, or tear down a VSS profile (base, search, lvs, warehouse, edge). Not for standalone microservices — use the vss-deploy-* skill.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-profile/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-profile/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/vss-deploy-profile/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/vss-deploy-profile/metadata.json",
   "bundleHash": "sha256-c65a7b0711fbc8766fa8d6bdd51871fcb628938efb0d7a38725400b3c769e5c9",
   "merkleLeaf": "sha256-942a2bd4a1969ad449428d79004487cb3777742114cc8964c8c6bf21d807c3ab",
   "files": [
@@ -119,7 +119,7 @@
       "sha256": "sha256-9995b423af67d97b9699b6ef5c4dbd547b6598e49d5a7cbeddc917e9fe73a03d"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

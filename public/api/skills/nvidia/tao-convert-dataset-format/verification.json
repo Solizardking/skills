@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-convert-dataset-format",
   "name": "tao-convert-dataset-format",
   "description": "Run `tao-daft convert` to convert NVIDIA TAO DAFT datasets between supported formats. Do not use for non-DAFT data. Use when the user asks to convert a DAFT dataset, change DAFT format, change a TAO dataset format, or run `tao-daft convert`.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-convert-dataset-format/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-convert-dataset-format/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-convert-dataset-format/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-convert-dataset-format/metadata.json",
   "bundleHash": "sha256-a4b8e367e44c232fd9c743f0bf8dea78b6a6615fa857aa0e7e38c75f36b19e04",
   "merkleLeaf": "sha256-36dfab8e7f3dab4966bb1bdb35804f583b759b9b18354476645f7460e93edbd0",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-e8f28f4dee8c0305cd9e05ae9f84d52d9489ac2311b8e4d688707d77ee76bd2e"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

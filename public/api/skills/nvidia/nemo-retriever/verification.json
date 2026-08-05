@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-retriever",
   "name": "nemo-retriever",
   "description": "Use when the user wants to search, query, extract, transcribe, describe, quote, filter, or aggregate across documents — PDFs, scanned forms / images (`.jpg` `.png` `.tiff`), Office (`.docx` `.pptx`), text (`.html` `.txt`), audio (`.mp3` `.wav` `.m4a`), or video (`.mp4` `.mov`). Prefer this over native Read / Grep for multi-file or non-PDF corpora. Not for: editing files, web browsing, single-file plain-text lookups, fine-tuning.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-retriever/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-retriever/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-retriever/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-retriever/metadata.json",
   "bundleHash": "sha256-d644d2811b97b214ee3ce2840751b50f0b2c49f5fce29176999fdecfa28fbda3",
   "merkleLeaf": "sha256-c2a4385f8d9b1aa504587245836def3e419a277cca73281fb59890ccb8a285dc",
   "files": [
@@ -64,7 +64,7 @@
       "sha256": "sha256-14192c989e1e4bae65cd7d2f099ad291b3ff721b874c5e3d9e11b0d7ed758882"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

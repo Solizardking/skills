@@ -946,17 +946,17 @@ Verify any skill later: fetch its `verification.json`, re-hash the bundle, check
 
 | Artifact | Where |
 |---|---|
-| Catalog JSON | [`catalog.json`](./catalog.json) · https://skills.x402.wtf/api/skills.json |
+| Catalog JSON | [`catalog.json`](./catalog.json) · https://skills.x402agent.io/api/skills.json |
 | Merkle registry | [`.well-known/onchain-skill-registry.json`](./public/.well-known/onchain-skill-registry.json) |
-| Per-skill proof | https://skills.x402.wtf/api/skills/solana-dev/verification.json |
-| Live catalog UI | https://skills.x402.wtf/skills |
+| Per-skill proof | https://skills.x402agent.io/api/skills/solana-dev/verification.json |
+| Live catalog UI | https://skills.x402agent.io/skills |
 | Publish receipts | `onchain/publish-receipt.json` (created by `publish:onchain`) |
 
 ## 🔄 How It Stays Fresh
 
 - Everything you just read is **generated** by `npm run build:catalog` — README, banner SVGs, catalog JSON, the public site, and the Merkle registry all rebuild from the skills on disk.
 - Nested skills are discovered recursively (`google/*`, `nvidia/*`, and friends publish through the same pipeline).
-- The production mirror is https://skills.x402.wtf — same build output, served statically.
+- The production mirror is https://skills.x402agent.io — same build output, served statically.
 - Add a skill folder with a `SKILL.md` under `skills/`, rebuild, and it appears everywhere: README, JSON API, site, and the next on-chain anchor.
 
 ### Realtime skill relay

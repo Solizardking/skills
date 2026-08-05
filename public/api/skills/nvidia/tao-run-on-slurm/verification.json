@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-run-on-slurm",
   "name": "tao-run-on-slurm",
   "description": "Remote SLURM GPU cluster execution over SSH with sbatch/srun, Pyxis/Enroot containers, and Lustre-backed results. Use when running TAO training/eval/inference jobs on an on-prem or DGX SLURM cluster. Trigger phrases include \"run on SLURM\", \"submit sbatch\", \"DGX SLURM cluster\", \"Pyxis/Enroot container\", \"Lustre dataset\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-on-slurm/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-on-slurm/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-run-on-slurm/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-run-on-slurm/metadata.json",
   "bundleHash": "sha256-aecd88d4cd2f7ad9e0eb14e8c655b8bf5599c5d61796d8692aad2555cc5170d9",
   "merkleLeaf": "sha256-6bc2ad6a9c8270f8570269b4dc8cccb19fe2c1e0cc7f8c8e4df1368961160962",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-e7073d160eeef7142e7c4da92745cf28672a07307a31db0fbd6492e9ba60eb5b"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

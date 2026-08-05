@@ -3,8 +3,8 @@
   "slug": "google/cloud/bigtable-basics",
   "name": "bigtable-basics",
   "description": "Assists in provisioning instances/tables, designing performant schemas, and querying data in Bigtable. Use when designing Bigtable row keys, configuring column families, writing SQL queries or client library code (Java, Go, Python) for Bigtable, or diagnosing performance/hotspotting issues. Also use when provisioning Bigtable clusters using gcloud or cbt CLIs. Don't use for generic Cloud SQL administration.",
-  "source": "https://skills.x402.wtf/api/skills/google/cloud/bigtable-basics/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/bigtable-basics/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/cloud/bigtable-basics/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/cloud/bigtable-basics/metadata.json",
   "bundleHash": "sha256-6ef2ec6bc4180500e1c1529824fbceca0d22da76915f4b889d2edd8c434a7ea3",
   "merkleLeaf": "sha256-4679967fdf210efd4afc53986f3990e1df2479d6aa19ad3216ef13bd43d7b8b5",
   "files": [
@@ -49,7 +49,7 @@
       "sha256": "sha256-979515bd16dc88cdd8f8c69c712edcdfc08c5a1560ab8b3031dee1fb29a46faa"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-package",
   "name": "jetson-package",
   "description": "Pick Jetson-compatible containers, vLLM runtime images, and Jetson AI Lab PyPI indexes; maps Orin SM 8.7 vs Thor SM 11.0 and JetPack-specific package choices.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-package/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-package/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-package/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-package/metadata.json",
   "bundleHash": "sha256-7b47ddc45baba4473d18e06cd0405f44474c420d3db0e145f911db902ebcc8e2",
   "merkleLeaf": "sha256-ea0bcc4cfcafa63020684bee853a5f04b7df8c39d8f8f3817574671753f5ed5d",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-e7f8ab40a2ba875045fa3fb15f524394cee1d85b4bbf7f80831fc79acec4dbd0"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-run-deft-aoi",
   "name": "tao-run-deft-aoi",
   "description": "Run the full DEFT AOI improvement loop for NVIDIA TAO VisualChangeNet / ChangeNet PCB inspection models: baseline evaluate, RCA, Cosmos AnomalyGen / AMP synthetic defects, k-NN mining, retraining, and deployment gating until FAR / recall KPI targets are met. Use for prompts like \"run the DEFT loop\", \"fine-tune until FAR below 0.1% at recall=100%\", or \"improve my AOI ChangeNet model with RCA and synthetic defects\"; do not use for standalone TAO training, one-off inference, generic anomaly generation, or RCA-only analysis.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-deft-aoi/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-deft-aoi/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-run-deft-aoi/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-run-deft-aoi/metadata.json",
   "bundleHash": "sha256-7219a3e1b4b327b0e04ce04a6653b91670fb205c6ef8c3aeab6baedff4fd632d",
   "merkleLeaf": "sha256-f526e0bb102275e765c3f2192b7d14316e67136f5a0e99a4107e6f9b590f531a",
   "files": [
@@ -149,7 +149,7 @@
       "sha256": "sha256-49417c8e9cb7872493984bd33fed179b2095bb6fccf29f881c1295b3950b2109"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "anthropic-skills/pptx",
   "name": "pptx",
   "description": "Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.",
-  "source": "https://skills.x402.wtf/api/skills/anthropic-skills/pptx/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/anthropic-skills/pptx/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/anthropic-skills/pptx/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/anthropic-skills/pptx/metadata.json",
   "bundleHash": "sha256-b6ddbe8d2c34bb790d77a7de82131349a4fe54d159b59974260d8872f436bebe",
   "merkleLeaf": "sha256-62aac00da2eb6a537ed637496a96496d6c98ba5a2fd41f2cf60f2706cb5cf645",
   "files": [
@@ -299,7 +299,7 @@
       "sha256": "sha256-e5b0df918cbe9d62508b3cf808d73899633f82fc19f6258a25ef9f0de7e62125"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

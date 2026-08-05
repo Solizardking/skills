@@ -3,8 +3,8 @@
   "slug": "forge",
   "name": "agent-skill-creator",
   "description": "Create cross-platform agent skills from workflow descriptions. Activates when users ask to create an agent, automate a repetitive workflow, create a custom skill, or need advanced agent creation. Triggers on phrases like create agent for, automate workflow, create skill for, every day I have to, daily I need to, turn process into agent, need to automate, create a cross-platform skill, validate this skill, export this skill, migrate this skill. Supports single skills, multi-agent suites, transcript processing, template-based creation, interactive configuration, cross-platform export, and spec validation.",
-  "source": "https://skills.x402.wtf/api/skills/forge/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/forge/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/forge/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/forge/metadata.json",
   "bundleHash": "sha256-de56c1616c4fc57815f964879d9633fc3d3688be21e86aa9f448e6bb4864bdeb",
   "merkleLeaf": "sha256-57ad0306389441840888365944ba02a6b401865a4076d94e70eb67c6ead518b0",
   "files": [
@@ -484,7 +484,7 @@
       "sha256": "sha256-98bffeb35be956067da2c20d66a922f27d4870ff51e69060d0f2b3a69b56e3c1"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

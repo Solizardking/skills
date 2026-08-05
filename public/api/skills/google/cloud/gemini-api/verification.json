@@ -3,8 +3,8 @@
   "slug": "google/cloud/gemini-api",
   "name": "gemini-api",
   "description": "Use when the user asks about using Gemini in an enterprise environment or explicitly mentions Vertex AI, Google Cloud, or Agent Platform. Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK. Covers SDK usage (Python, JS/TS, Go, Java, C#), capabilities like multimodal inputs, tools, media generation, caching, batch prediction, and Live API.",
-  "source": "https://skills.x402.wtf/api/skills/google/cloud/gemini-api/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gemini-api/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/cloud/gemini-api/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/cloud/gemini-api/metadata.json",
   "bundleHash": "sha256-1759d489c6f3618fcd038162f4fde18af38d32a41c17b621c14b33839246f09e",
   "merkleLeaf": "sha256-1bcf6b27926a9f2612df037446dc061ade1b1fbc44f71f45beb3e26dc6ce71fb",
   "files": [
@@ -59,7 +59,7 @@
       "sha256": "sha256-a5b6929703f4fd9234761d001246f2b481ff7f17fac75eb97866555a314cd8f7"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-ocrnet",
   "name": "tao-train-ocrnet",
   "description": "OCRNet for scene text recognition. Recognizes text content from cropped text-region images and supports CTC and attention-based decoders. Use when training, evaluating, exporting, pruning, quantizing, retraining, or running inference for a TAO OCRNet model. Trigger phrases include \"train OCRNet\", \"scene text recognition\", \"OCR cropped text\", \"CTC / attention text decoder\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-ocrnet/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-ocrnet/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-ocrnet/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-ocrnet/metadata.json",
   "bundleHash": "sha256-d211a9ff6ded5e3d2dc35c0c294cfd4ed9502d6bf84e5b5f9cc4abca7ced2a2a",
   "merkleLeaf": "sha256-f77e63e783f024eeea72e6a2c8faee4eef20931c8436b1989c4b2baae0c3c780",
   "files": [
@@ -89,7 +89,7 @@
       "sha256": "sha256-d157a6d8a3e4ff727dff7066cb35ec2cbf61b333f8c473552359a781f14766e7"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/physical-ai-infrastructure-setup-and-resilient-scaling",
   "name": "physical-ai-infrastructure-setup-and-resilient-scaling",
   "description": "Use when the user wants to set up, scale, validate, or harden NVIDIA physical AI infrastructure for synthetic data generation workflows across local MicroK8s or Azure AKS, including Kubernetes clusters, inference endpoint deployment, OSMO deployment, workload submission readiness, and infrastructure failure recovery. Trigger keywords: physical ai infrastructure, resilient scaling, SDG infrastructure, microk8s, azure aks, NVCF deployment, NIM Operator, OSMO deploy, workflow scaling. Don't trigger for: OSMO log summarization or workload-only operations unless infrastructure setup, scaling, validation, or recovery is requested.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-infrastructure-setup-and-resilient-scaling/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/physical-ai-infrastructure-setup-and-resilient-scaling/metadata.json",
   "bundleHash": "sha256-f20a531c0f7c41648914d5fdb83977e18d3da2c40f7d30eb4afc0665f1026178",
   "merkleLeaf": "sha256-b0a33eb3c2d833343d5ba627830ec242bc047a5f03dc8785ec6c43097f1bb412",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-ee96598544cb3e7399c0e12c245e94104aea847bcb7d647a5b25bcb2320727ba"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

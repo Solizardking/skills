@@ -3,8 +3,8 @@
   "slug": "nvidia/earth2studio-create-datasource",
   "name": "earth2studio-create-datasource",
   "description": "Create and validate Earth2Studio data source wrappers (DataSource, ForecastSource, DataFrameSource, ForecastFrameSource) from remote stores. Do NOT use for fetching data with existing sources, model inference, or installation tasks.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-create-datasource/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-create-datasource/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/earth2studio-create-datasource/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/earth2studio-create-datasource/metadata.json",
   "bundleHash": "sha256-8c07e286e87c94b73dc3305b4c0071284e3856f71804cc78efb21f45d850d067",
   "merkleLeaf": "sha256-2e94dfa975a5005348bcf5a5c3fad171bae32161d7054c60704c16580f77f1d0",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-d2ab0f793092d841e065b24511df849e66bf0106d9f4405eb2ab121005e274c4"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

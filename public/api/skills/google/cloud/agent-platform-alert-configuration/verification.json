@@ -3,8 +3,8 @@
   "slug": "google/cloud/agent-platform-alert-configuration",
   "name": "agent-platform-alert-configuration",
   "description": "Configures best-practice alerting policies for Google Cloud Vertex AI / Agent Platform agents on Agent Runtime. Use when analyzing, writing, or deploying alerting policies to monitor agent latency, error rates, and quality metrics (response quality, tool use, hallucination). Also use when provisioning online monitors for quality evaluation, or analyzing live metrics traffic footprints. NOTE: This skill currently only works for the Agent Runtime. Don't use for configuring general GCP alert policies or non-agent GCP alerting policies.",
-  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-alert-configuration/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-alert-configuration/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/cloud/agent-platform-alert-configuration/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/cloud/agent-platform-alert-configuration/metadata.json",
   "bundleHash": "sha256-86bd08d7de5dd94e3ba5f888ef0e6999b956d5347c555cde588679a5207164fa",
   "merkleLeaf": "sha256-1cde2f8627736a599fc9f3c7975325049f82bea672fd6ce024c0203b628a263d",
   "files": [
@@ -104,7 +104,7 @@
       "sha256": "sha256-8773aeb4b9d71138cf2f40ad8eea6ab05f9057c8c6a1b63c1a04f0c15591ccf8"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

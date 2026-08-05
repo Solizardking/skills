@@ -3,8 +3,8 @@
   "slug": "nvidia/tilegym-improve-cutile-kernel-perf",
   "name": "tilegym-improve-cutile-kernel-perf",
   "description": "Iteratively optimize cuTile kernel performance through systematic profiling, bottleneck analysis, IR comparison, and targeted tuning. Covers tile sizes, occupancy, autotune configs, TMA, latency hints, persistent scheduling, num_ctas, flush_to_zero, and IR-level debugging. Use when asked to \"optimize cutile kernel\", \"improve kernel perf\", \"tune cutile performance\", \"make kernel faster\", or iteratively benchmark and refine a cuTile GPU kernel in the TileGym project.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tilegym-improve-cutile-kernel-perf/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tilegym-improve-cutile-kernel-perf/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tilegym-improve-cutile-kernel-perf/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tilegym-improve-cutile-kernel-perf/metadata.json",
   "bundleHash": "sha256-22ca0560cef3ab522f9fad9b4780e8e4b17cdd092b1a8fb03ef68506ce7b78b8",
   "merkleLeaf": "sha256-ba05e5e607515647d92dc08b68370f1f5e5343a978861eb30eda9ebd970f5f71",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-7703bff09cbc7fee0ad458fe1ad618838a7d57f5b248aaa6a7b4930d4dd5783a"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

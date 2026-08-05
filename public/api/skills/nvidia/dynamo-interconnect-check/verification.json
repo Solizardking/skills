@@ -3,8 +3,8 @@
   "slug": "nvidia/dynamo-interconnect-check",
   "name": "dynamo-interconnect-check",
   "description": "Validate that a Dynamo deployment's NIXL/UCX/NCCL interconnect is ready for disaggregated serving over RDMA/NVLink. Use after recipe-runner brings a deployment up (especially disagg/multi-node) to confirm the KV transport is correct; use troubleshoot for diagnosing already-failed pods.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/dynamo-interconnect-check/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dynamo-interconnect-check/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/dynamo-interconnect-check/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/dynamo-interconnect-check/metadata.json",
   "bundleHash": "sha256-b3ceec2fad9f9e072d73c6a78feb6814bd4bc06a295ca317f5007c289892979d",
   "merkleLeaf": "sha256-440328a50fc019584374af4404d0b3e373e2f7d5dced0e0b78273eb89382ae2b",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-55090c73dcd785d0661458b646d2d84381330ed163c13d2cd590c9c09d373884"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

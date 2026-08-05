@@ -3,8 +3,8 @@
   "slug": "imperial-trade-execution",
   "name": "imperial-trade-execution",
   "description": "Safe Imperial live execution: authenticated market orders, Phoenix-first venue preference, profile-aware routing, and post-trade verification.",
-  "source": "https://skills.x402.wtf/api/skills/imperial-trade-execution/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/imperial-trade-execution/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/imperial-trade-execution/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/imperial-trade-execution/metadata.json",
   "bundleHash": "sha256-bf51858d1a60d93f4eee38008f3b8373339e432f861650cb48d61b1546183298",
   "merkleLeaf": "sha256-82ba8243475bc53f003b45d64062596a9e7d3838e680019a3d3a4336ff5461b7",
   "files": [
@@ -14,7 +14,7 @@
       "sha256": "sha256-dab91e727760bcda336f672b89e915d39c0cdde1fb6f10580409fe0bf41b689e"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "google/ads/interactive-media-ads/ima-sdk-basics",
   "name": "ima-sdk-basics",
   "description": "Use this skill for Interactive Media Ads (IMA) SDK client-side ad insertion when you are requesting video ads client-side into websites, apps, TVs or other platforms with VAST or VMAP. Do not use for Dynamic Ad Insertion (DAI), SSAI, or SGAI (use the `ima-sdk-dai-basics` skill instead).",
-  "source": "https://skills.x402.wtf/api/skills/google/ads/interactive-media-ads/ima-sdk-basics/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/ads/interactive-media-ads/ima-sdk-basics/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/ads/interactive-media-ads/ima-sdk-basics/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/ads/interactive-media-ads/ima-sdk-basics/metadata.json",
   "bundleHash": "sha256-05e19b007efa3dfbd353ec912e5b5d54ac31c55cb6af11a0f892b463ce22971e",
   "merkleLeaf": "sha256-bd6c7521449db85054b9e12143c39f6ffedd8da7e00484def39f55f01e2a7576",
   "files": [
@@ -44,7 +44,7 @@
       "sha256": "sha256-d6043f8a84725fc1238a5853ee1e92b6602ed2b9c83811409e01eba4bd021161"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "video-frames",
   "name": "video-frames",
   "description": "Extract frames or short clips from videos using ffmpeg.",
-  "source": "https://skills.x402.wtf/api/skills/video-frames/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/video-frames/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/video-frames/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/video-frames/metadata.json",
   "bundleHash": "sha256-42a37218a7798909af56f9a2bc48fa32f392e75221f53df2545c2383f7921da7",
   "merkleLeaf": "sha256-1bbb027acb04ac1f9794c4133b557b44134e17f1ffe6418ea0f97e9fa176d4c4",
   "files": [
@@ -19,7 +19,7 @@
       "sha256": "sha256-7e24245498aca878d084aae61e6da9043fb52566346d3a547f6f391c9a11bde1"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

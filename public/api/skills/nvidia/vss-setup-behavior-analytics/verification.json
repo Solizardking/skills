@@ -3,8 +3,8 @@
   "slug": "nvidia/vss-setup-behavior-analytics",
   "name": "vss-setup-behavior-analytics",
   "description": "Use to deploy the vss-behavior-analytics service standalone (entrypoint, config-source, optional calibration). Not for the full warehouse deploy.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-setup-behavior-analytics/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-setup-behavior-analytics/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/vss-setup-behavior-analytics/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/vss-setup-behavior-analytics/metadata.json",
   "bundleHash": "sha256-cc53af877b49c6fa7af771f14a67b797716f91f89b87cc0158cd64671bbb78b3",
   "merkleLeaf": "sha256-602f4a1401021f81ef891d461038e47ae1a908313cfe9b19c080a9dd7b72ae7b",
   "files": [
@@ -49,7 +49,7 @@
       "sha256": "sha256-08d757a9a558cda1ecf4c4bb5abfb81e8dbce11dcab255552aca7239f9d77f4e"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

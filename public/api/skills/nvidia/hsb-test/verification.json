@@ -3,8 +3,8 @@
   "slug": "nvidia/hsb-test",
   "name": "hsb-test",
   "description": "Execute QA test plans on Holoscan Sensor Bridge hardware. Reads a user-provided test document, filters tests by the user's setup, determines which tests can run automatically, executes them with pass/fail evaluation, and produces a structured test results report.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/hsb-test/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/hsb-test/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/hsb-test/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/hsb-test/metadata.json",
   "bundleHash": "sha256-e66f71a551751929d7f8a61e35d49aa334d6d49560f03a1c4c5e13fc1ff041dc",
   "merkleLeaf": "sha256-d0b31bf3024d473d49d1a61b5187d09ce1da1890456c5267e39d92e52a370d48",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-20281216bbba8139deb34b8a42c0d8bae052001ff259c31fd80dae3d668bffef"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

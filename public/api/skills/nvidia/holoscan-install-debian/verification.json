@@ -3,8 +3,8 @@
   "slug": "nvidia/holoscan-install-debian",
   "name": "holoscan-install-debian",
   "description": "Install Holoscan SDK natively on Ubuntu via apt. Use for C++ installs on Ubuntu; pair with /holoscan-install-wheel for Python.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/holoscan-install-debian/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/holoscan-install-debian/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/holoscan-install-debian/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/holoscan-install-debian/metadata.json",
   "bundleHash": "sha256-a6709266780b566b7c47fb0472fd9c148a74b73ef304b5d19533ea9103d18678",
   "merkleLeaf": "sha256-32126594e1d1769e040727817f9bcb4561aa20b0c0a603e0a552fe7f95b1ed5d",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-9a1dcc022685de5bef668fc585b877411983824654a71bab01ad18423696e02f"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-mbridge-perf-moe-dispatcher-selection",
   "name": "nemo-mbridge-perf-moe-dispatcher-selection",
   "description": "Choose the right MoE token dispatcher (`alltoall`, DeepEP, or HybridEP) for the hardware, EP degree, and optimization stage. Summarizes patterns from DSV3, Qwen3, Qwen3-Next, and VLM bring-up work.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-dispatcher-selection/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-dispatcher-selection/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-perf-moe-dispatcher-selection/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-perf-moe-dispatcher-selection/metadata.json",
   "bundleHash": "sha256-425bfd140add8e2ae667cab1138ce60eda428cf501adeb32f7b4c635de30de9f",
   "merkleLeaf": "sha256-f2279ff702747a498d26632913a27acd98e8f22f79bc3a8e50e9c7c776c8eb48",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-45ef7dbdfb45aaea37d7b18fad2494d47260a7c4a3c94ce5578a76721b4b264f"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

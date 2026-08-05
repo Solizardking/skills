@@ -3,8 +3,8 @@
   "slug": "openrouter-models",
   "name": "openrouter-models",
   "description": "Query OpenRouter for available AI models, pricing, capabilities, throughput, and provider performance. Use when the user asks about available OpenRouter models, model pricing, model context lengths, model capabilities, provider latency or uptime, throughput limits, supported parameters, wants to search/filter/compare models, or find the fastest provider for a model.",
-  "source": "https://skills.x402.wtf/api/skills/openrouter-models/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/openrouter-models/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/openrouter-models/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/openrouter-models/metadata.json",
   "bundleHash": "sha256-976c50754b8e2b733585017fca28740d8a2b78fe3021a9d4d0087417da50651e",
   "merkleLeaf": "sha256-8c6de0d93c102fbc0b057696a92fc8dfa6ade0261e6fb690d57a1cc256ecf2e0",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-7e4b8be05d7eca12e54c3e71887a7837ab27ba3690c8edebecda9f830d51b9a1"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

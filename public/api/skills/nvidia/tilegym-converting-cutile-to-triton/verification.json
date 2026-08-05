@@ -3,8 +3,8 @@
   "slug": "nvidia/tilegym-converting-cutile-to-triton",
   "name": "tilegym-converting-cutile-to-triton",
   "description": "Converts cuTile GPU kernels (@ct.kernel) to Triton (@triton.jit). Handles standard in-repo conversion, debugging (cudaErrorIllegalAddress, shape mismatch, numerical mismatch), and mapping cuTile idioms (ct.load/ct.store, ct.Constant, ct.launch) to Triton equivalents. Covers dual-kernel layout flags (e.g. transpose=True/False + autotune grid via META) per translations/advanced-patterns.md. Use when converting, porting, or translating cuTile kernels to Triton, or debugging existing Triton translations.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tilegym-converting-cutile-to-triton/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tilegym-converting-cutile-to-triton/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tilegym-converting-cutile-to-triton/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tilegym-converting-cutile-to-triton/metadata.json",
   "bundleHash": "sha256-3afde7ecf4624db99fd2b68a09231acced128da2f3e6be1d098dd0c0fa36ad95",
   "merkleLeaf": "sha256-782e563700aff6b7a55301a0318394b7244b53f94a7d0a7f1286a809811db167",
   "files": [
@@ -59,7 +59,7 @@
       "sha256": "sha256-1eeb791c6eb9fa50a4acd7b8807084da3d27663fa9e3bff806a45802c9f9375e"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

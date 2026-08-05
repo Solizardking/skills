@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-sparse4d",
   "name": "tao-train-sparse4d",
   "description": "Sparse4D for multi-camera temporal 3D object detection and tracking. Uses sparse queries with deformable attention across camera views and time for end-to-end 3D perception, with an instance bank for temporal tracking. Use when training, evaluating, exporting, quantizing, or running inference for a TAO Sparse4D model. Trigger phrases include \"train Sparse4D\", \"multi-camera 3D detection\", \"temporal 3D tracker\", \"sparse query 3D perception\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-sparse4d/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-sparse4d/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-sparse4d/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-sparse4d/metadata.json",
   "bundleHash": "sha256-a5058a6e05dd31b2be5cb1a30e886bd65fc80e5479637f2202e87775f092ad4d",
   "merkleLeaf": "sha256-8e8584cbb81079e8fc1c0117800bd1db9926f019ccaacc1a723c4c2bf5bb9e3d",
   "files": [
@@ -69,7 +69,7 @@
       "sha256": "sha256-1c3c8f9db419e0b196e8d4483d05d18a50ae90de6fb8926b8b0f98c83ebed7d3"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

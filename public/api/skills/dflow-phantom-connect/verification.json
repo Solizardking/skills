@@ -3,8 +3,8 @@
   "slug": "dflow-phantom-connect",
   "name": "dflow-phantom-connect",
   "description": "Build Solana wallet-connected apps with Phantom Connect SDKs and DFlow trading. Use when user asks to connect a Phantom wallet, integrate Phantom in React, React Native, or vanilla JS, sign messages or transactions, build token-gated pages, mint NFTs, accept crypto payments, swap tokens with DFlow, trade prediction markets, or integrate Proof KYC verification. Covers @phantom/react-sdk, @phantom/react-native-sdk, @phantom/browser-sdk, DFlow spot trading, DFlow prediction markets, and DFlow Proof identity verification. Do NOT use for Ethereum or EVM wallet integrations, or non-DFlow DEX routing.",
-  "source": "https://skills.x402.wtf/api/skills/dflow-phantom-connect/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/dflow-phantom-connect/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/dflow-phantom-connect/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/dflow-phantom-connect/metadata.json",
   "bundleHash": "sha256-819c28757593213dca945121282c737e4299914341ba72649e0e295e9a807b33",
   "merkleLeaf": "sha256-f1999c721a249a027fa3dc860068f0f1f4ff04b564dec47d4150b407d533dcf9",
   "files": [
@@ -69,7 +69,7 @@
       "sha256": "sha256-e0c575fa71ae879c0560ce00b4e9442aed3ddeeefd40f31be16c7d11ffe8a5e9"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-quick-start",
   "name": "jetson-quick-start",
   "description": "Entry skill for Jetson / IGX BSP customization. Asks one core click-to-select setup questionnaire and passes prefilled answers to downstream setup skills.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-quick-start/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-quick-start/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-quick-start/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-quick-start/metadata.json",
   "bundleHash": "sha256-ec4a355cc4f83da1f85c10df7c37105475c5e381a0d8774419711c4e24422f6e",
   "merkleLeaf": "sha256-d621eb5c4bf64ba6813d63566b89ac4b7211dfb08062129f7e6d28de2fa516b2",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-92523aca2210b1dcf977e3efdd126e9ecbb5b6527d866e837bed844d6248ad5c"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

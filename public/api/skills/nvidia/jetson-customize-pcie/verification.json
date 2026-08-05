@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-customize-pcie",
   "name": "jetson-customize-pcie",
   "description": "Per-controller PCIe enable / disable / lanes / link-speed for a Jetson Thor or Orin custom carrier via ODMDATA + kernel-DT overlay. Do NOT use for UPHY lane allocation or endpoint-mode bring-up.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-pcie/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-pcie/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-pcie/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-pcie/metadata.json",
   "bundleHash": "sha256-741426b5b4bbc9277a3cb64be9f3753ccfe1cffc3afede13c0c93ca95087a48c",
   "merkleLeaf": "sha256-cd96c049616e4e6e01bd274ba746fbe9b6384d6aaf74874a73a677e1c5118a79",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-38d55e9897a2725df6fea85cf9a90d7d64cb625e5ed21466de753ccb23285250"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

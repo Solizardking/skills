@@ -3,8 +3,8 @@
   "slug": "magicblock",
   "name": "magicblock",
   "description": "MagicBlock Ephemeral Rollups development patterns for Solana. Covers delegation/undelegation flows, dual-connection architecture (base layer + ER), cranks for scheduled tasks, VRF for verifiable randomness, magic actions for atomic ER-commit + base-layer follow-ups, private payments API (deposits, transfers, withdrawals, swaps, and challenge/login auth flow), commit sponsorship and fee vault wiring, lamports top-up for delegated accounts, and TypeScript/Anchor integration. Use for high-performance gaming, real-time apps, private transfers and swaps, and fast transaction throughput on Solana.",
-  "source": "https://skills.x402.wtf/api/skills/magicblock/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/magicblock/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/magicblock/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/magicblock/metadata.json",
   "bundleHash": "sha256-4ae5e6ee97ea8f97e3e43f3459be6236207663572469fced6a19d035401e920d",
   "merkleLeaf": "sha256-5d1a982dd997a18c91a61b72d662c95567c9b5fc4f4e4678498eb563c2c8ee25",
   "files": [
@@ -59,7 +59,7 @@
       "sha256": "sha256-0995e6d1ea0b03b079ead9fcb1bde9d87f6ff7955e124569e5be988298bbd0d6"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

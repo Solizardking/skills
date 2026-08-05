@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-promote-image",
   "name": "jetson-promote-image",
   "description": "Use to promote overlay files and built artifacts into the staged BSP image. Do NOT use to flash or build. Triggers: promote bsp image.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-promote-image/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-promote-image/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-promote-image/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-promote-image/metadata.json",
   "bundleHash": "sha256-a9d718c107a4260016791f4009d7174b04734fa546713614ab327d0f92053724",
   "merkleLeaf": "sha256-ab0855ca17787307385dfb96b88226d59c400dc3dd4d8e368ca2e5f6ec5807ee",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-8cdfa699298ee267d83012085ab56232688edbfdf791abae2b0e05b5df524ee6"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

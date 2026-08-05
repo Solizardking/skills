@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-port-huggingface-model",
   "name": "tao-port-huggingface-model",
   "description": "Integrate a HuggingFace Computer Vision model into the NVIDIA TAO Toolkit ecosystem (tao-core config, tao-pytorch trainer, tao-deploy TensorRT pipeline). Use when the user asks to \"integrate a HuggingFace model into TAO\", \"add an HF model to TAO Toolkit\", \"wire a HuggingFace ViT/DETR/ SegFormer into tao-pytorch\", \"build a TAO trainer + deploy pipeline for an HF CV model\", or pastes a HuggingFace model URL/ID and wants it turned into a TAO model. Covers the full 7-phase loop: prerequisites check, HuggingFace inspection and validation, codebase exploration, tao-core configuration and native trainer implementation, ONNX export plus TensorRT deploy integration, packaging and L0 testing, container-based end-to-end validation, and (conditional) accuracy/latency tuning. Supports classification, object detection, semantic / instance / panoptic segmentation, zero-shot detection, and depth estimation.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-port-huggingface-model/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-port-huggingface-model/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-port-huggingface-model/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-port-huggingface-model/metadata.json",
   "bundleHash": "sha256-4f93feda479447a7aa9cbf3667de7ffdee8126f5d10d57b221b3b3f84c4befe6",
   "merkleLeaf": "sha256-1ff717ed287345f88dc619d6cb6fa6bf2df4ae7d81b0574427b6c45e0df50828",
   "files": [
@@ -99,7 +99,7 @@
       "sha256": "sha256-36c7717d8712a58e7195a0a05989e2ce1ecb432e2d047d6e40b618c590cc701f"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

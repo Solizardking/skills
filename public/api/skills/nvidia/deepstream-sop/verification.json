@@ -3,8 +3,8 @@
   "slug": "nvidia/deepstream-sop",
   "name": "deepstream-sop",
   "description": "Use this skill when building, deploying, evaluating, debugging, or measuring latency for the DeepStream SOP Inference Microservice — a GPU-accelerated FastAPI service that detects whether operators perform assembly-line steps in order via event boundary detection (GEBD) plus VLM classification. Trigger even if the user does not name it: verify operator step sequence, detect missing or out-of-order SOP steps, score factory/work-cell video for procedure compliance, run VLM-based SOP checking on industrial cameras, or call /v1/chat/completions with a file, RTSP, or Basler camera. Also trigger for its internals: SOPVideoProcessor, DeepStream GEBD model (e.g. DDM) via Triton CAPI, nvds_custom_postprocess, Cosmos Reason 1/2 vLLM, SSE streaming, Kafka NvProto/JSON output, Basler/Pylon camera + emulation, Docker compose, chunk-level latency. Do NOT trigger for generic DeepStream pipelines, object detection/tracking, NIM imports, or video summarization.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/deepstream-sop/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/deepstream-sop/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/deepstream-sop/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/deepstream-sop/metadata.json",
   "bundleHash": "sha256-a23f8e447215fc6439584c60a17649573dc8df19fd67f358dae3faf5433014a7",
   "merkleLeaf": "sha256-2ae47e1a764bbf1a66b8d0b398f7f115503295060216713450b2cda82a0adc55",
   "files": [
@@ -269,7 +269,7 @@
       "sha256": "sha256-9030b35061302ba3a61cac1b9c1c691b737373b3514384388a2ffa6bccf4d308"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

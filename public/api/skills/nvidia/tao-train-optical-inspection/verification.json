@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-optical-inspection",
   "name": "tao-train-optical-inspection",
   "description": "Optical Inspection for defect detection using Siamese networks. Compares image pairs to detect manufacturing defects, anomalies, or quality issues. Use when training, evaluating, exporting, or running inference for a TAO Optical Inspection model on AOI / quality-control data. Trigger phrases include \"train optical inspection\", \"AOI defect detection\", \"Siamese defect classifier\", \"PCB / manufacturing inspection\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-optical-inspection/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-optical-inspection/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-optical-inspection/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-optical-inspection/metadata.json",
   "bundleHash": "sha256-ab3b45b6d67fc028e46ffebee4614f52312f3d6d74da11d204bf68710246e7bc",
   "merkleLeaf": "sha256-985da068ae4e3e68be29d141fb1c68b03e4ac7e7fe68c3d2d6d8fca2a6d77849",
   "files": [
@@ -69,7 +69,7 @@
       "sha256": "sha256-a0a571d1b9f7b583971ee951a0d8e569ece31c61b37a1e1f2a6261bb8d51e1a1"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

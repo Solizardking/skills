@@ -3,8 +3,8 @@
   "slug": "helius-skills/svm",
   "name": "svm",
   "description": "Explore Solana's architecture and protocol internals. Covers the SVM execution engine, account model, consensus, transactions, validator economics, data layer, development tooling, and token extensions using the Helius blog, SIMDs, and Agave/Firedancer source code.",
-  "source": "https://skills.x402.wtf/api/skills/helius-skills/svm/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/helius-skills/svm/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/helius-skills/svm/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/helius-skills/svm/metadata.json",
   "bundleHash": "sha256-ffa96ffa56b352ae01ad00eca88c60d24112247476d5e7118ab566314dbe7307",
   "merkleLeaf": "sha256-f7525206c38709aa9709ca7747babd8a95f4a7b1cc560e84ead2042974fbaa86",
   "files": [
@@ -64,7 +64,7 @@
       "sha256": "sha256-90a19b7a7f74822f2ff63a15ca414752d5fcdd65f2b0b5e9e8bb8bf965f85fef"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

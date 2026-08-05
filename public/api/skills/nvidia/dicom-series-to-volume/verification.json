@@ -3,8 +3,8 @@
   "slug": "nvidia/dicom-series-to-volume",
   "name": "dicom-series-to-volume",
   "description": "Used for converting one CT DICOM series folder to a HU NIfTI volume with affine evidence. Not for multi-frame DICOM or clinical use.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/dicom-series-to-volume/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dicom-series-to-volume/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/dicom-series-to-volume/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/dicom-series-to-volume/metadata.json",
   "bundleHash": "sha256-fc1a4f9191babe62e5642fbf66d6f7472a73eef2ff2e6edd0f4ee2c8476fae60",
   "merkleLeaf": "sha256-97ed9a079d3613cc5caaed6508ee97a54dd4c05127158449f3c1700186f60d5d",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-988fc8c0291811fd229c7854646808c96fe3ae9af27a7f6ef27a39b527f06db0"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

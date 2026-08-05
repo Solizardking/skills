@@ -3,8 +3,8 @@
   "slug": "nvidia/dali-dynamic-mode",
   "name": "dali-dynamic-mode",
   "description": "DALI imperative dynamic mode (`nvidia.dali.experimental.dynamic`, ndd): use when working on ndd code or migrating pipelines; skip pipeline-only tasks.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/dali-dynamic-mode/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dali-dynamic-mode/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/dali-dynamic-mode/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/dali-dynamic-mode/metadata.json",
   "bundleHash": "sha256-a3313e2f36b30190f92298e9ceba5a2907097d2f88aa2a78576e000b4db5338f",
   "merkleLeaf": "sha256-47b59463b66868c8f10ad2bfa9af416ba7cec5d75e7aaad098f822eb73eb590b",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-48ec583090216b4cbbccad79eb60e890410d891cad5fcb5cda76682fc81d4bca"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

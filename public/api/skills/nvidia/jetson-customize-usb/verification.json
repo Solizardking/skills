@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-customize-usb",
   "name": "jetson-customize-usb",
   "description": "Enable/disable Jetson USB2/USB3 SS ports via kernel-DT overlay. Do NOT use for UPHY lane allocation or ODMDATA edits.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-usb/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-usb/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-usb/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-usb/metadata.json",
   "bundleHash": "sha256-1763a23f909a635867838d58f375ca05d000c5547dffe81b6c60ae981a4c502d",
   "merkleLeaf": "sha256-4ffff81b84272d3ef9357b544c4df940ad0cfa9ceb63d53a7626f522d49964fb",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-5c08383c04ad1f55ad452139e4e428616a42eaefe4559d6d7aa4e4f96f5e88c2"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

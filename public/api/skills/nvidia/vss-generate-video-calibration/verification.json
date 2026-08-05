@@ -3,8 +3,8 @@
   "slug": "nvidia/vss-generate-video-calibration",
   "name": "vss-generate-video-calibration",
   "description": "Use to run AutoMagicCalib on local MP4s, RTSP, or the bundled sample dataset, and to deploy vss-auto-calibration when needed. Do not use for non-AMC calibration or runtime analytics.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-generate-video-calibration/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-generate-video-calibration/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/vss-generate-video-calibration/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/vss-generate-video-calibration/metadata.json",
   "bundleHash": "sha256-f5c1f4d4c12ba6f4f0394854087802f92cbb74306aa0d5601d84331372c9fe2e",
   "merkleLeaf": "sha256-2daebd8a6e6539b562c266b947105aa2ff9c12ba2d20f494258d6fd5d4d7d1c9",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-8bf30627bfa4148dc43149ca5ea6f70792f34896c75aa82134a910ccb9da2990"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

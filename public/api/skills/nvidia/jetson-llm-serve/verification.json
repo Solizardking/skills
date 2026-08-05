@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-llm-serve",
   "name": "jetson-llm-serve",
   "description": "Stand up vLLM or SGLang serving on Jetson, using upstream vLLM on Thor and Orin JetPack 7.2+, and NVIDIA-AI-IOT vLLM on older Orin.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-llm-serve/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-llm-serve/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-llm-serve/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-llm-serve/metadata.json",
   "bundleHash": "sha256-2a11a5ff0cdfa76fc4c4e565cfc9b9792e0e5d1107517a1bab3061d68c9b5470",
   "merkleLeaf": "sha256-8ac763b982569b757f715fd8ec4888d1440289ce7bcad3e2cbdcef2d65e9bf23",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-8534775ef77268e68133302a8164542cd925a6ecedea41631c6a192f72f94cf5"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

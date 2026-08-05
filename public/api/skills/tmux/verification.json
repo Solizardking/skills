@@ -3,8 +3,8 @@
   "slug": "tmux",
   "name": "tmux",
   "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
-  "source": "https://skills.x402.wtf/api/skills/tmux/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/tmux/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/tmux/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/tmux/metadata.json",
   "bundleHash": "sha256-fee65923b299eda1ee08b461216188ac4d25a553056159e2b07a900c8d55a914",
   "merkleLeaf": "sha256-7456b7287544c94e5f4e798dcdf05284d31e187b8dcb7d2b758cd830e778404a",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-9a1008915a7643a7316898995142daf56524b05d1d343385bd60e9db6a8cea05"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

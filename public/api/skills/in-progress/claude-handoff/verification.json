@@ -3,8 +3,8 @@
   "slug": "in-progress/claude-handoff",
   "name": "claude-handoff",
   "description": "Hand the current conversation off to a fresh background agent that picks up the work immediately.",
-  "source": "https://skills.x402.wtf/api/skills/in-progress/claude-handoff/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/in-progress/claude-handoff/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/in-progress/claude-handoff/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/in-progress/claude-handoff/metadata.json",
   "bundleHash": "sha256-b72d19f4e1cc6ad5dc6d20841b39a99f047545c7b5b4c2cc29d6cd0c3eb89558",
   "merkleLeaf": "sha256-a9f571cb9edb1f1bc7dcf8ea59645276784ee33027a08b839db6fdbb7263daaf",
   "files": [
@@ -14,7 +14,7 @@
       "sha256": "sha256-bbb25773158d78f610461e4041ffb56fe871cb297626e1f52b0535a9083b7996"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

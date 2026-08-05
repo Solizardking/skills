@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-rl-auto-research",
   "name": "nemo-rl-auto-research",
   "description": "Autonomous NeMo-RL research agent workflow for directed hypothesis testing and open-ended discovery. Guides agents through the full experiment lifecycle: understanding recipes and environments, wiring RL or NeMo-gym runs, launching reproducible baselines and iterations, analyzing results, preserving human oversight, and using git plus TSV logs as the research ledger. Do NOT use for: bug fixes, code review, documentation, refactoring, dependency updates, or single-file changes.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-rl-auto-research/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-rl-auto-research/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-rl-auto-research/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-rl-auto-research/metadata.json",
   "bundleHash": "sha256-050502a75d1889e1348c4d04ba6821e05e335add4e8bde82241630bade544922",
   "merkleLeaf": "sha256-3f741c3f3925f0dd47706d0e31dabd87f6dc299af1aacd294a2e1afc5d25a813",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-5d79495dfc7dda03ba5b8567b7213acf659d07374608f711d60e959d28bb5ffc"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

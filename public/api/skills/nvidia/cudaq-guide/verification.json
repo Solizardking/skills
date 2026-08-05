@@ -3,8 +3,8 @@
   "slug": "nvidia/cudaq-guide",
   "name": "cudaq-guide",
   "description": "CUDA-Q onboarding guide for installation, test programs, GPU simulation, QPU hardware, and quantum applications.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/cudaq-guide/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cudaq-guide/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/cudaq-guide/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/cudaq-guide/metadata.json",
   "bundleHash": "sha256-736d43172493831c9658a61b07ef7cb9203aa59bf1ae89f279f812813e180a95",
   "merkleLeaf": "sha256-27473b33982787658e9806da0cb6b33ceab628c6956812f5ddf6ba4a5bd70db8",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-fd9462b962fa83d41235d85188b0026fdd3eabe566e3c09927d68466986a1a58"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-derive-carrier",
   "name": "jetson-derive-carrier",
   "description": "Bootstrap a custom carrier board by forking carrier files and scaffolding a DT overlay from the reference devkit. Use after jetson-init-source; not for module-level or kernel-DTB changes.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-derive-carrier/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-derive-carrier/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-derive-carrier/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-derive-carrier/metadata.json",
   "bundleHash": "sha256-d82b1245fa50efeed91f984e44382db4521da915298e36a5bca5a2c1115181c9",
   "merkleLeaf": "sha256-d422c0937842c3c38edacdc436dcf49489eeb727e8e6dfe66b1dbf99b2d3606f",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-770df96468b5475fdfbdba5685de51a2e230641b54e9af6e8800cca5815e5733"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

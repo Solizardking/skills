@@ -3,8 +3,8 @@
   "slug": "nvidia/omniverse-usd-performance-tuning",
   "name": "omniverse-usd-performance-tuning",
   "description": "Top-level workflow skill for USD performance diagnosis and optimization. Use for slow loading, high memory, low FPS, or 'optimize my scene' requests; delegates auth/runtime setup to Phase 0 owners.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/omniverse-usd-performance-tuning/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/omniverse-usd-performance-tuning/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/omniverse-usd-performance-tuning/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/omniverse-usd-performance-tuning/metadata.json",
   "bundleHash": "sha256-4b8ec990e96d27afb74a796ae6c2c3ccff417095543d5200eb9bef66b782f782",
   "merkleLeaf": "sha256-d7942a0c825229446f5814a39bc4eb2c57ba17dc4ca1a7624414ecf9780a608e",
   "files": [
@@ -714,7 +714,7 @@
       "sha256": "sha256-8a71b023ee7d99c1d5b057319e3b69f90e03841c3e9b56d525b336f9bb2e2618"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

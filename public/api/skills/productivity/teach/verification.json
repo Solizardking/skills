@@ -3,8 +3,8 @@
   "slug": "productivity/teach",
   "name": "productivity-teach",
   "description": "Teach the user a new skill or concept in a multi-session teaching workspace with missions, lessons, and learning records.",
-  "source": "https://skills.x402.wtf/api/skills/productivity/teach/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/productivity/teach/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/productivity/teach/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/productivity/teach/metadata.json",
   "bundleHash": "sha256-761d7d1cbf99875731fa240785fbf12b595c30609c32ee9f2b208c0ad502ce35",
   "merkleLeaf": "sha256-58f4e45368f38aeacde4d6cb55432c8e42be4a98982c251e088b95cc816046bc",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-ca0b8aca2a5bbd67060be1cf5c231e0c7c41c8aa88530550590483127d32df81"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

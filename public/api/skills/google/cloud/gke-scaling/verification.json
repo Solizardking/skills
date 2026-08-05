@@ -3,8 +3,8 @@
   "slug": "google/cloud/gke-scaling",
   "name": "gke-scaling",
   "description": "Configures GKE autoscaling, including HPA, VPA, and Node Auto-Provisioning (NAP). Use when configuring GKE autoscaling, setting up GKE HPA, setting up GKE VPA, or configuring GKE NAP. Don't use for configuring static cluster sizes or setting node-level machine styles directly (use gke-compute-classes instead).",
-  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-scaling/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-scaling/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/cloud/gke-scaling/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/cloud/gke-scaling/metadata.json",
   "bundleHash": "sha256-03a70ecc93e6536e231beff5c727c93efe8f9812d232021f17c0f067782d4935",
   "merkleLeaf": "sha256-51caac100b7b52fd271864a9eb7169d56e7d6301bba47cfdf505addf59cc9c31",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-190e2ef9636251c26e52bc255d247eed432472a73756dd7771f5e9c99ef8f329"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

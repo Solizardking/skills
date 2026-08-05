@@ -3,8 +3,8 @@
   "slug": "nvidia/earth2studio-deterministic-forecast",
   "name": "earth2studio-deterministic-forecast",
   "description": "Build deterministic forecast scripts with Earth2Studio (model, data source, IO, inference). Do NOT use for ensemble, diagnostics, data-only fetch, or install.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-deterministic-forecast/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-deterministic-forecast/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/earth2studio-deterministic-forecast/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/earth2studio-deterministic-forecast/metadata.json",
   "bundleHash": "sha256-495fab4d7ff5f6c7679a9da890c9a0220109583067dcc5ed10379ed3974cc7c4",
   "merkleLeaf": "sha256-fa8d67680e4398217db26bf5e5cdecffd4cd87fa56f921af45e9dfe7d3aaaf37",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-e77fd15c3f6735c7b4cf40a66356c03bf12fa70202796af43b12f7f41d2ea9f5"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

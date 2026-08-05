@@ -3,8 +3,8 @@
   "slug": "google/ads/data-manager-api/data-manager-api-setup",
   "name": "data-manager-api-setup",
   "description": "Guides developers through client library installation and authentication setup steps for the Data Manager API. Use this skill when a user is getting started with the Data Manager API and needs to setup their local environment, install the client library, or setup access to the API. Don't use for implementing audience or event ingestion logic (use the data-manager-api-audience-ingestion or data-manager-api-event-ingestion skills instead).",
-  "source": "https://skills.x402.wtf/api/skills/google/ads/data-manager-api/data-manager-api-setup/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/ads/data-manager-api/data-manager-api-setup/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/ads/data-manager-api/data-manager-api-setup/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/ads/data-manager-api/data-manager-api-setup/metadata.json",
   "bundleHash": "sha256-0832bfdb183330f59357f866f0409871537da50106ff49cded27ca4b2f6cf190",
   "merkleLeaf": "sha256-16e8c033a7075bdce5c70a93b9fdbd172f30e6a62de33976e0b65464efac2673",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-185ad939b83c21754e5311d06d7a5a66f929b3a1ff698c35764de5ac548c2cbe"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

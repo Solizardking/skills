@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-init-image",
   "name": "jetson-init-image",
   "description": "Extract Jetson Linux + sample-rootfs tarballs and run apply_binaries.sh for the active target, then record bsp_image in the profile. Use after jetson-init-target; not for source-tree setup.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-init-image/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-init-image/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-init-image/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-init-image/metadata.json",
   "bundleHash": "sha256-6fea7d5cc8766c2d68b925ff95d3ffda3ea5012119ad7158273e44d2d4ae08b1",
   "merkleLeaf": "sha256-cad74cbc24c1f967ad38a9aa16bb3e235c1539caddc58dc2bca8a7a26d7e8fca",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-12ce4a63ae000c122eeeed9e0bab776066bab6f921cf90ce7366a9b74b9075eb"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

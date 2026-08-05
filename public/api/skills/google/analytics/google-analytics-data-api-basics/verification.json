@@ -3,8 +3,8 @@
   "slug": "google/analytics/google-analytics-data-api-basics",
   "name": "google-analytics-data-api-basics",
   "description": "Manages Google Analytics reporting data, enables the Analytics Data API via the Cloud CLI, and creates reports using the Google Analytics Data API (v1beta). Use when you need to interact with Google Analytics properties, run customized analytics reports, query metrics (like activeUsers, screenPageViews) and dimensions (like city, date), check metrics and dimensions compatibility, or verify API enablement.",
-  "source": "https://skills.x402.wtf/api/skills/google/analytics/google-analytics-data-api-basics/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/analytics/google-analytics-data-api-basics/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/analytics/google-analytics-data-api-basics/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/analytics/google-analytics-data-api-basics/metadata.json",
   "bundleHash": "sha256-55c3c90aaf3ac786af2af188ab057e7b7d03de378dacb051713c18232b4e4046",
   "merkleLeaf": "sha256-0173a2c1e1ddc367c5f3c294ad78a87b2cd9626a70fdb083f7141fbf93421a7b",
   "files": [
@@ -49,7 +49,7 @@
       "sha256": "sha256-fb48073a5e257cfe8446db7b631ff3345c88888012ef716be2ceb2900774c8d8"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

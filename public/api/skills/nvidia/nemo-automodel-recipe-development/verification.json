@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-automodel-recipe-development",
   "name": "nemo-automodel-recipe-development",
   "description": "Create and modify NeMo AutoModel training and evaluation recipes, including YAML structure, builders, and execution flow.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-automodel-recipe-development/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-automodel-recipe-development/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-automodel-recipe-development/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-automodel-recipe-development/metadata.json",
   "bundleHash": "sha256-4edb4902daab9d1b394aa75d7676898b12f798df4bec0de41eaf0c15bd42644a",
   "merkleLeaf": "sha256-c0cad4f661c13fff3fe799b3e6b4e84bfef030688a17fd97e1c71a73d1502253",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-9c588c650e181e266600e03dc62af1cc49932f69fa93b61ffcba5e55f832b52f"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

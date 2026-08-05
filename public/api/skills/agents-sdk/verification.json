@@ -3,8 +3,8 @@
   "slug": "agents-sdk",
   "name": "agents-sdk",
   "description": "Build AI agents on Cloudflare Workers using the Agents SDK. Load when creating stateful agents, durable workflows, real-time WebSocket apps, scheduled tasks, MCP servers, chat applications, voice agents, or browser automation. Covers Agent class, state management, callable RPC, Workflows, durable execution, queues, retries, observability, and React hooks. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
-  "source": "https://skills.x402.wtf/api/skills/agents-sdk/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/agents-sdk/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/agents-sdk/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/agents-sdk/metadata.json",
   "bundleHash": "sha256-8794d303778a741e86284728d6467b4bbc78d27c3cf30c78f66986dde9dac29d",
   "merkleLeaf": "sha256-295c0bb767ee004f98067f03fffe8adff8c83133467518530c78a7839cf86a90",
   "files": [
@@ -109,7 +109,7 @@
       "sha256": "sha256-a05244d3cfb23330daff956ec28a990241f5dbbe489cd7fd6489c8f76bb60877"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

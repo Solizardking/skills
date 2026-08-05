@@ -3,8 +3,8 @@
   "slug": "nvidia/launch-nemo-rl",
   "name": "launch-nemo-rl",
   "description": "Playbook for launching, monitoring, stopping, and debugging NeMo-RL recipes on a Kubernetes cluster via the nrl-k8s CLI. Covers ephemeral vs long-lived RayCluster modes, iterating on runs, and debugging hung or failed training jobs.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/launch-nemo-rl/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/launch-nemo-rl/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/launch-nemo-rl/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/launch-nemo-rl/metadata.json",
   "bundleHash": "sha256-0a78e47df238bcf38d0997cd449299fb3cefcf8a17366deb35b06310ea45d761",
   "merkleLeaf": "sha256-21cf1931fccd136e0344fa50080a072ca900cf3fc972f286ead55e889061360a",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-2c3b61209faeb629c2eef3c0d65b7e7806d6abfa19075cea455ac48a09e8ea4c"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

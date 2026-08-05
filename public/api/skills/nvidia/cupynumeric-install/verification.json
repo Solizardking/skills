@@ -3,8 +3,8 @@
   "slug": "nvidia/cupynumeric-install",
   "name": "cupynumeric-install",
   "description": "Install and verify cuPyNumeric for Python — requirements, commands, verification. Source builds are out of scope.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/cupynumeric-install/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cupynumeric-install/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/cupynumeric-install/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/cupynumeric-install/metadata.json",
   "bundleHash": "sha256-6464376616546f5ea1289a416fb18bea71769f396518f474641838254d47f36f",
   "merkleLeaf": "sha256-0d8d92e049164bb386e5253ae18a7836b68da6c4d3740fd820c24e085ce04e53",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-4fc76f9cf27e79f63984b2b65f082f2e90bc05930f3886a584d27510ebb891a7"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

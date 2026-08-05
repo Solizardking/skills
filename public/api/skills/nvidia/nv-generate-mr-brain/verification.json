@@ -3,8 +3,8 @@
   "slug": "nvidia/nv-generate-mr-brain",
   "name": "nv-generate-mr-brain",
   "description": "Used for generating synthetic brain MRI volumes with NV-Generate-CTMR rflow-mr-brain. Not for production training data.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nv-generate-mr-brain/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nv-generate-mr-brain/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nv-generate-mr-brain/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nv-generate-mr-brain/metadata.json",
   "bundleHash": "sha256-3a897c2f83905d382517f48cb741c31fc33e790e311fc6915887551070810d69",
   "merkleLeaf": "sha256-2fc66cdf609a686832442a6447f502f9310c9cb8e119863d2de726ca154d2d99",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-9ed1a5b99fd9fffdac8078610aefdfbe6f20815ed00b661fb5518ead07bf0813"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

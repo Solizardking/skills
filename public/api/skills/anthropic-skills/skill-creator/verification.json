@@ -3,8 +3,8 @@
   "slug": "anthropic-skills/skill-creator",
   "name": "anthropic-skill-creator",
   "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
-  "source": "https://skills.x402.wtf/api/skills/anthropic-skills/skill-creator/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/anthropic-skills/skill-creator/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/anthropic-skills/skill-creator/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/anthropic-skills/skill-creator/metadata.json",
   "bundleHash": "sha256-ee7bab17c0e288ef59e09f54fe0ad328018a2fa1e38ed7455d42ef5aa7fea966",
   "merkleLeaf": "sha256-4c377d8df46e5808a9d2265f232158bba01cf95dabbca512143216d9e8b7332b",
   "files": [
@@ -84,7 +84,7 @@
       "sha256": "sha256-127509d15e662fa862ed430b68bfcd4b68ff873528700b9f6447bcb992ecbe94"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

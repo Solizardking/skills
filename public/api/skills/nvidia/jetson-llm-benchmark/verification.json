@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-llm-benchmark",
   "name": "jetson-llm-benchmark",
   "description": "Benchmark Jetson LLM/VLM serving performance across vLLM, llama.cpp, and Ollama with structured JSON output.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-llm-benchmark/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-llm-benchmark/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-llm-benchmark/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-llm-benchmark/metadata.json",
   "bundleHash": "sha256-9bd83e038093233fb010b14c84676af39a758cb1121bf54c7468c4799f0bdc5a",
   "merkleLeaf": "sha256-8a43b9e66e7b52388655c16c3f4124c1f15bdafc19c69af8956838efdbf3a648",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-53432dfa4d208879424bce6be9e728d7af63935115ab6f27cc42506911413c71"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

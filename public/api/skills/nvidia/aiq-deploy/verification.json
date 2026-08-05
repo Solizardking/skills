@@ -3,8 +3,8 @@
   "slug": "nvidia/aiq-deploy",
   "name": "aiq-deploy",
   "description": "Use when asked to install, deploy, run, validate, troubleshoot, or stop NVIDIA AI-Q Blueprint infrastructure.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/aiq-deploy/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/aiq-deploy/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/aiq-deploy/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/aiq-deploy/metadata.json",
   "bundleHash": "sha256-014066ec0979827e2d37738c95eae0a4c3093d9968158549dc07ba908c136785",
   "merkleLeaf": "sha256-922c016bf056df930a61a40e69dbf633f6ee891b382ff11093beef16de30ac64",
   "files": [
@@ -89,7 +89,7 @@
       "sha256": "sha256-9bfad6034823422b564c0ff3ff7d462eef237fec129f4f5fb1c027f625bc2b9f"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-optimize-memory",
   "name": "jetson-optimize-memory",
   "description": "Reclaim DRAM by disabling unused subsystems across MB1 BCT, MB2 BCT, kernel reserved-memory, and SWIOTLB. Use for headless or no-camera Jetson deployments; not for CPU/GPU frequency tuning.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-optimize-memory/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-optimize-memory/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-optimize-memory/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-optimize-memory/metadata.json",
   "bundleHash": "sha256-ac509bc3852a91f283f437eabd081e37cd3c00833b40aa33cdc378c973d4e7df",
   "merkleLeaf": "sha256-083fa01841729ebbb3a9742e35f1a033a70867be9f24cadb9f87484a92c465cd",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-94401c223ed5ba0a7cf6af35af66deb140f75ce42dee47d7f388e5d8a2348be6"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

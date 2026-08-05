@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-init-source",
   "name": "jetson-init-source",
   "description": "Set up the BSP source workspace: Linux_for_Tegra overlay tracker, bsp_sources, Crosstool-NG toolchain. Use after jetson-init-image; not for fetching inputs.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-init-source/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-init-source/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-init-source/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-init-source/metadata.json",
   "bundleHash": "sha256-6e07f61f6e351ead8af7c2a2bfb98aaaa80847fee8b76b756c3e40568b6c4e61",
   "merkleLeaf": "sha256-34091203627db6fdc1b62c568d3e3c8f57f23e5034f3360813b51b6cfba9dc8e",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-94f34c1bdc43bc95d77fe26f6474e5817e3f5d5ab4c113582e58d959d5f7cd1f"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

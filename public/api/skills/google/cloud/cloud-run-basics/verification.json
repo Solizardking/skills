@@ -3,8 +3,8 @@
   "slug": "google/cloud/cloud-run-basics",
   "name": "cloud-run-basics",
   "description": "Manages Cloud Run services, jobs, and worker pools. Use when you need to deploy applications responding to HTTP requests (services), run event-triggered or scheduled tasks (jobs), or handle always-on pull-based background processing (worker pools).",
-  "source": "https://skills.x402.wtf/api/skills/google/cloud/cloud-run-basics/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/cloud-run-basics/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/cloud/cloud-run-basics/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/cloud/cloud-run-basics/metadata.json",
   "bundleHash": "sha256-2c571a6a9a091fd353fdaa920b2572a03eb7628a8d0ca91dceab903979a9af68",
   "merkleLeaf": "sha256-091a85308056cfaf846d63e931fc5216a2c5413a4338a66445bbf7a7d0c405c6",
   "files": [
@@ -44,7 +44,7 @@
       "sha256": "sha256-c408324ce9fd9401b30c18ffbacf4979bc0a300eef4a610fa87b174b1d3426a6"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

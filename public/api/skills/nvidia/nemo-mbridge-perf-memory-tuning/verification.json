@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-mbridge-perf-memory-tuning",
   "name": "nemo-mbridge-perf-memory-tuning",
   "description": "Techniques for reducing peak GPU memory in Megatron Bridge — expandable segments, PEFT + SP input re-gather, parallelism resizing, activation recompute, CPU offloading constraints, and common OOM fixes.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-memory-tuning/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-memory-tuning/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-perf-memory-tuning/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-perf-memory-tuning/metadata.json",
   "bundleHash": "sha256-830a3e0e67f02fa5997d228880dd7e091659a953fca5ee0464b847f1ef60177b",
   "merkleLeaf": "sha256-249379d316169ffe09120dfe673c20ab3840947f2ed457e3c595ce15a2c3f8a3",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-3e40e553688d53b8d73b0759ad0f523a0791bf622015d34ee97f631ab617664c"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

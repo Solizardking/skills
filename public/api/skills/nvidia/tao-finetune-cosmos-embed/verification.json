@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-finetune-cosmos-embed",
   "name": "tao-finetune-cosmos-embed",
   "description": "Cosmos-Embed1 video-text embedding for text-to-video retrieval, video-to-video search, semantic deduplication, and fine-tuning. Use when the user asks to \"fine-tune Cosmos-Embed1\", \"run cosmos-embed inference\", \"export Cosmos-Embed1\", \"embed videos\", or \"search videos with text\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-finetune-cosmos-embed/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-finetune-cosmos-embed/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-finetune-cosmos-embed/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-finetune-cosmos-embed/metadata.json",
   "bundleHash": "sha256-08e5af38685511243f816ce07f84d0e049ea27fce5ed84129eba77fbd7cce71a",
   "merkleLeaf": "sha256-32cd7c8eaac47a34fbc8a40057cf2c0d722abdf497f987d74215c1219275d3e1",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-8f8d70c5177be87aae95c5040d952a4a639beeeab124f1809c4f29256c2a7cbb"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

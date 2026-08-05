@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-pose-classification",
   "name": "tao-train-pose-classification",
   "description": "Pose classification using ST-GCN (Spatial Temporal Graph Convolutional Network). Classifies skeleton sequences into action categories from pose-keypoint data. Use when training, evaluating, exporting, or running inference for a TAO pose-classification model. Trigger phrases include \"train pose classification\", \"skeleton action recognition\", \"ST-GCN\", \"keypoint sequence classifier\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-pose-classification/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-pose-classification/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-pose-classification/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-pose-classification/metadata.json",
   "bundleHash": "sha256-c5d3f8ecd25d41ca705d9cdc7cb3cd4f60c7b7b259a3f0d0e5ef3614d062a6ec",
   "merkleLeaf": "sha256-c104d6888c713714f11f1458ece2319e6f11e867472d5c96d54e4a0e72640ebe",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-5b82b3dbc1f33f8c3f59fa5141c161f92f19778ffd629f38aa63bb8861d20cd8"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

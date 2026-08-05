@@ -3,8 +3,8 @@
   "slug": "google/ads/google-mobile-ads/google-mobile-ads-interstitial",
   "name": "google-mobile-ads-interstitial",
   "description": "Provides instructions for implementing, integrating, or configuring Google Mobile Ads (GMA) SDK interstitial ads in Android and iOS mobile applications. Use this skill when the task involves setting up interstitial ads. Don't use for \"rewarded interstitial\" ads.",
-  "source": "https://skills.x402.wtf/api/skills/google/ads/google-mobile-ads/google-mobile-ads-interstitial/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/ads/google-mobile-ads/google-mobile-ads-interstitial/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/ads/google-mobile-ads/google-mobile-ads-interstitial/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/ads/google-mobile-ads/google-mobile-ads-interstitial/metadata.json",
   "bundleHash": "sha256-fc4e2f38bd1669b43927c09e6d46c5fc8e625c05abf95487384a2c529fa4a960",
   "merkleLeaf": "sha256-5ef5e43a0ef6726a782827f23f5185361d7ee0231511e897a28ed0d06d306478",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-1e55548f8e81c477597be5952e2ef2a53fc93baea1ac7cc7cdc1e2d3fba556c9"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

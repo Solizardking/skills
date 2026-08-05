@@ -3,8 +3,8 @@
   "slug": "helius-skills/helius-dflow",
   "name": "helius-dflow",
   "description": "Build Solana trading applications combining DFlow trading APIs with Helius infrastructure. Covers spot swaps (imperative and declarative), prediction markets, real-time market streaming, Proof KYC, the DFlow Agent CLI for autonomous trading, transaction submission via Sender, fee optimization, shred-level streaming via LaserStream, and wallet intelligence.",
-  "source": "https://skills.x402.wtf/api/skills/helius-skills/helius-dflow/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/helius-skills/helius-dflow/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/helius-skills/helius-dflow/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/helius-skills/helius-dflow/metadata.json",
   "bundleHash": "sha256-36f1e899315ca744bfab07209147161851e1834dc71e68465c231d5a5adaef4e",
   "merkleLeaf": "sha256-bb0506e808407188cb4b0e3dc4f8668bcbb36baa8e06e14b96b895e6ab2d2835",
   "files": [
@@ -79,7 +79,7 @@
       "sha256": "sha256-34248ce8976560321c07bc99cd6b26b687a933eb50178e16c8901cacd81ee458"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

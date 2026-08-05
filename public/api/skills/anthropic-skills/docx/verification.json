@@ -3,8 +3,8 @@
   "slug": "anthropic-skills/docx",
   "name": "docx",
   "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
-  "source": "https://skills.x402.wtf/api/skills/anthropic-skills/docx/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/anthropic-skills/docx/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/anthropic-skills/docx/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/anthropic-skills/docx/metadata.json",
   "bundleHash": "sha256-b62112948ab3f8ef70a0f4019da7bb5b0c3303fc7b8c73e0c7af75fd74398aca",
   "merkleLeaf": "sha256-737829668d79d700cc344679a1ac21270584ae51531ca5e37e924fdab196efd8",
   "files": [
@@ -309,7 +309,7 @@
       "sha256": "sha256-cfbabd72b1aec7dfaad988fb6e5e16b27dc744b9a00cae15db9045e95f53903e"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

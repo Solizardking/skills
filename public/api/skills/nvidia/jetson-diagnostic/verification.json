@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-diagnostic",
   "name": "jetson-diagnostic",
   "description": "Read-only Jetson health snapshot for identity, memory, GPU, thermal, power, storage, services, and top processes.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-diagnostic/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-diagnostic/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-diagnostic/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-diagnostic/metadata.json",
   "bundleHash": "sha256-8991d82315d42da6f35944a7a6164c4741948cd70b750f1ddc9908c78606ebec",
   "merkleLeaf": "sha256-a1d5f5404639e9fa1642dad4c74062a451565234710faa4bdeb572c17ebe1b85",
   "files": [
@@ -59,7 +59,7 @@
       "sha256": "sha256-5c2d3242b0d493090c3534c21cb9b087f85214956a216e7fae9525f3fc4cde5c"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

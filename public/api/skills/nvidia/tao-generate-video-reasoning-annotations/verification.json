@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-generate-video-reasoning-annotations",
   "name": "tao-generate-video-reasoning-annotations",
   "description": "Multi-step video annotation pipeline that turns raw videos into Chain-of-Thought training data — multi-level captions, structured descriptions, and QA pairs (MCQ, binary, open-ended) with reasoning traces, via VLM/LLM distillation. Use when the user wants to \"create video training data\", \"generate video QA datasets\", \"build CoT reasoning traces from videos\", \"auto-label videos\", or run the video_reasoning_annotation pipeline. Triggers include \"video annotation\", \"video CoT\", \"video QA\", \"chain-of-thought\", \"video captioning pipeline\", \"video distillation\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-generate-video-reasoning-annotations/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-generate-video-reasoning-annotations/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-generate-video-reasoning-annotations/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-generate-video-reasoning-annotations/metadata.json",
   "bundleHash": "sha256-9b2cc0ce6fba97aa6ca7d1b0dda5ca447db62b96e3f1b5a5ef0ba7baa4fd5ae3",
   "merkleLeaf": "sha256-4379aa295ef1c41aa9437fc54ce38709ce3cac7f7731abf22a2c70d840e4f435",
   "files": [
@@ -49,7 +49,7 @@
       "sha256": "sha256-01e48f17d9ec950234f5cb37733cf773840f179e139b3bc3ca9f67c63d207c67"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

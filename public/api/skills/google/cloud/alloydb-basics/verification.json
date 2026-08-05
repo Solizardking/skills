@@ -3,8 +3,8 @@
   "slug": "google/cloud/alloydb-basics",
   "name": "alloydb-basics",
   "description": "Manages clusters, instances, and backups for AlloyDB for PostgreSQL, and integrates with AlloyDB model context protocol (MCP) tools for automated database operations.",
-  "source": "https://skills.x402.wtf/api/skills/google/cloud/alloydb-basics/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/alloydb-basics/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/cloud/alloydb-basics/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/cloud/alloydb-basics/metadata.json",
   "bundleHash": "sha256-f2b2d055a8df9d97dff5cf4dea0f5ae05343d3cf40cbb0b3848c9a067723ac6a",
   "merkleLeaf": "sha256-8c44bf5194c95549e72e61a03fbe56db3ddee4ef85474eb4a22d096f534ddd8d",
   "files": [
@@ -44,7 +44,7 @@
       "sha256": "sha256-b91216ea59bc484bb866d347c6cb23581c6b1ab6a88e8adefe11b3297284fbc5"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

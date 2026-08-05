@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-mask-auto-label",
   "name": "tao-train-mask-auto-label",
   "description": "MAL (Mask Auto-Label) for weakly-supervised segmentation. Produces segmentation masks from minimal annotations (point or box annotations) using a ViT-MAE backbone. Use when training, evaluating, or running inference for a TAO MAL model. Trigger phrases include \"train MAL\", \"Mask Auto-Label\", \"weakly-supervised segmentation\", \"box-prompted segmentation\", \"minimal-annotation mask prediction\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-mask-auto-label/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-mask-auto-label/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-mask-auto-label/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-mask-auto-label/metadata.json",
   "bundleHash": "sha256-743a320f4c4973c43f12699f8809a01c01c686ac1ad3aaeca808ff17a0fafb86",
   "merkleLeaf": "sha256-2d7dd95c691065c3494b0db32b21d9a6dde79c6d9507d45d2e4bafa8ef3530b8",
   "files": [
@@ -44,7 +44,7 @@
       "sha256": "sha256-8fa1cf1726d37374c93b171074f02cfc110d83e57dface27dcce2d91c34ad4de"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/deepstream-import-vision-model",
   "name": "deepstream-import-vision-model",
   "description": "Use this skill to bring any vision model from HuggingFace or NVIDIA NGC into an NVIDIA DeepStream pipeline with end-to-end automation: ONNX download, SafeTensors export, TRT engine build, custom nvinfer bbox parser, multi-stream benchmark, and PDF report. Object detection models only.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/deepstream-import-vision-model/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/deepstream-import-vision-model/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/deepstream-import-vision-model/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/deepstream-import-vision-model/metadata.json",
   "bundleHash": "sha256-ea3d3af489915745603f13493f13bb1de539dc1bf0632b24ef4501f01ac8c06e",
   "merkleLeaf": "sha256-537e49410011441799ebdb8e6d57c9064574ced8f5e916c9a5cfdbb7164cc47f",
   "files": [
@@ -164,7 +164,7 @@
       "sha256": "sha256-9194e8f3f256d56bd16e6b14943933ee5b0b08d2ab788813476f2392493c3e56"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

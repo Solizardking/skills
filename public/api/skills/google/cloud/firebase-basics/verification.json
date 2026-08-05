@@ -3,8 +3,8 @@
   "slug": "google/cloud/firebase-basics",
   "name": "firebase-basics",
   "description": "Use this skill whenever you are working on a project that uses Firebase products or services, especially for mobile or web apps.",
-  "source": "https://skills.x402.wtf/api/skills/google/cloud/firebase-basics/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/firebase-basics/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/cloud/firebase-basics/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/cloud/firebase-basics/metadata.json",
   "bundleHash": "sha256-734581db66aa61cb16a7bdff682ba1fe52b63177cb2c2b882cc913ecbd9d8df7",
   "merkleLeaf": "sha256-f9a13c46baf0363814a235d771df626f1f7973b5d22f9066d83591f13160e946",
   "files": [
@@ -49,7 +49,7 @@
       "sha256": "sha256-326cf6d8ba4e1654a388cd6326c4cd0f9d0be4b5c4fa72ff9d520e874cb780db"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

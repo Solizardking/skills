@@ -3,8 +3,8 @@
   "slug": "openclawd-clawd-code-skill-main",
   "name": "clawd-code-skill",
   "description": "Control Clawd Code via MCP protocol. Trigger with \"plan\" to write a precise execution plan then feed it to Clawd Code. Also supports direct commands, persistent sessions, agent teams, and advanced tool control.",
-  "source": "https://skills.x402.wtf/api/skills/openclawd-clawd-code-skill-main/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/openclawd-clawd-code-skill-main/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/openclawd-clawd-code-skill-main/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/openclawd-clawd-code-skill-main/metadata.json",
   "bundleHash": "sha256-b83023142ff8f7f09673adb57cdb5d767608f39eea3ea13445f843ad1e25de1c",
   "merkleLeaf": "sha256-30a5830d8d312998aca8e2cf0ef037d232537f0ad9a2ab6518780265c883d607",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-473cf46753e92843a8663913427c0f1702f5244735352c95c8f0f3b0d2c0eb2e"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

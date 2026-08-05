@@ -3,8 +3,8 @@
   "slug": "nvidia/vss-deploy-video-embedding",
   "name": "vss-deploy-video-embedding",
   "description": "Use this skill when deploying, operating, or integrating the VSS 3.2 GA RT-Embed Video Embedding microservice. Covers Docker Compose bring-up, GPU and storage prerequisites, the `/v1` REST API (file uploads, text and video embeddings, live RTSP streams, health and metrics), Redis/Kafka/OTel integration, common failure modes, and teardown.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-video-embedding/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-video-embedding/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/vss-deploy-video-embedding/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/vss-deploy-video-embedding/metadata.json",
   "bundleHash": "sha256-1ddd30cc65786266f368cff7eaf2f22817e68979ce6e72587bbc88f372091ee7",
   "merkleLeaf": "sha256-b2e5ca39f55ef681bbf2bcea016be64fd8067ce0075543526cc250a9cfc22543",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-ddd0c5fa7aa514d0ff617f3bc804e0ee8bb3f36930e0b089c79e680366a28b79"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-customize-clocks",
   "name": "jetson-customize-clocks",
   "description": "Use to lock/cap Jetson CPU/GPU/EMC clocks, toggle EMC/CPU DVFS, or change cpufreq governors by editing BPMP DTB and nvpower.sh pre-flash. Do NOT use for live tuning or nvpmodel edits.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-clocks/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-clocks/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-clocks/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-clocks/metadata.json",
   "bundleHash": "sha256-6a78afd90ff90744f07f820c82e9a05632c0a148d98efde61c44d943b50acb1d",
   "merkleLeaf": "sha256-1044c515a98dfe1419ded48df60c633f37eb33d5f377201048c3f30e9b4955a4",
   "files": [
@@ -44,7 +44,7 @@
       "sha256": "sha256-9e1bc4ae8e9b50909b14f250eb9d9439c882ee33811bf2e52a6cf696886917b5"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

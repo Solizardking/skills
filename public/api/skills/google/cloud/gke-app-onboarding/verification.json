@@ -3,8 +3,8 @@
   "slug": "google/cloud/gke-app-onboarding",
   "name": "gke-app-onboarding",
   "description": "Manages GKE application onboarding, covering containerization, deployment manifests, and migration. Use when onboarding or deploying an application to GKE for the first time, or containerizing an app for GKE. Don't use for general GKE cluster administration or upgrades (use gke-basics or gke-upgrades instead).",
-  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-app-onboarding/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-app-onboarding/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/cloud/gke-app-onboarding/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/cloud/gke-app-onboarding/metadata.json",
   "bundleHash": "sha256-31e712391c0b4ca5d66f3aa7b7d42d0ec847a9c145bf2c4f9012afa2caa164eb",
   "merkleLeaf": "sha256-675fbf89ba6018a625ecef4b596fcc5b1cc70063ea5b481b38c3bcd33edd2af7",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-a007875c6e70f49cee8cd3fdabd12a8f3201e6b3c98fea0c679fab6bb47a666d"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

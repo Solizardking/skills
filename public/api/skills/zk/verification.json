@@ -3,8 +3,8 @@
   "slug": "zk",
   "name": "zk",
   "description": "For custom ZK Solana programs and privacy-preserving applications to prevent double spending. Guide to integrate rent-free nullifier PDAs for double-spend prevention.",
-  "source": "https://skills.x402.wtf/api/skills/zk/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/zk/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/zk/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/zk/metadata.json",
   "bundleHash": "sha256-a3ec6f32f332baa53bf60b2095ed732f131f85794b8727b9d60bc43d07779d69",
   "merkleLeaf": "sha256-ca9837a3e51dbbb9779d4f0f3abfc966048e0244ebd00625918385a8e8bd3b5a",
   "files": [
@@ -14,7 +14,7 @@
       "sha256": "sha256-b72c6160f37d15231bdc04d1f1e41f6b87dfc748f7f826bb39feabc36e1dbb52"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "anthropic-skills/mcp-builder",
   "name": "mcp-builder",
   "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
-  "source": "https://skills.x402.wtf/api/skills/anthropic-skills/mcp-builder/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/anthropic-skills/mcp-builder/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/anthropic-skills/mcp-builder/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/anthropic-skills/mcp-builder/metadata.json",
   "bundleHash": "sha256-048172f0ab6be95937ec73790d74b838c08cbac1e1fb47a90f7a0507a7c68d2a",
   "merkleLeaf": "sha256-f36fa56fdf1d43d9b4363161baacb43cf4315eb124995bbf8ae2df45231ec40e",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-0f4592dcb53cf2b5d6b7febee6b4152018b565551a1c29e3c612f57b218ab295"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

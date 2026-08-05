@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-visual-changenet",
   "name": "tao-train-visual-changenet",
   "description": "Visual ChangeNet for binary image classification and segmentation in AOI defect detection. Use when training, evaluating, exporting, or running inference for PCB defect detection or visual inspection, comparing image pairs for PASS/NO_PASS classification, or producing change-segmentation masks. Trigger phrases include \"train Visual ChangeNet\", \"ChangeNet classify\", \"ChangeNet segment\", \"AOI defect detection\", \"PCB inspection model\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-visual-changenet/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-visual-changenet/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-visual-changenet/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-visual-changenet/metadata.json",
   "bundleHash": "sha256-80792b44f786acaa28ca96dcc03ee494f834fec9a4ec169f7c5de7ebf7b6d354",
   "merkleLeaf": "sha256-1d5f3c150a0bf640ade0bc1d72f71d68619c8f75ce0e3af3295ad5d1b2cd22b7",
   "files": [
@@ -139,7 +139,7 @@
       "sha256": "sha256-22b3dff29d884081d3a3473f3fb7d952a199add3d9940b5e687e1644242c8391"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

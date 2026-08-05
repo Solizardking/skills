@@ -3,8 +3,8 @@
   "slug": "nvidia/cuopt-numerical-optimization-formulation",
   "name": "cuopt-numerical-optimization-formulation",
   "description": "LP, MILP, QP — concepts, problem-text parsing, and formulation patterns (parameters, constraints, decisions, objective). Concepts only; no API.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/cuopt-numerical-optimization-formulation/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cuopt-numerical-optimization-formulation/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/cuopt-numerical-optimization-formulation/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/cuopt-numerical-optimization-formulation/metadata.json",
   "bundleHash": "sha256-b7034598dbc2812be32d622dffcef45b5410c07a8140c86599c1a889e14d5bd2",
   "merkleLeaf": "sha256-23dce8936bcea0282226af173b5323b61edc2e5f985a9d696c3b783bdb0d5234",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-ed5c1f0f40411b77c90602c419834b22a5ee41ef1419ec8250146b59ab70e2cf"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

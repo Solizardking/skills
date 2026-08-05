@@ -3,8 +3,8 @@
   "slug": "nvidia/digital-health-clinical-asr-finetune",
   "name": "digital-health-clinical-asr-finetune",
   "description": "Stage 4 of the Clinical ASR Flywheel. Use when priority KER is above 0.3 to run stock NeMo SFT on Parakeet TDT v2 and offline cycle N+1 re-eval. NOT for generic word boosting (use /finetune-asr).",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/digital-health-clinical-asr-finetune/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/digital-health-clinical-asr-finetune/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/digital-health-clinical-asr-finetune/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/digital-health-clinical-asr-finetune/metadata.json",
   "bundleHash": "sha256-1fa14c3ec05e74fb98a9982d4759be782465dd3fe99d6d698f470bf1ad0026d8",
   "merkleLeaf": "sha256-ca2912ecb42867644151eeda6d72151b7e4446c1d2261153ea049e353abbf013",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-951ddeba55bd2ab770240ed77ebe51280a9dccd2b93b59b6edee1e2579549d5b"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/vss-deploy-dense-captioning",
   "name": "vss-deploy-dense-captioning",
   "description": "Use this skill when deploying standalone RT-VLM dense captioning or calling its REST API (uploads, captions, streams, chat-completions, Kafka). Not for VSS profile deploy or video-search ingestion.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-dense-captioning/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-dense-captioning/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/vss-deploy-dense-captioning/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/vss-deploy-dense-captioning/metadata.json",
   "bundleHash": "sha256-6c6ee8d1108608dd13a0d27af5669bfea4b882b216947fff017fc9222317ca0a",
   "merkleLeaf": "sha256-a8df06176075b11a52c178a9172eb6f8fd851ecd1df70de2bc200e2cb2a0fa89",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-de5a0b20d420cc036c08791fb830d0f851e403a55a09910ce0ba7fe436fd3cf1"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

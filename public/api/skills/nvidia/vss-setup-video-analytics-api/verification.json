@@ -3,8 +3,8 @@
   "slug": "nvidia/vss-setup-video-analytics-api",
   "name": "vss-setup-video-analytics-api",
   "description": "Use to deploy the vss-video-analytics-api REST service standalone (config-source, data-log bind, Elasticsearch, optional Kafka). Not for full warehouse deploy.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-setup-video-analytics-api/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-setup-video-analytics-api/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/vss-setup-video-analytics-api/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/vss-setup-video-analytics-api/metadata.json",
   "bundleHash": "sha256-9fd3c9db03d70b39217fb18d12fd127a3d04f83661220e3753f9ce27013738a8",
   "merkleLeaf": "sha256-71ae242960f48628b2edcd4a00eea3cb309aab14a1d1fd515eac457d93fe60ef",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-4d96ab4482f490181641c97c56623f2e615e93825d2c1d8ea4452f2708595c6d"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

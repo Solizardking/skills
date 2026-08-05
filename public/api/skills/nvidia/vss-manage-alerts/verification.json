@@ -3,8 +3,8 @@
   "slug": "nvidia/vss-manage-alerts",
   "name": "vss-manage-alerts",
   "description": "Use for VSS alert workflows — real-time monitoring, Alert-Bridge subscriptions, Slack notifications, incident queries, camera onboarding. Not for non-alert analytics.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-manage-alerts/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-manage-alerts/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/vss-manage-alerts/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/vss-manage-alerts/metadata.json",
   "bundleHash": "sha256-76b23118d5f082bbd6b85cf80913d84079b5a60ed00f4a2de55e6865cdcfca31",
   "merkleLeaf": "sha256-326e5c53832d5187163073505d64b79bd4a350f371570ad68cb53dff7d253e08",
   "files": [
@@ -69,7 +69,7 @@
       "sha256": "sha256-6c7254848e512b5a0ad006919d99488ba80755f2fa22fa8dea7089e427348a28"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

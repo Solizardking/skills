@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-customize-uphy",
   "name": "jetson-customize-uphy",
   "description": "Configure Jetson UPHY lane allocation (uphy0/uphy1-config) on Orin/Thor custom carriers. Do NOT use for pinmux or PCIe-only edits.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-uphy/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-uphy/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-uphy/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-uphy/metadata.json",
   "bundleHash": "sha256-c9921d60e50aa8371e3d660c81a33c07f75845eb0668ebad964b26c1ccc86210",
   "merkleLeaf": "sha256-bd9e8167879edfc2ddb78f99f6f9d524c49dcc96c6c8c35dc21e6d394d5dae73",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-c45e3101ce2df737a1fd618f12929bc1393711c6b3ffcf5d243d80a787390648"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

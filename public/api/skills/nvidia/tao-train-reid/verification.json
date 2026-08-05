@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-reid",
   "name": "tao-train-reid",
   "description": "Person re-identification (ReID). Learns discriminative embeddings to match the same person across different camera views, based on metric learning. Use when training, evaluating, exporting, or running inference for a TAO person re-identification model. Trigger phrases include \"train ReID\", \"person re-identification\", \"cross-camera person matching\", \"ReID embeddings\", \"person re-id\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-reid/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-reid/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-reid/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-reid/metadata.json",
   "bundleHash": "sha256-50dcbfdf51f6b24ca4785384675ac6de359c3d4918c18554e489adaadf0a1f4d",
   "merkleLeaf": "sha256-4900831a8eb682e25a956a288b445e1d165f763b153f8a4028e38418f5e775d2",
   "files": [
@@ -49,7 +49,7 @@
       "sha256": "sha256-ab663a79a6195d6358025acb1f6b701b4a9a892f92f7dec618ab6029b1619f0c"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

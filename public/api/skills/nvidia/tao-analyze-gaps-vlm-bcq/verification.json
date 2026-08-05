@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-analyze-gaps-vlm-bcq",
   "name": "tao-analyze-gaps-vlm-bcq",
   "description": "Extract false-positive and false-negative gaps from VLM binary-classification-question (BCQ, yes/no) predictions. Use when the user asks to \"analyze VLM BCQ gaps\", \"extract VLM false positives and false negatives\", or identify failure cases from a predictions JSON for DEFT root-cause analysis on a binary-classification VLM workflow.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-analyze-gaps-vlm-bcq/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-analyze-gaps-vlm-bcq/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-analyze-gaps-vlm-bcq/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-analyze-gaps-vlm-bcq/metadata.json",
   "bundleHash": "sha256-d65afeb35b0ce19a51b4df576fded6f23ca14f16d135508b72acd46a7c04f6cf",
   "merkleLeaf": "sha256-fda510c767007dcdefdedf6610d3198af658f4e29075b1a35ab876a0b2f5f3ee",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-37cb27168b97911952dfba707a49d4f457def4e25c31b51a9f8d005c1fee46f2"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

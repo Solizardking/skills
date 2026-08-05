@@ -3,8 +3,8 @@
   "slug": "nvidia/amc-run-sample-calibration",
   "name": "amc-run-sample-calibration",
   "description": "Run end-to-end calibration on the shipped sample dataset (sdg_08_2_sample_data_010926.zip) against a running AMC microservice. Use when user says 'test sample dataset', 'run sample calibration', 'verify AMC install', or 'launch and test'.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/amc-run-sample-calibration/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/amc-run-sample-calibration/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/amc-run-sample-calibration/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/amc-run-sample-calibration/metadata.json",
   "bundleHash": "sha256-cf19a1faa8f2958d3e01911d6943ba26bcc4c0c2132ed8969a374366de385867",
   "merkleLeaf": "sha256-729c873734e62c3a55762530d5399d5d3982aea153b01d6c198016e030fc91b8",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-2b546d918a6536c2dc86709d45c672be18b04450ed0e57fb5522c10f2a45b389"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

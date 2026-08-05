@@ -3,8 +3,8 @@
   "slug": "helius-skills/helius-jupiter",
   "name": "helius-jupiter",
   "description": "Build Solana DeFi applications combining Jupiter APIs with Helius infrastructure. Covers token swaps (Swap API V2), lending/borrowing (Lend protocol), limit orders (Trigger), DCA (Recurring), token/price data, transaction submission via Sender, fee optimization, real-time streaming, and wallet intelligence.",
-  "source": "https://skills.x402.wtf/api/skills/helius-skills/helius-jupiter/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/helius-skills/helius-jupiter/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/helius-skills/helius-jupiter/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/helius-skills/helius-jupiter/metadata.json",
   "bundleHash": "sha256-944eaf5a1ff49d8c95bc6678f0c07e4834aa9306cf0867b0e7ff301a7bccbccf",
   "merkleLeaf": "sha256-421cdaaea885d4610ae560923e9c990431cd25aaf9d14f7a6b1e467bb31f2410",
   "files": [
@@ -94,7 +94,7 @@
       "sha256": "sha256-b4305223458451f428a5a2918d7d4e47ca243d508669ab8937728bfdd1a4be4d"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "google/ads/google-mobile-ads/google-mobile-ads-get-started",
   "name": "google-mobile-ads-get-started",
   "description": "Provides instructions for integrating the Google Mobile Ads (GMA) SDK. Use this skill when the user wants to get started with, install, integrate, set up, or configure the SDK for AdMob or Ad Manager, GMA Next-Gen SDK or mobile ads framework in an Android, iOS, or Unity application.",
-  "source": "https://skills.x402.wtf/api/skills/google/ads/google-mobile-ads/google-mobile-ads-get-started/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/ads/google-mobile-ads/google-mobile-ads-get-started/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/ads/google-mobile-ads/google-mobile-ads-get-started/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/ads/google-mobile-ads/google-mobile-ads-get-started/metadata.json",
   "bundleHash": "sha256-277666d82511d8b9ab3d0c2edbf4c840c37c4dfea6bd2a102f52115157467463",
   "merkleLeaf": "sha256-a30ea9b3f71abd6e560f3722f34fa9f4ae84b395cb7a20141e5aee5d32b437c9",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-256c0114ed747d657bc73a70a72b50dfe861086145a295488cae79f43c8b2e58"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/digital-health-clinical-asr-build",
   "name": "digital-health-clinical-asr-build",
   "description": "Stage 2 of the Clinical ASR Flywheel. Use when curating clinical terms, tagging IPA, and synthesizing a NeMo manifest. NOT for scoring (use /digital-health-clinical-asr-eval).",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/digital-health-clinical-asr-build/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/digital-health-clinical-asr-build/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/digital-health-clinical-asr-build/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/digital-health-clinical-asr-build/metadata.json",
   "bundleHash": "sha256-883145fe848f335f898a3cbaaa4f35192616c779434ad572e9c947e3d54ad294",
   "merkleLeaf": "sha256-9f6fb41f789625ecf4da56a6fd8a4971a5c202916a33e30aae2e952bc5b894fd",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-05d528c2abbaf727594808b28ca3fa1a0ff1c97956cfffac9c8bac5a4fed3757"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-customize-mgbe",
   "name": "jetson-customize-mgbe",
   "description": "Enable Jetson Thor 25G/10G/1G MGBE QSFP via kernel-DT overlay. Do NOT use for UPHY lane allocation or ODMDATA edits.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-mgbe/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-mgbe/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-mgbe/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-mgbe/metadata.json",
   "bundleHash": "sha256-f531280146d863042e25619625ba2a7d0aefa0c00f80d1b8fa2d59b128c620a8",
   "merkleLeaf": "sha256-ccc0eb048516de93b9720031d2be2e21c608b9480e5d2c81b126db30c28b3851",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-745ab5cab97e54fab80e20ef46f1987b00c472645065209628b5992979ebc71e"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

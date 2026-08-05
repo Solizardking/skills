@@ -3,8 +3,8 @@
   "slug": "nvidia/nemotron-policy-generator",
   "name": "nemotron-policy-generator",
   "description": "Generates BYO custom safety policies for NVIDIA Nemotron content-safety guardrails — Nemotron-Content-Safety-Reasoning-4B (text) and multimodal Nemotron-3-Content-Safety. Produces a Markdown policy, JSON taxonomy, and drop-in inference prompts. Maps rough words or an existing policy to V2 categories, adding custom categories or topic-following rules.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemotron-policy-generator/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemotron-policy-generator/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemotron-policy-generator/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemotron-policy-generator/metadata.json",
   "bundleHash": "sha256-388dcee42fb2cac5a9e6fd7a951dc366ba92f2cf8fadee96fec0a66d61d2a613",
   "merkleLeaf": "sha256-a7dde8c0c3884852cceac1cad7c59be4284e18efd2132e1dcf1c265b4ac0f8e9",
   "files": [
@@ -59,7 +59,7 @@
       "sha256": "sha256-5c9cb78cca6b5afa24742d4f387f13b34b4de63b4cf0d911ea6a569da036626d"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

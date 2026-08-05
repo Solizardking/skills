@@ -3,8 +3,8 @@
   "slug": "nvidia/data-designer",
   "name": "data-designer",
   "description": "Use when the user wants to create a dataset, generate synthetic data, or build a data generation pipeline with the standalone Data Designer skill.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/data-designer/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/data-designer/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/data-designer/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/data-designer/metadata.json",
   "bundleHash": "sha256-8707f8387248077768c99821fc9787dd21d28af1db7a3e074721a9e17fd13e55",
   "merkleLeaf": "sha256-d5d3d60af6bda7c1cbab203f95600b083cb361fda2c8d0ede6386581df2b764f",
   "files": [
@@ -44,7 +44,7 @@
       "sha256": "sha256-d28f732c82573c3f3913cecfd4658583d431505ea94ca16e95be13bdda818fca"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

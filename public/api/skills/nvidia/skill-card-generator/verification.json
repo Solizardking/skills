@@ -3,8 +3,8 @@
   "slug": "nvidia/skill-card-generator",
   "name": "skill-card-generator",
   "description": "Use only to generate or update a governance skill card for a specified existing agent skill directory. Do not use for explaining, listing, comparing, or discussing skill capabilities.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/skill-card-generator/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/skill-card-generator/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/skill-card-generator/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/skill-card-generator/metadata.json",
   "bundleHash": "sha256-65ef74590e5a415ff481f853d0941a66b9b2535d50748126872fe0f152c57644",
   "merkleLeaf": "sha256-819d493bb4dd00ac864419c4adbd5110e82a6690f3248507e52cb05befaf91fb",
   "files": [
@@ -59,7 +59,7 @@
       "sha256": "sha256-42012d124c5d974674015f1eca88a4d13a211fe16fc7d0a0c37f5d869d057cfa"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

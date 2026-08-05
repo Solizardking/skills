@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-init-target",
   "name": "jetson-init-target",
   "description": "Author a new Jetson target-platform profile (reference_devkit + optional custom_carrier) and update the active pointer. Use to create a target; not for switching existing profiles.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-init-target/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-init-target/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-init-target/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-init-target/metadata.json",
   "bundleHash": "sha256-ae6c45be5941f13c6099b23f84424c837005405768fe636b25256f7993befb88",
   "merkleLeaf": "sha256-750ffb3e6057dc1712a04d693550a3a0736f2b4318137bd6792a565031fdd729",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-6e619a90d06ce26e90fdb6a37b5a53aa48be81b3ff38cc95d34187bc8980c2f9"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

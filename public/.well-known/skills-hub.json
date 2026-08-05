@@ -1,7 +1,9 @@
 {
-  "name": "Skill Hub — skills.x402agent.io",
+  "name": "Skill Hub — skills.x402.wtf",
   "url": "https://skills.x402agent.io",
   "aliases": [
+    "https://skills.x402agent.io",
+    "https://hub.x402agent.io",
     "https://skills.x402agent.io",
     "https://hub.x402agent.io",
     "https://skills.x402.wtf",
@@ -60,19 +62,19 @@
     ]
   },
   "endpoints": {
-    "ui": "https://skills.x402.wtf/skills",
-    "catalog": "https://skills.x402.wtf/api/skills.json",
-    "catalogIndex": "https://skills.x402.wtf/api/skills",
-    "monetization": "https://skills.x402.wtf/api/monetization.json",
-    "commerceKitIntegration": "https://skills.x402.wtf/integrations/commerce-kit-payment-button.tsx",
-    "skillMetadata": "https://skills.x402.wtf/api/skills/{skill}/metadata.json",
-    "skillSource": "https://skills.x402.wtf/api/skills/{skill}/SKILL.md",
-    "skillVerification": "https://skills.x402.wtf/api/skills/{skill}/verification.json",
-    "onchainRegistry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
-    "submissions": "https://skills.x402.wtf/api/submissions.json",
-    "onchainSummary": "https://skills.x402.wtf/api/onchain.json",
-    "publish": "https://skills.x402.wtf/publish",
-    "submissionsUi": "https://skills.x402.wtf/submissions"
+    "ui": "https://skills.x402agent.io/skills",
+    "catalog": "https://skills.x402agent.io/api/skills.json",
+    "catalogIndex": "https://skills.x402agent.io/api/skills",
+    "monetization": "https://skills.x402agent.io/api/monetization.json",
+    "commerceKitIntegration": "https://skills.x402agent.io/integrations/commerce-kit-payment-button.tsx",
+    "skillMetadata": "https://skills.x402agent.io/api/skills/{skill}/metadata.json",
+    "skillSource": "https://skills.x402agent.io/api/skills/{skill}/SKILL.md",
+    "skillVerification": "https://skills.x402agent.io/api/skills/{skill}/verification.json",
+    "onchainRegistry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+    "submissions": "https://skills.x402agent.io/api/submissions.json",
+    "onchainSummary": "https://skills.x402agent.io/api/onchain.json",
+    "publish": "https://skills.x402agent.io/publish",
+    "submissionsUi": "https://skills.x402agent.io/submissions"
   },
   "skillsSh": {
     "install": "npx skills add Solizardking/skills",
@@ -81,14 +83,12 @@
   "verification": {
     "chain": "solana",
     "status": "anchor-ready",
-    "merkleRoot": "sha256-3232172cd852237bc775ead1e6b7083109d8e8a621f05415cae05b8213d7a9f4",
+    "merkleRoot": "sha256-756d590156eb3a22f17dabe8d99cc21cd8b9d40ba5c9965996c66b477b3ff3f6",
     "catalogHash": "sha256-e9a98c6339fd6390b00a46063220a64c44d68cc5b495cb7b7704c6dad4b29103"
   },
   "monetization": {
     "onchain": "Solana Pay tip URI per skill card",
     "offchain": "Optional checkout URL carried in api/monetization.json",
     "commerceKit": "@solana-commerce/kit PaymentButton integration"
-  },
-  "portal": "https://hub.x402agent.io",
-  "product": "https://x402agent.io"
+  }
 }

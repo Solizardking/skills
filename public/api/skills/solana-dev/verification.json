@@ -3,8 +3,8 @@
   "slug": "solana-dev",
   "name": "solana-dev",
   "description": "Use when user asks to \"build a Solana dapp\", \"write an Anchor program\", \"create a token\", \"debug Solana errors\", \"set up wallet connection\", \"test my Solana program\", \"deploy to devnet\", or \"explain Solana concepts\" (rent, accounts, PDAs, CPIs, etc.). Also use for quick on-chain lookups via public RPC + curl — \"what's the balance of <wallet>\", \"look up transaction <sig>\", \"token balance for <account>\", \"check this address on mainnet/devnet\". End-to-end Solana development playbook covering wallet connection, Anchor/Pinocchio programs, Codama client generation, LiteSVM/Mollusk/Surfpool testing, security checklists, and JSON-RPC curl lookups against public clusters. Integrates with the Solana MCP server for live documentation search. Prefers framework-kit (@solana/client + @solana/react-hooks) for UI, wallet-standard-first connection (incl. ConnectorKit), @solana/kit for client/RPC code, and @solana/web3-compat for legacy boundaries.",
-  "source": "https://skills.x402.wtf/api/skills/solana-dev/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/solana-dev/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/solana-dev/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/solana-dev/metadata.json",
   "bundleHash": "sha256-cc6d05277bf9940d99caa6866cc5799d1774d9457265ea29930141e5edd8fc3c",
   "merkleLeaf": "sha256-80bc1612fe2877d21f15c1b6698434931becc8760c50b5f208987f2db70de8a7",
   "files": [
@@ -159,7 +159,7 @@
       "sha256": "sha256-6d1ca70841b5c774811b51e805e9beaaf5dfa2edae3919563195de085c4cc775"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-foundation-stereo",
   "name": "tao-train-foundation-stereo",
   "description": "Stereo depth estimation using FoundationStereo. Predicts disparity maps from stereo image pairs for 3D reconstruction. Use when training, evaluating, exporting, or running inference for a TAO FoundationStereo model. Trigger phrases include \"train stereo depth\", \"FoundationStereo\", \"stereo disparity estimation\", \"3D reconstruction from stereo\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-foundation-stereo/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-foundation-stereo/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-foundation-stereo/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-foundation-stereo/metadata.json",
   "bundleHash": "sha256-2893be91be9876dccb15e36de51154dc83c12f47a8c240afdaad39b59ae34e80",
   "merkleLeaf": "sha256-26321dc88610d78d295c0039a72574840d370614cc9bfd8f3e94b2cf6957d5a5",
   "files": [
@@ -94,7 +94,7 @@
       "sha256": "sha256-5d94639a2328e3277e0178a7e37b41246263aa97eba5280034a54d4649d39a5f"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "anthropic-skills/frontend-design",
   "name": "frontend-design",
   "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
-  "source": "https://skills.x402.wtf/api/skills/anthropic-skills/frontend-design/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/anthropic-skills/frontend-design/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/anthropic-skills/frontend-design/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/anthropic-skills/frontend-design/metadata.json",
   "bundleHash": "sha256-15bf8696337772ebcaaf5b43feffb81d254c7d66c0f3cc64f7595e7edc09f5c6",
   "merkleLeaf": "sha256-e3fda3c3fb0af1b9dc9cfd8418dacc93e962754758edef7355586aade7dfca10",
   "files": [
@@ -14,7 +14,7 @@
       "sha256": "sha256-1608ea77fbb6fc30d13a97d12cfa8ebf31358d40f0dd97beed24829d6b3f45dd"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

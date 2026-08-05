@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-mbridge-multi-node-slurm",
   "name": "nemo-mbridge-multi-node-slurm",
   "description": "Convert single-node scripts to multi-node Slurm sbatch jobs and debug common multi-node failures. Covers srun-native vs uv run torch.distributed approaches, container setup, NCCL timeouts, OOM sizing for MoE models, and interactive allocation.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-multi-node-slurm/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-multi-node-slurm/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-multi-node-slurm/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-multi-node-slurm/metadata.json",
   "bundleHash": "sha256-d1ef0455ecadd6b17d60e9fa482640d14a898c2677dbcca2c38d918b3a02ba4b",
   "merkleLeaf": "sha256-5d56f311cf0186f05e57976c5195198a65b03d9f28704fb475a691146df51661",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-1755991a2310d06d8a98d8576b14ce7e8b14c6bddb0901c4a1eb11350be64535"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

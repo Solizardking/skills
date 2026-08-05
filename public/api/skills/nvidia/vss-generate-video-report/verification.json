@@ -3,8 +3,8 @@
   "slug": "nvidia/vss-generate-video-report",
   "name": "vss-generate-video-report",
   "description": "Use this skill when producing a VSS analysis report — Mode A per-clip VLM, Mode B incident-range via video-analytics. Not for standalone video summarization, real-time alerts or ad-hoc Q&A.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-generate-video-report/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-generate-video-report/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/vss-generate-video-report/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/vss-generate-video-report/metadata.json",
   "bundleHash": "sha256-05e45aae83e6e389f4261e6e1d4440405fe11f998f3de1d6a8a628eddde59170",
   "merkleLeaf": "sha256-358acd80e7811908d30d23ec17a37f035c02d39e4c7beaebffd343f23ee4a0c7",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-a1797fea072a349564c99439fa27bc6363c5e7bd36362d92be9d69cf5a73fa46"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

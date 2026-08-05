@@ -3,8 +3,8 @@
   "slug": "nvidia/digital-health-clinical-asr-eval",
   "name": "digital-health-clinical-asr-eval",
   "description": "Stage 3 of Clinical ASR Flywheel. Score a NeMo manifest, produce the five-section KER leaderboard (by-ipa_source diagnostic). Not for ASR auth (/riva-asr).",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/digital-health-clinical-asr-eval/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/digital-health-clinical-asr-eval/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/digital-health-clinical-asr-eval/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/digital-health-clinical-asr-eval/metadata.json",
   "bundleHash": "sha256-e975146b1f93f8f409087d50c08a5afc035c9bbf3fe3ed84352f2c59f57a0775",
   "merkleLeaf": "sha256-f3b2538631a9d22d00c9d71bf62681c26804d0972b8d4dd9c09d8a1e630ccaec",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-7c333c676b23b18430f0bb661baac39e89932cb6a347bb35f16fb2ee057aca65"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

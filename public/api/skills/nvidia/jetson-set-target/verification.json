@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-set-target",
   "name": "jetson-set-target",
   "description": "Switch the active Jetson target-platform pointer to an existing profile YAML. Use before customize/build/flash to change target; not for authoring profiles — use jetson-init-target instead.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-set-target/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-set-target/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-set-target/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-set-target/metadata.json",
   "bundleHash": "sha256-ec284820897ad1aa4cad1e009d032aa21c8e09e9a30d7f02c2bda062996a8003",
   "merkleLeaf": "sha256-4919f2021428466546d86e1b43ec89a0d9edf24c60f5f456c6b3ce242d2d4cc2",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-4f4747241b1a8ece25a4671003972e2d282436479087fdf63038ab0d8e141665"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

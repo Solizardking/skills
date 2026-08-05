@@ -3,8 +3,8 @@
   "slug": "nvidia/rag-blueprint",
   "name": "rag-blueprint",
   "description": "NVIDIA RAG Blueprint — deploy, configure, troubleshoot, and manage. Handles any RAG action: deploy, install, start, enable, disable, toggle, change, configure, troubleshoot, debug, fix, shutdown, stop, or tear down any RAG feature or service (Agentic RAG, VLM, guardrails, query rewriting, models, search, ingestion, observability, summarization, reasoning, and more).",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/rag-blueprint/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/rag-blueprint/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/rag-blueprint/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/rag-blueprint/metadata.json",
   "bundleHash": "sha256-14d5f25cb20de90f11491edbe9fbc628c2bc119a7118c38438654c85bb026fd7",
   "merkleLeaf": "sha256-8195c1dd4e0fae6b1d59727b3d5e083326e6c2beba7f505b0106d36e228008c9",
   "files": [
@@ -184,7 +184,7 @@
       "sha256": "sha256-7167ef6b9d4f30ffe47b698ae7fdf9f0beafe4ea9a75752a056d0e4f03d6e51b"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

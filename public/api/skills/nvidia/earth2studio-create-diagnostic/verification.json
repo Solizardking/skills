@@ -3,10 +3,10 @@
   "slug": "nvidia/earth2studio-create-diagnostic",
   "name": "earth2studio-create-diagnostic",
   "description": "Create Earth2Studio diagnostic model wrappers for single-step data transformations, including simple derived diagnostics, packaged AutoModel diagnostics, and generative or diffusion diagnostics. Do NOT use for prognostic time-stepping models, data sources, or installation.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-create-diagnostic/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-create-diagnostic/metadata.json",
-  "bundleHash": "sha256-ae77de7d7866dcbf93b753b39b08e57d84f3f18993eb4b1769eb1eff21700e13",
-  "merkleLeaf": "sha256-c1603d27f75b880b2227eb85b022c50dd77ae402d6921b1c3e4a6e99e8ab711f",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/earth2studio-create-diagnostic/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/earth2studio-create-diagnostic/metadata.json",
+  "bundleHash": "sha256-17af10352a1859fd5e2bfabb8c0ab46e0b20cfb4cc42531b36fa0f618c556028",
+  "merkleLeaf": "sha256-d6a2f3caa09fb58d6145c0c3aa0f00f05dc6ae0914c7d73a85ba974e5791c938",
   "files": [
     {
       "path": "BENCHMARK.md",
@@ -15,8 +15,8 @@
     },
     {
       "path": "references/method-templates.py",
-      "bytes": 5964,
-      "sha256": "sha256-35d8246bf98567dcf40dc4e3c9f8567e3d7b92c8c9387c32f28411152661eda9"
+      "bytes": 5963,
+      "sha256": "sha256-f43835e2be5e3ec32b24330d195c073b0f813ba1961ee34fc0fb8fb6352f6878"
     },
     {
       "path": "references/pr-body-template.md",
@@ -54,7 +54,7 @@
       "sha256": "sha256-b0f40d4eba51ff492da4d515f67abacf5422572f36425121c3813fe37994a6f2"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

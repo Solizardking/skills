@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-grounding-dino",
   "name": "tao-train-grounding-dino",
   "description": "Grounding DINO for open-set object detection. Combines DINO-style detection with a BERT text encoder for language-guided detection — detects objects described by text prompts without a fixed class vocabulary. Use when training, evaluating, exporting, quantizing, or running inference for a TAO Grounding DINO model. Trigger phrases include \"train Grounding DINO\", \"open-vocabulary detection\", \"text-prompted detector\", \"language-guided object detection\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-grounding-dino/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-grounding-dino/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-grounding-dino/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-grounding-dino/metadata.json",
   "bundleHash": "sha256-89878fd20061cd036aead0279fdc4fb704068cdffb5c094bda57f079e977733b",
   "merkleLeaf": "sha256-945d854abf898031464c6fd6df944255299cf3294927149ee525a33f792baed2",
   "files": [
@@ -84,7 +84,7 @@
       "sha256": "sha256-4fc99d44184a9d15036e296cde59f124edd3428875d38a91e5f9a2a0a0f6f35d"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

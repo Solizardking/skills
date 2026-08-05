@@ -3,8 +3,8 @@
   "slug": "nvidia/deepstream-dev",
   "name": "deepstream-dev",
   "description": "NVIDIA DeepStream SDK 9.0 development with Python pyservicemaker API. Use when building video analytics pipelines, GStreamer-based video processing, TensorRT inference integration, object detection/tracking, or Kafka/message broker integration.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/deepstream-dev/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/deepstream-dev/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/deepstream-dev/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/deepstream-dev/metadata.json",
   "bundleHash": "sha256-2b3b6993883b4cdbea1d33001d47af90bb1da59c944a6dacacac70d850d6c336",
   "merkleLeaf": "sha256-fc7263a0a6ab2037736661781cb2d4b1ee4fcd90997e57ee1c5fb47baf018f3e",
   "files": [
@@ -94,7 +94,7 @@
       "sha256": "sha256-0c663a88e8e57f2a9ceecb48a568eeb02ffbab7d368c26c6a7fed8552e59a807"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-deformable-detr",
   "name": "tao-train-deformable-detr",
   "description": "Deformable DETR for 2D object detection. Uses deformable attention for efficient multi-scale feature processing, lighter than DINO with competitive accuracy. Use when training, evaluating, exporting, quantizing, or running inference for a TAO Deformable-DETR model. Trigger phrases include \"train deformable-detr\", \"Deformable DETR object detection\", \"lightweight DETR detector\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-deformable-detr/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-deformable-detr/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-deformable-detr/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-deformable-detr/metadata.json",
   "bundleHash": "sha256-133e1c7d4e544177be743c0b61cf3c6ed2454df84d0c619921bd4b7fc82a27cc",
   "merkleLeaf": "sha256-f88407753cd17ad57a2630da7ab2e0d1aba8ad10308e62132717651ac7ff39aa",
   "files": [
@@ -84,7 +84,7 @@
       "sha256": "sha256-598c358d2a2a7c58dc44b460d32ef65968f39e19c7bd7a9f6de82faf771f97b1"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-mbridge-perf-megatron-fsdp",
   "name": "nemo-mbridge-perf-megatron-fsdp",
   "description": "Operational guide for enabling Megatron FSDP in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-megatron-fsdp/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-megatron-fsdp/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-perf-megatron-fsdp/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-perf-megatron-fsdp/metadata.json",
   "bundleHash": "sha256-04e1ab28637f31f88362d69c1e989a9270e6772fc5dcdfb41afbc63cc9a9db32",
   "merkleLeaf": "sha256-07feb36dec1eb97f326f25502905af327597505a271a227f1d4bb3b76e4802b0",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-1fdbfd0eaac5bb3b1aa8eeaac5b969195426d82378a4f74383e297be2f60b409"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

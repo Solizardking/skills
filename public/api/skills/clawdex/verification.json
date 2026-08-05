@@ -3,8 +3,8 @@
   "slug": "clawdex",
   "name": "clawdex",
   "description": "Clawdex — dual-engine coding agent. Claude Code (reasoning + planning) + OpenAI Codex (fast execution) + Browser Use boxes (web research) + Upstash compute boxes (isolated sandboxes).",
-  "source": "https://skills.x402.wtf/api/skills/clawdex/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/clawdex/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/clawdex/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/clawdex/metadata.json",
   "bundleHash": "sha256-7c86ed703602179b5dc784ef9d198cd5af8f18b9fbf1161631d163e8056daad2",
   "merkleLeaf": "sha256-50e61791d9f08369652a813ffe15a3cc686c00e191ba974bac9bf5ef55d3dd58",
   "files": [
@@ -14,7 +14,7 @@
       "sha256": "sha256-eb8b30b6b5a594837dfeb9cd5738bb244efcbc7c42ab0a0691df7a697ff163ab"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

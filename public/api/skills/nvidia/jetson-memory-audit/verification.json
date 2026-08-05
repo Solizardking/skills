@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-memory-audit",
   "name": "jetson-memory-audit",
   "description": "Measure Jetson DRAM/NvMap usage and verify before/after memory reclamation with live audit data.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-memory-audit/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-memory-audit/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-memory-audit/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-memory-audit/metadata.json",
   "bundleHash": "sha256-4e5b9ecf76e9912c534d7a8fa9204a60b57d117adf74972863902cb4c63cc314",
   "merkleLeaf": "sha256-499e17c688ac67d22f5baa17661fb4a913dd93551b7bdcf3f10c3468c6bc38b2",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-c751cb62c4a6b4ac4286528dff868d3266184ee7bd91ec6de818d456bb538cdd"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

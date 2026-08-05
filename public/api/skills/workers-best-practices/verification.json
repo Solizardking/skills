@@ -3,8 +3,8 @@
   "slug": "workers-best-practices",
   "name": "workers-best-practices",
   "description": "Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing Worker code, configuring wrangler.jsonc, or checking for common Workers anti-patterns (streaming, floating promises, global state, secrets, bindings, observability). Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
-  "source": "https://skills.x402.wtf/api/skills/workers-best-practices/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/workers-best-practices/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/workers-best-practices/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/workers-best-practices/metadata.json",
   "bundleHash": "sha256-affe500721d3c8c1cfeeb82e4ec93f45703f6e801e1836f413f3066759e55b56",
   "merkleLeaf": "sha256-cef461120fa26c23033332f2f8d667693d2e25f4f6523c1712f3330a49caa91a",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-099432ff265ff6080327ef0b392c118b835d2a5bda98a7de07e1afd115ed6458"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

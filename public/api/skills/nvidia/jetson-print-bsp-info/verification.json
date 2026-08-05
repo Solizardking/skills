@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-print-bsp-info",
   "name": "jetson-print-bsp-info",
   "description": "Use when you need to print Jetson BSP info (L4T version, board configs, rootfs state) from a Linux_for_Tegra root on the host PC. This is an example skill.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-print-bsp-info/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-print-bsp-info/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-print-bsp-info/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-print-bsp-info/metadata.json",
   "bundleHash": "sha256-08586c985815388dcbf63892360702b99ff66fbdbe84dfac54367eb5330ec656",
   "merkleLeaf": "sha256-88358f805d7ee733257458028a5ffca34c9894d2a51d3f4bbf53836c9459756b",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-6b7890c7a2c0757f598c54032aa19e239e1f543db03d325782f4e9dd14e6bdaa"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

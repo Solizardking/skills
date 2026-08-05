@@ -3,8 +3,8 @@
   "slug": "nvidia/nemotron-speech",
   "name": "nemotron-speech",
   "description": "Routes NVIDIA Nemotron Speech (Riva) NIM tasks — deploys, runs, and tests ASR, TTS, and NMT NIMs on build.nvidia.com or self-hosted.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemotron-speech/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemotron-speech/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemotron-speech/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemotron-speech/metadata.json",
   "bundleHash": "sha256-7c3014aa9c8a295b2434d234a0abca61066250a0162a99b4bcd945c24d9f172d",
   "merkleLeaf": "sha256-a264d7483a82b8b9103d140c2bd781a3d096a451ba703df85268c63e82635886",
   "files": [
@@ -69,7 +69,7 @@
       "sha256": "sha256-43a87d9c64a5de684f06c3cd571aab128d943a352cd4a3a153d60181e7ac8800"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

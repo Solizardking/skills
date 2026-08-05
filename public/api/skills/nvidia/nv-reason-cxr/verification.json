@@ -3,8 +3,8 @@
   "slug": "nvidia/nv-reason-cxr",
   "name": "nv-reason-cxr",
   "description": "Used for command-shape or live NV-Reason-CXR chest X-ray reasoning smoke tests. Not for diagnosis or clinical reporting.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nv-reason-cxr/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nv-reason-cxr/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nv-reason-cxr/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nv-reason-cxr/metadata.json",
   "bundleHash": "sha256-e646a1dda72ecd1aae352d6a7bcdf304dfdd6afdf4b12543f6fcd16eddf56fcb",
   "merkleLeaf": "sha256-dd52fb099bac2abd6345a755ed0b9e45c8133db0f1393544363664e9ff4e9dc3",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-4fc7afa15551a6cb0dc1e4b7b201538e70fa8d96f548cd41ccb53c510dab3d75"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

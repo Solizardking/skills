@@ -3,8 +3,8 @@
   "slug": "nvidia/earth2studio-discover",
   "name": "earth2studio-discover",
   "description": "Find Earth2Studio models, data sources, and examples for a weather/climate use case. Do NOT use for writing inference code, downloading data, or installation.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-discover/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-discover/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/earth2studio-discover/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/earth2studio-discover/metadata.json",
   "bundleHash": "sha256-27346a66bbeaf0e8170adacd7c508c0914db3e0a7c01e12a161f2ae746ce6887",
   "merkleLeaf": "sha256-bfa87a67ed37a76191515016c01388dc13d8e2b1a9ac0bfb444af22e7880470e",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-e9f400c95db84a682aa3f2db4e2579950422794836ffb6ce450658cd4edd9739"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

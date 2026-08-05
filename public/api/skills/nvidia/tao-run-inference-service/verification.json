@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-run-inference-service",
   "name": "tao-run-inference-service",
   "description": "Start, query, and stop a network-specific TAO inference microservice ({network_arch}-inference-microservice) by delegating container execution to the appropriate platform skill. Handles container image resolution, job-payload JSON construction, and the service registry. Use when the user wants to run inference on a TAO model checkpoint using a microservice container, deploy a TAO inference endpoint, or stop a running inference container.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-inference-service/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-inference-service/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-run-inference-service/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-run-inference-service/metadata.json",
   "bundleHash": "sha256-050ac739efeb5e43eb9f5aebd221bc0c3e2072d30f4e0ef41d017ed2fa3059a9",
   "merkleLeaf": "sha256-a81cf43dcd224668242613c5dd89893c5be954b2fd7ee67dcbc6163f2b3e5282",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-5e01da036218ee83340b662cf5a5b51f9512be0554430ed308611ad3777e4212"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

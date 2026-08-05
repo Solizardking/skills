@@ -3,8 +3,8 @@
   "slug": "google/analytics/google-analytics-admin-api-basics",
   "name": "google-analytics-admin-api-basics",
   "description": "Manages Google Analytics account and property settings, enables the Analytics Admin API via the Cloud CLI, lists accounts and properties, and manages data streams, custom dimensions, conversion events, and integrations. Use when you need to programmatically configure Google Analytics accounts, provision properties, manage data retention, configure Measurement Protocol secrets, or manage Firebase and Google Ads links.",
-  "source": "https://skills.x402.wtf/api/skills/google/analytics/google-analytics-admin-api-basics/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/analytics/google-analytics-admin-api-basics/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/analytics/google-analytics-admin-api-basics/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/analytics/google-analytics-admin-api-basics/metadata.json",
   "bundleHash": "sha256-2c19942a695d993c2b1d809350f2329fd05e6c843be791ece9eb70927189c5c9",
   "merkleLeaf": "sha256-9888fe580462d55798aa2d377752926002b9a7a2d8432a51d64e351f5f57d462",
   "files": [
@@ -49,7 +49,7 @@
       "sha256": "sha256-3789b6a1fa832b8f2bf0f4049e6ac0ac647313ea8d0df8c31e74f0b9a0a464c2"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

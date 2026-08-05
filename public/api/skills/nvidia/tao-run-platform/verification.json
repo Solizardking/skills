@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-run-platform",
   "name": "tao-run-platform",
   "description": "TAO Execution SDK for submitting and monitoring GPU training jobs on supported platforms (Brev, SLURM, local Docker, Kubernetes). Use when the user wants to run TAO jobs through the SDK, get job tracking, S3 I/O wrapping, multi-node distributed training, or platform-specific features that docker-run can't provide. Trigger phrases include \"use the TAO SDK\", \"call tao_sdk\", \"AutoMLRunner\", \"ActionWorkflow\", \"Job handles\", \"S3 I/O wrapping\", \"TAO platform run\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-platform/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-platform/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-run-platform/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-run-platform/metadata.json",
   "bundleHash": "sha256-efb99c89143ae7842885059b157cc5e70cf3dcee9bfdd9e25613e5ed0d7fcab6",
   "merkleLeaf": "sha256-5b910c65c091c903dcb64f5017b9110241341e44159259cc340884ac8a8f062e",
   "files": [
@@ -49,7 +49,7 @@
       "sha256": "sha256-db8066b3c8f36ce4dfca7f0949f568fb65485715c95f0b05c52b9b42e3a2806a"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

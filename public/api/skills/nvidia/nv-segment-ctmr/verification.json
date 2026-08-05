@@ -3,8 +3,8 @@
   "slug": "nvidia/nv-segment-ctmr",
   "name": "nv-segment-ctmr",
   "description": "Used for running NV-Segment-CTMR on CT or MRI NIfTI volumes and recording label-map evidence. Not for clinical interpretation.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nv-segment-ctmr/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nv-segment-ctmr/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nv-segment-ctmr/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nv-segment-ctmr/metadata.json",
   "bundleHash": "sha256-4a49db416a04e7deee14ad8c31ab07d4580f6d21d99e80e48d952a1ce728daa0",
   "merkleLeaf": "sha256-d11b1e4b92ee8f773fad716c6ca9bb61c7747a78194269004c5589ebd5869837",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-b62e52d0b2250bcdcebba6d6ef2af6a201ab62cbdfb97929a378e3afb9f7a779"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

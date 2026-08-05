@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-finetune-clip",
   "name": "tao-finetune-clip",
   "description": "CLIP vision-language model for image-text retrieval, zero-shot classification, embedding extraction, ONNX export, and TensorRT deployment. Use when fine-tuning or training CLIP, running zero-shot classification, computing image embeddings, or deploying CLIP to ONNX/TensorRT.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-finetune-clip/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-finetune-clip/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-finetune-clip/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-finetune-clip/metadata.json",
   "bundleHash": "sha256-0bcd5d288331c4f5c8f3409fe113c279eb493afd20a7a53cf46a2c9d450a4783",
   "merkleLeaf": "sha256-c7ddc7323796425f4132e919311b439aa353dab43d15b9d5c7810d8cc0986205",
   "files": [
@@ -74,7 +74,7 @@
       "sha256": "sha256-999c59c01a2d5b9208a0d2889d9a080a6e23c9226ea09359c5c764ad3b967298"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

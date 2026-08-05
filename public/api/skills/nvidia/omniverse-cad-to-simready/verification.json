@@ -3,8 +3,8 @@
   "slug": "nvidia/omniverse-cad-to-simready",
   "name": "omniverse-cad-to-simready",
   "description": "Coordinate the end-to-end CAD/source-asset to SimReady workflow. Use for broad requests such as CAD to SimReady, source asset to simulation-ready USD, or prop packaging that require conversion, material/physics assignment, SimReady conformance, validation, and optional package creation; deploy or verify Content Agents services first when property assignment is enabled; route single-stage work through nested references.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/omniverse-cad-to-simready/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/omniverse-cad-to-simready/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/omniverse-cad-to-simready/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/omniverse-cad-to-simready/metadata.json",
   "bundleHash": "sha256-af948b9340c4bc52aa2dbf07c8a03065ac886c0d07a97e920710f7a63c6e9d6e",
   "merkleLeaf": "sha256-1a57fdadea265e064b99643c01a7f03017549d92de63a94decbaff732178241e",
   "files": [
@@ -594,7 +594,7 @@
       "sha256": "sha256-8ff34f478610613bd37aa19ce0c3b0fdc2352226ca561b831799fce4db069531"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

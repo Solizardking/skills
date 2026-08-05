@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-centerpose",
   "name": "tao-train-centerpose",
   "description": "CenterPose for keypoint / pose estimation. Detects object centers and regresses keypoint locations for 6-DoF object pose estimation. Use when training, evaluating, exporting, or running inference for a TAO CenterPose model. Trigger phrases include \"train CenterPose\", \"6-DoF object pose\", \"keypoint estimation\", \"object pose regression\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-centerpose/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-centerpose/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-centerpose/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-centerpose/metadata.json",
   "bundleHash": "sha256-cc3bba4b688382f47640a01b7a4c30b8e8986898e0dfcdffcceb4bf0ebdc030e",
   "merkleLeaf": "sha256-9c926399174499b49b8b11be16f2298bf05538ad495d069c7acd53fbffead69b",
   "files": [
@@ -79,7 +79,7 @@
       "sha256": "sha256-06deebe970bd301747e4185d227d77cbc3b1c0ba0c19e05ed3371b9ef5020dcb"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

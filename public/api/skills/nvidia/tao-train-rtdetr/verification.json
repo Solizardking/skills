@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-rtdetr",
   "name": "tao-train-rtdetr",
   "description": "RT-DETR (Real-Time DEtection TRansformer) for 2D object detection. Designed for real-time inference with competitive accuracy and supports distillation and quantization for deployment optimization. Use when training, evaluating, distilling, quantizing, exporting, or running inference for a TAO RT-DETR model. Trigger phrases include \"train RT-DETR\", \"real-time DETR\", \"low-latency object detection\", \"RT-DETR distillation / quantization\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-rtdetr/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-rtdetr/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-rtdetr/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-rtdetr/metadata.json",
   "bundleHash": "sha256-1788030108ddaee4bd636b4fd92d7052b06df9d8e1e3f49cbf550c9fd2f20a6a",
   "merkleLeaf": "sha256-19ae63006ea2d6f0a9697414a91ff370b529607c0f4af33593dfc90098da2b77",
   "files": [
@@ -84,7 +84,7 @@
       "sha256": "sha256-ad88a856a153898b0643600a54b3348448b7fa9cccafaadd1ebf532fdae2f39c"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

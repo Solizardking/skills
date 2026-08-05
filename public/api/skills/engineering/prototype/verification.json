@@ -3,8 +3,8 @@
   "slug": "engineering/prototype",
   "name": "prototype",
   "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
-  "source": "https://skills.x402.wtf/api/skills/engineering/prototype/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/engineering/prototype/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/engineering/prototype/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/engineering/prototype/metadata.json",
   "bundleHash": "sha256-92cbd6135305580e87b499db615570efbccb3f931a8319853e80453a423d621a",
   "merkleLeaf": "sha256-021a096fa7bb664f4b90882a9ef31c0779cb0cb01321645ed764e1ce5b39488e",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-e2ca04434be54acdee2f5df582ef8038fadf582bbcc99be0d2e27737ff8ed096"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

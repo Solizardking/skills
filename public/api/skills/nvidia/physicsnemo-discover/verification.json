@@ -3,8 +3,8 @@
   "slug": "nvidia/physicsnemo-discover",
   "name": "physicsnemo-discover",
   "description": "Official NVIDIA-authored guidance for navigating PhysicsNeMo — pick the model, datapipe, or example for a SciML/AI4Science task (surrogates, forecasting, downscaling, physics-informed, inverse, generative). Points at existing files via live repo search; never writes code. Do NOT use for installation or environment setup, training-loop or other code authoring/scaffolding, contributor/CI/packaging questions, repo-specific questions in physicsnemo-sym/-cfd/-curator, or general (non-physics) ML/PyTorch.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/physicsnemo-discover/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/physicsnemo-discover/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/physicsnemo-discover/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/physicsnemo-discover/metadata.json",
   "bundleHash": "sha256-1683480f74a919a7e95d2c5a099e68d3611bbbc050f748c57496a33f773d45f6",
   "merkleLeaf": "sha256-f1bd6b32aa66c65c701e6cfe31a36fb4ef8179d004474adeab2b9c7c41374d58",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-7ff4564485e94139d17c12552d8a2c2d57d7985297189f385692be62d71cfda2"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-finetune-huggingface-model",
   "name": "tao-finetune-huggingface-model",
   "description": "Fine-tune any HuggingFace CV / VLM / LLM model on local NVIDIA GPUs inside an NGC PyTorch container. Use when the user wants to fine-tune a HuggingFace model (full or LoRA), train a vision / VLM / LLM model end-to-end, generate a reproducible HF training pipeline, smoke-test a HuggingFace model locally before scale-up, push a fine-tuned model to the HF Hub with a model card, or emit a self-contained rerun skill for an existing HuggingFace finetune. Supports image classification, object detection, semantic / instance / panoptic segmentation, depth estimation, image-text-to-text VLM (SFT / LoRA), and LLM SFT / DPO / GRPO. Six-step workflow: inspect and qualify, hardware and NGC image, research, generate and smoke, train + eval + infer, push and emit rerun skill.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-finetune-huggingface-model/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-finetune-huggingface-model/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-finetune-huggingface-model/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-finetune-huggingface-model/metadata.json",
   "bundleHash": "sha256-b05f7e59349b070918fd24a459a20ed70504549a6f0aef8cf6faf095a680c349",
   "merkleLeaf": "sha256-a13264960ae11ecd6a1040d08393fbc40b979a59202fe4df010c9d90a55db888",
   "files": [
@@ -154,7 +154,7 @@
       "sha256": "sha256-2978c20a676877cdfc413fd4535173ae5194e45d94c345df80fb776a2f683a5c"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

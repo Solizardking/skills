@@ -3,8 +3,8 @@
   "slug": "nvidia/cuopt-server-api-python",
   "name": "cuopt-server-api-python",
   "description": "cuOpt REST server — start server, endpoints, Python/curl client examples. Use when the user is deploying or calling the REST API.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/cuopt-server-api-python/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cuopt-server-api-python/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/cuopt-server-api-python/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/cuopt-server-api-python/metadata.json",
   "bundleHash": "sha256-8903a7f9235cc46907b54eee23256bd8f8c4e69628ac3288e569bad510a4fcc7",
   "merkleLeaf": "sha256-4da9599376fb8c971e94bee4fd99052762c092414f4ba2e7e7c29b01e59d4283",
   "files": [
@@ -79,7 +79,7 @@
       "sha256": "sha256-9f7f191708079b7ea80f80c4e16cb0a03d1782c2bfa63808750e4ca50d38f119"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-data-designer-plugin",
   "name": "nemo-data-designer-plugin",
   "description": "Use when the user wants to create a dataset, generate synthetic data, or build a data generation pipeline via the NeMo Data Designer plugin.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-data-designer-plugin/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-data-designer-plugin/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-data-designer-plugin/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-data-designer-plugin/metadata.json",
   "bundleHash": "sha256-1dd427949b312ac45cd1c6406b137537ec690500849ace16efd6bcf6652d8e18",
   "merkleLeaf": "sha256-a39a2cbc1a16fd7f69e1d97c8ee5e1557252a34ab1b142b5fcb8e29015b6f249",
   "files": [
@@ -49,7 +49,7 @@
       "sha256": "sha256-c4b3be180abf0c8790394f45c2b65dc8fc7eeac929d1f0418f86572395a2526f"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

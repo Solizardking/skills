@@ -3,8 +3,8 @@
   "slug": "nvidia/physical-ai-people-attribute-search",
   "name": "physical-ai-people-attribute-search",
   "description": "Use when running people attribute search (PAS) image augmentation and auto-labeling workflows on OSMO: flow selection, preflight, submit-time interpolation, monitoring, and output retrieval. Trigger keywords: people attribute search, PAS, person augmentation, attribute search, person re-identification, clothing augmentation, person crop augmentation.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-people-attribute-search/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-people-attribute-search/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/physical-ai-people-attribute-search/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/physical-ai-people-attribute-search/metadata.json",
   "bundleHash": "sha256-076ea55b9cea276826bbab2307e23fbabf38d41f47d2af6d7e28ca0998229c82",
   "merkleLeaf": "sha256-9e6316cfc9db2606e17ab45f35a56e1d9dd58f4d573df82492ba922d93802d32",
   "files": [
@@ -114,7 +114,7 @@
       "sha256": "sha256-715af62336a1a799b5560c39065e9fce9ec36f8ad5c45c67d38d0672fd51a945"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

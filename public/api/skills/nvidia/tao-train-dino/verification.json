@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-dino",
   "name": "tao-train-dino",
   "description": "DINO (DETR with Improved DeNoising Anchor Boxes) for 2D object detection. Transformer-based detector with denoising training, multi-scale features, and optional distillation support. Use when training, evaluating, exporting, distilling, quantizing, or running inference for a TAO DINO detector. Trigger phrases include \"train DINO\", \"DETR object detection\", \"TAO 2D detection\", \"DINO with distillation\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-dino/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-dino/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-dino/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-dino/metadata.json",
   "bundleHash": "sha256-6db676d89670f23de8489d60a53b918b173904ab5915d01a326878097fa97e53",
   "merkleLeaf": "sha256-06a0a59df0881bc3f0ce0755a98446c7604eea1188241915798100ec6a67bcd2",
   "files": [
@@ -114,7 +114,7 @@
       "sha256": "sha256-173a6f2a59a0907dc0f8a53a21f0bdf6dc09859f152268c749348073c7fa375e"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

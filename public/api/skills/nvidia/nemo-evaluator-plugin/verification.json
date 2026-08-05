@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-evaluator-plugin",
   "name": "nemo-evaluator-plugin",
   "description": "Use when working on the Evaluator plugin CLI, jobs, SDK-backed specs, metric types, or plugin-owned Evaluator skills.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-evaluator-plugin/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-evaluator-plugin/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-evaluator-plugin/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-evaluator-plugin/metadata.json",
   "bundleHash": "sha256-2bb65056ce73f63ff1174945a1dca086dd1a6c406a6e1a1c05e32292d1a82223",
   "merkleLeaf": "sha256-246d13afdf8115e0cd088aa669bc338f1382c4109cce440e681332a1da93c540",
   "files": [
@@ -64,7 +64,7 @@
       "sha256": "sha256-7f83a416a1252c78f60a7ef3df5780beafef2a7069e037f408ffbf3f27b27d26"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

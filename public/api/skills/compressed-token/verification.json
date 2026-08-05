@@ -3,8 +3,8 @@
   "slug": "compressed-token",
   "name": "compressed-token",
   "description": "For compressed token operations on Solana ~400x cheaper than SPL: create mints with interface PDAs, mint, transfer, approve, revoke, compress, decompress, merge, and Token-2022 with compression. Compressed token accounts are always rent-free. @lightprotocol/compressed-token (TypeScript) with createRpc() from @lightprotocol/stateless.js.",
-  "source": "https://skills.x402.wtf/api/skills/compressed-token/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/compressed-token/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/compressed-token/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/compressed-token/metadata.json",
   "bundleHash": "sha256-ddb23c89184dab75cfe9ff84008dc81b908266c456b672f9797089ad4c82da88",
   "merkleLeaf": "sha256-473ad2bcd5bd28d2203f38c6d6080bded8411b282bb9c883b41f4b45a18d7665",
   "files": [
@@ -59,7 +59,7 @@
       "sha256": "sha256-7bb747507042b70b2a9887aa73427028538bb1022a3b509ed9420f2ca43a4751"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

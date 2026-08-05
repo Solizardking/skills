@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-fast-foundation-stereo",
   "name": "tao-train-fast-foundation-stereo",
   "description": "Real-time stereo depth estimation using FastFoundationStereo (FFS), the distilled bp2 commercial variant of FoundationStereo. Predicts disparity maps from stereo image pairs with ~10× lower latency than full FoundationStereo. Use when training, evaluating, exporting, or running inference for a TAO FastFoundationStereo (FFS) model. Trigger phrases include \"train fast stereo\", \"real-time stereo disparity\", \"FastFoundationStereo\", \"distilled stereo depth\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-fast-foundation-stereo/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-fast-foundation-stereo/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-fast-foundation-stereo/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-fast-foundation-stereo/metadata.json",
   "bundleHash": "sha256-557c93af014fd20a24970e7c916295e862b32ae58de81e1f24ce8d899af025d1",
   "merkleLeaf": "sha256-26d48dcfc578a677c5678bdf7ed481dc559c32aadc5de9227e7831bda99a77a7",
   "files": [
@@ -89,7 +89,7 @@
       "sha256": "sha256-e16dd07ae81e6df6453205affd482c3e34ce1e372d276b7f7c9054297bed3b5e"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

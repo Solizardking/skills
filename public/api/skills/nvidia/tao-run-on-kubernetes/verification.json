@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-run-on-kubernetes",
   "name": "tao-run-on-kubernetes",
   "description": "Kubernetes execution platform — submits TAO container jobs as single-pod k8s Jobs with NVIDIA GPU scheduling. Use when running on EKS / GKE / AKS / on-prem clusters with the NVIDIA GPU Operator installed, or when integrating TAO into an existing k8s-native ML platform.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-on-kubernetes/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-on-kubernetes/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-run-on-kubernetes/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-run-on-kubernetes/metadata.json",
   "bundleHash": "sha256-a2211a7524333ee6282c91239f024996133bb90f9cf934ae51bac93c839b8a86",
   "merkleLeaf": "sha256-ed41e94621b31504b96616ba373fd2b96619ed8fe41650bbca13c4bceb853409",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-2e9af900eca00ed56a36c411428395019c11436f24c8e3a798e05b2990762975"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

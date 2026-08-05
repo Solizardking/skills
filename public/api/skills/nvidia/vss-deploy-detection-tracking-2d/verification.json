@@ -3,8 +3,8 @@
   "slug": "nvidia/vss-deploy-detection-tracking-2d",
   "name": "vss-deploy-detection-tracking-2d",
   "description": "Use this skill when the user wants to deploy, run, debug, tear down, or call the REST API of the RTVI-CV 2D detection / tracking microservice. Trigger when the user says things like 'deploy rtvi-cv', 'start warehouse 2d', 'add a stream', 'check rtvi-cv health', or 'stop the perception container'. Not for VLM, embedding, or analytics — use the matching vss-* skill.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-detection-tracking-2d/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-detection-tracking-2d/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/vss-deploy-detection-tracking-2d/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/vss-deploy-detection-tracking-2d/metadata.json",
   "bundleHash": "sha256-ab199da363c29113d1599e6f5940e788c6bd141bf58192e1544a47d5516e77a8",
   "merkleLeaf": "sha256-525c1a6ac41af499593758b10b4e9febd9267903975b57e59bf142b9bfdc1d7d",
   "files": [
@@ -244,7 +244,7 @@
       "sha256": "sha256-30d596802847a95716cee2b75800b1177f88649cfdaa9290a1494ee42df69559"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

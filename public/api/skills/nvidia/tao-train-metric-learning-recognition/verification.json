@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-metric-learning-recognition",
   "name": "tao-train-metric-learning-recognition",
   "description": "Metric-learning recognition (ml-recog) for fine-grained visual recognition. Learns embeddings for retrieval-based matching (e.g., retail product recognition) using triplet / contrastive losses. Use when training, evaluating, exporting, or running inference for a TAO metric-learning recognition model. Trigger phrases include \"train metric learning\", \"ml-recog\", \"retrieval embeddings\", \"triplet loss recognition\", \"fine-grained matching\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-metric-learning-recognition/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-metric-learning-recognition/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-metric-learning-recognition/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-metric-learning-recognition/metadata.json",
   "bundleHash": "sha256-3cdff539389e1135a2d46d1bc0a2772cf858496e9af586283922c893523d1f46",
   "merkleLeaf": "sha256-704c56352b577d2c2d498026e707fcdd46000b551be74c82b801cbb44af1aba4",
   "files": [
@@ -79,7 +79,7 @@
       "sha256": "sha256-f73fa36177b22f11edbaa393bc156ee71e45dfd3b2876764de91423ca702c763"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

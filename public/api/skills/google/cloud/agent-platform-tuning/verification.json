@@ -3,8 +3,8 @@
   "slug": "google/cloud/agent-platform-tuning",
   "name": "agent-platform-tuning",
   "description": "Agent Platform Model Tuning. Use when you need to fine-tune open models or Gemini models using Agent Platform infrastructure. Don't use for model training outside Agent Platform, model deployment to endpoints (use `agent-platform-deploy`), or managing serving endpoints (use `agent-platform-endpoint-management`).",
-  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-tuning/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-tuning/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/cloud/agent-platform-tuning/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/cloud/agent-platform-tuning/metadata.json",
   "bundleHash": "sha256-d06b8a9ac4b0b3dd0239d8a7a138ea4b0b20a5aafe14b9c1431d72e248f4b7d8",
   "merkleLeaf": "sha256-20e6a5c57ea76856ff4255bd8c8d5e1978f80175f18c7c3fc46385c2a920102b",
   "files": [
@@ -64,7 +64,7 @@
       "sha256": "sha256-7363015fcdfef9f085ff52ad34f0627eeb3ada43988fcc527419305d8919c0e5"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

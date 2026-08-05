@@ -3,8 +3,8 @@
   "slug": "nvidia/nv-generate-vae-finetune",
   "name": "nv-generate-vae-finetune",
   "description": "Used for finetuning the NV-Generate-CTMR MAISI VAE from CT/MRI NIfTI datalists. Not for clinical or production data approval.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nv-generate-vae-finetune/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nv-generate-vae-finetune/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nv-generate-vae-finetune/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nv-generate-vae-finetune/metadata.json",
   "bundleHash": "sha256-079031acd766a5d6ded1e971ba9347a11bdfd27fd4a0dbbed348159f78957d5c",
   "merkleLeaf": "sha256-a7f4664f498f06fb24d2d1e3784a643055ca9c27dd515a1bfab143afdb135b87",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-dc047ffce1109bd657cd6a99725ec0f6dad7966e288bba7ddc8c8396e486b162"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/holoscan-install-wheel",
   "name": "holoscan-install-wheel",
   "description": "Install Holoscan SDK Python wheel via pip into a venv. Use for Python installs; not for native C++/apt or Conda installs.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/holoscan-install-wheel/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/holoscan-install-wheel/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/holoscan-install-wheel/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/holoscan-install-wheel/metadata.json",
   "bundleHash": "sha256-d6a5e0275f3d69ec7ec19bc7c3b10450d626bc0c3cf1d4254cbf2d8fb93b6608",
   "merkleLeaf": "sha256-6ad3357d1acd6666a3720880a9b8be27c33a6b39c1f8e1eddf589db46d494928",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-18751c15917165577b17b2c95a1481977b9d2e0b1ea5a419d060f7d8b797cf6d"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

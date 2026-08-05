@@ -3,8 +3,8 @@
   "slug": "nvidia/hsb-flash",
   "name": "hsb-flash",
   "description": "Flash the FPGA on an HSB board connected to an NVIDIA devkit. Supports HSB Lattice boards (FPGA versions 2407, 2412, 2507, 2510) and Leopard Imaging VB1940 \"all-in-one\" cameras (FPGA versions 2507, 2510). Uses release-specific YAML manifests and board-type-specific program commands. Lattice and VB1940 commands must never be mixed.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/hsb-flash/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/hsb-flash/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/hsb-flash/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/hsb-flash/metadata.json",
   "bundleHash": "sha256-f24ada5f183941b6afbc4aa45fd14a8d7928f77b53660fab44ad0ff728e7e44f",
   "merkleLeaf": "sha256-500f46f3fb85e541e969e53c164eed4cc335186ef184b070ed13293c623af490",
   "files": [
@@ -84,7 +84,7 @@
       "sha256": "sha256-17b105ebf36066eafaae16bc1f84de757300fb25901ba857cc502e613a52ad57"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

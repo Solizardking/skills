@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-mbridge-mlm-bridge-training",
   "name": "nemo-mbridge-mlm-bridge-training",
   "description": "Run Megatron-LM (MLM) and Megatron Bridge training with mock or real data. Covers correlation testing, available recipes, and multi-GPU examples.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-mlm-bridge-training/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-mlm-bridge-training/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-mlm-bridge-training/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-mlm-bridge-training/metadata.json",
   "bundleHash": "sha256-c4a7434e00c55271f81cddbf4b3ca233c4946b2dfd79e1f01db70bcf3ef49520",
   "merkleLeaf": "sha256-ddef6a6cf436c3287d40e40054da227272468c70abca0b65b8547713ffe21bc8",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-2caee395409aca56b5c3dbde90d141ac378bae1a8e444e23d73e61a11da879dd"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

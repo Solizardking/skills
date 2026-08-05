@@ -3,8 +3,8 @@
   "slug": "nvidia/mcore-split-pr",
   "name": "mcore-split-pr",
   "description": "Split a PR into multiple PRs to reduce the number of required CODEOWNERS reviewer groups.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/mcore-split-pr/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/mcore-split-pr/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/mcore-split-pr/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/mcore-split-pr/metadata.json",
   "bundleHash": "sha256-a720023056b27c4a0edd9568389179252536e0a93e3be96ca613898017e22176",
   "merkleLeaf": "sha256-82cbf27298322a758439e56a7a25ce3466760262ff098647712e00be4952840c",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-0f3d40922d3c57eb6eba1ed74b8b6cdb3e87a469c1e6afd41541d2fed72e21a0"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

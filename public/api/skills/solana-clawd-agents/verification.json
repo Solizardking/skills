@@ -3,8 +3,8 @@
   "slug": "solana-clawd-agents",
   "name": "solana-clawd-agents",
   "description": "Use the imported Solana Clawd Agents hub catalog to browse, validate, build, deploy, mint, stake, and integrate production-ready Solana agent definitions, including x402 paid-agent APIs, MCP catalog endpoints, Cloudflare Worker API, Metaplex Core minting, and agent JSON schema workflows.",
-  "source": "https://skills.x402.wtf/api/skills/solana-clawd-agents/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/solana-clawd-agents/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/solana-clawd-agents/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/solana-clawd-agents/metadata.json",
   "bundleHash": "sha256-b6dec8b225e1963fcc1fe14e7b6f40a7304ecbba0d46295471d6d29ad2ffc436",
   "merkleLeaf": "sha256-a923b27512d9353209bf042e985c8276cdb39d20b6ab917c9dc0b0ea4321b27e",
   "files": [
@@ -6259,7 +6259,7 @@
       "sha256": "sha256-007f4ff7eae22716bd5b732012f61e261a33c062c25f3e3bf66d628e92498945"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-bevfusion",
   "name": "tao-train-bevfusion",
   "description": "BEVFusion for multi-sensor 3D object detection. Fuses LiDAR point clouds and camera images in bird's-eye-view (BEV) space, used in autonomous driving for robust 3D perception. Use when training, evaluating, or running inference for a TAO BEVFusion model. Trigger phrases include \"train BEVFusion\", \"LiDAR + camera fusion\", \"BEV 3D detection\", \"multi-sensor 3D perception\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-bevfusion/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-bevfusion/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-bevfusion/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-bevfusion/metadata.json",
   "bundleHash": "sha256-e9db68a572562ccf33a2932268b8454ca86ca06631946e867d6ed87021a3cc81",
   "merkleLeaf": "sha256-b83414ddb64cd5f455c3adc801b43b37e8701d94b2c7680d6c402a932a7de206",
   "files": [
@@ -49,7 +49,7 @@
       "sha256": "sha256-144ad5149172edd69700b0fbc0131bb1035399aafeb629d0ecd76d477fc289eb"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

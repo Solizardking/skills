@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-mask2former",
   "name": "tao-train-mask2former",
   "description": "Mask2Former for universal image segmentation (panoptic, instance, and semantic). Transformer-based with masked attention for high-quality segmentation results. Use when training, evaluating, exporting, quantizing, or running inference for a TAO Mask2Former model. Trigger phrases include \"train Mask2Former\", \"universal segmentation\", \"panoptic / instance / semantic segmentation\", \"masked-attention transformer segmenter\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-mask2former/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-mask2former/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-mask2former/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-mask2former/metadata.json",
   "bundleHash": "sha256-e9d49e9d666bfd319ba5ce76ac2e99a2a48b5888f7be0bef631673f7cdd4ff7e",
   "merkleLeaf": "sha256-24ed58a502856692cbe58dbdd675a65caa8ec21ea1d4295f22beee9a8f8bc017",
   "files": [
@@ -84,7 +84,7 @@
       "sha256": "sha256-c6b0519f5c0a1bb6c38ab4095bdbadf55c3cae689b0ef9b8b343aca242543504"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

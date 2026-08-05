@@ -3,8 +3,8 @@
   "slug": "anthropic-skills/pdf",
   "name": "pdf",
   "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
-  "source": "https://skills.x402.wtf/api/skills/anthropic-skills/pdf/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/anthropic-skills/pdf/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/anthropic-skills/pdf/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/anthropic-skills/pdf/metadata.json",
   "bundleHash": "sha256-0104d25ce717856fb86f5f1680486aa910a17439b1081dc92a31627a40dbd127",
   "merkleLeaf": "sha256-57090aef3c74f8de6c96452d0d7068279d2b078887ebb4eaa8e49b6266f07593",
   "files": [
@@ -64,7 +64,7 @@
       "sha256": "sha256-9f78b8359fbd4943ad260a7a1e436e5a96503406d6c34e99f69223d647d85b9c"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

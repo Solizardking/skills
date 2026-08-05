@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-image-classification",
   "name": "tao-train-image-classification",
   "description": "PyTorch-based TAO image classification. Supports a wide range of backbones (FAN, EfficientNet, ResNet, etc.) with distillation and quantization for deployment. Use when training, evaluating, distilling, quantizing, exporting, or running inference for a TAO image-classification (PyT) model. Trigger phrases include \"train image classifier\", \"TAO classification\", \"ResNet/EfficientNet/FAN backbone classifier\", \"classification-pyt\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-image-classification/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-image-classification/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-image-classification/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-image-classification/metadata.json",
   "bundleHash": "sha256-11d860cd045e07f99aa5ab5633462a7a1e475387c72504f86568d8a69f76419b",
   "merkleLeaf": "sha256-9017d26398bfcb4a7084b77b5471784255e6642c52a878cda67613a619f2cc33",
   "files": [
@@ -89,7 +89,7 @@
       "sha256": "sha256-9c5f9e447b5da0a7a99bd6789fc535f67eb1c38f203a87dcebb0582de3370236"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

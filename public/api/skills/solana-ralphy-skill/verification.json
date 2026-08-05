@@ -3,8 +3,8 @@
   "slug": "solana-ralphy-skill",
   "name": "solana-ralphy-skill",
   "description": "Autonomous AI coding loop for Solana development that combines Ralphy-style task execution with Solana program, token launch, dApp, testing, and multi-engine coding workflows. Use when running PRD-driven or parallel Solana implementation tasks.",
-  "source": "https://skills.x402.wtf/api/skills/solana-ralphy-skill/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/solana-ralphy-skill/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/solana-ralphy-skill/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/solana-ralphy-skill/metadata.json",
   "bundleHash": "sha256-7e6acb834d937d52bac1cc7e2996ea35f044afb5f8d4a14d0f4f191cb9ea9b67",
   "merkleLeaf": "sha256-714a1dd3d44c27ff547b80db224664f023ab352101d308bafdef096f69a7a4f8",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-34ed3e0ed3c9ee9fa1d33c61b6336b058f6b947563c9d9317907732c6daed56a"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

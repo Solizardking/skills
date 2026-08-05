@@ -3,8 +3,8 @@
   "slug": "dex-screener-scanner",
   "name": "dex-screener-scanner",
   "description": "Automate DexScreener Solana token discovery and screening via browser automation. Navigate dexscreener.com/solana, scrape real-time token listings, filter by volume/liquidity/age/holders, and identify the best opportunities. Triggers: scan dexscreener, find new tokens, find trending tokens, screen Solana tokens, best tokens on Solana, dexscreener scanner.",
-  "source": "https://skills.x402.wtf/api/skills/dex-screener-scanner/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/dex-screener-scanner/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/dex-screener-scanner/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/dex-screener-scanner/metadata.json",
   "bundleHash": "sha256-b9875042cb7e8ee418d31cf342ef2585c2db92c15f8dea4c4046089a253e72cf",
   "merkleLeaf": "sha256-61b1f2c722734109fca97cca1786d2475f46a785fefbb61396243720d971aa60",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-6e3c82684d7215aa4c929be597430243f66553f53fb6ed78a0a3899addf657fd"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-nvdinov2",
   "name": "tao-train-nvdinov2",
   "description": "NVDINOv2 for self-supervised visual representation learning. Trains vision transformers via self-distillation (teacher-student) without labels and produces general-purpose visual features. Use when training, exporting, or running inference for a TAO NVDINOv2 backbone. Trigger phrases include \"train NVDINOv2\", \"self-supervised ViT pretraining\", \"DINOv2 backbone\", \"visual representation learning\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-nvdinov2/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-nvdinov2/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-nvdinov2/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-nvdinov2/metadata.json",
   "bundleHash": "sha256-9de52f69f21115cee8e13051b81a9f4989a53af057b4fe6fdcba56ea51111300",
   "merkleLeaf": "sha256-7a31e079765ce1deb82f59a57bb98b41fc996f4d4b539f62bd0e72d730db2827",
   "files": [
@@ -64,7 +64,7 @@
       "sha256": "sha256-7f47ccc7a6fccd3cac861689528fa106d7107bd8e2f9dc6b0e0dc978f90c2cf3"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

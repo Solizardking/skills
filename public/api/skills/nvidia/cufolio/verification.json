@@ -3,8 +3,8 @@
   "slug": "nvidia/cufolio",
   "name": "cufolio",
   "description": "Use when a user asks to build, optimize, backtest, rebalance, or analyze a stock portfolio with Mean-CVaR, efficient frontiers, scenario generation, or NVIDIA cuOpt.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/cufolio/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cufolio/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/cufolio/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/cufolio/metadata.json",
   "bundleHash": "sha256-272a2c9a31951498570db9e687c9bedd62a438ff29be0f304991c66910bd95c3",
   "merkleLeaf": "sha256-4e12471c010d69cffe4b3894ceae0e59ed4c36e295cbeb754b2452e78cbb08b4",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-6da1f37f63864f3dd9b66a3a18eded793f1bae3689305afaeed9d6ead04473d6"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

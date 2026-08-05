@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-nvpanoptix3d",
   "name": "tao-train-nvpanoptix3d",
   "description": "NVPanoptix3D for panoptic 3D scene reconstruction from posed RGB images. Produces 3D panoptic segmentation (semantic, instance, and panoptic masks) with occupancy completion. Built on a VGGT backbone with a Mask2Former-style head and 3D frustum reconstruction. Use when training, evaluating, exporting, or running inference for a TAO NVPanoptix3D model. Trigger phrases include \"train NVPanoptix3D\", \"panoptic 3D reconstruction\", \"3D scene segmentation\", \"occupancy completion\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-nvpanoptix3d/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-nvpanoptix3d/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-nvpanoptix3d/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-nvpanoptix3d/metadata.json",
   "bundleHash": "sha256-dfc369e4ab63b68f1d677ae71570a85acd68f3deec213ed605ed30d18ee5784f",
   "merkleLeaf": "sha256-a18a3ce3d2984b1988d46b904910d6bb4d8ef704536a6fe2ed8f29450a60097d",
   "files": [
@@ -49,7 +49,7 @@
       "sha256": "sha256-c6fceef697c4b22fd6d05290273349e05d2c5cf6a2f9127a54ccdaefeb4d99e2"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/tilegym-converting-cutile-to-julia",
   "name": "tilegym-converting-cutile-to-julia",
   "description": "Converts cuTile Python GPU kernels (@ct.kernel) to cuTile.jl Julia equivalents. Handles kernel syntax translation, 0-indexed to 1-indexed conversion, broadcasting differences, memory layout (row-major to column-major), type system mapping, and launch API differences. Use when converting, porting, or translating cuTile Python kernels to Julia cuTile.jl, or debugging/optimizing existing Julia cuTile translations.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tilegym-converting-cutile-to-julia/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tilegym-converting-cutile-to-julia/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tilegym-converting-cutile-to-julia/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tilegym-converting-cutile-to-julia/metadata.json",
   "bundleHash": "sha256-c86664342367f071294f61046970b1216276b7763f4ece99dd34e6000bfcec1e",
   "merkleLeaf": "sha256-b5b66b5061aa79a766ebf4443aca9d4b33c4bad6c38df483e5015257cedf3ce1",
   "files": [
@@ -49,7 +49,7 @@
       "sha256": "sha256-2ab5d1dd79b2466adc437b00a4c913734b5254dfd670eb061c187df1837dc022"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

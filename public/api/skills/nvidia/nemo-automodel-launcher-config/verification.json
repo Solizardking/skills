@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-automodel-launcher-config",
   "name": "nemo-automodel-launcher-config",
   "description": "Configure NeMo AutoModel job launches for interactive runs, Slurm clusters, and SkyPilot cloud execution.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-automodel-launcher-config/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-automodel-launcher-config/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-automodel-launcher-config/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-automodel-launcher-config/metadata.json",
   "bundleHash": "sha256-3539742abb8047c15329461593747fc8e141803556fed95f77cf7dc48bfadbd3",
   "merkleLeaf": "sha256-b43867b9d1499444734118ec04a3c0167b0df0a9d7d68de49fb03391d2d3e407",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-3fab626f05d1d481de9d2c2a590e3932793ab2da74c2abcae7286d9ad266e528"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

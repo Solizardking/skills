@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-run-automl",
   "name": "tao-run-automl",
   "description": "Run AutoML / hyperparameter optimization (HPO) for NVIDIA TAO networks using AutoMLRunner. Handles algorithm selection (bayesian, hyperband, asha, bohb, llm, hybrid, autoresearch), WandB experiment tracking, job execution on any TAO SDK platform, result interpretation, and per-rec custom evaluation hooks. Use when the user mentions TAO AutoML, hyperparameter optimization, HPO, automl, automl_settings, AutoMLRunner, tao_automl, bayesian search, hyperband, ASHA, LLM-guided search, autoresearch, or wants to tune training hyperparameters for any TAO network. Platform-agnostic — runs on any SDK (Brev, SLURM, Kubernetes, Docker).",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-automl/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-automl/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-run-automl/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-run-automl/metadata.json",
   "bundleHash": "sha256-fc2aefb99f97094f63b4cbd536a2826db0966f59d5564adb1576364d4b2bca5c",
   "merkleLeaf": "sha256-c08cb294a2db873edf92cf6eac5b0d1f9097cefc0dda8614857f16f02a11bc7b",
   "files": [
@@ -59,7 +59,7 @@
       "sha256": "sha256-609fae521fef793b0abbe9541ed871277bb91a07638fab9d0da0aee1b5981092"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

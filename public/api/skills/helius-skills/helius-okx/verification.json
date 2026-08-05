@@ -3,8 +3,8 @@
   "slug": "helius-skills/helius-okx",
   "name": "helius-okx",
   "description": "Build Solana trading and intelligence applications combining OKX DEX aggregation with Helius infrastructure. Integration-only layer — describes when and how to compose OKX tools with Helius tools for swaps, token discovery, smart money signals, meme token analysis, and portfolio intelligence.",
-  "source": "https://skills.x402.wtf/api/skills/helius-skills/helius-okx/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/helius-skills/helius-okx/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/helius-skills/helius-okx/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/helius-skills/helius-okx/metadata.json",
   "bundleHash": "sha256-2670378da2d52233bbd5d918250329a9bfb6ae38ca5ba9be36fc7a12d42cfba4",
   "merkleLeaf": "sha256-b303aef7c94a26babe52d0843c32fa6c2ad98a691482238cd5cbb132ebb96efc",
   "files": [
@@ -19,7 +19,7 @@
       "sha256": "sha256-2e47ac3e8f6a51c33789b9ca4a4a61f8370d06c066dec2274a5dab00cf1a701b"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

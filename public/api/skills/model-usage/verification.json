@@ -3,8 +3,8 @@
   "slug": "model-usage",
   "name": "model-usage",
   "description": "Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (most recent) model or a full model breakdown. Trigger when asked for model-level usage/cost data from codexbar, or when you need a scriptable per-model summary from codexbar cost JSON.",
-  "source": "https://skills.x402.wtf/api/skills/model-usage/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/model-usage/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/model-usage/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/model-usage/metadata.json",
   "bundleHash": "sha256-92620742767d4b9998a86dbf7d270758dc70856dac574d50d06cbcb7544e3aea",
   "merkleLeaf": "sha256-6bc280197bdcd9b4dde483205e09cdcb37d0461e919a9e46e1dc27e9a36236fa",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-70e8c1c96f7c1475fd7ac5588171cac6a05e65cb5c39da7e6847f93339347efc"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

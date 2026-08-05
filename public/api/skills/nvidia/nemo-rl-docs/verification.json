@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-rl-docs",
   "name": "nemo-rl-docs",
   "description": "Documentation conventions for NeMo-RL. Covers docs/index.md updates and docstring format. Do NOT use for: bug fixes, test fixes, dependency bumps, refactoring, CI/CD changes, performance tuning, or any task that does not involve writing or updating documentation.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-rl-docs/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-rl-docs/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-rl-docs/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-rl-docs/metadata.json",
   "bundleHash": "sha256-5647b95d679f00eeded104509eac5883c271930c3f6020f974374e8f830f1d75",
   "merkleLeaf": "sha256-eb663919b5c4062445c3e509af6d94c2059dcb7e77ee33b32a939718d1b3be9f",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-cf6f9256102f715984c778114aea67b2c97c17e30aa6b9859949b99f5f9dfb87"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

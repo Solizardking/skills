@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-build-source",
   "name": "jetson-build-source",
   "description": "Use when you need to rebuild the BSP overlay — DT, OOT modules, or kernel — from changes under bsp_sources/. Triggers: build bsp, rebuild dtb, rebuild kernel.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-build-source/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-build-source/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-build-source/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-build-source/metadata.json",
   "bundleHash": "sha256-60656e249e2df179c9b16c3132471262ef83df280436b63dcc786c419d384a7c",
   "merkleLeaf": "sha256-9695ac4b0884e0e847ad55c79e96cf52fb09ddbc4208ed2892a459cd15cda5a6",
   "files": [
@@ -49,7 +49,7 @@
       "sha256": "sha256-3322a4e010028ac6b11140dde9851c858d758869a69fe13a95d3461d50ca15ce"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

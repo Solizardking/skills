@@ -3,8 +3,8 @@
   "slug": "nvidia/mcore-create-issue",
   "name": "mcore-create-issue",
   "description": "Investigate a failing GitHub Actions run or job and create a GitHub issue for the failure.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/mcore-create-issue/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/mcore-create-issue/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/mcore-create-issue/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/mcore-create-issue/metadata.json",
   "bundleHash": "sha256-13c67088240cd4173d5c60fe20584727b4b37cce2ba6e13a5ae6da2991851537",
   "merkleLeaf": "sha256-bb3bc83c7d19923eb5e6f6c8cdd0a4bbf1e99270a2d06084fd20e7ab761f5b4f",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-7c06cfe897a53f7e1230bdd9525bbddeb19144c33373a31283b1a54314dba88d"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

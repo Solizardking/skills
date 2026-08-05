@@ -3,8 +3,8 @@
   "slug": "himalaya",
   "name": "himalaya",
   "description": "CLI to manage emails via IMAP/SMTP. Use `himalaya` to list, read, write, reply, forward, search, and organize emails from the terminal. Supports multiple accounts and message composition with MML (MIME Meta Language).",
-  "source": "https://skills.x402.wtf/api/skills/himalaya/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/himalaya/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/himalaya/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/himalaya/metadata.json",
   "bundleHash": "sha256-7f2764cfc20682818147b459b4df78e141aeb2f832958447b1281af7d3db9120",
   "merkleLeaf": "sha256-c94428b8e66b587cb31d9e580c604d61aa18a3431d2680aadea092e1fbe0e1aa",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-2265054da976a3d9ec3d55b66888233cb39509ea4703abed8066382e5b4fc14f"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

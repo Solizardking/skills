@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-print-device-info",
   "name": "jetson-print-device-info",
   "description": "Use when you need to print Jetson device info (module model, L4T version, kernel, OS version, current power mode) from a running Jetson target. This is an example skill.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-print-device-info/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-print-device-info/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-print-device-info/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-print-device-info/metadata.json",
   "bundleHash": "sha256-3e904727a9c398aa9c5024a17008ec484433eccb2e00f4bb6625ba099135b09f",
   "merkleLeaf": "sha256-75319331f9dcb007d0e5357e28ba4c9b9679f043dc1e910e0447212a4edbb5ee",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-b305bb2ec752174857eed7156d9614578ee4a014bdf9222a695cc81421c7240a"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

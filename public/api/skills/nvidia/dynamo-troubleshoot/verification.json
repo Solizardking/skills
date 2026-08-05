@@ -3,8 +3,8 @@
   "slug": "nvidia/dynamo-troubleshoot",
   "name": "dynamo-troubleshoot",
   "description": "Diagnose failed or unhealthy Dynamo deployments. Use when pods, model-cache jobs, PVCs, workers, frontend/router health, endpoints, or benchmark jobs fail; use recipe-runner/router-starter before this for normal bring-up.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/dynamo-troubleshoot/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dynamo-troubleshoot/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/dynamo-troubleshoot/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/dynamo-troubleshoot/metadata.json",
   "bundleHash": "sha256-fecdab5c87e187c862c10d72c856b7a968c0a820ccdd0b34592ba8d926ee0c82",
   "merkleLeaf": "sha256-4118f98c85a17898188d691946443bd0eb179297daea49f2636026142375b4b7",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-3f11c76e09e40865ac9c983161388506763b9699f7dd37db56e07c619664e4bd"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

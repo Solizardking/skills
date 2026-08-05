@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-pointpillars",
   "name": "tao-train-pointpillars",
   "description": "PointPillars for 3D object detection from LiDAR point clouds. Encodes point clouds into a pseudo-image via a pillar-based representation, then applies 2D detection — used in autonomous driving and robotics. Use when training, evaluating, exporting, pruning, retraining, or running inference for a TAO PointPillars model. Trigger phrases include \"train PointPillars\", \"LiDAR 3D detection\", \"point-cloud object detection\", \"pillar-based 3D detector\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-pointpillars/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-pointpillars/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-pointpillars/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-pointpillars/metadata.json",
   "bundleHash": "sha256-827ba34835d449b10f3c85c1ba698d99aa0f15e35d836cc12a4bef9444e8bdad",
   "merkleLeaf": "sha256-84e9b8fc97797727b4ac99d921443ca2ea24f0ab9fa641e8b16b41520f739972",
   "files": [
@@ -94,7 +94,7 @@
       "sha256": "sha256-b73c216c3fd01524090ad9f041fe927288c4f68c51ca24f4ba99ddaea8f9fd1a"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

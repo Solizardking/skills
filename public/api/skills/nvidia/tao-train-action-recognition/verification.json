@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-action-recognition",
   "name": "tao-train-action-recognition",
   "description": "Action recognition from video sequences. Supports RGB, optical flow, and joint (multi-stream) input types for classifying temporal actions in video clips. Use when training, evaluating, exporting, or running inference on a TAO action-recognition model. Trigger phrases include \"train action recognition\", \"video action classification\", \"RGB + optical flow action model\", \"TAO ActionRecognition\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-action-recognition/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-action-recognition/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-action-recognition/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-action-recognition/metadata.json",
   "bundleHash": "sha256-63d1b66330c6e9406f1fa2797432a7212e95d713908ecf046946ede31bb7e171",
   "merkleLeaf": "sha256-11d1a33a29a7555ea91398c5fe99db47f3949bf9d96d04508d0e91c045e364be",
   "files": [
@@ -49,7 +49,7 @@
       "sha256": "sha256-cbba30ed9b9233e8c6eeb8e98ba803825ecee911aa65140e6cf188397bd42f1e"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

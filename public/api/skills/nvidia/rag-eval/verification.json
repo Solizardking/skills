@@ -3,8 +3,8 @@
   "slug": "nvidia/rag-eval",
   "name": "rag-eval",
   "description": "Filesystem RAG benchmarks: corpus/, train.json, evaluate_rag.py (RAGAS quality). Not for prod monitoring, latency/throughput benchmarking (use rag-perf), or evals outside this repo layout.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/rag-eval/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/rag-eval/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/rag-eval/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/rag-eval/metadata.json",
   "bundleHash": "sha256-8dbec592a141a7dd3b67dd52b28d91b90e44bcc7266110cb5f3195d7e166b2de",
   "merkleLeaf": "sha256-25450862df778daebda42b684127ed9d7a8b01b18bf8f2b8c0cbfa32c4ec1050",
   "files": [
@@ -44,7 +44,7 @@
       "sha256": "sha256-572126a6a3e15989ba62f90fe5856b6d8eda11c9097b86889db2c6eddd612a73"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/deepstream-generate-pipeline",
   "name": "deepstream-generate-pipeline",
   "description": "Build DeepStream GStreamer pipelines interactively. Use when the user asks about pipelines for video/image inference, detection, tracking, or streaming — including natural phrases like 'pipeline to infer on image', 'run inference on video', 'detect objects in stream', 'save inference output', 'deepstream pipeline', 'gst-launch pipeline', 'process video with detection', 'build a pipeline', or any request involving GStreamer/DeepStream elements (nvinfer, nvstreammux, nvtracker, etc.).",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/deepstream-generate-pipeline/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/deepstream-generate-pipeline/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/deepstream-generate-pipeline/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/deepstream-generate-pipeline/metadata.json",
   "bundleHash": "sha256-de6f96178e5baf95d0dbb7691832819a432273eee086c206ac908ac76ce70456",
   "merkleLeaf": "sha256-0e0b9f6a7b27c99a80aac95cc58627464b3230a693b9d303c4f66fa754aab9dd",
   "files": [
@@ -59,7 +59,7 @@
       "sha256": "sha256-ad1c26f75e186253c49b02655dfd013034c90d9d3b8ce3e019cc253dd348594a"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

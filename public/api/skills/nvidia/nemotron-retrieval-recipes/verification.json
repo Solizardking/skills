@@ -3,8 +3,8 @@
   "slug": "nvidia/nemotron-retrieval-recipes",
   "name": "nemotron-retrieval-recipes",
   "description": "Use when planning, debugging, tuning, evaluating, exporting, or deploying public Nemotron `embed`/`rerank` retrieval recipes.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemotron-retrieval-recipes/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemotron-retrieval-recipes/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemotron-retrieval-recipes/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemotron-retrieval-recipes/metadata.json",
   "bundleHash": "sha256-a56afa4eb1843d2f1f309f9175c5a5cd29f6643df90c0af34f8e548904eea3ec",
   "merkleLeaf": "sha256-3823a65f6ac5a44644993b50e83459d56eb9d9b4d17d15e4e0d74a4043480620",
   "files": [
@@ -44,7 +44,7 @@
       "sha256": "sha256-90ff67fc705d531606d3f22e962e8b76d5fa8480a6cae7db4c58f81eb04ef45e"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

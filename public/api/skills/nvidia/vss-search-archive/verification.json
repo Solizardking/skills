@@ -3,8 +3,8 @@
   "slug": "nvidia/vss-search-archive",
   "name": "vss-search-archive",
   "description": "Use this skill to run top-level VSS fusion search on archived video, or to ingest video files / RTSP streams for search. Do NOT use for ad-hoc visual Q&A (use vss-ask-video), live captioning (use vss-deploy-dense-captioning), or video summarization and reports (use vss-summarize-video).",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-search-archive/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-search-archive/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/vss-search-archive/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/vss-search-archive/metadata.json",
   "bundleHash": "sha256-2abc88c2fe0b2cd24ba7756e5533ab2f9318c1c524ac070263766adf41cc987c",
   "merkleLeaf": "sha256-bdd82402238321d562470e383bb90165fbc8bb21ffdf203e459051777a2a5116",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-337ae027bfa4de55716a0ee0c7ba4f22d2c965aa863191d0337ec1eb957f331b"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "google/cloud/workload-manager-basics",
   "name": "workload-manager-basics",
   "description": "Use this skill to manage Google Cloud Workload Manager evaluations, rules, scanned resources, and validation results by using public client libraries and the REST API. Use when you need to inspect workload best-practice rules, create and run evaluations for Google Cloud general best practices, SAP, SQL Server, or custom organizational rules, review violations, export results to BigQuery, or automate Workload Manager through client libraries because no service-specific public CLI or MCP server is available. Don't use for general Google Compute Engine instance management, VPC configuration, or standard IAM auditing.",
-  "source": "https://skills.x402.wtf/api/skills/google/cloud/workload-manager-basics/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/workload-manager-basics/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/cloud/workload-manager-basics/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/cloud/workload-manager-basics/metadata.json",
   "bundleHash": "sha256-b60e27afe0ae73eb2b626e51cffda50352ce095ad1d82f442130f6f2a0fe7ea0",
   "merkleLeaf": "sha256-aadf30c2ba9d1edd005d411758beb8bb17a0444060f824d45c9454e82c3e43c8",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-81312f7c506d2aaf2ae9b01d0f78173f9f845ee04428edb3944d938481583d18"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

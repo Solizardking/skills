@@ -3,8 +3,8 @@
   "slug": "nvidia/dicom-series-preflight",
   "name": "dicom-series-preflight",
   "description": "Used for header-only preflight of one DICOM series folder before conversion or inference. Not for de-identification or clinical clearance.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/dicom-series-preflight/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dicom-series-preflight/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/dicom-series-preflight/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/dicom-series-preflight/metadata.json",
   "bundleHash": "sha256-a21cbbedf3170f787a7361898fdb796bcc5167e90b6a9914a9ad0381b41aff4e",
   "merkleLeaf": "sha256-56405d9e2aa5c1a4025175f329c4a5f0f78705e67b4f88db5a3d473098d65683",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-ab050367ef76abba858a28cd184e3e5c38ef8252a1aab87acb9084f23e8d6070"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

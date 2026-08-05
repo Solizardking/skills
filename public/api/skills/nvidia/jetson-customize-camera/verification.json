@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-customize-camera",
   "name": "jetson-customize-camera",
   "description": "Enable MIPI/GMSL camera sensors on a Jetson Thor or Orin custom carrier by rendering a kernel-DT overlay from the in-tree sensor DTSI. Do NOT use for UPHY lane allocation or ODMDATA edits.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-camera/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-camera/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-camera/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-camera/metadata.json",
   "bundleHash": "sha256-8c09fca0b64fc22a1791be194c15ae94cacfaaf0c1f7754e750d3c91bc338b4a",
   "merkleLeaf": "sha256-7f69439adc10665995419cc26e7568f8df8fc4b72eae1f8d8de681e23b8f2125",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-6568b29b31be2c7d83a10eccb9f00e9fb3719014e4d354fca16a738d9ce43a6f"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

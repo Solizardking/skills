@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-mbridge-perf-moe-hardware-configs",
   "name": "nemo-mbridge-perf-moe-hardware-configs",
   "description": "Representative MoE training playbooks by hardware platform and model family. Summarizes rounded throughput bands, parallelism patterns, and common tuning stacks.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-hardware-configs/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-hardware-configs/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-perf-moe-hardware-configs/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-perf-moe-hardware-configs/metadata.json",
   "bundleHash": "sha256-1ad9f0a2604b1a63b63343700e695dcf6ef3257eb38cddb48669ba4568b89292",
   "merkleLeaf": "sha256-42df146c29f87496f70e5d984c1da1372648d723f69d5886f9672e7bf9feb5ca",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-7c481040880c803b4d59f73d91a9b75fd6c35dcb5c6a89efdc029879ee10b2a1"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

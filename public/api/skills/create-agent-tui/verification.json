@@ -3,8 +3,8 @@
   "slug": "create-agent-tui",
   "name": "create-agent-tui",
   "description": "Scaffolds a complete agent TUI in TypeScript using @openrouter/agent — like create-react-app for terminal agents. Generates a customizable terminal interface with three input styles, four tool display modes, ASCII banners, streaming output, session persistence, and configurable tools. Use when building an agent, creating a TUI, scaffolding an agent project, or building a coding assistant.",
-  "source": "https://skills.x402.wtf/api/skills/create-agent-tui/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/create-agent-tui/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/create-agent-tui/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/create-agent-tui/metadata.json",
   "bundleHash": "sha256-cf289e88b97ad38de1dcc125ce341f3331ceb26356655af3c405b9771c06af04",
   "merkleLeaf": "sha256-92a900161c3b749f38400486a838b487709012cdcd8927f3241b2c61d5d06d55",
   "files": [
@@ -64,7 +64,7 @@
       "sha256": "sha256-acfe9e7d402a3f3b3b77f0b508f14424d74ae7d689ae9618235b8a380b1b6019"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

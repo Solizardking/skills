@@ -3,8 +3,8 @@
   "slug": "google/cloud/cloud-sql-basics",
   "name": "cloud-sql-basics",
   "description": "This file generates or explains Cloud SQL resources. Use this file when the user asks to create a Cloud SQL instance or database for MySQL, PostgreSQL, or SQL Server.",
-  "source": "https://skills.x402.wtf/api/skills/google/cloud/cloud-sql-basics/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/cloud-sql-basics/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/cloud/cloud-sql-basics/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/cloud/cloud-sql-basics/metadata.json",
   "bundleHash": "sha256-99c8c7bcfeef45001b5ceb9c85058fa5087c2f1d8cc545154dc95a78c13c14df",
   "merkleLeaf": "sha256-e0e320fc5a012a73a8282c58abff7ec5acdce3b8dcd36b4f27d1fdd2113a330f",
   "files": [
@@ -44,7 +44,7 @@
       "sha256": "sha256-22f300f82fcb99d9215ff503d1614d56a898b455fa9e8bd1262dac9de883fea2"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

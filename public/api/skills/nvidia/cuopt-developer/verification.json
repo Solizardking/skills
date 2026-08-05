@@ -3,8 +3,8 @@
   "slug": "nvidia/cuopt-developer",
   "name": "cuopt-developer",
   "description": "Modify, build, test, debug, and contribute to NVIDIA cuOpt (C++/CUDA, Python, server, CI). Use for solver internals, PRs, DCO, and code conventions.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/cuopt-developer/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cuopt-developer/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/cuopt-developer/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/cuopt-developer/metadata.json",
   "bundleHash": "sha256-5ff45babd0dfae4aa1ce4d39062b55d6c2f6a28b946c141632a4eb79e0f409c9",
   "merkleLeaf": "sha256-c0236926a8afe1bb2c7de35883108a6fce3b526ba728a9cd10e5c2d099db3ce2",
   "files": [
@@ -59,7 +59,7 @@
       "sha256": "sha256-92a3aef4cf607656d665087b69829663dcca2a518c19adeb5f52018fbf2929a4"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

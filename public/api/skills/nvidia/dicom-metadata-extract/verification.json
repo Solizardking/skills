@@ -3,8 +3,8 @@
   "slug": "nvidia/dicom-metadata-extract",
   "name": "dicom-metadata-extract",
   "description": "Used for extracting selected metadata from one DICOM file and flagging standard-tag PHI presence. Not for anonymization or clinical use.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/dicom-metadata-extract/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dicom-metadata-extract/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/dicom-metadata-extract/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/dicom-metadata-extract/metadata.json",
   "bundleHash": "sha256-f0e27da0ea1f37278b30574574fcad0a5402b47f95e09ed9a67bb14d8734a229",
   "merkleLeaf": "sha256-52ca6d8ee8558b3ad0927eb43cfbf3251c468b8137759cd3875bed2a6c780d07",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-c90a0fb137fbbd554cf419c9964c24f9dedfdf8b7b617b427a74f84c3ba8293c"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "openrouter-images",
   "name": "openrouter-images",
   "description": "Generate images from text prompts and edit existing images using OpenRouter's image generation models. Use when the user asks to create, generate, or make an image, picture, or illustration from a description, or wants to edit, modify, transform, or alter an existing image with a text prompt.",
-  "source": "https://skills.x402.wtf/api/skills/openrouter-images/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/openrouter-images/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/openrouter-images/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/openrouter-images/metadata.json",
   "bundleHash": "sha256-7332b5ecbf6c6118f7dce73db68d0b9ba976d5461fb7b3cf66076523ba4e73fa",
   "merkleLeaf": "sha256-fa3bb8dcf43c686421f43d87d6ab383e99e5262ecef7e4e645f0647a539153f7",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-8a10dac3864f797315f778e9ba7f5ea337365aea1533e2bc560466f4a316ab0c"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-mbridge-perf-hierarchical-context-parallel",
   "name": "nemo-mbridge-perf-hierarchical-context-parallel",
   "description": "Operational guide for enabling hierarchical context parallelism in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-hierarchical-context-parallel/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-hierarchical-context-parallel/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-perf-hierarchical-context-parallel/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-perf-hierarchical-context-parallel/metadata.json",
   "bundleHash": "sha256-3a27b85ca389162e8dbe92f64dd1e38814c16b9b7971d5ab6186eaeb54439968",
   "merkleLeaf": "sha256-6ae0361fb89403cb19851cbcf1ae1114b5467cb48c59dfbad3e55ad060e8a092",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-5881cb210e69f1875dfcec3e34caa614a95c67fd972e6baf8fb740b644bf8609"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

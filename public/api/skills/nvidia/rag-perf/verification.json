@@ -3,8 +3,8 @@
   "slug": "nvidia/rag-perf",
   "name": "rag-perf",
   "description": "Performance benchmarking for a deployed NVIDIA RAG Blueprint server: profiling pass + aiperf load test driven by a single YAML config. Not for accuracy / RAGAS scoring (use rag-eval) or for deploying / repairing services (use rag-blueprint).",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/rag-perf/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/rag-perf/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/rag-perf/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/rag-perf/metadata.json",
   "bundleHash": "sha256-666141dd23879d0c256dc5e7ad7c5dda75f3cd22f41f2b1c2159acae300181d7",
   "merkleLeaf": "sha256-39ffee4fb75dcb0f0866d143339dbeaa47c6f550404f85ecd46a6db184108d5c",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-81f1d3a07186d9bfe3be54ae90fdb0addfef7c23b8845affd981c9e04a57fe54"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

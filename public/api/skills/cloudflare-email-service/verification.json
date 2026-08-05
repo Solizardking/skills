@@ -3,8 +3,8 @@
   "slug": "cloudflare-email-service",
   "name": "cloudflare-email-service",
   "description": "Send and receive transactional emails with Cloudflare Email Service (Email Sending + Email Routing). Use when building email sending (Workers binding or REST API), email routing, Agents SDK email handling, or integrating email into any app — Workers, Node.js, Python, Go, etc. Also use for email deliverability, SPF/DKIM/DMARC, wrangler email setup, MCP email tools, or when a coding agent needs to send emails. Even for simple requests like \"add email to my Worker\" — this skill has critical config details.",
-  "source": "https://skills.x402.wtf/api/skills/cloudflare-email-service/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/cloudflare-email-service/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/cloudflare-email-service/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/cloudflare-email-service/metadata.json",
   "bundleHash": "sha256-7b9779c95e273a6cb279decf9e10ea7ff6591c8928b9d8c753554fc1e2101bd4",
   "merkleLeaf": "sha256-f015617cea72581d58a5c9094934d3f8406f8b20b42c70dc52b6c77b8922125c",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-a62531900a08f9f6c352061d42e8b10a35009f5e1c6f91bbf18752feedad5a79"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

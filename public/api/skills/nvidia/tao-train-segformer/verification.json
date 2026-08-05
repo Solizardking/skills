@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-segformer",
   "name": "tao-train-segformer",
   "description": "SegFormer for semantic segmentation. Lightweight transformer-based architecture with hierarchical feature extraction, efficient for real-time segmentation tasks. Use when training, evaluating, exporting, quantizing, or running inference for a TAO SegFormer model. Trigger phrases include \"train SegFormer\", \"semantic segmentation\", \"lightweight transformer segmenter\", \"real-time semantic segmentation\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-segformer/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-segformer/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-segformer/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-segformer/metadata.json",
   "bundleHash": "sha256-849d6be923bae397548c1fe732899285eb138a7ec676cb43a268d9951cc0550b",
   "merkleLeaf": "sha256-98b0a75fec5668832c9048e156b88b45114deffff54c703fdb6d6d05d397387c",
   "files": [
@@ -79,7 +79,7 @@
       "sha256": "sha256-4f2157459328f4ca306dc575a58d20ac5046a04179774449f00554d497e48966"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-run-automl-deft-pipeline",
   "name": "tao-run-automl-deft-pipeline",
   "description": "Run the canonical NVIDIA AOI three-phase training pipeline — Phase 1 AutoML baseline (HPO), Phase 2 DEFT loop (RCA → SDG → mining → plain-train retrain), Phase 3 AutoML refinement on the DEFT-augmented dataset. Use when the user asks to \"run the AOI workflow\", \"fine-tune my PCB AOI model end-to-end\", \"improve my AOI ChangeNet model\", or \"AOI workflow with AutoML\" request — route here instead of tao-run-deft-aoi directly unless the user explicitly asks for the DEFT loop ONLY (e.g. \"run JUST the DEFT loop\", \"skip AutoML, only DEFT\"). Also handles the same three-phase pattern for non-AOI DEFT applications — AutoML baseline then DEFT loop warm-started from AutoML's winning HPs then post-DEFT AutoML refinement on the iteration-augmented dataset. Trigger phrases include \"run the AOI workflow\", \"AOI end-to-end\", \"AutoML + DEFT\", \"AutoML then DEFT\", \"tune hyperparameters then DEFT\", \"DEFT with AutoML at both ends\", \"warm-start DEFT\", \"improve my AOI model\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-automl-deft-pipeline/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-automl-deft-pipeline/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-run-automl-deft-pipeline/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-run-automl-deft-pipeline/metadata.json",
   "bundleHash": "sha256-3f98aad0fa0eeed77fe4719d8a4090a7708195ad1cfbcf9ac39066dba170880f",
   "merkleLeaf": "sha256-b9c9484c9083a041ba596eb70082bcb41e9421baa0c0bad92ed4c944682dc3bf",
   "files": [
@@ -44,7 +44,7 @@
       "sha256": "sha256-99f276982b5ad342a45c7a763301c87a52153e002edb288c9796e709827006ff"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

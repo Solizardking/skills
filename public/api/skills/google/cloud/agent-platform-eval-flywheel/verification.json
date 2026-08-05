@@ -3,8 +3,8 @@
   "slug": "google/cloud/agent-platform-eval-flywheel",
   "name": "agent-platform-eval-flywheel",
   "description": "Measures and improves the quality of AI models and agents on Google Cloud using the Eval Quality Flywheel methodology. Use when evaluating an agent or model, building an eval dataset, picking or writing evaluation metrics, analyzing failures, comparing results before and after a fix, or when guidance is needed on Agent Platform eval methodology — including dataset schema, LLM-as-judge scoring, and common failure causes. For fine-tuning, use agent-platform-tuning. For general production deployment, use agent-platform-deploy.",
-  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-eval-flywheel/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-eval-flywheel/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/google/cloud/agent-platform-eval-flywheel/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/google/cloud/agent-platform-eval-flywheel/metadata.json",
   "bundleHash": "sha256-a579720b6805a1983195783ff1960fc0344595cc461bc633a80a19806de3fccb",
   "merkleLeaf": "sha256-0af1f5c00eac970aef1fd89a885d63f41da221fa31580c471823d96d8789cccd",
   "files": [
@@ -74,7 +74,7 @@
       "sha256": "sha256-265e3208740b13ea11c54aa3e2260c67efa4f3dbe6ce67fb6f8b7d1ec852b2d9"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

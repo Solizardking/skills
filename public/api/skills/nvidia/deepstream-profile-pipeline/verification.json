@@ -3,8 +3,8 @@
   "slug": "nvidia/deepstream-profile-pipeline",
   "name": "deepstream-profile-pipeline",
   "description": "Profile a DeepStream pipeline with Nsight Systems and derive its configs from the measurement. Use when the user asks for an efficient, performant, or profiled pipeline — or to benchmark, tune, or measure FPS.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/deepstream-profile-pipeline/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/deepstream-profile-pipeline/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/deepstream-profile-pipeline/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/deepstream-profile-pipeline/metadata.json",
   "bundleHash": "sha256-629973ceeeb497bed709f56bd2a2aacb1fd71524f82f52d117837a4ba9ddfcb0",
   "merkleLeaf": "sha256-d97b22318acb73a5b082268f727aa8b75c9ffaefe8dafd7e2837817aec97a83e",
   "files": [
@@ -59,7 +59,7 @@
       "sha256": "sha256-7d6193940e5508cc0246791634222465b5fde6e06b9402777caac61e770812ca"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-validate-dataset-format",
   "name": "tao-validate-dataset-format",
   "description": "Run `tao-daft validate` to check NVIDIA TAO DAFT datasets for structure, schema, and cross-reference errors. Do not use for non-DAFT formats. Use when the user asks to validate a DAFT dataset, check DAFT schema, validate a TAO dataset format, or run `tao-daft validate`.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-validate-dataset-format/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-validate-dataset-format/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-validate-dataset-format/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-validate-dataset-format/metadata.json",
   "bundleHash": "sha256-e4d806d0ec087c5ee33cc8e93015f2e9048bd7a483c2ef32c26072efa4d8c032",
   "merkleLeaf": "sha256-9f0d20078f668bccbfe3a65c312ff8742616ef6f050565fd0a8d292335317e8d",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-0c96702d12b71b78ac34f4dc5a7ba9375557038bcde3963ceca004d8a678e08e"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

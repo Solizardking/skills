@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-analyze-changenet-rca",
   "name": "tao-analyze-changenet-rca",
   "description": "Performs deep Root Cause Analysis (RCA) on NVIDIA TAO Visual ChangeNet classification experiments with image-evidence-driven investigation. Use when analyzing ChangeNet model failures, investigating poor recall / FAR / PASS-NO_PASS metrics, auditing visual inspection pipeline quality, or running an RCA report for an AOI defect-detection model. Trigger phrases include \"RCA on my ChangeNet model\", \"why is my AOI model failing\", \"audit ChangeNet predictions\", \"investigate FAR regressions\", \"root cause analysis on visual-changenet\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-analyze-changenet-rca/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-analyze-changenet-rca/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-analyze-changenet-rca/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-analyze-changenet-rca/metadata.json",
   "bundleHash": "sha256-666c30d8fa423ad94e973832e8515ab71541abf7b1ea628db929487532c79288",
   "merkleLeaf": "sha256-6c79422306fedb778b0e0548087aa43946ab2671fc57032867246df6e2c15a23",
   "files": [
@@ -39,7 +39,7 @@
       "sha256": "sha256-8ab15468bda62a7b5a135d5badecec2ee453921dc019c784f635599607318be6"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

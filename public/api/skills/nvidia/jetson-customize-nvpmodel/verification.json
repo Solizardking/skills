@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-customize-nvpmodel",
   "name": "jetson-customize-nvpmodel",
   "description": "Use when you need to add, remove, edit, list, or change the boot default of an nvpmodel power mode on a Jetson/Tegra (Orin, Thor) target. Triggers: edit power mode, tune frequency caps.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-nvpmodel/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-nvpmodel/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-nvpmodel/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-nvpmodel/metadata.json",
   "bundleHash": "sha256-0e254ecbfa98f068b701add4eb2f644253814581b44c82b60453510299703cf2",
   "merkleLeaf": "sha256-d71eaafc044b65e88cfe72ab48f9810236efd78a429134f5e0dff9e4880b5d53",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-e7f45f72b2287337fa50d510448eb99a9cd75f5e11db9bb1b25d570bfe591ef4"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

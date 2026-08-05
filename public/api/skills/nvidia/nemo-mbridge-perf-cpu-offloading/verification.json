@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-mbridge-perf-cpu-offloading",
   "name": "nemo-mbridge-perf-cpu-offloading",
   "description": "Validate and use CPU offloading in Megatron Bridge, including layer-level activation offloading and fractional optimizer state offloading with HybridDeviceOptimizer.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-cpu-offloading/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-cpu-offloading/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-perf-cpu-offloading/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-perf-cpu-offloading/metadata.json",
   "bundleHash": "sha256-2d2e0b539a15a9597dfb05bd78b39421e4fd63beed6ae6e6da6aab2b92b6c898",
   "merkleLeaf": "sha256-9dfd936387865acb1e08ef4d1ba2d6ecf149c9bae201c2b0db5a4afb6bf29896",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-8654c5cbc5e161e3475c21b40ed3e57c181a15643b27ab5d27ca6d6ef28afab0"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

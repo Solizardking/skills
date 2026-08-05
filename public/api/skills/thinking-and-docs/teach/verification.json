@@ -3,8 +3,8 @@
   "slug": "thinking-and-docs/teach",
   "name": "thinking-and-docs-teach",
   "description": "Teach with concise chat replies and rich lesson docs — multi-session teaching workspace optimized for thinking and documentation.",
-  "source": "https://skills.x402.wtf/api/skills/thinking-and-docs/teach/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/thinking-and-docs/teach/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/thinking-and-docs/teach/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/thinking-and-docs/teach/metadata.json",
   "bundleHash": "sha256-34e0339bf7a17fdc2935d4d44e8ec28a35715c8461075a316c1c3ec2ca55969d",
   "merkleLeaf": "sha256-746e456b03cfc85006dfe3dfe794d0c0589272ac49427784be7f961f12478b8a",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-0c3df1c99e057ca6b9f203292540aff61228789757e65bf2c2dfc71ad36ee056"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

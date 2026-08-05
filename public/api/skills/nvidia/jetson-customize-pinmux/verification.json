@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-customize-pinmux",
   "name": "jetson-customize-pinmux",
   "description": "Per-pin SFIO / direction / initial-state configurator for a Jetson Orin or Thor custom carrier from the pinmux XLSM. Do NOT use for kernel-DT overlay or ODMDATA edits.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-pinmux/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-pinmux/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-pinmux/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-pinmux/metadata.json",
   "bundleHash": "sha256-7611c786d241d8766425d86a06fb495ec5c6dcf14b00e107e3638655d08680ab",
   "merkleLeaf": "sha256-a22b615c6b2a3e2ce613543a0bfc04dd8598ecdad62ee162c55474b01a6ec8aa",
   "files": [
@@ -54,7 +54,7 @@
       "sha256": "sha256-0af6f45689b4498a42f237d1901d08f02caac8128c287d3a5157d167acd33c8e"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

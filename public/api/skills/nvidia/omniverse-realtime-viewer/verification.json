@@ -3,8 +3,8 @@
   "slug": "nvidia/omniverse-realtime-viewer",
   "name": "omniverse-realtime-viewer",
   "description": "Use as the top-level router for Omniverse Realtime Viewer USD app requests and focused viewer reference documents.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/omniverse-realtime-viewer/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/omniverse-realtime-viewer/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/omniverse-realtime-viewer/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/omniverse-realtime-viewer/metadata.json",
   "bundleHash": "sha256-f695b7e3ca86d32f45f9411ecb5275d9fb9d9462d886b6e32683f4d891f33e41",
   "merkleLeaf": "sha256-53aeb8131b5947ddeb56ad8806c01ca10d8c1f481c2e3dd5aa3f03eae2a6e9ce",
   "files": [
@@ -499,7 +499,7 @@
       "sha256": "sha256-6e6a1f7ed10d152be12b7d210e8f7f399c203912985cc8ade684fb18645dc262"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

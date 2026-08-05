@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-customize-fan",
   "name": "jetson-customize-fan",
   "description": "Use when you need to add, remove, edit, list, or change the boot default of an nvfancontrol fan profile on a Jetson/Tegra (Orin, Thor) target. Triggers: edit fan profile, tune fan curve.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-fan/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-fan/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-fan/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-customize-fan/metadata.json",
   "bundleHash": "sha256-cde2b4715a04c8a03c997c55d5633d8810dce97115ca09a372ddd0b84a722157",
   "merkleLeaf": "sha256-06cbde22b9c81d7e4797ab1bf8046dfd03d485f5016ea53b65bdbc3660e380d2",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-120a4bc0e466bacba85cac4f294e90ff3be93ce721b54b1ec9a1662b36f18c18"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

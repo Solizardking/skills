@@ -3,8 +3,8 @@
   "slug": "nvidia/vss-query-analytics",
   "name": "vss-query-analytics",
   "description": "Use this skill when reading video-analytics metrics, incidents, alerts, and sensor data via the VA-MCP server (port 9901). Not for live VLM or incident-range narrative reports.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-query-analytics/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-query-analytics/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/vss-query-analytics/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/vss-query-analytics/metadata.json",
   "bundleHash": "sha256-46311c25cbac224c9b9837858a7477bb2709236cf3e116e9e8baed6a9f213234",
   "merkleLeaf": "sha256-a248893f4749891eb4810c2027170dada0da8b304f5c4fd583501d96fc27642f",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-38925c4bc4e29eb51f0bb85de87dfd70adaa81c3a488ff7e8d72728403205ac5"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

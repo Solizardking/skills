@@ -3,8 +3,8 @@
   "slug": "helius-skills/helius",
   "name": "helius",
   "description": "Build Solana applications with Helius infrastructure. Covers transaction sending (Sender), asset/NFT queries (DAS API), real-time streaming (WebSockets, Laserstream), event pipelines (webhooks), priority fees, wallet analysis, and agent onboarding.",
-  "source": "https://skills.x402.wtf/api/skills/helius-skills/helius/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/helius-skills/helius/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/helius-skills/helius/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/helius-skills/helius/metadata.json",
   "bundleHash": "sha256-f09267838b5e402ad8ab2bfabb23fec75c17923d8b7bb3cf1336166ed4401ae7",
   "merkleLeaf": "sha256-e78de6e90c095ef7686e1e5c7ddbeb669db497911f72752e5df4e086f843464e",
   "files": [
@@ -64,7 +64,7 @@
       "sha256": "sha256-b32a441f8f0bc6b5374ca6ce647057a0c5fbe2f8155621b085b48f08701709b4"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

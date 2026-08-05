@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-train-depth-anything-v2",
   "name": "tao-train-depth-anything-v2",
   "description": "Monocular depth estimation using Metric Depth Anything v2 or Relative Depth Anything architectures. Predicts per-pixel depth from single RGB images. Use when training, evaluating, exporting, or running inference for a TAO monocular depth model. Trigger phrases include \"train monocular depth\", \"DepthAnything v2\", \"metric depth from single image\", \"monocular depth estimation\".",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-depth-anything-v2/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-depth-anything-v2/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-train-depth-anything-v2/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-train-depth-anything-v2/metadata.json",
   "bundleHash": "sha256-534c2a4d30d6a6bea38a53b3b0c9014d9bb12b9a33dabbff0008f80abec059a9",
   "merkleLeaf": "sha256-07e6928889b1cfc410ac590b77351b55654c8f45b0e6758869f9f54fd833ab1a",
   "files": [
@@ -99,7 +99,7 @@
       "sha256": "sha256-6e4fba97bb87d5707eff43682f2ba4d4eee9399257f8bc707d8ff891913f0006"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

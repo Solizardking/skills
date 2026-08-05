@@ -3,8 +3,8 @@
   "slug": "nvidia/nemo-mbridge-perf-sequence-packing",
   "name": "nemo-mbridge-perf-sequence-packing",
   "description": "Validate and use packed sequences and long-context training in Megatron-Bridge, distinguishing offline packed SFT for LLMs from in-batch packing for VLMs, and applying the right CP constraints.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-sequence-packing/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-sequence-packing/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-perf-sequence-packing/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemo-mbridge-perf-sequence-packing/metadata.json",
   "bundleHash": "sha256-1c567538afea45db4588e2fd203384b8843187afbf21ac1eb811ebfe1fc4ea7f",
   "merkleLeaf": "sha256-b3ecb1093502d8094196e26fab49c59ecc7003a862ef11d395bfcd1cb5b8ad28",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-befc23b0417f9c541eeb5613316bc66104e91b90194588e8457c01152f4000e1"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

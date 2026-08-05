@@ -3,8 +3,8 @@
   "slug": "nvidia/dynamo-recipe-runner",
   "name": "dynamo-recipe-runner",
   "description": "Select, validate, patch, and deploy existing NVIDIA Dynamo Kubernetes recipes. Use for model/backend/GPU/deployment-mode recipe bring-up; use router-starter for router-only mode work and troubleshoot for broken deployments.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/dynamo-recipe-runner/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dynamo-recipe-runner/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/dynamo-recipe-runner/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/dynamo-recipe-runner/metadata.json",
   "bundleHash": "sha256-5107560cbea62290a6924b5d05ce94fa4eba414c36e8b131fda5cfd84c16028e",
   "merkleLeaf": "sha256-b8b107a2ed09ed93e73eea25de643e6a1136218decd38972957f54be8709c3ca",
   "files": [
@@ -34,7 +34,7 @@
       "sha256": "sha256-03c3c629e70891ecb7a41d152081b122e99ea803082ae55c06a236638433d091"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

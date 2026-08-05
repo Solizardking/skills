@@ -3,8 +3,8 @@
   "slug": "helius-skills/helius-phantom",
   "name": "helius-phantom",
   "description": "Build frontend Solana applications with Phantom Connect SDK and Helius infrastructure. Covers React, React Native, and browser SDK integration, transaction signing via Helius Sender, API key proxying, token gating, NFT minting, crypto payments, real-time updates, and secure frontend architecture.",
-  "source": "https://skills.x402.wtf/api/skills/helius-skills/helius-phantom/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/helius-skills/helius-phantom/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/helius-skills/helius-phantom/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/helius-skills/helius-phantom/metadata.json",
   "bundleHash": "sha256-5a84b110c23f942e669ec32fb17b1c5ef4e3b4ae71c4aeb71f2ef8b338ac5ac4",
   "merkleLeaf": "sha256-1a4a6c7560e9ae8e264428ebd8558e4fa2959a67f6f64728e303894d9028f0a0",
   "files": [
@@ -94,7 +94,7 @@
       "sha256": "sha256-504f29414aa0c1231c08c1be30cba4d64d4a7ab2dca53156cd4b3ee8c3e68ce7"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

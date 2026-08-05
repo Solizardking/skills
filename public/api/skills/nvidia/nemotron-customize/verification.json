@@ -3,8 +3,8 @@
   "slug": "nvidia/nemotron-customize",
   "name": "nemotron-customize",
   "description": "Plan, configure, and chain repo-native Nemotron customization steps into single-step or multi-step pipelines: curation, translation, SFT/PEFT (AutoModel or Megatron-Bridge), pretraining/CPT, RL alignment (DPO/RLVR/GRPO/RLHF), BYOB/MCQ benchmarks, checkpoint conversion, ModelOpt optimization, env profiles, and evaluation of trained checkpoints or existing/hosted endpoints. Use when a request names a Nemotron step or workflow, or asks to clean, translate, train, fine-tune, align, convert, optimize, evaluate, or compose these into a pipeline. Do NOT use for frontend/dashboard/visualization work, generic ML advice, billing/access, or non-Nemotron coding tasks.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/nemotron-customize/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemotron-customize/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/nemotron-customize/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/nemotron-customize/metadata.json",
   "bundleHash": "sha256-f889ff70b50b6f6c18d358c43b992c1e9433c63a5244310cce3fab4f5cbb3d91",
   "merkleLeaf": "sha256-04aea2fe27fdfc80c121e09d052a7385b2a40be1dec5e04fcf4899cdbec1e6ff",
   "files": [
@@ -169,7 +169,7 @@
       "sha256": "sha256-985a97bb839e8f031a7a7c1bba67c54372fdef80ded896ba45a0b43ce83c5672"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

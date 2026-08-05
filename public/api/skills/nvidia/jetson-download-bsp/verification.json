@@ -3,8 +3,8 @@
   "slug": "nvidia/jetson-download-bsp",
   "name": "jetson-download-bsp",
   "description": "Download NVIDIA Jetson Linux BSP artifacts (BSP tarball, sample rootfs, public_sources, x-tools, guides) for the active target. Use for Auto Setup; not for extraction or profile edits.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-download-bsp/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-download-bsp/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/jetson-download-bsp/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/jetson-download-bsp/metadata.json",
   "bundleHash": "sha256-84415e5fdec78b9292e1f92fa68af5b82d19df41ab6cd010afd4969f62fba4b1",
   "merkleLeaf": "sha256-328c4b3758a55762e5685e8035f2b8855d39c9edab9ca78d4fdf93180ec7a349",
   "files": [
@@ -24,7 +24,7 @@
       "sha256": "sha256-47cb24be68f03b002eee3dcf43c9defb59641fc37422f95671d49bb402c0b114"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

@@ -3,8 +3,8 @@
   "slug": "nvidia/tao-mine-aoi-images",
   "name": "tao-mine-aoi-images",
   "description": "Runs the DEFT embed-then-mine workflow for VCN AOI iterations — embeds the gap-analysis target parquet, embeds a source pool, and mines nearest-neighbour source images for downstream augmentation. Use as the immediate next step after `tao-route-visual-changenet-samples` when expanding a real-image augmentation queue from the mining subset.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-mine-aoi-images/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-mine-aoi-images/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/tao-mine-aoi-images/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/tao-mine-aoi-images/metadata.json",
   "bundleHash": "sha256-1aba205a0de6402efe40b99775531eca9adf8b12d12d9eeead59ab0ecaf65c49",
   "merkleLeaf": "sha256-e0b895efe550ba6e3063e23ab7a842fb28732f389765c2d848ea218203913002",
   "files": [
@@ -44,7 +44,7 @@
       "sha256": "sha256-7ee64b6e3835ded491cca5755d5a3c3b5df4fb679a346cb6a85453a54984ef3a"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

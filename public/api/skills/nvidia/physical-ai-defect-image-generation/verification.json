@@ -3,8 +3,8 @@
   "slug": "nvidia/physical-ai-defect-image-generation",
   "name": "physical-ai-defect-image-generation",
   "description": "Use when the user wants to orchestrate defect image generation with NVIDIA Cosmos AnomalyGen (Cosmos-Predict2-derived) on OSMO for PCBA, metal surface, and glass inspection. The Day 0 path handles cold-start with USD-to-ROI, image-edit augmentation, and AnomalyGen to create initial PCBA datasets. The Day 1 path performs inference and labeling on real images. This skill helps with first-time asset setup, creation of finetuning checkpoints, and configuring deployment.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-defect-image-generation/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-defect-image-generation/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/physical-ai-defect-image-generation/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/physical-ai-defect-image-generation/metadata.json",
   "bundleHash": "sha256-a387ba563b71b2aa0cc328049ca0ae030fac6c683777b7daf05135a40b6e963f",
   "merkleLeaf": "sha256-5f82ae0464c3c1f20cdf9dbdb0124155d244b721bc6f70caff99e6df9a8210dd",
   "files": [
@@ -269,7 +269,7 @@
       "sha256": "sha256-02b77b4e1eedf523422a4f17fb6dd143cbfc044eca624ee8bbc716099c508828"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",

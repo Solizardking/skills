@@ -3,8 +3,8 @@
   "slug": "nvidia/cupynumeric-parallel-data-load",
   "name": "cupynumeric-parallel-data-load",
   "description": "Load a sharded, on-disk dataset (sharded .npy, Parquet/Arrow, raw binary, sharded HDF5, custom layouts) into a distributed cuPyNumeric ndarray via a manual partition + leaf @task launch with CPU/OMP/GPU variants. Use when no single-call loader fits, including when per-shard row counts differ across files. Prefer cupynumeric.load or legate.io.hdf5.from_file when they apply.",
-  "source": "https://skills.x402.wtf/api/skills/nvidia/cupynumeric-parallel-data-load/SKILL.md",
-  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cupynumeric-parallel-data-load/metadata.json",
+  "source": "https://skills.x402agent.io/api/skills/nvidia/cupynumeric-parallel-data-load/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/nvidia/cupynumeric-parallel-data-load/metadata.json",
   "bundleHash": "sha256-61d147bb426ab1722284f1277a5c1482713c3a51d184330fa0e8f64dad702577",
   "merkleLeaf": "sha256-f18cbd3dd2fe953a932497854bf924c1d421f79d70dcbc5f7c07f5d748c0883d",
   "files": [
@@ -29,7 +29,7 @@
       "sha256": "sha256-4f9c8bd3f82b185d0bb4c11bdd3e62135cd3f98c193fe2e55b18e5cbcdaa7e3c"
     }
   ],
-  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
   "solana": {
     "cluster": "mainnet-beta",
     "status": "anchor-ready",
