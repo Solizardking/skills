@@ -1,0 +1,7 @@
+{
+  "slug": "v4-hook-generator",
+  "name": "v4-hook-generator",
+  "description": "Generate Uniswap v4 hook contracts via OpenZeppelin MCP. Use when building custom swap logic, async swaps, hook-owned liquidity, custom curves, dynamic fees, MEV protection, limit orders, or oracle hooks.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/v4-hook-generator/SKILL.md"
+}

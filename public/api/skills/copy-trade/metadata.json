@@ -1,0 +1,7 @@
+{
+  "slug": "copy-trade",
+  "name": "copy-trade",
+  "description": "This skill should be used when the user asks to \"copy trades from\" a wallet, \"mirror a wallet\", \"follow this address\", set up \"copy trading\", \"track and replicate a trader\", or mirror another account's swaps bounded by guardrails. Watches a target wallet and mirrors its trades, filtered by chain, asset match, position size, and the follower's own portfolio state.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/copy-trade/SKILL.md"
+}

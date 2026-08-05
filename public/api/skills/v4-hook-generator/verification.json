@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "v4-hook-generator",
+  "name": "v4-hook-generator",
+  "description": "Generate Uniswap v4 hook contracts via OpenZeppelin MCP. Use when building custom swap logic, async swaps, hook-owned liquidity, custom curves, dynamic fees, MEV protection, limit orders, or oracle hooks.",
+  "source": "https://skills.x402agent.io/api/skills/v4-hook-generator/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/v4-hook-generator/metadata.json",
+  "bundleHash": "sha256-0ddf4d573211edf26da2a89c66a3e414bcdad8dc86dfc01135546f64ffe680bc",
+  "merkleLeaf": "sha256-c555a6a34873a1453b10e3aae23da7123956f51939a5697867518d3917a374b2",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 18413,
+      "sha256": "sha256-441ef1b497fa88f4bb412e56140a4a1ec2d15f3eb91bdb0b9fbede34ca9cb6e6"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

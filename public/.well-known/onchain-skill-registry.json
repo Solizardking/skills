@@ -7,9 +7,9 @@
   "cluster": "mainnet-beta",
   "status": "anchor-ready",
   "hashAlgorithm": "sha256",
-  "totalSkills": 558,
-  "catalogHash": "sha256-e9a98c6339fd6390b00a46063220a64c44d68cc5b495cb7b7704c6dad4b29103",
-  "merkleRoot": "sha256-756d590156eb3a22f17dabe8d99cc21cd8b9d40ba5c9965996c66b477b3ff3f6",
+  "totalSkills": 594,
+  "catalogHash": "sha256-abd84b5777abd7a2218c15a768e8d34c8e29f3771f113ed24216c592d4d6f85d",
+  "merkleRoot": "sha256-b2eb7634bbed16d2c4f5a335c6a7150f5795cbe8d87b71b8db0e58308e8e74b2",
   "solana": {
     "registryProgramId": null,
     "registryPda": null,
@@ -49,6 +49,50 @@
       "verification": "/api/skills/ask-mcp/verification.json"
     },
     {
+      "slug": "cheshire-agent-registries",
+      "name": "cheshire-agent-registries",
+      "description": "Overview of the ERC-8004 Cheshire agent registry suite on Robinhood Chain: identity (ERC-721 RHAGENT), reputation feedback, validation request/response, and optional zk-omni messenger. Use when registering agents, reading registry addresses, wiring forge/UI, or deploying operator tooling. Product host: funpump.ai · forge: cheshireterminal.ai/agents/forge.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-30985c3b3e938fcd3f101731c17d0cfefcd3468c8bb8c28ecfad999103ec003f",
+      "merkleLeaf": "sha256-cf82d80bcf79b47576a2e948be7fba2830456adf7001434eb1f5ae36265ec5ed",
+      "fileCount": 1,
+      "metadata": "/api/skills/cheshire-agent-registries/metadata.json",
+      "verification": "/api/skills/cheshire-agent-registries/verification.json"
+    },
+    {
+      "slug": "cheshire-api",
+      "name": "cheshire-api",
+      "description": "Call Cheshire Terminal REST, MCP, discovery, and developer API surfaces for Solana agents, arena rooms, Upstash boxes, trading health, and OpenAPI. Use when integrating cheshireterminal.ai, /mcp, /.well-known/agent-card.json, ct_sk_ API keys, arena coordination, box handoff, or Apigee/zero-service health probes.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-4d04283b35eee220a891140742f015315d631a0b451faf2e2330dbea5032905e",
+      "merkleLeaf": "sha256-944407f680e52f6b9f9685d67a7567907bd367805e1129ad1beb11c24f6f9d39",
+      "fileCount": 4,
+      "metadata": "/api/skills/cheshire-api/metadata.json",
+      "verification": "/api/skills/cheshire-api/verification.json"
+    },
+    {
+      "slug": "cheshire-noxa",
+      "name": "cheshire-noxa",
+      "description": "NOXA Fun/DEX collab for Cheshire Terminal — launch feed, DEX registry, QuoterV2 quotes, EVM RPC. One-shot npm package @x402solana/cheshire-noxa.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-dd7d46bb8de865d4b6b0ec7fd1b0297045c9e44b0f23b60c2365a56d64cf1d95",
+      "merkleLeaf": "sha256-cc49526d463725828a057c6e87e266e640b2025be1133b670a5e26b256326316",
+      "fileCount": 1,
+      "metadata": "/api/skills/cheshire-noxa/metadata.json",
+      "verification": "/api/skills/cheshire-noxa/verification.json"
+    },
+    {
+      "slug": "cheshire-omni-mint",
+      "name": "cheshire-omni-mint",
+      "description": "Dual-rail omni agent mint: Solana Metaplex Core + Agent Identity and Robinhood Chain ERC-8004 identity in one plan, optionally bound with LayerZero zk-omni (msgType 4 dual_identity_link). Use when the user wants omnichain identity, Solana and Robinhood together, Metaplex mintAgent + RH register, or Cheshire Terminal dual-rail forge. Product: cheshireterminal.ai/agents/forge · funpump.ai.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-5861ee9fab703718e3f9558095e11178226f1ad64fc387e77dcb4221d91771cf",
+      "merkleLeaf": "sha256-a5e225a2747f4d1456219be9507825d471aca0323e460b5a8dba6e8d1a1bbdf1",
+      "fileCount": 1,
+      "metadata": "/api/skills/cheshire-omni-mint/metadata.json",
+      "verification": "/api/skills/cheshire-omni-mint/verification.json"
+    },
+    {
       "slug": "cheshire-terminal",
       "name": "cheshire-terminal",
       "description": "Operate and extend Cheshire Terminal, the cheshireterminal.ai voice-controlled Solana terminal powered by $CLAWD. Use when working on voice terminal flows, token launch commands, LiveKit voice integration, Jupiter swap surfaces, burn/staking flows, or any task that mentions Cheshire Terminal, cheshireterminal.ai, $CLAWD terminal, or Clawd voice commands.",
@@ -58,6 +102,17 @@
       "fileCount": 2,
       "metadata": "/api/skills/cheshire-terminal/metadata.json",
       "verification": "/api/skills/cheshire-terminal/verification.json"
+    },
+    {
+      "slug": "cheshire-zk-omni",
+      "name": "cheshire-zk-omni",
+      "description": "Zero-knowledge omnichain messaging (msgType 4) between Robinhood Chain and Solana via CheshireZkOmniMessenger — LayerZero V2 peers, nullifier anti-replay, optional identity authorization. Use for sendZkOmni, quoteSend, nullifiers, zk-omni relayer. Source: contracts/zk-omni/CheshireZkOmniMessenger.sol.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-2951bb390e8cb7b5e250a81741bed8ee94141296acdd3af22251e85270a3214f",
+      "merkleLeaf": "sha256-f849d868a74e2fb432b9176a76dc6e9a797f42c1985961d9592cf1e5f7b4dd2a",
+      "fileCount": 1,
+      "metadata": "/api/skills/cheshire-zk-omni/metadata.json",
+      "verification": "/api/skills/cheshire-zk-omni/verification.json"
     },
     {
       "slug": "clawd-agent-launchpad",
@@ -157,6 +212,28 @@
       "fileCount": 10,
       "metadata": "/api/skills/compressed-token/metadata.json",
       "verification": "/api/skills/compressed-token/verification.json"
+    },
+    {
+      "slug": "copy-trade",
+      "name": "copy-trade",
+      "description": "This skill should be used when the user asks to \"copy trades from\" a wallet, \"mirror a wallet\", \"follow this address\", set up \"copy trading\", \"track and replicate a trader\", or mirror another account's swaps bounded by guardrails. Watches a target wallet and mirrors its trades, filtered by chain, asset match, position size, and the follower's own portfolio state.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-f5612c5c04175682ae990afb40dd821e00fc93ea30880850f2e3eb951ed0bfea",
+      "merkleLeaf": "sha256-e686282eca6e334edd65517e5d50c2ef9383d7f36f0017b9c0a198009240bd70",
+      "fileCount": 1,
+      "metadata": "/api/skills/copy-trade/metadata.json",
+      "verification": "/api/skills/copy-trade/verification.json"
+    },
+    {
+      "slug": "dca-bot",
+      "name": "dca-bot",
+      "description": "This skill should be used when the user wants to \"dca into\" a token, \"buy X every day\", set up a \"recurring buy\", \"dollar cost average\" into an asset, \"schedule a buy\", or \"auto-buy on a dip\". Buys a fixed amount into a token on a schedule, optionally only when a condition holds (for example only when ETH is below a price threshold). The host agent's scheduler wakes the skill on a cadence; each wake is one self-contained run.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-666d4e4f84fb86f68ccfa3a995dd95fab13ba3b2cfc92b62f8f6b602645f5d5a",
+      "merkleLeaf": "sha256-acbed7e14e77685aa9912954da9ec95c983e832c674bf038c9f21ee43db256cc",
+      "fileCount": 1,
+      "metadata": "/api/skills/dca-bot/metadata.json",
+      "verification": "/api/skills/dca-bot/verification.json"
     },
     {
       "slug": "dex-screener-scanner",
@@ -522,6 +599,28 @@
       "verification": "/api/skills/pay/verification.json"
     },
     {
+      "slug": "pay-with-any-token",
+      "name": "pay-with-any-token",
+      "description": "Pay HTTP 402 payment challenges using tokens via the Tempo CLI and Uniswap Trading API. Use when the user encounters a 402 Payment Required response, needs to fulfill a machine payment, mentions \"MPP\", \"Tempo payment\", \"pay for API access\", \"HTTP 402\", \"x402\", \"machine payment protocol\", \"pay-with-any-token\", \"use tempo\", \"tempo request\", or \"tempo wallet\".",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-3949acd14c5f4c3d97cf3c873794ddb877701c2a06a7f731bd43c0bd6b2a7e97",
+      "merkleLeaf": "sha256-e132d23fefa7f98118eaca3f1a22c7c62ff217c3179890966390cf77d37df580",
+      "fileCount": 3,
+      "metadata": "/api/skills/pay-with-any-token/metadata.json",
+      "verification": "/api/skills/pay-with-any-token/verification.json"
+    },
+    {
+      "slug": "pay-with-app",
+      "name": "pay-with-app",
+      "description": "Pay HTTP 402 payment challenges issued by OKX's Agent Payments Protocol (APP) on X Layer using tokens from any chain via the Uniswap Trading API. Use this skill whenever the user encounters a 402 challenge whose network resolves to X Layer (chain 196), mentions \"APP\", \"Agent Payments Protocol\", \"OKX agent payment\", \"OKX Onchain OS\", \"OKX agentic wallet\", \"x402 on X Layer\", \"USDT0\", \"x42\", \"Instant Payment\", \"Batch Payment\", \"pay for X Layer API\", or wants to pay an OKX-backed merchant. Even when the user does not explicitly say APP, prefer this skill for any 402 challenge whose network resolves to X Layer (chain 196). For 402 challenges on other chains (Ethereum, Base, Arbitrum, Tempo) use pay-with-any-token instead.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-d4e57b8e439f956d5cb32b58413666b708e35172cda30626e8d160017aac0178",
+      "merkleLeaf": "sha256-2b40eb3f8b831d15fc4adbb8c473c8115b813ec9842b74e45513231977906724",
+      "fileCount": 3,
+      "metadata": "/api/skills/pay-with-app/metadata.json",
+      "verification": "/api/skills/pay-with-app/verification.json"
+    },
+    {
       "slug": "phantom-wallet-mcp",
       "name": "phantom-wallet-mcp",
       "description": "Execute wallet operations through the Phantom MCP server. Use when the user wants to interact with their Phantom wallet directly — get addresses, transfer SOL or SPL tokens, buy/swap tokens, sign transactions, and sign messages across Solana, Ethereum, Bitcoin, and Sui. Requires the @phantom/mcp-server to be configured as an MCP server.",
@@ -531,6 +630,28 @@
       "fileCount": 1,
       "metadata": "/api/skills/phantom-wallet-mcp/metadata.json",
       "verification": "/api/skills/phantom-wallet-mcp/verification.json"
+    },
+    {
+      "slug": "pons-launch",
+      "name": "pons-launch",
+      "description": "Launch a fixed-supply V3 token on Robinhood Chain (4663) via PonsLaunchFactory (pons.family), reverse-discover the factory from live PonsLauncherToken tokens, prepare launchToken txs, and verify TokenLaunched receipts. Use when the user says \"launch on Pons\", \"pons.family launch\", \"PonsLaunchFactory\", \"launchToken\", \"PonsLauncherToken\", \"V3 launch on Robinhood\", or wants agents to create a Pons token. Does NOT use RH bonding-curve createToken (rh-bonded-launch), does NOT mint Solana $CLAWD, and does NOT use NOXA Fun factories.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-1ce5722f9334dfeeb3401688e22789b6865bfbc5411f52bf9c3419b68b748224",
+      "merkleLeaf": "sha256-536523515b7d67b7b39f1eee6a45c451bb21c1124d663e2d521766b8c921685d",
+      "fileCount": 1,
+      "metadata": "/api/skills/pons-launch/metadata.json",
+      "verification": "/api/skills/pons-launch/verification.json"
+    },
+    {
+      "slug": "posthog-cheshire",
+      "name": "posthog-cheshire",
+      "description": "Instrument and operate PostHog analytics for Cheshire Terminal (US cloud project 473072). Use when wiring posthog-js / posthog-node, cookieless privacy opt-in, wallet identify on SIWS, session replay, product events (wallet_connected, pump/dbc launches, agents, staking), or verifying capture to us.i.posthog.com.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-dcd0890d8ea683c1af92b90022c9e23ef09a9e89c0033b6be11c063d6b3b5722",
+      "merkleLeaf": "sha256-5af1349378b4359189b7229bf63b4dc45c978f1f4d3eaaad64cc5c0c4958fa4f",
+      "fileCount": 4,
+      "metadata": "/api/skills/posthog-cheshire/metadata.json",
+      "verification": "/api/skills/posthog-cheshire/verification.json"
     },
     {
       "slug": "pump-admin-ops",
@@ -797,6 +918,72 @@
       "verification": "/api/skills/pumpfun-trading/verification.json"
     },
     {
+      "slug": "rh-bonded-launch",
+      "name": "rh-bonded-launch",
+      "description": "Launch a permissionless bonding-curve token on Robinhood Chain (4663) via the live BondingCurveLaunchpad, or guide a user/agent to do so on FunPump /launch or Cheshire /rh-launch. Use when the user says \"launch a token\", \"create token on Robinhood\", \"bonded launch\", \"createToken\", \"fair launch on RH\", \"pump style on robinhood\", \"open a curve\", or brings an agent to funpump.ai to launch. Does NOT mint wCLAWD or bridge Solana $CLAWD — that is a separate bridge skill path.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-bbe16bdade8d5a298bd82f9c4dbeb406ac84b15ef03d8966a176d09ffe95d244",
+      "merkleLeaf": "sha256-4a4c6de57cf2b6b38ac92a71d40ad7e5fd7f445bb3ea65f34261fc7c45c9ce47",
+      "fileCount": 1,
+      "metadata": "/api/skills/rh-bonded-launch/metadata.json",
+      "verification": "/api/skills/rh-bonded-launch/verification.json"
+    },
+    {
+      "slug": "rh-crypto-agent",
+      "name": "rh-crypto-agent",
+      "description": "Robinhood Crypto Agent open skill pack for Robinhood Chain / EVM trading and launch agents. Covers bonded launch, Launchpad V3, Uniswap swaps/LP, DCA, copy-trade, payments, viem, and Cheshire agent registry skills. Use when pointing clawdbot at the RH pack, installing the suite, or building Robinhood Chain crypto agents.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-eae1f80c2213adb380683fe26699f24a31bd421552d8787e05b57d600fdaee65",
+      "merkleLeaf": "sha256-eab2dd8a2fedfbfcceff1f9c5bf3d27d369e9db70650230105c35509d9c8ac04",
+      "fileCount": 4,
+      "metadata": "/api/skills/rh-crypto-agent/metadata.json",
+      "verification": "/api/skills/rh-crypto-agent/verification.json"
+    },
+    {
+      "slug": "rh-launchpad-v3",
+      "name": "rh-launchpad-v3",
+      "description": "Launch a permissionless bonding-curve token on Robinhood Chain (4663) via BondingCurveLaunchpadV3 — graduates into a Uniswap V3 pool (not V2). Use for bots, agents, Telegram, \"launch with V3 pool\", createToken on LaunchpadV3, curve-v3 rail, or FunPump https://funpump.ai/api/launchpad/v3. Distinct from legacy V2 BondingCurveLaunchpad and from NOXA Fun instant V3.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-a1efc00ee8c92409b7c47041963841308eebbb5c8fe95754eef039e9e28adc40",
+      "merkleLeaf": "sha256-7cae9ec867321a1a27dde2a19d2531c383affa90131df0d645e9b0566048e83c",
+      "fileCount": 1,
+      "metadata": "/api/skills/rh-launchpad-v3/metadata.json",
+      "verification": "/api/skills/rh-launchpad-v3/verification.json"
+    },
+    {
+      "slug": "robinhood-agent-forge",
+      "name": "robinhood-agent-forge",
+      "description": "Prepare, register, inspect, and safely operate chain-scoped AI agent identities on Robinhood Chain (EVM/ERC-8004-compatible) or Solana (SVM/Metaplex Core) through Cheshire Terminal and the open-source robinhood-agents SDK. Use for chain selection, deployment verification, metadata, unsigned EVM registration intents, wallet-authorized sponsored Solana identity mints, ownership and authority review, reputation, validation, or guarded infrastructure deployment.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-b14b16dac8f765897829105e008ef70aa2c349208933033b3217c3222a78292f",
+      "merkleLeaf": "sha256-1e04837361049a5d89f084f7023618a3cde5832f324ee296f408e4f20e19660a",
+      "fileCount": 5,
+      "metadata": "/api/skills/robinhood-agent-forge/metadata.json",
+      "verification": "/api/skills/robinhood-agent-forge/verification.json"
+    },
+    {
+      "slug": "skillhub-onchain",
+      "name": "skillhub-onchain",
+      "description": "Publish agent skills on-chain via Skill Hub (skills.x402.wtf): upload SKILL.md, run the security scanner, pay a Solana fee, and anchor package hashes on Arweave and Solana. Use when shipping skills to the public catalog, reading the public submission ledger, or connecting Cheshire Terminal to the Skill Hub API.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-f393b771a8b5fdfb2665f9eaa1a1205dc9fdf6ed1b118819527152a4d1493c46",
+      "merkleLeaf": "sha256-24484a5bb5712efe6da4539a414f93def47042022774308603421bde3b1ae442",
+      "fileCount": 1,
+      "metadata": "/api/skills/skillhub-onchain/metadata.json",
+      "verification": "/api/skills/skillhub-onchain/verification.json"
+    },
+    {
+      "slug": "skills-store",
+      "name": "skills-store",
+      "description": "Cheshire Skills Store index — curated Agent Skills packages for Cheshire Terminal (API, PostHog, Google Agent Registry, Skill Hub onchain, Stripe, Solana common errors, NOXA) plus the community skills collection. Use when installing store skills, browsing the store catalog, or wiring cheshireterminal.ai/skills-store.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-1549050dd48b6d45bf3ed2908953d9796981f3794e0546c60d9140872dd52045",
+      "merkleLeaf": "sha256-f4f841629771c1aaa2e7fb8b330453920b073507938e4772726d076fc12bcfc6",
+      "fileCount": 9,
+      "metadata": "/api/skills/skills-store/metadata.json",
+      "verification": "/api/skills/skills-store/verification.json"
+    },
+    {
       "slug": "solana-clawd",
       "name": "solana-clawd",
       "description": "One-shot setup and operation guide for the solana-clawd agentic engine. Use when: cloning the repo, setting up MCP tools, starting the Telegram bot, deploying to Fly.io/Netlify, hatching blockchain buddies, running OODA loops, configuring voice mode (ElevenLabs + Grok), minting Metaplex agents, managing the vault, running the worker swarm, or contributing to the project. Covers all 31 MCP tools, 18 buddy species, 9 spinners, 60+ Telegram commands, 95 skills, and the full repo structure.",
@@ -907,6 +1094,17 @@
       "verification": "/api/skills/sponge-wallet/verification.json"
     },
     {
+      "slug": "swap-planner",
+      "name": "swap-planner",
+      "description": "This skill should be used when the user asks to \"swap tokens\", \"trade ETH for USDC\", \"exchange tokens on Uniswap\", \"buy tokens\", \"sell tokens\", \"convert ETH to stablecoins\", \"find memecoins\", \"discover tokens\", \"research tokens\", \"tokens to buy\", \"find tokens to swap\", \"what should I buy\", or mentions swapping, trading, researching, discovering, buying, or exchanging tokens on any Uniswap-supported chain. Supports both known token swaps and token discovery workflows (discovery uses keyword search and web search — there is no live \"trending\" feed). Generates deep links to execute swaps in the Uniswap interface.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-6aeef887ea4b540b04855b110958aa9122e1a0aced702ceb937dc92fb0ab115f",
+      "merkleLeaf": "sha256-909e816442659c7f08e38f38e239f58345186c1dc02b2a08237bd7778c1853d8",
+      "fileCount": 2,
+      "metadata": "/api/skills/swap-planner/metadata.json",
+      "verification": "/api/skills/swap-planner/verification.json"
+    },
+    {
       "slug": "swarm-orchestrator",
       "name": "swarm-orchestrator",
       "description": "Orchestrate multi-bot trading swarms on Pump.fun with persona-driven agents",
@@ -927,6 +1125,17 @@
       "fileCount": 5,
       "metadata": "/api/skills/testing/metadata.json",
       "verification": "/api/skills/testing/verification.json"
+    },
+    {
+      "slug": "viem-integration",
+      "name": "viem-integration",
+      "description": "Integrate EVM blockchains using viem. Use when user says \"read blockchain data\", \"send transaction\", \"interact with smart contract\", \"connect to Ethereum\", \"use viem\", \"use wagmi\", \"wallet integration\", \"viem setup\", or mentions blockchain/EVM development with TypeScript.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-5537ea966d39fc147d941c9a11ca81181b466b8bac23b61bdad776d17c9bdb7e",
+      "merkleLeaf": "sha256-3e70a47261ca72dcc9607a4ad730298e87466d9cddc485c5e9cc73af7e39c14c",
+      "fileCount": 7,
+      "metadata": "/api/skills/viem-integration/metadata.json",
+      "verification": "/api/skills/viem-integration/verification.json"
     },
     {
       "slug": "vulcan",
@@ -1138,6 +1347,17 @@
       "verification": "/api/skills/zk/verification.json"
     },
     {
+      "slug": "zk-omni-messaging",
+      "name": "zk-omni-messaging",
+      "description": "Zero-knowledge omnichain messaging between Robinhood Chain and Solana using CheshireZkOmniMessenger (msgType 4) with nullifier anti-replay and the zk-omni-relayer service.",
+      "category": "Solana / Blockchain",
+      "bundleHash": "sha256-7f8f3e74a3f5f02df7df6a330a6c95eac01ea985af399f5061873feaaf0293b1",
+      "merkleLeaf": "sha256-d15edd6bb5a6e4e31316f1aa0f09511f4f1e03a6b1f9cf6537fd7253c12c5ed2",
+      "fileCount": 1,
+      "metadata": "/api/skills/zk-omni-messaging/metadata.json",
+      "verification": "/api/skills/zk-omni-messaging/verification.json"
+    },
+    {
       "slug": "zkrouter",
       "name": "zkrouter",
       "description": "Self-hosted OpenAI-compatible LLM router — smart tier-based routing, ZK-stamped routing decisions, mode overrides, free OpenRouter at install via the Birth bot. Save 60-80% on inference costs by routing to the cheapest capable model across 12+ OpenRouter models.",
@@ -1290,6 +1510,39 @@
       "fileCount": 53,
       "metadata": "/api/skills/anthropic-skills/xlsx/metadata.json",
       "verification": "/api/skills/anthropic-skills/xlsx/verification.json"
+    },
+    {
+      "slug": "cheshire-agent-identity-registry",
+      "name": "cheshire-agent-identity-registry",
+      "description": "Register and operate Cheshire Robinhood agent identities (ERC-721 RHAGENT) via CheshireAgentIdentityRegistry on Robinhood Chain. Use for register(agentURI), agentWallet EIP-712/1271 proofs, metadata, isAuthorized, and ownerOf reads. Source: robinhood-agents/contracts/CheshireAgentIdentityRegistry.sol.",
+      "category": "Dev Tools / Agents",
+      "bundleHash": "sha256-de63188bec4a192efe3314c3a8e2031f2b12f3a5c9c99442b8fa538147f95d84",
+      "merkleLeaf": "sha256-17964815b1ab1d704fd6eddf1c7e4bf2e511fd536c4bd65a0e338e14960b0d83",
+      "fileCount": 1,
+      "metadata": "/api/skills/cheshire-agent-identity-registry/metadata.json",
+      "verification": "/api/skills/cheshire-agent-identity-registry/verification.json"
+    },
+    {
+      "slug": "cheshire-agent-reputation-registry",
+      "name": "cheshire-agent-reputation-registry",
+      "description": "Post and query ERC-8004 reputation feedback for Cheshire agents on Robinhood Chain via CheshireAgentReputationRegistry. Use for giveFeedback, revokeFeedback, appendResponse, getSummary, and client lists. Requires identity registry 0x7036…c950. Source: CheshireAgentReputationRegistry.sol.",
+      "category": "Dev Tools / Agents",
+      "bundleHash": "sha256-ab06a4ceccb5f265d3d2b36aea79b9b1ba22a20a0329f59b51ee9fb7b73b23cb",
+      "merkleLeaf": "sha256-f1707e589c63b3129f0af4ccdf4c916c4d4386284243aa08c1f65d21c5f4c51e",
+      "fileCount": 1,
+      "metadata": "/api/skills/cheshire-agent-reputation-registry/metadata.json",
+      "verification": "/api/skills/cheshire-agent-reputation-registry/verification.json"
+    },
+    {
+      "slug": "cheshire-agent-validation-registry",
+      "name": "cheshire-agent-validation-registry",
+      "description": "ERC-8004 validation request/response flow for Cheshire agents on Robinhood Chain via CheshireAgentValidationRegistry. Use for validationRequest, validationResponse, getValidationStatus, getSummary. Operators request; named validators respond (0–100 score). Source: CheshireAgentValidationRegistry.sol.",
+      "category": "Dev Tools / Agents",
+      "bundleHash": "sha256-5e1f31140c26ee47d5f068a832380cc461093352f0ac375c35b8320c136974d1",
+      "merkleLeaf": "sha256-46dd3f943966c6055c0fa6945a50869f6b1fa2707fa4adda27a0d9159c3b494c",
+      "fileCount": 1,
+      "metadata": "/api/skills/cheshire-agent-validation-registry/metadata.json",
+      "verification": "/api/skills/cheshire-agent-validation-registry/verification.json"
     },
     {
       "slug": "clawdhub",
@@ -1490,6 +1743,28 @@
       "verification": "/api/skills/github/verification.json"
     },
     {
+      "slug": "google-agent-registry",
+      "name": "google-agent-registry",
+      "description": "Maintain and register Cheshire Google Agent Registry artifacts under registry/google (A2A agent card, MCP tools list, MCP interface, server card, zero-service OpenAPI) and deploy Apigee reverse proxies on project x402-477302. Use for gcloud agent-registry, 10 KB size limits, tool-name parity with server/mcp/tools.ts, Apigee test-env, or validate:google-registry / register:google-agent.",
+      "category": "Dev Tools / Agents",
+      "bundleHash": "sha256-d7a8b239ae842ac600a0820332bfdeccc2a42c442b03c22e720004a1de5ffd48",
+      "merkleLeaf": "sha256-5d08a57507b094c99ec44da3d7e8a4a7f3e691c51536f2496973d83e84fc1e24",
+      "fileCount": 4,
+      "metadata": "/api/skills/google-agent-registry/metadata.json",
+      "verification": "/api/skills/google-agent-registry/verification.json"
+    },
+    {
+      "slug": "improve-animations",
+      "name": "improve-animations",
+      "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to \"improve the animations\", \"audit the motion\", \"make this app feel better\", or wants a roadmap of animation fixes rather than a review of a single diff.",
+      "category": "Dev Tools / Agents",
+      "bundleHash": "sha256-85d2690bee28b0a55d223348a7979bad273bdb41147f7436f7cb8380b8b4a2fc",
+      "merkleLeaf": "sha256-0ac9e4b59a3148a6c2989752e74d4f0cdadef8a8fd2d6e4e592ab25dd52187ce",
+      "fileCount": 3,
+      "metadata": "/api/skills/improve-animations/metadata.json",
+      "verification": "/api/skills/improve-animations/verification.json"
+    },
+    {
       "slug": "in-progress/claude-handoff",
       "name": "claude-handoff",
       "description": "Hand the current conversation off to a fresh background agent that picks up the work immediately.",
@@ -1510,6 +1785,39 @@
       "fileCount": 1,
       "metadata": "/api/skills/in-progress/wizard/metadata.json",
       "verification": "/api/skills/in-progress/wizard/verification.json"
+    },
+    {
+      "slug": "index-bot",
+      "name": "index-bot",
+      "description": "This skill should be used when the user asks to \"create an index\", \"build a basket of top assets\", \"buy a weighted basket\", \"make a portfolio of assets\", \"equal-weight basket\", \"rebalance my portfolio\", \"track the top N tokens\", or wants an automated, weighted multi-asset basket that buys in one pass and rebalances on a cadence. Builds the basket spec, delegates each buy and rebalance swap to the swap-integration Trading API flow, and records target weights in state.",
+      "category": "Dev Tools / Agents",
+      "bundleHash": "sha256-910df7ce2c08d17b9154eadd1deddd2ad52b1d48ed448e2fb5ad76831e51ca26",
+      "merkleLeaf": "sha256-6c114b571d333ff58e789c1c7fb46433d3c5cb0971003c5ee68054bfe22251d4",
+      "fileCount": 1,
+      "metadata": "/api/skills/index-bot/metadata.json",
+      "verification": "/api/skills/index-bot/verification.json"
+    },
+    {
+      "slug": "liquidity-planner",
+      "name": "liquidity-planner",
+      "description": "This skill should be used when the user asks to \"provide liquidity\", \"create LP position\", \"add liquidity to pool\", \"become a liquidity provider\", \"create v3 position\", \"create v4 position\", \"concentrated liquidity\", \"set price range\", or mentions providing liquidity, LP positions, or liquidity pools on Uniswap. Generates deep links to create positions in the Uniswap interface.",
+      "category": "Dev Tools / Agents",
+      "bundleHash": "sha256-8144d90eb084b75a700dcf91520fe7c6b7624e611e928d56e44ec5138e421c1d",
+      "merkleLeaf": "sha256-0456196cd6652281dd458d22b06cd1ffebbacd26d2a93514a2025d7d66fe54de",
+      "fileCount": 3,
+      "metadata": "/api/skills/liquidity-planner/metadata.json",
+      "verification": "/api/skills/liquidity-planner/verification.json"
+    },
+    {
+      "slug": "lp-integration",
+      "name": "lp-integration",
+      "description": "Integrate Uniswap liquidity provisioning (LP) into applications via the LP REST API. Use when the user says \"LP API\", \"liquidity provisioning API\", \"provide liquidity programmatically\", \"create LP position via API\", \"add liquidity via API\", \"increase liquidity\", \"decrease liquidity\", \"remove liquidity\", \"claim LP fees\", \"collect LP fees\", \"manage LP positions in code\", or mentions building a backend, bot, or frontend that creates or manages Uniswap v2/v3/v4 liquidity positions through an API. Also use when debugging LP API calls (e.g. /lp/create, /lp/check_approval, /lp/increase, /lp/decrease, /lp/claim_fees), unexpected response fields, the approval or EIP-712 permit flow, or transaction-building errors for liquidity positions. For generating deep links to the Uniswap web app instead of calling the API, use the liquidity-planner skill; for using the Uniswap v4 SDK directly rather than the REST API, use the v4-sdk-integration skill.",
+      "category": "Dev Tools / Agents",
+      "bundleHash": "sha256-dfd8e27cfca18b0bfbe6c6dc69a26e9f75b4ac8ea19387beca9028c18b2e632e",
+      "merkleLeaf": "sha256-d3831d93d136faaa593cb8995cfc1f5eaf5e8cb1b62fcbe3ba1398feae172b56",
+      "fileCount": 2,
+      "metadata": "/api/skills/lp-integration/metadata.json",
+      "verification": "/api/skills/lp-integration/verification.json"
     },
     {
       "slug": "mcporter",
@@ -1732,6 +2040,17 @@
       "verification": "/api/skills/skill-creator/verification.json"
     },
     {
+      "slug": "stripe",
+      "name": "stripe",
+      "description": "Install and use the official Stripe Claude Code plugin (stripe@claude-plugins-official), connect Stripe MCP (mcp.stripe.com), and implement modern Stripe payments with Checkout Sessions, PaymentIntents, SetupIntents, and Billing — never legacy Charges. Use when building Stripe checkout, subscriptions, webhooks, Connect, restricted keys, test cards, or running /plugin install stripe@claude-plugins-official / /explain-error / /test-cards.",
+      "category": "Dev Tools / Agents",
+      "bundleHash": "sha256-8a84a924bc20644d09710aa4c9ab695bc39ea7bd4888ce786ea8d0c739b44ab5",
+      "merkleLeaf": "sha256-1be28ca6de92f74620260b1f21d93d3823001104eeaeddc4107aec042cc91092",
+      "fileCount": 4,
+      "metadata": "/api/skills/stripe/metadata.json",
+      "verification": "/api/skills/stripe/verification.json"
+    },
+    {
       "slug": "thinking-and-docs/level-up",
       "name": "level-up",
       "description": "Gauge the user's technical + product knowledge through 7 adaptive questions, log verbatim answers with honest ratings, and grow a learning plan from the gaps found. Use when the user says \"level up\", \"level-up session\", \"quiz me\", \"gauge my knowledge\", or wants a new assessment round. Differentiator: this finds and maps gaps; the `teach` skill delivers lessons on them.",
@@ -1774,6 +2093,17 @@
       "fileCount": 3,
       "metadata": "/api/skills/tmux/metadata.json",
       "verification": "/api/skills/tmux/verification.json"
+    },
+    {
+      "slug": "v4-hook-generator",
+      "name": "v4-hook-generator",
+      "description": "Generate Uniswap v4 hook contracts via OpenZeppelin MCP. Use when building custom swap logic, async swaps, hook-owned liquidity, custom curves, dynamic fees, MEV protection, limit orders, or oracle hooks.",
+      "category": "Dev Tools / Agents",
+      "bundleHash": "sha256-0ddf4d573211edf26da2a89c66a3e414bcdad8dc86dfc01135546f64ffe680bc",
+      "merkleLeaf": "sha256-c555a6a34873a1453b10e3aae23da7123956f51939a5697867518d3917a374b2",
+      "fileCount": 1,
+      "metadata": "/api/skills/v4-hook-generator/metadata.json",
+      "verification": "/api/skills/v4-hook-generator/verification.json"
     },
     {
       "slug": "web-perf",
@@ -2418,8 +2748,8 @@
       "name": "gke-upgrades",
       "description": "Plans, executes, and validates Google Kubernetes Engine (GKE) cluster upgrades and maintenance operations for both Standard and Autopilot clusters. Produces upgrade plans, pre/post-upgrade checklists, maintenance runbooks with gcloud commands, release channel strategy, and troubleshooting guides. Handles node pool upgrade strategies (surge, blue-green), version compatibility, PDB management, and workload-specific concerns (stateful, GPU, operators). Use this skill whenever the user mentions GKE upgrades, Kubernetes version bumps, node pool maintenance, GKE patching, cluster version management, release channel selection, maintenance windows, surge upgrades, stuck upgrades, or any GKE lifecycle management task — even casual mentions like \"we need to upgrade our clusters\" or \"plan our next GKE maintenance\" or \"our upgrade is stuck.\" Don't use for GKE cluster creation, application onboarding, general networking/routing setup, or security policy configurations (use gke-basics or relevant GKE skills instead).",
       "category": "Google / Cloud",
-      "bundleHash": "sha256-03b2d1c5bda28281a4d46a2e8ea616c8c897c641125a73df91235efa47be3efa",
-      "merkleLeaf": "sha256-eef16108fe6f0bb3ea10e6e45ccabcbfb0738114ed2c7d25e702a62b7a75b4c4",
+      "bundleHash": "sha256-50944d037655c33267ead2666317d521f4ed21d8471710f974ca30c82cdc82e0",
+      "merkleLeaf": "sha256-f4e75d629c31fb14ca4223991cd91d9959c67c2c2611b4d0d453d6fba3ed0c74",
       "fileCount": 4,
       "metadata": "/api/skills/google/cloud/gke-upgrades/metadata.json",
       "verification": "/api/skills/google/cloud/gke-upgrades/verification.json"
@@ -2990,8 +3320,8 @@
       "name": "earth2studio-create-diagnostic",
       "description": "Create Earth2Studio diagnostic model wrappers for single-step data transformations, including simple derived diagnostics, packaged AutoModel diagnostics, and generative or diffusion diagnostics. Do NOT use for prognostic time-stepping models, data sources, or installation.",
       "category": "NVIDIA / Accelerated Computing",
-      "bundleHash": "sha256-17af10352a1859fd5e2bfabb8c0ab46e0b20cfb4cc42531b36fa0f618c556028",
-      "merkleLeaf": "sha256-d6a2f3caa09fb58d6145c0c3aa0f00f05dc6ae0914c7d73a85ba974e5791c938",
+      "bundleHash": "sha256-ae77de7d7866dcbf93b753b39b08e57d84f3f18993eb4b1769eb1eff21700e13",
+      "merkleLeaf": "sha256-c1603d27f75b880b2227eb85b022c50dd77ae402d6921b1c3e4a6e99e8ab711f",
       "fileCount": 9,
       "metadata": "/api/skills/nvidia/earth2studio-create-diagnostic/metadata.json",
       "verification": "/api/skills/nvidia/earth2studio-create-diagnostic/verification.json"
@@ -4167,9 +4497,9 @@
       "name": "physical-ai-video-data-augmentation",
       "description": "Use when running video data augmentation and auto-labeling workflows on OSMO: flow selection, preflight, submit-time interpolation, monitoring, and output retrieval. Trigger keywords: video data augmentation, data enrichment, auto labeling, VDA demo, OSMO workflow, pseudo labeling.",
       "category": "NVIDIA / Accelerated Computing",
-      "bundleHash": "sha256-f5c7f7fb5cd078f6bf9cb19591f897a689adf96bd74d22342fc19f3726e9bd14",
-      "merkleLeaf": "sha256-d6ab90894614c9d13a9de1e683b2344f6a6a465fa30c2d796c7336d7d0e89061",
-      "fileCount": 58,
+      "bundleHash": "sha256-04cfe8af953223f749e7bd10408614c2fb42298f7e381700454369e2e1b0b3d1",
+      "merkleLeaf": "sha256-4a6ff570398e4c484b43eb024311d15b29dc3b4203ba3788f8e1a2e2ed36fd3b",
+      "fileCount": 73,
       "metadata": "/api/skills/nvidia/physical-ai-video-data-augmentation/metadata.json",
       "verification": "/api/skills/nvidia/physical-ai-video-data-augmentation/verification.json"
     },
@@ -5439,6 +5769,17 @@
       "verification": "/api/skills/voice-call/verification.json"
     },
     {
+      "slug": "youtube-clipper",
+      "name": "youtube-clipper",
+      "description": "YouTube 视频智能剪辑工具。下载视频和字幕，AI 分析生成精细章节（几分钟级别）， 用户选择片段后自动剪辑、翻译字幕为中英双语、烧录字幕到视频，并生成总结文案。 使用场景：当用户需要剪辑 YouTube 视频、生成短视频片段、制作双语字幕版本时。 关键词：视频剪辑、YouTube、字幕翻译、双语字幕、视频下载、clip video",
+      "category": "Media / Devices",
+      "bundleHash": "sha256-600087e9cf788d56b9cf15b33ab02cf3e85a744bee83b846d45d31d3e41d0bed",
+      "merkleLeaf": "sha256-ed3ec28629e14ec65c296dc5e8f4d766ec28546993d6461938d291d031421981",
+      "fileCount": 18,
+      "metadata": "/api/skills/youtube-clipper/metadata.json",
+      "verification": "/api/skills/youtube-clipper/verification.json"
+    },
+    {
       "slug": "agent-orchestration/cmux",
       "name": "cmux",
       "description": "MUST be read ANY time you interact with cmux in ANY way — listing/inspecting/creating/closing cmux workspaces, panes, or surfaces; reading or capturing pane/screen output; sending input or keys to a pane/surface; delegating to, polling, or checking on other agents running in cmux panes/surfaces; building or rearranging terminal layout; cmux browser automation; sending notifications/flashes/status/progress to the sidebar; editing cmux settings; or integrating an agent with cmux hooks. If your command starts with `cmux ` or touches a cmux workspace/pane/surface/agent, read this FIRST. Triggers on \"cmux\", \"in this workspace\", \"this pane\", \"the other agent\", \"delegate to\", \"check on the agent\", \"send to the pane\". macOS only (14.0+).",
@@ -5802,6 +6143,17 @@
       "verification": "/api/skills/cloudflare-one-migrations/verification.json"
     },
     {
+      "slug": "deployer",
+      "name": "deployer",
+      "description": "Deploy CCA (Continuous Clearing Auction) smart contracts using the Factory pattern. Use when user says \"deploy auction\", \"deploy cca\", \"factory deployment\", or wants to deploy a configured auction.",
+      "category": "Utilities",
+      "bundleHash": "sha256-b311695e8b1d2c418f7a2fbe8a513c8668542ba275562a15ea573e83002f4c15",
+      "merkleLeaf": "sha256-e5d2b777095dc95938c10280c8e131b0bab71ecc221561e13846eb039b5fb409",
+      "fileCount": 1,
+      "metadata": "/api/skills/deployer/metadata.json",
+      "verification": "/api/skills/deployer/verification.json"
+    },
+    {
       "slug": "deprecated/ubiquitous-language",
       "name": "ubiquitous-language",
       "description": "Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canonical terms. Saves to UBIQUITOUS_LANGUAGE.md. Use when user wants to define domain terms, build a glossary, harden terminology, create a ubiquitous language, or mentions \"domain model\" or \"DDD\".",
@@ -6143,6 +6495,28 @@
       "verification": "/api/skills/research-and-web/research-prompt/verification.json"
     },
     {
+      "slug": "shadcn",
+      "name": "shadcn",
+      "description": "Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI, including chat interfaces. Provides project context, component docs, and usage examples. Applies when working with shadcn/ui, component registries, presets, --preset codes, or any project with a components.json file. Also triggers for \"shadcn init\", \"create an app with --preset\", or \"switch to --preset\".",
+      "category": "Utilities",
+      "bundleHash": "sha256-989819418346627a2888a2726db039f0e7d0f98fa0e152a263c5fd8e68563a14",
+      "merkleLeaf": "sha256-32dea17879cf950b6bed83d557de84d4c7b3c523286e38b3510c29b9b1c8d003",
+      "fileCount": 1,
+      "metadata": "/api/skills/shadcn/metadata.json",
+      "verification": "/api/skills/shadcn/verification.json"
+    },
+    {
+      "slug": "swap-integration",
+      "name": "swap-integration",
+      "description": "Integrate Uniswap swaps into applications. Use when user says \"integrate swaps\", \"uniswap\", \"trading api\", \"add swap functionality\", \"build a swap frontend\", \"create a swap script\", \"smart contract swap integration\", \"use Universal Router\", \"Trading API\", or mentions swapping tokens via Uniswap.",
+      "category": "Utilities",
+      "bundleHash": "sha256-69e96d9bfdabcfad5183367cad9e02d486939302862b50c7e2f02caf4a752805",
+      "merkleLeaf": "sha256-9d857a86d1ecee54188eb6f21cd4ba3025d88e8019635975b42eb6a909b09d97",
+      "fileCount": 2,
+      "metadata": "/api/skills/swap-integration/metadata.json",
+      "verification": "/api/skills/swap-integration/verification.json"
+    },
+    {
       "slug": "thinking-and-docs/brain-to-docs",
       "name": "brain-to-docs",
       "description": "Use when the user wants to extract project vision, decisions, and preferences from his head into clear documentation (README + ADRs) through a back-and-forth Q&A loop. Triggers on \"brain-to-docs\", \"build out the docs\", \"extract the vision\", \"let's document this project\".",
@@ -6163,6 +6537,28 @@
       "fileCount": 1,
       "metadata": "/api/skills/thinking-and-docs/read-all-adrs/metadata.json",
       "verification": "/api/skills/thinking-and-docs/read-all-adrs/verification.json"
+    },
+    {
+      "slug": "v4-sdk-integration",
+      "name": "v4-sdk-integration",
+      "description": "App-layer SDK guide for building swap and liquidity experiences directly with the Uniswap v4 SDK. Use when user asks about \"v4 sdk\", \"uniswap v4\", \"v4 swap\", \"v4 liquidity\", \"PoolManager\", \"V4Planner\", \"StateView\", \"PositionManager\", \"pool state\", \"v4 position\", \"uniswap sdk\", or when building swap/liquidity UX directly with SDKs rather than via the Trading API.",
+      "category": "Utilities",
+      "bundleHash": "sha256-5a8f9a3cf644b94848a6332903456c6db24de7f9fccc8ab1aee6a3f6a4983a26",
+      "merkleLeaf": "sha256-b5ef36fa9db5e0ddf9c9e1b52e197ebee3625912080f128110c59cd23df1f134",
+      "fileCount": 1,
+      "metadata": "/api/skills/v4-sdk-integration/metadata.json",
+      "verification": "/api/skills/v4-sdk-integration/verification.json"
+    },
+    {
+      "slug": "v4-security-foundations",
+      "name": "v4-security-foundations",
+      "description": "Security-first Uniswap v4 hook development. Use when user mentions \"v4 hooks\", \"hook security\", \"PoolManager\", \"beforeSwap\", \"afterSwap\", or asks about V4 hook best practices, vulnerabilities, or audit requirements.",
+      "category": "Utilities",
+      "bundleHash": "sha256-7e675a434c5d9dd08ee6273c3a08d862b3cdbbd49c770537f1f4e7b3d5650b35",
+      "merkleLeaf": "sha256-565667437c917b63405de943dbd290a916b7554303fafaf89d6753a2c431857a",
+      "fileCount": 4,
+      "metadata": "/api/skills/v4-security-foundations/metadata.json",
+      "verification": "/api/skills/v4-security-foundations/verification.json"
     }
   ]
 }

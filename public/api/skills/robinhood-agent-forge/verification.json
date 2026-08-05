@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "robinhood-agent-forge",
+  "name": "robinhood-agent-forge",
+  "description": "Prepare, register, inspect, and safely operate chain-scoped AI agent identities on Robinhood Chain (EVM/ERC-8004-compatible) or Solana (SVM/Metaplex Core) through Cheshire Terminal and the open-source robinhood-agents SDK. Use for chain selection, deployment verification, metadata, unsigned EVM registration intents, wallet-authorized sponsored Solana identity mints, ownership and authority review, reputation, validation, or guarded infrastructure deployment.",
+  "source": "https://skills.x402agent.io/api/skills/robinhood-agent-forge/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/robinhood-agent-forge/metadata.json",
+  "bundleHash": "sha256-b14b16dac8f765897829105e008ef70aa2c349208933033b3217c3222a78292f",
+  "merkleLeaf": "sha256-1e04837361049a5d89f084f7023618a3cde5832f324ee296f408e4f20e19660a",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 300,
+      "sha256": "sha256-2342fb8c470a951a7e15bf1449d194796f87bc71b70ca9ffaf4260cb0f3d81c7"
+    },
+    {
+      "path": "references/api.md",
+      "bytes": 11216,
+      "sha256": "sha256-9f8ddd2baed91ae3508194360f6f220ec23127c8229d84d5acb44797767b2b60"
+    },
+    {
+      "path": "references/deployment.md",
+      "bytes": 5538,
+      "sha256": "sha256-828b5b6c29fe46c6b755ae68e424d29d263b9cb358e85a1c90e75345575547b5"
+    },
+    {
+      "path": "references/sdk.md",
+      "bytes": 6654,
+      "sha256": "sha256-1331ead8d8e3ac213244ad87eda533f6cbc4e07f4384da4ecfec41b393845dc0"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6638,
+      "sha256": "sha256-c98560cabb25bdd4317cc4adbc5d14dfc35b1a630062f17b1c4e1d0eb3980793"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pons-launch",
+  "name": "pons-launch",
+  "description": "Launch a fixed-supply V3 token on Robinhood Chain (4663) via PonsLaunchFactory (pons.family), reverse-discover the factory from live PonsLauncherToken tokens, prepare launchToken txs, and verify TokenLaunched receipts. Use when the user says \"launch on Pons\", \"pons.family launch\", \"PonsLaunchFactory\", \"launchToken\", \"PonsLauncherToken\", \"V3 launch on Robinhood\", or wants agents to create a Pons token. Does NOT use RH bonding-curve createToken (rh-bonded-launch), does NOT mint Solana $CLAWD, and does NOT use NOXA Fun factories.",
+  "source": "https://skills.x402agent.io/api/skills/pons-launch/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/pons-launch/metadata.json",
+  "bundleHash": "sha256-1ce5722f9334dfeeb3401688e22789b6865bfbc5411f52bf9c3419b68b748224",
+  "merkleLeaf": "sha256-536523515b7d67b7b39f1eee6a45c451bb21c1124d663e2d521766b8c921685d",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 13873,
+      "sha256": "sha256-b0cb6396aa9f2b21ed51905d9f180180c35566ac906ce01bf69f373b8a523923"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

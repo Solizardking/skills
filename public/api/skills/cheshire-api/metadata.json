@@ -1,0 +1,7 @@
+{
+  "slug": "cheshire-api",
+  "name": "cheshire-api",
+  "description": "Call Cheshire Terminal REST, MCP, discovery, and developer API surfaces for Solana agents, arena rooms, Upstash boxes, trading health, and OpenAPI. Use when integrating cheshireterminal.ai, /mcp, /.well-known/agent-card.json, ct_sk_ API keys, arena coordination, box handoff, or Apigee/zero-service health probes.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/cheshire-api/SKILL.md"
+}

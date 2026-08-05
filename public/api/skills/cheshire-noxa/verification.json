@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "cheshire-noxa",
+  "name": "cheshire-noxa",
+  "description": "NOXA Fun/DEX collab for Cheshire Terminal — launch feed, DEX registry, QuoterV2 quotes, EVM RPC. One-shot npm package @x402solana/cheshire-noxa.",
+  "source": "https://skills.x402agent.io/api/skills/cheshire-noxa/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/cheshire-noxa/metadata.json",
+  "bundleHash": "sha256-dd7d46bb8de865d4b6b0ec7fd1b0297045c9e44b0f23b60c2365a56d64cf1d95",
+  "merkleLeaf": "sha256-cc49526d463725828a057c6e87e266e640b2025be1133b670a5e26b256326316",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 925,
+      "sha256": "sha256-393ce4cb5aa7daf9c7910eede05015e4d8b405048fcdc3dd0855402e2ab8480e"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

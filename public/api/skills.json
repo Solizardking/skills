@@ -12,9 +12,39 @@
     "category": "Solana / Blockchain"
   },
   {
+    "slug": "cheshire-agent-registries",
+    "name": "cheshire-agent-registries",
+    "description": "Overview of the ERC-8004 Cheshire agent registry suite on Robinhood Chain: identity (ERC-721 RHAGENT), reputation feedback, validation request/response, and optional zk-omni messenger. Use when registering agents, reading registry addresses, wiring forge/UI, or deploying operator tooling. Product host: funpump.ai · forge: cheshireterminal.ai/agents/forge.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "cheshire-api",
+    "name": "cheshire-api",
+    "description": "Call Cheshire Terminal REST, MCP, discovery, and developer API surfaces for Solana agents, arena rooms, Upstash boxes, trading health, and OpenAPI. Use when integrating cheshireterminal.ai, /mcp, /.well-known/agent-card.json, ct_sk_ API keys, arena coordination, box handoff, or Apigee/zero-service health probes.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "cheshire-noxa",
+    "name": "cheshire-noxa",
+    "description": "NOXA Fun/DEX collab for Cheshire Terminal — launch feed, DEX registry, QuoterV2 quotes, EVM RPC. One-shot npm package @x402solana/cheshire-noxa.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "cheshire-omni-mint",
+    "name": "cheshire-omni-mint",
+    "description": "Dual-rail omni agent mint: Solana Metaplex Core + Agent Identity and Robinhood Chain ERC-8004 identity in one plan, optionally bound with LayerZero zk-omni (msgType 4 dual_identity_link). Use when the user wants omnichain identity, Solana and Robinhood together, Metaplex mintAgent + RH register, or Cheshire Terminal dual-rail forge. Product: cheshireterminal.ai/agents/forge · funpump.ai.",
+    "category": "Solana / Blockchain"
+  },
+  {
     "slug": "cheshire-terminal",
     "name": "cheshire-terminal",
     "description": "Operate and extend Cheshire Terminal, the cheshireterminal.ai voice-controlled Solana terminal powered by $CLAWD. Use when working on voice terminal flows, token launch commands, LiveKit voice integration, Jupiter swap surfaces, burn/staking flows, or any task that mentions Cheshire Terminal, cheshireterminal.ai, $CLAWD terminal, or Clawd voice commands.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "cheshire-zk-omni",
+    "name": "cheshire-zk-omni",
+    "description": "Zero-knowledge omnichain messaging (msgType 4) between Robinhood Chain and Solana via CheshireZkOmniMessenger — LayerZero V2 peers, nullifier anti-replay, optional identity authorization. Use for sendZkOmni, quoteSend, nullifiers, zk-omni relayer. Source: contracts/zk-omni/CheshireZkOmniMessenger.sol.",
     "category": "Solana / Blockchain"
   },
   {
@@ -69,6 +99,18 @@
     "slug": "compressed-token",
     "name": "compressed-token",
     "description": "For compressed token operations on Solana ~400x cheaper than SPL: create mints with interface PDAs, mint, transfer, approve, revoke, compress, decompress, merge, and Token-2022 with compression. Compressed token accounts are always rent-free. @lightprotocol/compressed-token (TypeScript) with createRpc() from @lightprotocol/stateless.js.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "copy-trade",
+    "name": "copy-trade",
+    "description": "This skill should be used when the user asks to \"copy trades from\" a wallet, \"mirror a wallet\", \"follow this address\", set up \"copy trading\", \"track and replicate a trader\", or mirror another account's swaps bounded by guardrails. Watches a target wallet and mirrors its trades, filtered by chain, asset match, position size, and the follower's own portfolio state.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "dca-bot",
+    "name": "dca-bot",
+    "description": "This skill should be used when the user wants to \"dca into\" a token, \"buy X every day\", set up a \"recurring buy\", \"dollar cost average\" into an asset, \"schedule a buy\", or \"auto-buy on a dip\". Buys a fixed amount into a token on a schedule, optionally only when a condition holds (for example only when ETH is below a price threshold). The host agent's scheduler wakes the skill on a cadence; each wake is one self-contained run.",
     "category": "Solana / Blockchain"
   },
   {
@@ -270,9 +312,33 @@
     "category": "Solana / Blockchain"
   },
   {
+    "slug": "pay-with-any-token",
+    "name": "pay-with-any-token",
+    "description": "Pay HTTP 402 payment challenges using tokens via the Tempo CLI and Uniswap Trading API. Use when the user encounters a 402 Payment Required response, needs to fulfill a machine payment, mentions \"MPP\", \"Tempo payment\", \"pay for API access\", \"HTTP 402\", \"x402\", \"machine payment protocol\", \"pay-with-any-token\", \"use tempo\", \"tempo request\", or \"tempo wallet\".",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "pay-with-app",
+    "name": "pay-with-app",
+    "description": "Pay HTTP 402 payment challenges issued by OKX's Agent Payments Protocol (APP) on X Layer using tokens from any chain via the Uniswap Trading API. Use this skill whenever the user encounters a 402 challenge whose network resolves to X Layer (chain 196), mentions \"APP\", \"Agent Payments Protocol\", \"OKX agent payment\", \"OKX Onchain OS\", \"OKX agentic wallet\", \"x402 on X Layer\", \"USDT0\", \"x42\", \"Instant Payment\", \"Batch Payment\", \"pay for X Layer API\", or wants to pay an OKX-backed merchant. Even when the user does not explicitly say APP, prefer this skill for any 402 challenge whose network resolves to X Layer (chain 196). For 402 challenges on other chains (Ethereum, Base, Arbitrum, Tempo) use pay-with-any-token instead.",
+    "category": "Solana / Blockchain"
+  },
+  {
     "slug": "phantom-wallet-mcp",
     "name": "phantom-wallet-mcp",
     "description": "Execute wallet operations through the Phantom MCP server. Use when the user wants to interact with their Phantom wallet directly — get addresses, transfer SOL or SPL tokens, buy/swap tokens, sign transactions, and sign messages across Solana, Ethereum, Bitcoin, and Sui. Requires the @phantom/mcp-server to be configured as an MCP server.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "pons-launch",
+    "name": "pons-launch",
+    "description": "Launch a fixed-supply V3 token on Robinhood Chain (4663) via PonsLaunchFactory (pons.family), reverse-discover the factory from live PonsLauncherToken tokens, prepare launchToken txs, and verify TokenLaunched receipts. Use when the user says \"launch on Pons\", \"pons.family launch\", \"PonsLaunchFactory\", \"launchToken\", \"PonsLauncherToken\", \"V3 launch on Robinhood\", or wants agents to create a Pons token. Does NOT use RH bonding-curve createToken (rh-bonded-launch), does NOT mint Solana $CLAWD, and does NOT use NOXA Fun factories.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "posthog-cheshire",
+    "name": "posthog-cheshire",
+    "description": "Instrument and operate PostHog analytics for Cheshire Terminal (US cloud project 473072). Use when wiring posthog-js / posthog-node, cookieless privacy opt-in, wallet identify on SIWS, session replay, product events (wallet_connected, pump/dbc launches, agents, staking), or verifying capture to us.i.posthog.com.",
     "category": "Solana / Blockchain"
   },
   {
@@ -420,6 +486,42 @@
     "category": "Solana / Blockchain"
   },
   {
+    "slug": "rh-bonded-launch",
+    "name": "rh-bonded-launch",
+    "description": "Launch a permissionless bonding-curve token on Robinhood Chain (4663) via the live BondingCurveLaunchpad, or guide a user/agent to do so on FunPump /launch or Cheshire /rh-launch. Use when the user says \"launch a token\", \"create token on Robinhood\", \"bonded launch\", \"createToken\", \"fair launch on RH\", \"pump style on robinhood\", \"open a curve\", or brings an agent to funpump.ai to launch. Does NOT mint wCLAWD or bridge Solana $CLAWD — that is a separate bridge skill path.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "rh-crypto-agent",
+    "name": "rh-crypto-agent",
+    "description": "Robinhood Crypto Agent open skill pack for Robinhood Chain / EVM trading and launch agents. Covers bonded launch, Launchpad V3, Uniswap swaps/LP, DCA, copy-trade, payments, viem, and Cheshire agent registry skills. Use when pointing clawdbot at the RH pack, installing the suite, or building Robinhood Chain crypto agents.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "rh-launchpad-v3",
+    "name": "rh-launchpad-v3",
+    "description": "Launch a permissionless bonding-curve token on Robinhood Chain (4663) via BondingCurveLaunchpadV3 — graduates into a Uniswap V3 pool (not V2). Use for bots, agents, Telegram, \"launch with V3 pool\", createToken on LaunchpadV3, curve-v3 rail, or FunPump https://funpump.ai/api/launchpad/v3. Distinct from legacy V2 BondingCurveLaunchpad and from NOXA Fun instant V3.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "robinhood-agent-forge",
+    "name": "robinhood-agent-forge",
+    "description": "Prepare, register, inspect, and safely operate chain-scoped AI agent identities on Robinhood Chain (EVM/ERC-8004-compatible) or Solana (SVM/Metaplex Core) through Cheshire Terminal and the open-source robinhood-agents SDK. Use for chain selection, deployment verification, metadata, unsigned EVM registration intents, wallet-authorized sponsored Solana identity mints, ownership and authority review, reputation, validation, or guarded infrastructure deployment.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "skillhub-onchain",
+    "name": "skillhub-onchain",
+    "description": "Publish agent skills on-chain via Skill Hub (skills.x402.wtf): upload SKILL.md, run the security scanner, pay a Solana fee, and anchor package hashes on Arweave and Solana. Use when shipping skills to the public catalog, reading the public submission ledger, or connecting Cheshire Terminal to the Skill Hub API.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "skills-store",
+    "name": "skills-store",
+    "description": "Cheshire Skills Store index — curated Agent Skills packages for Cheshire Terminal (API, PostHog, Google Agent Registry, Skill Hub onchain, Stripe, Solana common errors, NOXA) plus the community skills collection. Use when installing store skills, browsing the store catalog, or wiring cheshireterminal.ai/skills-store.",
+    "category": "Solana / Blockchain"
+  },
+  {
     "slug": "solana-clawd",
     "name": "solana-clawd",
     "description": "One-shot setup and operation guide for the solana-clawd agentic engine. Use when: cloning the repo, setting up MCP tools, starting the Telegram bot, deploying to Fly.io/Netlify, hatching blockchain buddies, running OODA loops, configuring voice mode (ElevenLabs + Grok), minting Metaplex agents, managing the vault, running the worker swarm, or contributing to the project. Covers all 31 MCP tools, 18 buddy species, 9 spinners, 60+ Telegram commands, 95 skills, and the full repo structure.",
@@ -480,6 +582,12 @@
     "category": "Solana / Blockchain"
   },
   {
+    "slug": "swap-planner",
+    "name": "swap-planner",
+    "description": "This skill should be used when the user asks to \"swap tokens\", \"trade ETH for USDC\", \"exchange tokens on Uniswap\", \"buy tokens\", \"sell tokens\", \"convert ETH to stablecoins\", \"find memecoins\", \"discover tokens\", \"research tokens\", \"tokens to buy\", \"find tokens to swap\", \"what should I buy\", or mentions swapping, trading, researching, discovering, buying, or exchanging tokens on any Uniswap-supported chain. Supports both known token swaps and token discovery workflows (discovery uses keyword search and web search — there is no live \"trending\" feed). Generates deep links to execute swaps in the Uniswap interface.",
+    "category": "Solana / Blockchain"
+  },
+  {
     "slug": "swarm-orchestrator",
     "name": "swarm-orchestrator",
     "description": "Orchestrate multi-bot trading swarms on Pump.fun with persona-driven agents",
@@ -489,6 +597,12 @@
     "slug": "testing",
     "name": "testing",
     "description": "For testing with Light Protocol programs and clients on localnet, devnet, and mainnet validation.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "viem-integration",
+    "name": "viem-integration",
+    "description": "Integrate EVM blockchains using viem. Use when user says \"read blockchain data\", \"send transaction\", \"interact with smart contract\", \"connect to Ethereum\", \"use viem\", \"use wagmi\", \"wallet integration\", \"viem setup\", or mentions blockchain/EVM development with TypeScript.",
     "category": "Solana / Blockchain"
   },
   {
@@ -606,6 +720,12 @@
     "category": "Solana / Blockchain"
   },
   {
+    "slug": "zk-omni-messaging",
+    "name": "zk-omni-messaging",
+    "description": "Zero-knowledge omnichain messaging between Robinhood Chain and Solana using CheshireZkOmniMessenger (msgType 4) with nullifier anti-replay and the zk-omni-relayer service.",
+    "category": "Solana / Blockchain"
+  },
+  {
     "slug": "zkrouter",
     "name": "zkrouter",
     "description": "Self-hosted OpenAI-compatible LLM router — smart tier-based routing, ZK-stamped routing decisions, mode overrides, free OpenRouter at install via the Birth bot. Save 60-80% on inference costs by routing to the cheapest capable model across 12+ OpenRouter models.",
@@ -687,6 +807,24 @@
     "slug": "anthropic-skills/xlsx",
     "name": "xlsx",
     "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+    "category": "Dev Tools / Agents"
+  },
+  {
+    "slug": "cheshire-agent-identity-registry",
+    "name": "cheshire-agent-identity-registry",
+    "description": "Register and operate Cheshire Robinhood agent identities (ERC-721 RHAGENT) via CheshireAgentIdentityRegistry on Robinhood Chain. Use for register(agentURI), agentWallet EIP-712/1271 proofs, metadata, isAuthorized, and ownerOf reads. Source: robinhood-agents/contracts/CheshireAgentIdentityRegistry.sol.",
+    "category": "Dev Tools / Agents"
+  },
+  {
+    "slug": "cheshire-agent-reputation-registry",
+    "name": "cheshire-agent-reputation-registry",
+    "description": "Post and query ERC-8004 reputation feedback for Cheshire agents on Robinhood Chain via CheshireAgentReputationRegistry. Use for giveFeedback, revokeFeedback, appendResponse, getSummary, and client lists. Requires identity registry 0x7036…c950. Source: CheshireAgentReputationRegistry.sol.",
+    "category": "Dev Tools / Agents"
+  },
+  {
+    "slug": "cheshire-agent-validation-registry",
+    "name": "cheshire-agent-validation-registry",
+    "description": "ERC-8004 validation request/response flow for Cheshire agents on Robinhood Chain via CheshireAgentValidationRegistry. Use for validationRequest, validationResponse, getValidationStatus, getSummary. Operators request; named validators respond (0–100 score). Source: CheshireAgentValidationRegistry.sol.",
     "category": "Dev Tools / Agents"
   },
   {
@@ -798,6 +936,18 @@
     "category": "Dev Tools / Agents"
   },
   {
+    "slug": "google-agent-registry",
+    "name": "google-agent-registry",
+    "description": "Maintain and register Cheshire Google Agent Registry artifacts under registry/google (A2A agent card, MCP tools list, MCP interface, server card, zero-service OpenAPI) and deploy Apigee reverse proxies on project x402-477302. Use for gcloud agent-registry, 10 KB size limits, tool-name parity with server/mcp/tools.ts, Apigee test-env, or validate:google-registry / register:google-agent.",
+    "category": "Dev Tools / Agents"
+  },
+  {
+    "slug": "improve-animations",
+    "name": "improve-animations",
+    "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to \"improve the animations\", \"audit the motion\", \"make this app feel better\", or wants a roadmap of animation fixes rather than a review of a single diff.",
+    "category": "Dev Tools / Agents"
+  },
+  {
     "slug": "in-progress/claude-handoff",
     "name": "claude-handoff",
     "description": "Hand the current conversation off to a fresh background agent that picks up the work immediately.",
@@ -807,6 +957,24 @@
     "slug": "in-progress/wizard",
     "name": "wizard",
     "description": "Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migration, an A→B state transition — opening URLs, capturing values, confirming each step, and writing .env files and GitHub Actions secrets.",
+    "category": "Dev Tools / Agents"
+  },
+  {
+    "slug": "index-bot",
+    "name": "index-bot",
+    "description": "This skill should be used when the user asks to \"create an index\", \"build a basket of top assets\", \"buy a weighted basket\", \"make a portfolio of assets\", \"equal-weight basket\", \"rebalance my portfolio\", \"track the top N tokens\", or wants an automated, weighted multi-asset basket that buys in one pass and rebalances on a cadence. Builds the basket spec, delegates each buy and rebalance swap to the swap-integration Trading API flow, and records target weights in state.",
+    "category": "Dev Tools / Agents"
+  },
+  {
+    "slug": "liquidity-planner",
+    "name": "liquidity-planner",
+    "description": "This skill should be used when the user asks to \"provide liquidity\", \"create LP position\", \"add liquidity to pool\", \"become a liquidity provider\", \"create v3 position\", \"create v4 position\", \"concentrated liquidity\", \"set price range\", or mentions providing liquidity, LP positions, or liquidity pools on Uniswap. Generates deep links to create positions in the Uniswap interface.",
+    "category": "Dev Tools / Agents"
+  },
+  {
+    "slug": "lp-integration",
+    "name": "lp-integration",
+    "description": "Integrate Uniswap liquidity provisioning (LP) into applications via the LP REST API. Use when the user says \"LP API\", \"liquidity provisioning API\", \"provide liquidity programmatically\", \"create LP position via API\", \"add liquidity via API\", \"increase liquidity\", \"decrease liquidity\", \"remove liquidity\", \"claim LP fees\", \"collect LP fees\", \"manage LP positions in code\", or mentions building a backend, bot, or frontend that creates or manages Uniswap v2/v3/v4 liquidity positions through an API. Also use when debugging LP API calls (e.g. /lp/create, /lp/check_approval, /lp/increase, /lp/decrease, /lp/claim_fees), unexpected response fields, the approval or EIP-712 permit flow, or transaction-building errors for liquidity positions. For generating deep links to the Uniswap web app instead of calling the API, use the liquidity-planner skill; for using the Uniswap v4 SDK directly rather than the REST API, use the v4-sdk-integration skill.",
     "category": "Dev Tools / Agents"
   },
   {
@@ -930,6 +1098,12 @@
     "category": "Dev Tools / Agents"
   },
   {
+    "slug": "stripe",
+    "name": "stripe",
+    "description": "Install and use the official Stripe Claude Code plugin (stripe@claude-plugins-official), connect Stripe MCP (mcp.stripe.com), and implement modern Stripe payments with Checkout Sessions, PaymentIntents, SetupIntents, and Billing — never legacy Charges. Use when building Stripe checkout, subscriptions, webhooks, Connect, restricted keys, test cards, or running /plugin install stripe@claude-plugins-official / /explain-error / /test-cards.",
+    "category": "Dev Tools / Agents"
+  },
+  {
     "slug": "thinking-and-docs/level-up",
     "name": "level-up",
     "description": "Gauge the user's technical + product knowledge through 7 adaptive questions, log verbatim answers with honest ratings, and grow a learning plan from the gaps found. Use when the user says \"level up\", \"level-up session\", \"quiz me\", \"gauge my knowledge\", or wants a new assessment round. Differentiator: this finds and maps gaps; the `teach` skill delivers lessons on them.",
@@ -951,6 +1125,12 @@
     "slug": "tmux",
     "name": "tmux",
     "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+    "category": "Dev Tools / Agents"
+  },
+  {
+    "slug": "v4-hook-generator",
+    "name": "v4-hook-generator",
+    "description": "Generate Uniswap v4 hook contracts via OpenZeppelin MCP. Use when building custom swap logic, async swaps, hook-owned liquidity, custom curves, dynamic fees, MEV protection, limit orders, or oracle hooks.",
     "category": "Dev Tools / Agents"
   },
   {
@@ -2952,6 +3132,12 @@
     "category": "Media / Devices"
   },
   {
+    "slug": "youtube-clipper",
+    "name": "youtube-clipper",
+    "description": "YouTube 视频智能剪辑工具。下载视频和字幕，AI 分析生成精细章节（几分钟级别）， 用户选择片段后自动剪辑、翻译字幕为中英双语、烧录字幕到视频，并生成总结文案。 使用场景：当用户需要剪辑 YouTube 视频、生成短视频片段、制作双语字幕版本时。 关键词：视频剪辑、YouTube、字幕翻译、双语字幕、视频下载、clip video",
+    "category": "Media / Devices"
+  },
+  {
     "slug": "agent-orchestration/cmux",
     "name": "cmux",
     "description": "MUST be read ANY time you interact with cmux in ANY way — listing/inspecting/creating/closing cmux workspaces, panes, or surfaces; reading or capturing pane/screen output; sending input or keys to a pane/surface; delegating to, polling, or checking on other agents running in cmux panes/surfaces; building or rearranging terminal layout; cmux browser automation; sending notifications/flashes/status/progress to the sidebar; editing cmux settings; or integrating an agent with cmux hooks. If your command starts with `cmux ` or touches a cmux workspace/pane/surface/agent, read this FIRST. Triggers on \"cmux\", \"in this workspace\", \"this pane\", \"the other agent\", \"delegate to\", \"check on the agent\", \"send to the pane\". macOS only (14.0+).",
@@ -3150,6 +3336,12 @@
     "category": "Utilities"
   },
   {
+    "slug": "deployer",
+    "name": "deployer",
+    "description": "Deploy CCA (Continuous Clearing Auction) smart contracts using the Factory pattern. Use when user says \"deploy auction\", \"deploy cca\", \"factory deployment\", or wants to deploy a configured auction.",
+    "category": "Utilities"
+  },
+  {
     "slug": "deprecated/ubiquitous-language",
     "name": "ubiquitous-language",
     "description": "Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canonical terms. Saves to UBIQUITOUS_LANGUAGE.md. Use when user wants to define domain terms, build a glossary, harden terminology, create a ubiquitous language, or mentions \"domain model\" or \"DDD\".",
@@ -3336,6 +3528,18 @@
     "category": "Utilities"
   },
   {
+    "slug": "shadcn",
+    "name": "shadcn",
+    "description": "Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI, including chat interfaces. Provides project context, component docs, and usage examples. Applies when working with shadcn/ui, component registries, presets, --preset codes, or any project with a components.json file. Also triggers for \"shadcn init\", \"create an app with --preset\", or \"switch to --preset\".",
+    "category": "Utilities"
+  },
+  {
+    "slug": "swap-integration",
+    "name": "swap-integration",
+    "description": "Integrate Uniswap swaps into applications. Use when user says \"integrate swaps\", \"uniswap\", \"trading api\", \"add swap functionality\", \"build a swap frontend\", \"create a swap script\", \"smart contract swap integration\", \"use Universal Router\", \"Trading API\", or mentions swapping tokens via Uniswap.",
+    "category": "Utilities"
+  },
+  {
     "slug": "thinking-and-docs/brain-to-docs",
     "name": "brain-to-docs",
     "description": "Use when the user wants to extract project vision, decisions, and preferences from his head into clear documentation (README + ADRs) through a back-and-forth Q&A loop. Triggers on \"brain-to-docs\", \"build out the docs\", \"extract the vision\", \"let's document this project\".",
@@ -3345,6 +3549,18 @@
     "slug": "thinking-and-docs/read-all-adrs",
     "name": "read-all-adrs",
     "description": "Read every ADR markdown file in the project's docs/adr/ folder so you have full context on past decisions. Use only when the user explicitly calls it.",
+    "category": "Utilities"
+  },
+  {
+    "slug": "v4-sdk-integration",
+    "name": "v4-sdk-integration",
+    "description": "App-layer SDK guide for building swap and liquidity experiences directly with the Uniswap v4 SDK. Use when user asks about \"v4 sdk\", \"uniswap v4\", \"v4 swap\", \"v4 liquidity\", \"PoolManager\", \"V4Planner\", \"StateView\", \"PositionManager\", \"pool state\", \"v4 position\", \"uniswap sdk\", or when building swap/liquidity UX directly with SDKs rather than via the Trading API.",
+    "category": "Utilities"
+  },
+  {
+    "slug": "v4-security-foundations",
+    "name": "v4-security-foundations",
+    "description": "Security-first Uniswap v4 hook development. Use when user mentions \"v4 hooks\", \"hook security\", \"PoolManager\", \"beforeSwap\", \"afterSwap\", or asks about V4 hook best practices, vulnerabilities, or audit requirements.",
     "category": "Utilities"
   }
 ]

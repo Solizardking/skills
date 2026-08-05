@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pay-with-any-token",
+  "name": "pay-with-any-token",
+  "description": "Pay HTTP 402 payment challenges using tokens via the Tempo CLI and Uniswap Trading API. Use when the user encounters a 402 Payment Required response, needs to fulfill a machine payment, mentions \"MPP\", \"Tempo payment\", \"pay for API access\", \"HTTP 402\", \"x402\", \"machine payment protocol\", \"pay-with-any-token\", \"use tempo\", \"tempo request\", or \"tempo wallet\".",
+  "source": "https://skills.x402agent.io/api/skills/pay-with-any-token/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/pay-with-any-token/metadata.json",
+  "bundleHash": "sha256-3949acd14c5f4c3d97cf3c873794ddb877701c2a06a7f731bd43c0bd6b2a7e97",
+  "merkleLeaf": "sha256-e132d23fefa7f98118eaca3f1a22c7c62ff217c3179890966390cf77d37df580",
+  "files": [
+    {
+      "path": "references/credential-construction.md",
+      "bytes": 13051,
+      "sha256": "sha256-28b54ca4d95194c175643883f7d7ce6c66c3bd77425a7e900fada052f450fa3e"
+    },
+    {
+      "path": "references/trading-api-flows.md",
+      "bytes": 23435,
+      "sha256": "sha256-9320f868b53c3d936fb67c1926afdd9be68708c9f781ffd878acc7cc14eed328"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 24301,
+      "sha256": "sha256-69a7b2e7053041073107c2978eed1b725a34d09af427fcbff84f5138e60ffc31"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

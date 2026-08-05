@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "cheshire-agent-reputation-registry",
+  "name": "cheshire-agent-reputation-registry",
+  "description": "Post and query ERC-8004 reputation feedback for Cheshire agents on Robinhood Chain via CheshireAgentReputationRegistry. Use for giveFeedback, revokeFeedback, appendResponse, getSummary, and client lists. Requires identity registry 0x7036…c950. Source: CheshireAgentReputationRegistry.sol.",
+  "source": "https://skills.x402agent.io/api/skills/cheshire-agent-reputation-registry/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/cheshire-agent-reputation-registry/metadata.json",
+  "bundleHash": "sha256-ab06a4ceccb5f265d3d2b36aea79b9b1ba22a20a0329f59b51ee9fb7b73b23cb",
+  "merkleLeaf": "sha256-f1707e589c63b3129f0af4ccdf4c916c4d4386284243aa08c1f65d21c5f4c51e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2436,
+      "sha256": "sha256-2bdde9777be5f2c899f06f5e5b6c30e09126cc3eb67f6843a5be2bfb8d5d5900"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

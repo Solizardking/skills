@@ -1,0 +1,7 @@
+{
+  "slug": "dca-bot",
+  "name": "dca-bot",
+  "description": "This skill should be used when the user wants to \"dca into\" a token, \"buy X every day\", set up a \"recurring buy\", \"dollar cost average\" into an asset, \"schedule a buy\", or \"auto-buy on a dip\". Buys a fixed amount into a token on a schedule, optionally only when a condition holds (for example only when ETH is below a price threshold). The host agent's scheduler wakes the skill on a cadence; each wake is one self-contained run.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/dca-bot/SKILL.md"
+}

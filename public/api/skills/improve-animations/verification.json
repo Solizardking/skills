@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "improve-animations",
+  "name": "improve-animations",
+  "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to \"improve the animations\", \"audit the motion\", \"make this app feel better\", or wants a roadmap of animation fixes rather than a review of a single diff.",
+  "source": "https://skills.x402agent.io/api/skills/improve-animations/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/improve-animations/metadata.json",
+  "bundleHash": "sha256-85d2690bee28b0a55d223348a7979bad273bdb41147f7436f7cb8380b8b4a2fc",
+  "merkleLeaf": "sha256-0ac9e4b59a3148a6c2989752e74d4f0cdadef8a8fd2d6e4e592ab25dd52187ce",
+  "files": [
+    {
+      "path": "AUDIT.md",
+      "bytes": 7501,
+      "sha256": "sha256-a05f47b8f1e6cb6cd403704e447cc8e4fdf381466a149939606330301c09d7f9"
+    },
+    {
+      "path": "PLAN-TEMPLATE.md",
+      "bytes": 3128,
+      "sha256": "sha256-2ec7a0332f57c4234a38d10b54e4d6b9ed96b2a5e224d8a6e936839698ff5678"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7915,
+      "sha256": "sha256-68f17bbc4671593d2f43dba26a679243e2153ba5f26965fb7d59df52842534ff"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

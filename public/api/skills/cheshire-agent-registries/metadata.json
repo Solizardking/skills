@@ -1,0 +1,7 @@
+{
+  "slug": "cheshire-agent-registries",
+  "name": "cheshire-agent-registries",
+  "description": "Overview of the ERC-8004 Cheshire agent registry suite on Robinhood Chain: identity (ERC-721 RHAGENT), reputation feedback, validation request/response, and optional zk-omni messenger. Use when registering agents, reading registry addresses, wiring forge/UI, or deploying operator tooling. Product host: funpump.ai · forge: cheshireterminal.ai/agents/forge.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/cheshire-agent-registries/SKILL.md"
+}

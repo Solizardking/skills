@@ -1,0 +1,7 @@
+{
+  "slug": "cheshire-omni-mint",
+  "name": "cheshire-omni-mint",
+  "description": "Dual-rail omni agent mint: Solana Metaplex Core + Agent Identity and Robinhood Chain ERC-8004 identity in one plan, optionally bound with LayerZero zk-omni (msgType 4 dual_identity_link). Use when the user wants omnichain identity, Solana and Robinhood together, Metaplex mintAgent + RH register, or Cheshire Terminal dual-rail forge. Product: cheshireterminal.ai/agents/forge · funpump.ai.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/cheshire-omni-mint/SKILL.md"
+}

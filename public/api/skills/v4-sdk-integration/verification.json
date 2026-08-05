@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "v4-sdk-integration",
+  "name": "v4-sdk-integration",
+  "description": "App-layer SDK guide for building swap and liquidity experiences directly with the Uniswap v4 SDK. Use when user asks about \"v4 sdk\", \"uniswap v4\", \"v4 swap\", \"v4 liquidity\", \"PoolManager\", \"V4Planner\", \"StateView\", \"PositionManager\", \"pool state\", \"v4 position\", \"uniswap sdk\", or when building swap/liquidity UX directly with SDKs rather than via the Trading API.",
+  "source": "https://skills.x402agent.io/api/skills/v4-sdk-integration/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/v4-sdk-integration/metadata.json",
+  "bundleHash": "sha256-5a8f9a3cf644b94848a6332903456c6db24de7f9fccc8ab1aee6a3f6a4983a26",
+  "merkleLeaf": "sha256-b5ef36fa9db5e0ddf9c9e1b52e197ebee3625912080f128110c59cd23df1f134",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 9569,
+      "sha256": "sha256-2e3d1abd103cd2360f1c004d704aa038a4405f88c1e67cd34ab42347738ed3f8"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

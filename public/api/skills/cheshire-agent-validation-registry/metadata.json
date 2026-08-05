@@ -1,0 +1,7 @@
+{
+  "slug": "cheshire-agent-validation-registry",
+  "name": "cheshire-agent-validation-registry",
+  "description": "ERC-8004 validation request/response flow for Cheshire agents on Robinhood Chain via CheshireAgentValidationRegistry. Use for validationRequest, validationResponse, getValidationStatus, getSummary. Operators request; named validators respond (0–100 score). Source: CheshireAgentValidationRegistry.sol.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/cheshire-agent-validation-registry/SKILL.md"
+}

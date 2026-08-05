@@ -1,0 +1,7 @@
+{
+  "slug": "cheshire-zk-omni",
+  "name": "cheshire-zk-omni",
+  "description": "Zero-knowledge omnichain messaging (msgType 4) between Robinhood Chain and Solana via CheshireZkOmniMessenger — LayerZero V2 peers, nullifier anti-replay, optional identity authorization. Use for sendZkOmni, quoteSend, nullifiers, zk-omni relayer. Source: contracts/zk-omni/CheshireZkOmniMessenger.sol.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/cheshire-zk-omni/SKILL.md"
+}

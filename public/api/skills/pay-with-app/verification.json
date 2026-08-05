@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pay-with-app",
+  "name": "pay-with-app",
+  "description": "Pay HTTP 402 payment challenges issued by OKX's Agent Payments Protocol (APP) on X Layer using tokens from any chain via the Uniswap Trading API. Use this skill whenever the user encounters a 402 challenge whose network resolves to X Layer (chain 196), mentions \"APP\", \"Agent Payments Protocol\", \"OKX agent payment\", \"OKX Onchain OS\", \"OKX agentic wallet\", \"x402 on X Layer\", \"USDT0\", \"x42\", \"Instant Payment\", \"Batch Payment\", \"pay for X Layer API\", or wants to pay an OKX-backed merchant. Even when the user does not explicitly say APP, prefer this skill for any 402 challenge whose network resolves to X Layer (chain 196). For 402 challenges on other chains (Ethereum, Base, Arbitrum, Tempo) use pay-with-any-token instead.",
+  "source": "https://skills.x402agent.io/api/skills/pay-with-app/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/pay-with-app/metadata.json",
+  "bundleHash": "sha256-d4e57b8e439f956d5cb32b58413666b708e35172cda30626e8d160017aac0178",
+  "merkleLeaf": "sha256-2b40eb3f8b831d15fc4adbb8c473c8115b813ec9842b74e45513231977906724",
+  "files": [
+    {
+      "path": "references/app-x402-flow.md",
+      "bytes": 25654,
+      "sha256": "sha256-017e8e2aaf88375d59d6173c9690ff37bdfbbb85bf4da96cd80e842935e9be8c"
+    },
+    {
+      "path": "references/funding-x-layer.md",
+      "bytes": 20125,
+      "sha256": "sha256-db6b66edb8592dcd03812aee63df634814cbb18ca21eff5687e1b298c234b5ed"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 28814,
+      "sha256": "sha256-1e03b6a425e4e7b9d5ebdf9e9d52aa922f4631266c7a4d147998b3964a4b171c"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

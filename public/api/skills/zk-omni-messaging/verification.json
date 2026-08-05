@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "zk-omni-messaging",
+  "name": "zk-omni-messaging",
+  "description": "Zero-knowledge omnichain messaging between Robinhood Chain and Solana using CheshireZkOmniMessenger (msgType 4) with nullifier anti-replay and the zk-omni-relayer service.",
+  "source": "https://skills.x402agent.io/api/skills/zk-omni-messaging/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/zk-omni-messaging/metadata.json",
+  "bundleHash": "sha256-7f8f3e74a3f5f02df7df6a330a6c95eac01ea985af399f5061873feaaf0293b1",
+  "merkleLeaf": "sha256-d15edd6bb5a6e4e31316f1aa0f09511f4f1e03a6b1f9cf6537fd7253c12c5ed2",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1907,
+      "sha256": "sha256-149814cf18e17f807465eff1a4093f59cf4ff861ce4c80237067f863bd80c9e8"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "skills-store",
+  "name": "skills-store",
+  "description": "Cheshire Skills Store index — curated Agent Skills packages for Cheshire Terminal (API, PostHog, Google Agent Registry, Skill Hub onchain, Stripe, Solana common errors, NOXA) plus the community skills collection. Use when installing store skills, browsing the store catalog, or wiring cheshireterminal.ai/skills-store.",
+  "source": "https://skills.x402agent.io/api/skills/skills-store/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/skills-store/metadata.json",
+  "bundleHash": "sha256-1549050dd48b6d45bf3ed2908953d9796981f3794e0546c60d9140872dd52045",
+  "merkleLeaf": "sha256-f4f841629771c1aaa2e7fb8b330453920b073507938e4772726d076fc12bcfc6",
+  "files": [
+    {
+      "path": "catalog.json",
+      "bytes": 6261,
+      "sha256": "sha256-6e528bd612a724bc6b1eb160d124bea7bbed0dba69fb4fdd0c78b3d99c47479d"
+    },
+    {
+      "path": "imported-skills.json",
+      "bytes": 297069,
+      "sha256": "sha256-215451fd0d9581ebc525064cc72f5251349d302aa952a64f47f7d03b0ce725a1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5594,
+      "sha256": "sha256-2b66b600fcf594212f81d17f515f16db613bfea56c3f55e3926e5b87c5aea083"
+    },
+    {
+      "path": "scripts/hub-skills-integration.test.ts",
+      "bytes": 6013,
+      "sha256": "sha256-61733e82e833064d18c1cd61ed069500928b42ac785a1e26376e0ba43ef54326"
+    },
+    {
+      "path": "scripts/index-imported-skills.mjs",
+      "bytes": 2053,
+      "sha256": "sha256-53c9a14f420494dfbcaf55eeb5b7c51086d1fe3063d1047c52aa7cc8258a71c1"
+    },
+    {
+      "path": "scripts/list-store-skills.test.ts",
+      "bytes": 2797,
+      "sha256": "sha256-23bdce0d3177c70f3636d60c121f1aaccad0c69e1570a0efc78ed85a1b0bf2a9"
+    },
+    {
+      "path": "scripts/user-skills-upload.test.ts",
+      "bytes": 4528,
+      "sha256": "sha256-e7466da9e15638dde744d4d5836ccaf8941fa1114676975f820e6572495d8bce"
+    },
+    {
+      "path": "scripts/validate-store.mjs",
+      "bytes": 5371,
+      "sha256": "sha256-fc1b5f7d3c1c73b9596107a07de7a02e1ddd0bd3b101c78c2b52187e82a31f0c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 905,
+      "sha256": "sha256-f71d79a7b07695695e9a43d3d0208d1fa9a5c223a12052f2f96fcdc6c13c2018"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

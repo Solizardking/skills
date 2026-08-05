@@ -1,0 +1,7 @@
+{
+  "slug": "v4-security-foundations",
+  "name": "v4-security-foundations",
+  "description": "Security-first Uniswap v4 hook development. Use when user mentions \"v4 hooks\", \"hook security\", \"PoolManager\", \"beforeSwap\", \"afterSwap\", or asks about V4 hook best practices, vulnerabilities, or audit requirements.",
+  "category": "Utilities",
+  "skill": "/api/skills/v4-security-foundations/SKILL.md"
+}

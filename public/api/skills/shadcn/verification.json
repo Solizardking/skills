@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "shadcn",
+  "name": "shadcn",
+  "description": "Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI, including chat interfaces. Provides project context, component docs, and usage examples. Applies when working with shadcn/ui, component registries, presets, --preset codes, or any project with a components.json file. Also triggers for \"shadcn init\", \"create an app with --preset\", or \"switch to --preset\".",
+  "source": "https://skills.x402agent.io/api/skills/shadcn/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/shadcn/metadata.json",
+  "bundleHash": "sha256-989819418346627a2888a2726db039f0e7d0f98fa0e152a263c5fd8e68563a14",
+  "merkleLeaf": "sha256-32dea17879cf950b6bed83d557de84d4c7b3c523286e38b3510c29b9b1c8d003",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 19415,
+      "sha256": "sha256-a45cddd4511f8262df05b20506f4d52be8210a9ee05a13d9e36d4ee321bab593"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

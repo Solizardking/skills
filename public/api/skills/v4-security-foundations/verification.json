@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "v4-security-foundations",
+  "name": "v4-security-foundations",
+  "description": "Security-first Uniswap v4 hook development. Use when user mentions \"v4 hooks\", \"hook security\", \"PoolManager\", \"beforeSwap\", \"afterSwap\", or asks about V4 hook best practices, vulnerabilities, or audit requirements.",
+  "source": "https://skills.x402agent.io/api/skills/v4-security-foundations/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/v4-security-foundations/metadata.json",
+  "bundleHash": "sha256-7e675a434c5d9dd08ee6273c3a08d862b3cdbbd49c770537f1f4e7b3d5650b35",
+  "merkleLeaf": "sha256-565667437c917b63405de943dbd290a916b7554303fafaf89d6753a2c431857a",
+  "files": [
+    {
+      "path": "references/audit-checklist.md",
+      "bytes": 8597,
+      "sha256": "sha256-f5a32af59308ebc6f1dc103d5ac4bc5e5ab03dcc746f91b677f1c25f3a19eceb"
+    },
+    {
+      "path": "references/base-hook-template.md",
+      "bytes": 12244,
+      "sha256": "sha256-0b12f85cb2e4d4710a2debf70fc72607973a2e8344c1adf28e3a1a5650b4ad0c"
+    },
+    {
+      "path": "references/vulnerabilities-catalog.md",
+      "bytes": 10828,
+      "sha256": "sha256-50f1e28f2ea2d912f634046f3b2e48f188f8f0974dde4f41339c8a72e506ea75"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18715,
+      "sha256": "sha256-2d66ed0779a73e86dd006b474645a363e571768cc18cf663dbc915d8ec674cb4"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

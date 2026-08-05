@@ -1,0 +1,7 @@
+{
+  "slug": "skillhub-onchain",
+  "name": "skillhub-onchain",
+  "description": "Publish agent skills on-chain via Skill Hub (skills.x402.wtf): upload SKILL.md, run the security scanner, pay a Solana fee, and anchor package hashes on Arweave and Solana. Use when shipping skills to the public catalog, reading the public submission ledger, or connecting Cheshire Terminal to the Skill Hub API.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/skillhub-onchain/SKILL.md"
+}

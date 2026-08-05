@@ -1,0 +1,7 @@
+{
+  "slug": "google-agent-registry",
+  "name": "google-agent-registry",
+  "description": "Maintain and register Cheshire Google Agent Registry artifacts under registry/google (A2A agent card, MCP tools list, MCP interface, server card, zero-service OpenAPI) and deploy Apigee reverse proxies on project x402-477302. Use for gcloud agent-registry, 10 KB size limits, tool-name parity with server/mcp/tools.ts, Apigee test-env, or validate:google-registry / register:google-agent.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/google-agent-registry/SKILL.md"
+}

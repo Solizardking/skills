@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "rh-bonded-launch",
+  "name": "rh-bonded-launch",
+  "description": "Launch a permissionless bonding-curve token on Robinhood Chain (4663) via the live BondingCurveLaunchpad, or guide a user/agent to do so on FunPump /launch or Cheshire /rh-launch. Use when the user says \"launch a token\", \"create token on Robinhood\", \"bonded launch\", \"createToken\", \"fair launch on RH\", \"pump style on robinhood\", \"open a curve\", or brings an agent to funpump.ai to launch. Does NOT mint wCLAWD or bridge Solana $CLAWD — that is a separate bridge skill path.",
+  "source": "https://skills.x402agent.io/api/skills/rh-bonded-launch/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/rh-bonded-launch/metadata.json",
+  "bundleHash": "sha256-bbe16bdade8d5a298bd82f9c4dbeb406ac84b15ef03d8966a176d09ffe95d244",
+  "merkleLeaf": "sha256-4a4c6de57cf2b6b38ac92a71d40ad7e5fd7f445bb3ea65f34261fc7c45c9ce47",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 9771,
+      "sha256": "sha256-f4b15e6b7c9487adc684a946c5961af30039b8aa965c3f9224edfa7b846d8a1b"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

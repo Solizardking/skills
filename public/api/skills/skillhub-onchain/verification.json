@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "skillhub-onchain",
+  "name": "skillhub-onchain",
+  "description": "Publish agent skills on-chain via Skill Hub (skills.x402.wtf): upload SKILL.md, run the security scanner, pay a Solana fee, and anchor package hashes on Arweave and Solana. Use when shipping skills to the public catalog, reading the public submission ledger, or connecting Cheshire Terminal to the Skill Hub API.",
+  "source": "https://skills.x402agent.io/api/skills/skillhub-onchain/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/skillhub-onchain/metadata.json",
+  "bundleHash": "sha256-f393b771a8b5fdfb2665f9eaa1a1205dc9fdf6ed1b118819527152a4d1493c46",
+  "merkleLeaf": "sha256-24484a5bb5712efe6da4539a414f93def47042022774308603421bde3b1ae442",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3058,
+      "sha256": "sha256-4e8cf6480d2f6c0e7e9e1c3ffd8b2e3f9f73e60e104db652cc5a5b548f108bd7"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

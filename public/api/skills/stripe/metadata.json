@@ -1,0 +1,7 @@
+{
+  "slug": "stripe",
+  "name": "stripe",
+  "description": "Install and use the official Stripe Claude Code plugin (stripe@claude-plugins-official), connect Stripe MCP (mcp.stripe.com), and implement modern Stripe payments with Checkout Sessions, PaymentIntents, SetupIntents, and Billing — never legacy Charges. Use when building Stripe checkout, subscriptions, webhooks, Connect, restricted keys, test cards, or running /plugin install stripe@claude-plugins-official / /explain-error / /test-cards.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/stripe/SKILL.md"
+}

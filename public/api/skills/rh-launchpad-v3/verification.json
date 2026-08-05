@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "rh-launchpad-v3",
+  "name": "rh-launchpad-v3",
+  "description": "Launch a permissionless bonding-curve token on Robinhood Chain (4663) via BondingCurveLaunchpadV3 — graduates into a Uniswap V3 pool (not V2). Use for bots, agents, Telegram, \"launch with V3 pool\", createToken on LaunchpadV3, curve-v3 rail, or FunPump https://funpump.ai/api/launchpad/v3. Distinct from legacy V2 BondingCurveLaunchpad and from NOXA Fun instant V3.",
+  "source": "https://skills.x402agent.io/api/skills/rh-launchpad-v3/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/rh-launchpad-v3/metadata.json",
+  "bundleHash": "sha256-a1efc00ee8c92409b7c47041963841308eebbb5c8fe95754eef039e9e28adc40",
+  "merkleLeaf": "sha256-7cae9ec867321a1a27dde2a19d2531c383affa90131df0d645e9b0566048e83c",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5377,
+      "sha256": "sha256-cf1fcc7151675b8fa57ae16daefd2cad8842990ceb7e9ea2a5e8a964d765065a"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

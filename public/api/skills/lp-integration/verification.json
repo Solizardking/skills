@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "lp-integration",
+  "name": "lp-integration",
+  "description": "Integrate Uniswap liquidity provisioning (LP) into applications via the LP REST API. Use when the user says \"LP API\", \"liquidity provisioning API\", \"provide liquidity programmatically\", \"create LP position via API\", \"add liquidity via API\", \"increase liquidity\", \"decrease liquidity\", \"remove liquidity\", \"claim LP fees\", \"collect LP fees\", \"manage LP positions in code\", or mentions building a backend, bot, or frontend that creates or manages Uniswap v2/v3/v4 liquidity positions through an API. Also use when debugging LP API calls (e.g. /lp/create, /lp/check_approval, /lp/increase, /lp/decrease, /lp/claim_fees), unexpected response fields, the approval or EIP-712 permit flow, or transaction-building errors for liquidity positions. For generating deep links to the Uniswap web app instead of calling the API, use the liquidity-planner skill; for using the Uniswap v4 SDK directly rather than the REST API, use the v4-sdk-integration skill.",
+  "source": "https://skills.x402agent.io/api/skills/lp-integration/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/lp-integration/metadata.json",
+  "bundleHash": "sha256-dfd8e27cfca18b0bfbe6c6dc69a26e9f75b4ac8ea19387beca9028c18b2e632e",
+  "merkleLeaf": "sha256-d3831d93d136faaa593cb8995cfc1f5eaf5e8cb1b62fcbe3ba1398feae172b56",
+  "files": [
+    {
+      "path": "references/advanced-patterns.md",
+      "bytes": 8372,
+      "sha256": "sha256-d51bd9f60def03d783e32a2a6638819fa9e46b8e67ed352840ad3fb013196ffb"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 37320,
+      "sha256": "sha256-3462b38b0839b749c2e77f412c7512357157111f3f10760880fd6af667223d4f"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

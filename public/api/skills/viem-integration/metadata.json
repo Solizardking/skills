@@ -1,0 +1,7 @@
+{
+  "slug": "viem-integration",
+  "name": "viem-integration",
+  "description": "Integrate EVM blockchains using viem. Use when user says \"read blockchain data\", \"send transaction\", \"interact with smart contract\", \"connect to Ethereum\", \"use viem\", \"use wagmi\", \"wallet integration\", \"viem setup\", or mentions blockchain/EVM development with TypeScript.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/viem-integration/SKILL.md"
+}

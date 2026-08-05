@@ -15,24 +15,29 @@
     "skillsStore": "https://cheshireterminal.ai/skills-store"
   },
   "generatedAt": "1970-01-01T00:00:00.000Z",
-  "totalSkills": 558,
+  "totalSkills": 594,
   "categories": {
-    "Solana / Blockchain": 102,
-    "Dev Tools / Agents": 60,
+    "Solana / Blockchain": 122,
+    "Dev Tools / Agents": 70,
     "Google / Ads": 11,
     "Google / Analytics": 2,
     "Google / Cloud": 56,
     "NVIDIA / Accelerated Computing": 229,
     "Local / Web Services": 9,
-    "Media / Devices": 23,
+    "Media / Devices": 24,
     "Productivity / Messaging": 23,
-    "Utilities": 43
+    "Utilities": 48
   },
   "featured": {
     "solana": [
       "anthropic-skills/claude-api",
       "ask-mcp",
+      "cheshire-agent-registries",
+      "cheshire-api",
+      "cheshire-noxa",
+      "cheshire-omni-mint",
       "cheshire-terminal",
+      "cheshire-zk-omni",
       "clawd-agent-launchpad",
       "clawd-skills-installer",
       "clawd-token-ops",
@@ -42,18 +47,13 @@
       "coding-agent",
       "compressed-pda",
       "compressed-token",
+      "copy-trade",
+      "dca-bot",
       "dex-screener-scanner",
       "dflow-docs",
       "dflow-kalshi-market-data",
       "dflow-kalshi-market-scanner",
-      "dflow-kalshi-portfolio",
-      "dflow-kalshi-trading",
-      "dflow-phantom-connect",
-      "dflow-platform-fees",
-      "dflow-proof-kyc",
-      "dflow-spot-trading",
-      "gateway-node-ops",
-      "helius-skills/helius"
+      "dflow-kalshi-portfolio"
     ],
     "prioritySkills": [
       "solana-common-errors",
@@ -83,8 +83,8 @@
   "verification": {
     "chain": "solana",
     "status": "anchor-ready",
-    "merkleRoot": "sha256-756d590156eb3a22f17dabe8d99cc21cd8b9d40ba5c9965996c66b477b3ff3f6",
-    "catalogHash": "sha256-e9a98c6339fd6390b00a46063220a64c44d68cc5b495cb7b7704c6dad4b29103"
+    "merkleRoot": "sha256-b2eb7634bbed16d2c4f5a335c6a7150f5795cbe8d87b71b8db0e58308e8e74b2",
+    "catalogHash": "sha256-abd84b5777abd7a2218c15a768e8d34c8e29f3771f113ed24216c592d4d6f85d"
   },
   "monetization": {
     "onchain": "Solana Pay tip URI per skill card",

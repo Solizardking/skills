@@ -1,0 +1,7 @@
+{
+  "slug": "cheshire-agent-identity-registry",
+  "name": "cheshire-agent-identity-registry",
+  "description": "Register and operate Cheshire Robinhood agent identities (ERC-721 RHAGENT) via CheshireAgentIdentityRegistry on Robinhood Chain. Use for register(agentURI), agentWallet EIP-712/1271 proofs, metadata, isAuthorized, and ownerOf reads. Source: robinhood-agents/contracts/CheshireAgentIdentityRegistry.sol.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/cheshire-agent-identity-registry/SKILL.md"
+}

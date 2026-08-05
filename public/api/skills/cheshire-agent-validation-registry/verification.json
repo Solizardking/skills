@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "cheshire-agent-validation-registry",
+  "name": "cheshire-agent-validation-registry",
+  "description": "ERC-8004 validation request/response flow for Cheshire agents on Robinhood Chain via CheshireAgentValidationRegistry. Use for validationRequest, validationResponse, getValidationStatus, getSummary. Operators request; named validators respond (0–100 score). Source: CheshireAgentValidationRegistry.sol.",
+  "source": "https://skills.x402agent.io/api/skills/cheshire-agent-validation-registry/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/cheshire-agent-validation-registry/metadata.json",
+  "bundleHash": "sha256-5e1f31140c26ee47d5f068a832380cc461093352f0ac375c35b8320c136974d1",
+  "merkleLeaf": "sha256-46dd3f943966c6055c0fa6945a50869f6b1fa2707fa4adda27a0d9159c3b494c",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2691,
+      "sha256": "sha256-ae31abd5ed8f092064ce1eb796ee53483eb8aac1f53d83c0ed10f31f2879b181"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

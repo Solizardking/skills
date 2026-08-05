@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "copy-trade",
+  "name": "copy-trade",
+  "description": "This skill should be used when the user asks to \"copy trades from\" a wallet, \"mirror a wallet\", \"follow this address\", set up \"copy trading\", \"track and replicate a trader\", or mirror another account's swaps bounded by guardrails. Watches a target wallet and mirrors its trades, filtered by chain, asset match, position size, and the follower's own portfolio state.",
+  "source": "https://skills.x402agent.io/api/skills/copy-trade/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/copy-trade/metadata.json",
+  "bundleHash": "sha256-f5612c5c04175682ae990afb40dd821e00fc93ea30880850f2e3eb951ed0bfea",
+  "merkleLeaf": "sha256-e686282eca6e334edd65517e5d50c2ef9383d7f36f0017b9c0a198009240bd70",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 18450,
+      "sha256": "sha256-b4e74930ffe8588bea4e9b9fc5e12209bd3d0075d678b4c213adaa402cb425bc"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

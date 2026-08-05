@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "cheshire-api",
+  "name": "cheshire-api",
+  "description": "Call Cheshire Terminal REST, MCP, discovery, and developer API surfaces for Solana agents, arena rooms, Upstash boxes, trading health, and OpenAPI. Use when integrating cheshireterminal.ai, /mcp, /.well-known/agent-card.json, ct_sk_ API keys, arena coordination, box handoff, or Apigee/zero-service health probes.",
+  "source": "https://skills.x402agent.io/api/skills/cheshire-api/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/cheshire-api/metadata.json",
+  "bundleHash": "sha256-4d04283b35eee220a891140742f015315d631a0b451faf2e2330dbea5032905e",
+  "merkleLeaf": "sha256-944407f680e52f6b9f9685d67a7567907bd367805e1129ad1beb11c24f6f9d39",
+  "files": [
+    {
+      "path": "references/endpoints.md",
+      "bytes": 4214,
+      "sha256": "sha256-ce193332215776cb367a9dba42941027c4267d5a69372ace0e6e3a8fb560e5e8"
+    },
+    {
+      "path": "references/mcp-tools.md",
+      "bytes": 3140,
+      "sha256": "sha256-f5e5dda17bd5e93b97264b00e9c1d4ae99ab480db7919142b8da3d9441196a0f"
+    },
+    {
+      "path": "scripts/smoke-discovery.sh",
+      "bytes": 2790,
+      "sha256": "sha256-d146e09965257cff95856bbd7352d1edb3c67e2ffbbb01a781598b656e2921a9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4511,
+      "sha256": "sha256-0e0ec3e3c04ea065eb89ee623d9976d6ecfa81c338b5d876c5cd133bdd581709"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

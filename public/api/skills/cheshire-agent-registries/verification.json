@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "cheshire-agent-registries",
+  "name": "cheshire-agent-registries",
+  "description": "Overview of the ERC-8004 Cheshire agent registry suite on Robinhood Chain: identity (ERC-721 RHAGENT), reputation feedback, validation request/response, and optional zk-omni messenger. Use when registering agents, reading registry addresses, wiring forge/UI, or deploying operator tooling. Product host: funpump.ai · forge: cheshireterminal.ai/agents/forge.",
+  "source": "https://skills.x402agent.io/api/skills/cheshire-agent-registries/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/cheshire-agent-registries/metadata.json",
+  "bundleHash": "sha256-30985c3b3e938fcd3f101731c17d0cfefcd3468c8bb8c28ecfad999103ec003f",
+  "merkleLeaf": "sha256-cf82d80bcf79b47576a2e948be7fba2830456adf7001434eb1f5ae36265ec5ed",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3543,
+      "sha256": "sha256-77bd22fc3e3fbc17664d5d08fd468b64a49c842df3917e0f5753180611001fe3"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

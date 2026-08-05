@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "swap-planner",
+  "name": "swap-planner",
+  "description": "This skill should be used when the user asks to \"swap tokens\", \"trade ETH for USDC\", \"exchange tokens on Uniswap\", \"buy tokens\", \"sell tokens\", \"convert ETH to stablecoins\", \"find memecoins\", \"discover tokens\", \"research tokens\", \"tokens to buy\", \"find tokens to swap\", \"what should I buy\", or mentions swapping, trading, researching, discovering, buying, or exchanging tokens on any Uniswap-supported chain. Supports both known token swaps and token discovery workflows (discovery uses keyword search and web search — there is no live \"trending\" feed). Generates deep links to execute swaps in the Uniswap interface.",
+  "source": "https://skills.x402agent.io/api/skills/swap-planner/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/swap-planner/metadata.json",
+  "bundleHash": "sha256-6aeef887ea4b540b04855b110958aa9122e1a0aced702ceb937dc92fb0ab115f",
+  "merkleLeaf": "sha256-909e816442659c7f08e38f38e239f58345186c1dc02b2a08237bd7778c1853d8",
+  "files": [
+    {
+      "path": "references/data-providers.md",
+      "bytes": 6125,
+      "sha256": "sha256-69bbdab0febc33706655f346e3856cf6fb68cf4f8407b2e285cfccbe174e9f93"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17814,
+      "sha256": "sha256-a1c3910c788f601c7d49391489b2654edd95c759a85eea5b26433d9b6e9f3bee"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

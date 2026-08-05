@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "posthog-cheshire",
+  "name": "posthog-cheshire",
+  "description": "Instrument and operate PostHog analytics for Cheshire Terminal (US cloud project 473072). Use when wiring posthog-js / posthog-node, cookieless privacy opt-in, wallet identify on SIWS, session replay, product events (wallet_connected, pump/dbc launches, agents, staking), or verifying capture to us.i.posthog.com.",
+  "source": "https://skills.x402agent.io/api/skills/posthog-cheshire/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/posthog-cheshire/metadata.json",
+  "bundleHash": "sha256-dcd0890d8ea683c1af92b90022c9e23ef09a9e89c0033b6be11c063d6b3b5722",
+  "merkleLeaf": "sha256-5af1349378b4359189b7229bf63b4dc45c978f1f4d3eaaad64cc5c0c4958fa4f",
+  "files": [
+    {
+      "path": "references/events.md",
+      "bytes": 2607,
+      "sha256": "sha256-6cc6400b9782143387c69074fed6a75152c5099f0b9507748e6ea31e44652f8a"
+    },
+    {
+      "path": "references/privacy.md",
+      "bytes": 1965,
+      "sha256": "sha256-6e4d760a6046e0ec3da08d2ed3067c52872137d49d19d466c227c8376465938f"
+    },
+    {
+      "path": "scripts/check-posthog-env.sh",
+      "bytes": 2100,
+      "sha256": "sha256-7cc2548ab70f3c7335b453fd3e3e71223e865bc1b0911623de2986e633997ca9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3621,
+      "sha256": "sha256-9e02861bcd027d3e9c960fa329f371291372696fc49c4f022cc45eb3a15b8e51"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

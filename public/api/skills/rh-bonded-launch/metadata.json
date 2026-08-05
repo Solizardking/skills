@@ -1,0 +1,7 @@
+{
+  "slug": "rh-bonded-launch",
+  "name": "rh-bonded-launch",
+  "description": "Launch a permissionless bonding-curve token on Robinhood Chain (4663) via the live BondingCurveLaunchpad, or guide a user/agent to do so on FunPump /launch or Cheshire /rh-launch. Use when the user says \"launch a token\", \"create token on Robinhood\", \"bonded launch\", \"createToken\", \"fair launch on RH\", \"pump style on robinhood\", \"open a curve\", or brings an agent to funpump.ai to launch. Does NOT mint wCLAWD or bridge Solana $CLAWD — that is a separate bridge skill path.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/rh-bonded-launch/SKILL.md"
+}

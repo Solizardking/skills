@@ -1,0 +1,7 @@
+{
+  "slug": "v4-sdk-integration",
+  "name": "v4-sdk-integration",
+  "description": "App-layer SDK guide for building swap and liquidity experiences directly with the Uniswap v4 SDK. Use when user asks about \"v4 sdk\", \"uniswap v4\", \"v4 swap\", \"v4 liquidity\", \"PoolManager\", \"V4Planner\", \"StateView\", \"PositionManager\", \"pool state\", \"v4 position\", \"uniswap sdk\", or when building swap/liquidity UX directly with SDKs rather than via the Trading API.",
+  "category": "Utilities",
+  "skill": "/api/skills/v4-sdk-integration/SKILL.md"
+}

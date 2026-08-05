@@ -47,8 +47,73 @@
       "offchainEnabled": false
     },
     {
+      "slug": "cheshire-agent-registries",
+      "name": "cheshire-agent-registries",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "cheshire-api",
+      "name": "cheshire-api",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "cheshire-noxa",
+      "name": "cheshire-noxa",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "cheshire-omni-mint",
+      "name": "cheshire-omni-mint",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
       "slug": "cheshire-terminal",
       "name": "cheshire-terminal",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "cheshire-zk-omni",
+      "name": "cheshire-zk-omni",
       "category": "Solana / Blockchain",
       "mode": "tip",
       "merchant": {
@@ -166,6 +231,32 @@
     {
       "slug": "compressed-token",
       "name": "compressed-token",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "copy-trade",
+      "name": "copy-trade",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "dca-bot",
+      "name": "dca-bot",
       "category": "Solana / Blockchain",
       "mode": "tip",
       "merchant": {
@@ -606,8 +697,60 @@
       "offchainEnabled": false
     },
     {
+      "slug": "pay-with-any-token",
+      "name": "pay-with-any-token",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "pay-with-app",
+      "name": "pay-with-app",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
       "slug": "phantom-wallet-mcp",
       "name": "phantom-wallet-mcp",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "pons-launch",
+      "name": "pons-launch",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "posthog-cheshire",
+      "name": "posthog-cheshire",
       "category": "Solana / Blockchain",
       "mode": "tip",
       "merchant": {
@@ -931,6 +1074,84 @@
       "offchainEnabled": false
     },
     {
+      "slug": "rh-bonded-launch",
+      "name": "rh-bonded-launch",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "rh-crypto-agent",
+      "name": "rh-crypto-agent",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "rh-launchpad-v3",
+      "name": "rh-launchpad-v3",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "robinhood-agent-forge",
+      "name": "robinhood-agent-forge",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "skillhub-onchain",
+      "name": "skillhub-onchain",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "skills-store",
+      "name": "skills-store",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
       "slug": "solana-clawd",
       "name": "solana-clawd",
       "category": "Solana / Blockchain",
@@ -1061,6 +1282,19 @@
       "offchainEnabled": false
     },
     {
+      "slug": "swap-planner",
+      "name": "swap-planner",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
       "slug": "swarm-orchestrator",
       "name": "swarm-orchestrator",
       "category": "Solana / Blockchain",
@@ -1076,6 +1310,19 @@
     {
       "slug": "testing",
       "name": "testing",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "viem-integration",
+      "name": "viem-integration",
       "category": "Solana / Blockchain",
       "mode": "tip",
       "merchant": {
@@ -1334,6 +1581,19 @@
       "offchainEnabled": false
     },
     {
+      "slug": "zk-omni-messaging",
+      "name": "zk-omni-messaging",
+      "category": "Solana / Blockchain",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
       "slug": "zkrouter",
       "name": "zkrouter",
       "category": "Solana / Blockchain",
@@ -1505,6 +1765,45 @@
     {
       "slug": "anthropic-skills/xlsx",
       "name": "xlsx",
+      "category": "Dev Tools / Agents",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "cheshire-agent-identity-registry",
+      "name": "cheshire-agent-identity-registry",
+      "category": "Dev Tools / Agents",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "cheshire-agent-reputation-registry",
+      "name": "cheshire-agent-reputation-registry",
+      "category": "Dev Tools / Agents",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "cheshire-agent-validation-registry",
+      "name": "cheshire-agent-validation-registry",
       "category": "Dev Tools / Agents",
       "mode": "tip",
       "merchant": {
@@ -1750,6 +2049,32 @@
       "offchainEnabled": false
     },
     {
+      "slug": "google-agent-registry",
+      "name": "google-agent-registry",
+      "category": "Dev Tools / Agents",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "improve-animations",
+      "name": "improve-animations",
+      "category": "Dev Tools / Agents",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
       "slug": "in-progress/claude-handoff",
       "name": "claude-handoff",
       "category": "Dev Tools / Agents",
@@ -1765,6 +2090,45 @@
     {
       "slug": "in-progress/wizard",
       "name": "wizard",
+      "category": "Dev Tools / Agents",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "index-bot",
+      "name": "index-bot",
+      "category": "Dev Tools / Agents",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "liquidity-planner",
+      "name": "liquidity-planner",
+      "category": "Dev Tools / Agents",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "lp-integration",
+      "name": "lp-integration",
       "category": "Dev Tools / Agents",
       "mode": "tip",
       "merchant": {
@@ -2036,6 +2400,19 @@
       "offchainEnabled": false
     },
     {
+      "slug": "stripe",
+      "name": "stripe",
+      "category": "Dev Tools / Agents",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
       "slug": "thinking-and-docs/level-up",
       "name": "level-up",
       "category": "Dev Tools / Agents",
@@ -2077,6 +2454,19 @@
     {
       "slug": "tmux",
       "name": "tmux",
+      "category": "Dev Tools / Agents",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "v4-hook-generator",
+      "name": "v4-hook-generator",
       "category": "Dev Tools / Agents",
       "mode": "tip",
       "merchant": {
@@ -6417,6 +6807,19 @@
       "offchainEnabled": false
     },
     {
+      "slug": "youtube-clipper",
+      "name": "youtube-clipper",
+      "category": "Media / Devices",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
       "slug": "agent-orchestration/cmux",
       "name": "cmux",
       "category": "Productivity / Messaging",
@@ -6846,6 +7249,19 @@
       "offchainEnabled": false
     },
     {
+      "slug": "deployer",
+      "name": "deployer",
+      "category": "Utilities",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
       "slug": "deprecated/ubiquitous-language",
       "name": "ubiquitous-language",
       "category": "Utilities",
@@ -7249,6 +7665,32 @@
       "offchainEnabled": false
     },
     {
+      "slug": "shadcn",
+      "name": "shadcn",
+      "category": "Utilities",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "swap-integration",
+      "name": "swap-integration",
+      "category": "Utilities",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
       "slug": "thinking-and-docs/brain-to-docs",
       "name": "brain-to-docs",
       "category": "Utilities",
@@ -7264,6 +7706,32 @@
     {
       "slug": "thinking-and-docs/read-all-adrs",
       "name": "read-all-adrs",
+      "category": "Utilities",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "v4-sdk-integration",
+      "name": "v4-sdk-integration",
+      "category": "Utilities",
+      "mode": "tip",
+      "merchant": {
+        "name": "Skill Hub",
+        "wallet": ""
+      },
+      "network": "mainnet",
+      "onchainEnabled": false,
+      "offchainEnabled": false
+    },
+    {
+      "slug": "v4-security-foundations",
+      "name": "v4-security-foundations",
       "category": "Utilities",
       "mode": "tip",
       "merchant": {

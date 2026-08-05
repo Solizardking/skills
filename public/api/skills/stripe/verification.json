@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "stripe",
+  "name": "stripe",
+  "description": "Install and use the official Stripe Claude Code plugin (stripe@claude-plugins-official), connect Stripe MCP (mcp.stripe.com), and implement modern Stripe payments with Checkout Sessions, PaymentIntents, SetupIntents, and Billing — never legacy Charges. Use when building Stripe checkout, subscriptions, webhooks, Connect, restricted keys, test cards, or running /plugin install stripe@claude-plugins-official / /explain-error / /test-cards.",
+  "source": "https://skills.x402agent.io/api/skills/stripe/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/stripe/metadata.json",
+  "bundleHash": "sha256-8a84a924bc20644d09710aa4c9ab695bc39ea7bd4888ce786ea8d0c739b44ab5",
+  "merkleLeaf": "sha256-1be28ca6de92f74620260b1f21d93d3823001104eeaeddc4107aec042cc91092",
+  "files": [
+    {
+      "path": "references/payments.md",
+      "bytes": 1794,
+      "sha256": "sha256-d807993a8f58fcee7b9cbdf4975a8f59347d850c938ffed66ecb043a24286013"
+    },
+    {
+      "path": "references/plugin-commands.md",
+      "bytes": 1550,
+      "sha256": "sha256-0f5b6511afae8587c4ad583d6cd5bf76c70b8db4fd32a47a0fa82a096d94d2e7"
+    },
+    {
+      "path": "scripts/check-stripe-skill.sh",
+      "bytes": 857,
+      "sha256": "sha256-a5713f1bd50aa4352f9c1eb52333a5df6105e8c9aec9d316d7176eae67f008b8"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5375,
+      "sha256": "sha256-a5d11b4487963fef09da12d6e239fc0ecad47e940af43c88abee477fba72a272"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

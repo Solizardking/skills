@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "index-bot",
+  "name": "index-bot",
+  "description": "This skill should be used when the user asks to \"create an index\", \"build a basket of top assets\", \"buy a weighted basket\", \"make a portfolio of assets\", \"equal-weight basket\", \"rebalance my portfolio\", \"track the top N tokens\", or wants an automated, weighted multi-asset basket that buys in one pass and rebalances on a cadence. Builds the basket spec, delegates each buy and rebalance swap to the swap-integration Trading API flow, and records target weights in state.",
+  "source": "https://skills.x402agent.io/api/skills/index-bot/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/index-bot/metadata.json",
+  "bundleHash": "sha256-910df7ce2c08d17b9154eadd1deddd2ad52b1d48ed448e2fb5ad76831e51ca26",
+  "merkleLeaf": "sha256-6c114b571d333ff58e789c1c7fb46433d3c5cb0971003c5ee68054bfe22251d4",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 11270,
+      "sha256": "sha256-896e8997b8ec159d6c0a7799fbb0d3127ff5611d43ab5ae9cbb2c8093ca59812"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

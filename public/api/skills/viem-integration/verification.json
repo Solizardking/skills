@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "viem-integration",
+  "name": "viem-integration",
+  "description": "Integrate EVM blockchains using viem. Use when user says \"read blockchain data\", \"send transaction\", \"interact with smart contract\", \"connect to Ethereum\", \"use viem\", \"use wagmi\", \"wallet integration\", \"viem setup\", or mentions blockchain/EVM development with TypeScript.",
+  "source": "https://skills.x402agent.io/api/skills/viem-integration/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/viem-integration/metadata.json",
+  "bundleHash": "sha256-5537ea966d39fc147d941c9a11ca81181b466b8bac23b61bdad776d17c9bdb7e",
+  "merkleLeaf": "sha256-3e70a47261ca72dcc9607a4ad730298e87466d9cddc485c5e9cc73af7e39c14c",
+  "files": [
+    {
+      "path": "references/accounts-and-keys.md",
+      "bytes": 9045,
+      "sha256": "sha256-6582780c7a223980aa85850450b295d1b1db253110a870b47104633fba8c7254"
+    },
+    {
+      "path": "references/clients-and-transports.md",
+      "bytes": 11364,
+      "sha256": "sha256-4a72ffe2d99ecd3ae1c27ad8a60627bdb14b840b458123f26b6e09e216094787"
+    },
+    {
+      "path": "references/contract-patterns.md",
+      "bytes": 11195,
+      "sha256": "sha256-647e838063f515000fff166ae639aecd09b00ee8c150aa304d9b993b4e84b913"
+    },
+    {
+      "path": "references/reading-data.md",
+      "bytes": 12092,
+      "sha256": "sha256-22cc20f573f9501b40bf49795b0abc9975880b63b7d4bdc28c96cbacaafd6f41"
+    },
+    {
+      "path": "references/wagmi-react.md",
+      "bytes": 14165,
+      "sha256": "sha256-e854d7d40e00c61ac91df41a9109d6c12b72d1e18b8643badd91b8bc79aa928c"
+    },
+    {
+      "path": "references/writing-transactions.md",
+      "bytes": 10138,
+      "sha256": "sha256-92bd7873f5ae8e1617185db6e811c290f3bd58e0cbe1ee88ade28af80e41414b"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7618,
+      "sha256": "sha256-25eac48a94f749c41a9b25093442ad9794e404d0c8a0b09360c5f276192b2448"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

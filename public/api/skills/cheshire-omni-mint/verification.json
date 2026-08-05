@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "cheshire-omni-mint",
+  "name": "cheshire-omni-mint",
+  "description": "Dual-rail omni agent mint: Solana Metaplex Core + Agent Identity and Robinhood Chain ERC-8004 identity in one plan, optionally bound with LayerZero zk-omni (msgType 4 dual_identity_link). Use when the user wants omnichain identity, Solana and Robinhood together, Metaplex mintAgent + RH register, or Cheshire Terminal dual-rail forge. Product: cheshireterminal.ai/agents/forge · funpump.ai.",
+  "source": "https://skills.x402agent.io/api/skills/cheshire-omni-mint/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/cheshire-omni-mint/metadata.json",
+  "bundleHash": "sha256-5861ee9fab703718e3f9558095e11178226f1ad64fc387e77dcb4221d91771cf",
+  "merkleLeaf": "sha256-a5e225a2747f4d1456219be9507825d471aca0323e460b5a8dba6e8d1a1bbdf1",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3882,
+      "sha256": "sha256-47346c316de4eb56cfde21f5912fe303077e6d6d963ed5cce1c1c8af1c66fe78"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

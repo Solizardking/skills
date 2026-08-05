@@ -1,0 +1,7 @@
+{
+  "slug": "pay-with-any-token",
+  "name": "pay-with-any-token",
+  "description": "Pay HTTP 402 payment challenges using tokens via the Tempo CLI and Uniswap Trading API. Use when the user encounters a 402 Payment Required response, needs to fulfill a machine payment, mentions \"MPP\", \"Tempo payment\", \"pay for API access\", \"HTTP 402\", \"x402\", \"machine payment protocol\", \"pay-with-any-token\", \"use tempo\", \"tempo request\", or \"tempo wallet\".",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pay-with-any-token/SKILL.md"
+}

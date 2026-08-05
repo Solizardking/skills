@@ -1,0 +1,7 @@
+{
+  "slug": "posthog-cheshire",
+  "name": "posthog-cheshire",
+  "description": "Instrument and operate PostHog analytics for Cheshire Terminal (US cloud project 473072). Use when wiring posthog-js / posthog-node, cookieless privacy opt-in, wallet identify on SIWS, session replay, product events (wallet_connected, pump/dbc launches, agents, staking), or verifying capture to us.i.posthog.com.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/posthog-cheshire/SKILL.md"
+}

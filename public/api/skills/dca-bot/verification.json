@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "dca-bot",
+  "name": "dca-bot",
+  "description": "This skill should be used when the user wants to \"dca into\" a token, \"buy X every day\", set up a \"recurring buy\", \"dollar cost average\" into an asset, \"schedule a buy\", or \"auto-buy on a dip\". Buys a fixed amount into a token on a schedule, optionally only when a condition holds (for example only when ETH is below a price threshold). The host agent's scheduler wakes the skill on a cadence; each wake is one self-contained run.",
+  "source": "https://skills.x402agent.io/api/skills/dca-bot/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/dca-bot/metadata.json",
+  "bundleHash": "sha256-666d4e4f84fb86f68ccfa3a995dd95fab13ba3b2cfc92b62f8f6b602645f5d5a",
+  "merkleLeaf": "sha256-acbed7e14e77685aa9912954da9ec95c983e832c674bf038c9f21ee43db256cc",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 9672,
+      "sha256": "sha256-5278af3e8be5ab45a2be77bf17df0b162e97c56850b095e3630e6a822b066183"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

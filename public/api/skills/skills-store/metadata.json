@@ -1,0 +1,7 @@
+{
+  "slug": "skills-store",
+  "name": "skills-store",
+  "description": "Cheshire Skills Store index — curated Agent Skills packages for Cheshire Terminal (API, PostHog, Google Agent Registry, Skill Hub onchain, Stripe, Solana common errors, NOXA) plus the community skills collection. Use when installing store skills, browsing the store catalog, or wiring cheshireterminal.ai/skills-store.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/skills-store/SKILL.md"
+}

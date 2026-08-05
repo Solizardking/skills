@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "deployer",
+  "name": "deployer",
+  "description": "Deploy CCA (Continuous Clearing Auction) smart contracts using the Factory pattern. Use when user says \"deploy auction\", \"deploy cca\", \"factory deployment\", or wants to deploy a configured auction.",
+  "source": "https://skills.x402agent.io/api/skills/deployer/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/deployer/metadata.json",
+  "bundleHash": "sha256-b311695e8b1d2c418f7a2fbe8a513c8668542ba275562a15ea573e83002f4c15",
+  "merkleLeaf": "sha256-e5d2b777095dc95938c10280c8e131b0bab71ecc221561e13846eb039b5fb409",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 16276,
+      "sha256": "sha256-aaf51bca8983f2adebb953520779c85d34a1971fe8620927eab062d1a538e4b6"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

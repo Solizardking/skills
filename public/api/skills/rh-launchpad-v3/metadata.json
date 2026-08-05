@@ -1,0 +1,7 @@
+{
+  "slug": "rh-launchpad-v3",
+  "name": "rh-launchpad-v3",
+  "description": "Launch a permissionless bonding-curve token on Robinhood Chain (4663) via BondingCurveLaunchpadV3 — graduates into a Uniswap V3 pool (not V2). Use for bots, agents, Telegram, \"launch with V3 pool\", createToken on LaunchpadV3, curve-v3 rail, or FunPump https://funpump.ai/api/launchpad/v3. Distinct from legacy V2 BondingCurveLaunchpad and from NOXA Fun instant V3.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/rh-launchpad-v3/SKILL.md"
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "youtube-clipper",
+  "name": "youtube-clipper",
+  "description": "YouTube 视频智能剪辑工具。下载视频和字幕，AI 分析生成精细章节（几分钟级别）， 用户选择片段后自动剪辑、翻译字幕为中英双语、烧录字幕到视频，并生成总结文案。 使用场景：当用户需要剪辑 YouTube 视频、生成短视频片段、制作双语字幕版本时。 关键词：视频剪辑、YouTube、字幕翻译、双语字幕、视频下载、clip video",
+  "source": "https://skills.x402agent.io/api/skills/youtube-clipper/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/youtube-clipper/metadata.json",
+  "bundleHash": "sha256-600087e9cf788d56b9cf15b33ab02cf3e85a744bee83b846d45d31d3e41d0bed",
+  "merkleLeaf": "sha256-ed3ec28629e14ec65c296dc5e8f4d766ec28546993d6461938d291d031421981",
+  "files": [
+    {
+      "path": "FIXES_AND_IMPROVEMENTS.md",
+      "bytes": 8163,
+      "sha256": "sha256-fcf28bfad7e54c9f9bb9bedc1c0474c12e25db7e74c18a9d46f4318b9ad506b2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8596,
+      "sha256": "sha256-16234a04fc31ebd88e44c294220619c4b98b331a7356101bee8d05821a831d1e"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 8006,
+      "sha256": "sha256-d2d72374b3b2ac11bdb66beff0322564f22092d1bcf2ba1c8f1d326ddd2789f8"
+    },
+    {
+      "path": "references/ffmpeg-guide.md",
+      "bytes": 3479,
+      "sha256": "sha256-0c8f24e500118394566dcdc3cd461ada5d98b3d6e13fb280d8a7fff7b347948d"
+    },
+    {
+      "path": "references/subtitle-formatting.md",
+      "bytes": 7917,
+      "sha256": "sha256-a57ae34665405c91f3db3a6122def0308493ea4997aca11e446e217915fc8c28"
+    },
+    {
+      "path": "references/yt-dlp-guide.md",
+      "bytes": 6496,
+      "sha256": "sha256-6bccd5e3e093a779a71cf0e6acc2f115be2edc1a4fb7a85f522d6d08db17b275"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "bytes": 128,
+      "sha256": "sha256-c2aa743aa3beb8b1aaab17ff38e302722a3824bcc708e5b222bfac9227cbecc2"
+    },
+    {
+      "path": "scripts/analyze_subtitles.py",
+      "bytes": 7595,
+      "sha256": "sha256-59db173af8a3cb7496890f04b21a773378b7ec0dbd3ff8a605ce1c98c93c2c30"
+    },
+    {
+      "path": "scripts/burn_subtitles.py",
+      "bytes": 8688,
+      "sha256": "sha256-f3b64446ff1385bf5fba65088f76551717ece5b5fbdc9a125db860abc81953d3"
+    },
+    {
+      "path": "scripts/clip_video.py",
+      "bytes": 7227,
+      "sha256": "sha256-92bcacb270479e67b6820b1c9d1f30618510651cf84b01a81831718f54641eb6"
+    },
+    {
+      "path": "scripts/download_video.py",
+      "bytes": 6708,
+      "sha256": "sha256-383c962b762d66bb0010925206d4813fe9a62c46a202c5994bbdf7146df36a01"
+    },
+    {
+      "path": "scripts/extract_subtitle_clip.py",
+      "bytes": 3666,
+      "sha256": "sha256-4e8b0838a27a92df4bae3e086cd7f3fecdda5c34e51923edc5bff72e10a66d98"
+    },
+    {
+      "path": "scripts/generate_summary.py",
+      "bytes": 6257,
+      "sha256": "sha256-f2ac3811fa9b72bb707ca5eda7b13da7d70daa062f873f6c46a3297f31089067"
+    },
+    {
+      "path": "scripts/merge_bilingual_subtitles.py",
+      "bytes": 2302,
+      "sha256": "sha256-8074bf46c045248da299e4f40dc91ce638895577c20d28c5c93c64d20a38db6c"
+    },
+    {
+      "path": "scripts/translate_subtitles.py",
+      "bytes": 7095,
+      "sha256": "sha256-f3c0b0a6458c5936638cbc4466fba62322c846e73deef508360d0d4ac5ffb664"
+    },
+    {
+      "path": "scripts/utils.py",
+      "bytes": 8139,
+      "sha256": "sha256-ba4b0bc846057952bce9ec4131b64779bc048edfddf434ae347fc1368b2f0e42"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10859,
+      "sha256": "sha256-1039e3c3ac3028ec6e0e4d47c25553886a9b7f2bccdd62a76c160e14813f9ce8"
+    },
+    {
+      "path": "TECHNICAL_NOTES.md",
+      "bytes": 11590,
+      "sha256": "sha256-4449ee72f8584129e8513363ad7477e586a4f0610ca5a6f2b8b1d2a32a80d21d"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

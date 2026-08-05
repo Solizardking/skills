@@ -1,0 +1,7 @@
+{
+  "slug": "swap-integration",
+  "name": "swap-integration",
+  "description": "Integrate Uniswap swaps into applications. Use when user says \"integrate swaps\", \"uniswap\", \"trading api\", \"add swap functionality\", \"build a swap frontend\", \"create a swap script\", \"smart contract swap integration\", \"use Universal Router\", \"Trading API\", or mentions swapping tokens via Uniswap.",
+  "category": "Utilities",
+  "skill": "/api/skills/swap-integration/SKILL.md"
+}
