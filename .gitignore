@@ -99,3 +99,4 @@ coverage/
 # Upload relay job store
 onchain/submissions/
 .relay-install-check/
+.env*
