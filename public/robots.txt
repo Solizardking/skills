@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://skills.x402agent.io/sitemap.xml
