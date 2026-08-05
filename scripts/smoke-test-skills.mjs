@@ -338,7 +338,7 @@ function validateSiteManifest(manifest, skills, errors) {
   if (!manifest.endpoints?.skillVerification || !manifest.endpoints?.onchainRegistry) {
     errors.push("site manifest missing verification endpoint templates");
   }
-  if (manifest.skillsSh?.install !== "npx skills add Solizardking/skills") {
+  if (manifest.skillsSh?.install !== "npx skills add Solizardking/skillhub") {
     errors.push("site manifest missing skills.sh one-shot install command");
   }
   if (!/^sha256-[a-f0-9]{64}$/.test(manifest.verification?.merkleRoot || "")) {

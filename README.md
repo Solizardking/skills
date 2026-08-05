@@ -2,7 +2,7 @@
 
 <img src="./assets/hub-banner.svg" alt="Skill Hub — an animated constellation of agent skills" width="100%" />
 
-[![skills.sh](https://skills.sh/b/Solizardking/skills)](https://skills.sh/Solizardking/skills)
+[![skills.sh](https://skills.sh/b/Solizardking/skillhub)](https://skills.sh/Solizardking/skillhub)
 ![Skills](https://img.shields.io/badge/skills-594-8A2BE2?style=flat-square) ![Categories](https://img.shields.io/badge/categories-10-00C2FF?style=flat-square) ![Google](https://img.shields.io/badge/google_integration-69_skills-4285F4?style=flat-square) ![NVIDIA](https://img.shields.io/badge/nvidia_integration-229_skills-76B900?style=flat-square) ![Verified](https://img.shields.io/badge/merkle-verified-14F195?style=flat-square) ![Arweave](https://img.shields.io/badge/arweave-permanent-222222?style=flat-square) ![Solana](https://img.shields.io/badge/solana-anchored-9945FF?style=flat-square)
 
 **594 installable agent skills** — including a **69-skill Google integration** and a **229-skill NVIDIA stack** (CUDA, Jetson, NeMo, DeepStream, cuOpt, TAO, Holoscan, Earth-2). Every one is a `SKILL.md` playbook your agent can pull off the shelf —
@@ -81,47 +81,47 @@ This is the same 594-skill inventory grouped by where the source directories liv
 The whole hub:
 
 ```bash
-npx skills add Solizardking/skills        # via skills.sh
-npx github:Solizardking/skills install    # straight from GitHub
+npx skills add Solizardking/skillhub        # via skills.sh
+npx github:Solizardking/skillhub install    # straight from GitHub
 ```
 
 Or grab a **premiere** focused stack (the hub's lead offerings):
 
 ```bash
 # Premiere: engineering (TDD, implement, triage, architecture)
-npx github:Solizardking/skills install engineering/tdd engineering/implement engineering/triage engineering/codebase-design engineering/to-spec
+npx github:Solizardking/skillhub install engineering/tdd engineering/implement engineering/triage engineering/codebase-design engineering/to-spec
 
 # Premiere: agent orchestration (goal loops, handoffs, subagents)
-npx github:Solizardking/skills install agent-orchestration/goal-loop agent-orchestration/handoff agent-orchestration/codex-subagent agent-orchestration/run-deep-swe
+npx github:Solizardking/skillhub install agent-orchestration/goal-loop agent-orchestration/handoff agent-orchestration/codex-subagent agent-orchestration/run-deep-swe
 
 # Premiere: productivity + thinking & docs
-npx github:Solizardking/skills install productivity/grill-me productivity/teach productivity/writing-great-skills thinking-and-docs/brain-to-docs thinking-and-docs/prompt-me
+npx github:Solizardking/skillhub install productivity/grill-me productivity/teach productivity/writing-great-skills thinking-and-docs/brain-to-docs thinking-and-docs/prompt-me
 
 # Premiere: design & motion
-npx github:Solizardking/skills install apple-design emil-design-eng animation-vocabulary review-animations
+npx github:Solizardking/skillhub install apple-design emil-design-eng animation-vocabulary review-animations
 
 # Premiere: research, skill authoring, ops
-npx github:Solizardking/skills install research-and-web/deep-research research-and-web/browser-harness skill-authoring/effective-agent-skills ops-and-setup/setup-help
+npx github:Solizardking/skillhub install research-and-web/deep-research research-and-web/browser-harness skill-authoring/effective-agent-skills ops-and-setup/setup-help
 ```
 
 Also available — NVIDIA, Google, and Solana stacks:
 
 ```bash
 # NVIDIA accelerated computing (Jetson, DeepStream, NeMo, cuOpt, CUDA-Q)
-npx github:Solizardking/skills install nvidia/jetson-quick-start nvidia/deepstream-dev nvidia/cudaq-guide nvidia/aiq-deploy nvidia/cuopt-developer
+npx github:Solizardking/skillhub install nvidia/jetson-quick-start nvidia/deepstream-dev nvidia/cudaq-guide nvidia/aiq-deploy nvidia/cuopt-developer
 
-npx github:Solizardking/skills install solana-dev solana-formal-verification magicblock
-npx github:Solizardking/skills install pumpfun pump-token-lifecycle pump-bonding-curve pump-security
-npx github:Solizardking/skills install compressed-pda compressed-token zk zkrouter
-npx github:Solizardking/skills install google/cloud/gcloud google/cloud/gke-basics google/cloud/bigquery-basics
+npx github:Solizardking/skillhub install solana-dev solana-formal-verification magicblock
+npx github:Solizardking/skillhub install pumpfun pump-token-lifecycle pump-bonding-curve pump-security
+npx github:Solizardking/skillhub install compressed-pda compressed-token zk zkrouter
+npx github:Solizardking/skillhub install google/cloud/gcloud google/cloud/gke-basics google/cloud/bigquery-basics
 ```
 
 Point it at any agent skill root:
 
 ```bash
-npx github:Solizardking/skills install --target ~/.codex/skills   # Codex
-npx github:Solizardking/skills install --claude                   # Claude Code
-npx github:Solizardking/skills install --eve                      # eve (agent/skills/)
+npx github:Solizardking/skillhub install --target ~/.codex/skills   # Codex
+npx github:Solizardking/skillhub install --claude                   # Claude Code
+npx github:Solizardking/skillhub install --eve                      # eve (agent/skills/)
 ```
 
 ## 🌟 Featured Runs

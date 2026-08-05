@@ -1,12 +1,12 @@
 {
-  "name": "@solizardking/skills",
+  "name": "@solizardking/skillhub",
   "version": "0.1.0",
   "description": "Catalog and one-shot installer for Solizardking agent skills.",
   "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Solizardking/skills.git"
+    "url": "git+https://github.com/Solizardking/skillhub.git"
   },
   "bin": {
     "skills": "./bin/skills.mjs"
@@ -37,5 +37,9 @@
     "@irys/upload": "^0.0.15",
     "@irys/upload-solana": "^0.1.8",
     "@solana/web3.js": "^1.98.4"
+  },
+  "homepage": "https://github.com/Solizardking/skillhub",
+  "bugs": {
+    "url": "https://github.com/Solizardking/skillhub/issues"
   }
 }

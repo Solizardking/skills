@@ -5,25 +5,25 @@
 List skills:
 
 ```bash
-npx github:Solizardking/skills list
+npx github:Solizardking/skillhub list
 ```
 
 Install all skills to the default root:
 
 ```bash
-npx github:Solizardking/skills install
+npx github:Solizardking/skillhub install
 ```
 
 Install all skills into an eve project:
 
 ```bash
-npx github:Solizardking/skills install --eve
+npx github:Solizardking/skillhub install --eve
 ```
 
 Install specific Clawd/Cheshire skills:
 
 ```bash
-npx github:Solizardking/skills install solana-clawd clawd-token-ops cheshire-terminal clawd-agent-launchpad clawd-trading-terminal
+npx github:Solizardking/skillhub install solana-clawd clawd-token-ops cheshire-terminal clawd-agent-launchpad clawd-trading-terminal
 ```
 
 Targets:
@@ -57,4 +57,4 @@ In an eve project, the official `skills` CLI detects the project and offers to i
 - JSON Render: `json-render-core`, `json-render-react`, `json-render-react-native`, `json-render-remotion`, `remotion-best-practices`.
 - Utility: `find-skills`, `before-and-after`.
 
-Install those from their official repositories with `npx skills add ...`; install this repo's Clawd/Cheshire skills with `npx github:Solizardking/skills ...`.
+Install those from their official repositories with `npx skills add ...`; install this repo's Clawd/Cheshire skills with `npx github:Solizardking/skillhub ...`.

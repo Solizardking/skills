@@ -869,7 +869,7 @@
     <section aria-label="Skill catalog">
       <div class="section-head">
         <h2>All Skills</h2>
-        <span>Install all: <code>npx github:Solizardking/skills install</code></span>
+        <span>Install all: <code>npx github:Solizardking/skillhub install</code></span>
       </div>
     </section>
     <section class="grid" id="grid"></section>
@@ -1074,7 +1074,7 @@
         "Use skill-creator to create or update " + slug + ". Purpose: " + purpose + " Include resources: " + resources + ".",
         "",
         "Install creator:",
-        "npx github:Solizardking/skills install skill-creator",
+        "npx github:Solizardking/skillhub install skill-creator",
         "",
         "Validate after edits:",
         "scripts/quick_validate.py <path-to-" + slug + ">"
@@ -1234,7 +1234,7 @@
     }
 
     function installCommand(slug) {
-      return `npx github:Solizardking/skills install ${slug}`;
+      return `npx github:Solizardking/skillhub install ${slug}`;
     }
 
     async function copyText(value) {

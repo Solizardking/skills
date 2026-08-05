@@ -690,7 +690,7 @@ function buildInstallMetric(skill, installMetrics) {
   const metric = installMetrics?.skills?.[skill.slug] || null;
   const installs = Number.isFinite(metric?.installs) ? metric.installs : null;
   return {
-    command: `npx github:Solizardking/skills install ${skill.slug}`,
+    command: `npx github:Solizardking/skillhub install ${skill.slug}`,
     installs,
     status: installs === null ? "unknown" : "known",
     source: metric?.source || globalSource,

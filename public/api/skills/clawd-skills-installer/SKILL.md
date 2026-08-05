@@ -12,19 +12,19 @@ Use this skill when the task is about getting Clawd or Cheshire skills into an a
 Install the full Solizardking skill catalog:
 
 ```bash
-npx github:Solizardking/skills install
+npx github:Solizardking/skillhub install
 ```
 
 Install into an eve-style project:
 
 ```bash
-npx github:Solizardking/skills install --eve
+npx github:Solizardking/skillhub install --eve
 ```
 
 Install only Clawd and Cheshire skills:
 
 ```bash
-npx github:Solizardking/skills install solana-clawd clawd-token-ops cheshire-terminal clawd-agent-launchpad clawd-trading-terminal clawd-skills-installer
+npx github:Solizardking/skillhub install solana-clawd clawd-token-ops cheshire-terminal clawd-agent-launchpad clawd-trading-terminal clawd-skills-installer
 ```
 
 ## Target Policy

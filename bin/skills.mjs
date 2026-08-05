@@ -17,11 +17,11 @@ const USAGE = `Usage:
   skills list [--json]
 
 Examples:
-  npx github:Solizardking/skills install
-  npx github:Solizardking/skills install solana-dev magicblock --force
-  npx github:Solizardking/skills install --target ~/.codex/skills
-  npx github:Solizardking/skills install --claude
-  npx github:Solizardking/skills install --eve
+  npx github:Solizardking/skillhub install
+  npx github:Solizardking/skillhub install solana-dev magicblock --force
+  npx github:Solizardking/skillhub install --target ~/.codex/skills
+  npx github:Solizardking/skillhub install --claude
+  npx github:Solizardking/skillhub install --eve
 
 Targets:
   default       ~/.agents/skills

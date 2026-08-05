@@ -77,7 +77,7 @@
     "submissionsUi": "https://skills.x402agent.io/submissions"
   },
   "skillsSh": {
-    "install": "npx skills add Solizardking/skills",
+    "install": "npx skills add Solizardking/skillhub",
     "repoConfig": "skills.sh.json"
   },
   "verification": {
