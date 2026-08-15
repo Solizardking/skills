@@ -1,0 +1,224 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-fun/interacting",
+  "name": "interacting",
+  "description": "PumpKit documentation for interacting with pump.fun — SDK, Telegram bots, AMM trading, fee sharing, protocol guides, and end-to-end workflows.",
+  "source": "https://skills.x402agent.io/api/skills/pump-fun/interacting/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/pump-fun/interacting/metadata.json",
+  "bundleHash": "sha256-60bda427e5f233c08930c59d957ae7fa0aba493c3ebdefe1425cc38ab48ac1df",
+  "merkleLeaf": "sha256-69f8ecc06506567ee575f18196e16412d8ea616b41f0af07e179cc0461697c68",
+  "files": [
+    {
+      "path": "admin-operations.md",
+      "bytes": 4469,
+      "sha256": "sha256-dd5bb4b70d9d37035d167fa4eedeedd665ca2313766b90c99030b9fbe7f7e0b6"
+    },
+    {
+      "path": "adopters.md",
+      "bytes": 1361,
+      "sha256": "sha256-c01de6d0eac8b8586e95704bb669acce1e9ac4e2da9166a5b89570564184e762"
+    },
+    {
+      "path": "amm-trading.md",
+      "bytes": 6999,
+      "sha256": "sha256-1629bc08845bb11fe51834de20b9815b617a563bc7640bd3f8c3c691af438eea"
+    },
+    {
+      "path": "analytics.md",
+      "bytes": 6308,
+      "sha256": "sha256-4bc3270dce8a83cbc1a2476f69a0b4fd368f1e3e4d63f0730884d813dc9b4713"
+    },
+    {
+      "path": "api-reference.md",
+      "bytes": 39080,
+      "sha256": "sha256-682ab76ba250d195233c8e2b52ce7202f6dbf7ddd2aa03b874ce7f6870dd57bc"
+    },
+    {
+      "path": "architecture.md",
+      "bytes": 11456,
+      "sha256": "sha256-65f4e57c31b6af61b6b24ab89773070b2c1b388309f59f846aa147b40a42bc4e"
+    },
+    {
+      "path": "article-pump-fun-sdk.md",
+      "bytes": 24762,
+      "sha256": "sha256-f6e944364ebe58092291867f93602b1919b534aefd681744fb06d495b7bc071a"
+    },
+    {
+      "path": "cashback.md",
+      "bytes": 4061,
+      "sha256": "sha256-4091aaf415c4460c26a6f8cffb65742d4b9fd3fbc73ed4ac796228a94993f689"
+    },
+    {
+      "path": "channel-bot-architecture.md",
+      "bytes": 6979,
+      "sha256": "sha256-3ae317aa40b6774278eb808c479f707fdefca39ec22f02338f82d6367d6c75ae"
+    },
+    {
+      "path": "cli-guide.md",
+      "bytes": 7714,
+      "sha256": "sha256-a026f5f185f572fcb7539867ec50a351809998e35453b997445d5bf811770a3b"
+    },
+    {
+      "path": "core-api.md",
+      "bytes": 9995,
+      "sha256": "sha256-2ca3816cd457e3239a32f5b94bf7d912447a4933807a5e3ac8a4b29d729a2141"
+    },
+    {
+      "path": "defi-agents.md",
+      "bytes": 7136,
+      "sha256": "sha256-51f560b8d7440c575876ae120a1e9f7d9228d5765327e338dd48503810832cbd"
+    },
+    {
+      "path": "deployment.md",
+      "bytes": 5195,
+      "sha256": "sha256-82b2322352bc5a567059b21804aa572879030743e77aca31a69b4a1367b755fa"
+    },
+    {
+      "path": "development.md",
+      "bytes": 6391,
+      "sha256": "sha256-3b4a52693a27d2023ab29faeed5798bb9151c1cf3f2bd77a235b1d81210f4838"
+    },
+    {
+      "path": "ecosystem.md",
+      "bytes": 13247,
+      "sha256": "sha256-8aaa318c9fd7462ddbb6266c4e0cf6526dcd2908807797ba412003c8d86561ba"
+    },
+    {
+      "path": "end-to-end-workflow.md",
+      "bytes": 11812,
+      "sha256": "sha256-2af17c4a5c3975ec55c8b8cf2fafba47858a239b589509630b23b7ac9d357b1b"
+    },
+    {
+      "path": "errors.md",
+      "bytes": 2971,
+      "sha256": "sha256-178567409a4dc7097122b327822a6a323e5b5f0183b6b61455498701ebed8ff3"
+    },
+    {
+      "path": "events-reference.md",
+      "bytes": 11888,
+      "sha256": "sha256-48759a26b476ebb8c7bd9e3b2fded1f5e5324e0eca11e7266722955a04f39e02"
+    },
+    {
+      "path": "examples.md",
+      "bytes": 18335,
+      "sha256": "sha256-82344751d4964274a39620ba9b8e392ae8fab7ed34f2951f433b1ff67e6aa29b"
+    },
+    {
+      "path": "faq.md",
+      "bytes": 7683,
+      "sha256": "sha256-90517c4f11491511cca337151b1d7b5aa3460c48ca3b2f2ef673756365d12350"
+    },
+    {
+      "path": "fee-sharing.md",
+      "bytes": 6325,
+      "sha256": "sha256-fa444d2343b1ef08747544aeae314d02ded4a2a02794db86be8ab7ff9f4a0c57"
+    },
+    {
+      "path": "fee-tiers.md",
+      "bytes": 6058,
+      "sha256": "sha256-d20bbf43cf6f4c6878290a1f1c24b7442648dbee63e74866b550b9e5dcb47646"
+    },
+    {
+      "path": "getting-started.md",
+      "bytes": 6260,
+      "sha256": "sha256-333cb00e4bbfed59a9574dbbdc2a43c8f5d4221c877c3cf4669383e44684518d"
+    },
+    {
+      "path": "glossary.md",
+      "bytes": 5637,
+      "sha256": "sha256-787e634b478120b80acd927f009292d422be51534bb95707097d7e67d4c04393"
+    },
+    {
+      "path": "governance.md",
+      "bytes": 2400,
+      "sha256": "sha256-b6f3ad6ead3638bc924f13596b2639b168cec3e3845a09b62d27ec2f96156a5e"
+    },
+    {
+      "path": "migration.md",
+      "bytes": 7118,
+      "sha256": "sha256-b096c1b099ccd544dd6cf2910e2ac78d37da9660a4c3b86aa47f34c34aefec01"
+    },
+    {
+      "path": "monitor-bot.md",
+      "bytes": 7911,
+      "sha256": "sha256-a5ab0aa0ae12e49aeceeb2f2074dee5f326ae52d2e5f3eb09f0ea6451c84a316"
+    },
+    {
+      "path": "npm-packages.md",
+      "bytes": 113,
+      "sha256": "sha256-1011963d1a9f65cd4bd43fe0f1b4746dd3400858b0b6a96bc7360ead12714b6c"
+    },
+    {
+      "path": "npm.md",
+      "bytes": 4549,
+      "sha256": "sha256-c2e2d31489cd45d5e10d700d4aaa77ba666984e7dc6527b848f0afb30a1b033e"
+    },
+    {
+      "path": "performance.md",
+      "bytes": 6903,
+      "sha256": "sha256-1d8c6ccaac3d9751e37c5f4de519df134ba86aadcfb6f0a390a866f5390bf3af"
+    },
+    {
+      "path": "pumpos-guide.md",
+      "bytes": 6448,
+      "sha256": "sha256-5f13849856daffc2ae862e755fcd87a1171d264e4cfda7458a34c4f312fa2afe"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4406,
+      "sha256": "sha256-02dc9fbc31ab2ac1de15438766909c3e03e51ab1c63c3c315048877687dde530"
+    },
+    {
+      "path": "roadmap.md",
+      "bytes": 2650,
+      "sha256": "sha256-852a8a1eae9c5f50208d8d8e8ef72278507c41e707c2c010fee3428cc4587d3b"
+    },
+    {
+      "path": "rpc-best-practices.md",
+      "bytes": 8236,
+      "sha256": "sha256-db23f8cb373286b97f5231e48928c932b60cc01ae61399d9c03ef1100755d2ea"
+    },
+    {
+      "path": "sdk-integration.md",
+      "bytes": 4702,
+      "sha256": "sha256-05d9544d355634a3448b6b8415d5791080f8d9a87ebe80f5c5541ff1b433e053"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 550,
+      "sha256": "sha256-5152e5e4db426d7301b9fb8f3a02a0c44445d966e0bf0234890b62cbb0d77aa6"
+    },
+    {
+      "path": "support.md",
+      "bytes": 1686,
+      "sha256": "sha256-3261796d4b9205061800bd109a680cf1948decd1e987c1da172629fa3c87311b"
+    },
+    {
+      "path": "testing.md",
+      "bytes": 8121,
+      "sha256": "sha256-4911aff0370c5b8d14c5d4dfb29ba57d6719db01c7de10dd4ab4e894797b678e"
+    },
+    {
+      "path": "tracker-bot.md",
+      "bytes": 7426,
+      "sha256": "sha256-fe512fc27e057b29be30b8c75d8b9f60c0a12fa9b3920621ae352efdb53cc926"
+    },
+    {
+      "path": "troubleshooting.md",
+      "bytes": 4825,
+      "sha256": "sha256-6a2925a11d822b4efb3c1ce8c3e562c744374296d6606ef153b41f983aa5dfd9"
+    },
+    {
+      "path": "vision.md",
+      "bytes": 3687,
+      "sha256": "sha256-210aaef111f40d8e4c05c8be3e4249ca1627817413e81fac6afe4c82dadc7e18"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "pump-fun/swap",
+  "name": "swap",
+  "description": "Buy and sell tokens on pump.fun bonding curve and pump swap AMM pool, and query SOL/token balances. Prefer runnable Node scripts in this skill folder; use @pump-fun/pump-sdk and @pump-fun/pump-swap-sdk for custom integrations.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pump-fun/swap/SKILL.md"
+}

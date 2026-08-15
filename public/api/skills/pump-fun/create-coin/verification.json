@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-fun/create-coin",
+  "name": "create-coin",
+  "description": "Create coins on pump.fun — standard create with initial buy. Prefer runnable Node scripts in this skill folder; use @pump-fun/pump-sdk for custom integrations.",
+  "source": "https://skills.x402agent.io/api/skills/pump-fun/create-coin/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/pump-fun/create-coin/metadata.json",
+  "bundleHash": "sha256-c47b97d8ece0b1f6d539ecdb8ed35a777fa0d27b20c711ef7dc713fecd5cc72d",
+  "merkleLeaf": "sha256-9c3b79cb620455f4bcbc0557ed088d2c2e3be2e50663894f6158c7476c6bfb39",
+  "files": [
+    {
+      "path": "package-lock.json",
+      "bytes": 38835,
+      "sha256": "sha256-cacd9be0e4df286e6315841db0a66dd7c85a30588965017c0399dcc48381b9c2"
+    },
+    {
+      "path": "package.json",
+      "bytes": 602,
+      "sha256": "sha256-19d338fc7a6506dcd2f7da59651002539962c3d9c92c659c4093e73f22802d92"
+    },
+    {
+      "path": "references/METADATA.md",
+      "bytes": 5291,
+      "sha256": "sha256-e17edf101eeb895d5710dbdda2f340adbbd822100c115d84d2130b06226db372"
+    },
+    {
+      "path": "scripts/build-create-coin-tx.mjs",
+      "bytes": 7776,
+      "sha256": "sha256-02b1af1e0849afc6a319e6dd86f740355a29ac2d93d0dee105b255ed366e27a5"
+    },
+    {
+      "path": "scripts/fetch-coin.mjs",
+      "bytes": 1408,
+      "sha256": "sha256-8db6dae0cc13baf74a2d67c23b79f5e54913f4d58bcbe71aad1cb77cec0dd431"
+    },
+    {
+      "path": "scripts/lib/args.mjs",
+      "bytes": 1809,
+      "sha256": "sha256-79d5b0592096f6d53aa16c92f6159c015e6b52ea565f5a50d85cc40cb3d2c483"
+    },
+    {
+      "path": "scripts/lib/coin-api.mjs",
+      "bytes": 1114,
+      "sha256": "sha256-e8f4126f29f16473dad5af4095d382fca58da920eb89545d28b8ab48f8dece52"
+    },
+    {
+      "path": "scripts/lib/coin-resolve.mjs",
+      "bytes": 1392,
+      "sha256": "sha256-b7855f759c59aa50c00fefb787d894a4e69ff588b0f2d969203c135153c6cb2a"
+    },
+    {
+      "path": "scripts/lib/compute.mjs",
+      "bytes": 2403,
+      "sha256": "sha256-ae8d715321d454f9caa1fdfc98c2012161d3167b36a96ced4266e57e3e3bc5e2"
+    },
+    {
+      "path": "scripts/lib/constants.mjs",
+      "bytes": 567,
+      "sha256": "sha256-7f626e57cde401a70a2d65eeb949e7dd74f909922e32e2e28d1f291cba312990"
+    },
+    {
+      "path": "scripts/lib/env.mjs",
+      "bytes": 510,
+      "sha256": "sha256-fa92ab02b2b669912529c6fbaa55cc0e0a7a32e9be84e63e0278f08ccd10bb37"
+    },
+    {
+      "path": "scripts/lib/jito.mjs",
+      "bytes": 2880,
+      "sha256": "sha256-404b515ea4b313e8639a5e83657f037ffcddded676ca9fdc2cb798342bef691b"
+    },
+    {
+      "path": "scripts/lib/tx-build.mjs",
+      "bytes": 2332,
+      "sha256": "sha256-ec8636d2d4aa7f2a510285cd9d0ffc997cb1880ccaaea03d413bff3de7db792a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16272,
+      "sha256": "sha256-bf5581c14872df3c67b95551a862879c3d83503a85de349de0b1b7cd8a086e65"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

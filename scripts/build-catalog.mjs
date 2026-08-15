@@ -162,7 +162,7 @@ async function collectSkills(directory, segments, existingCategories, skills) {
   }
 }
 
-function parseFrontmatter(content) {
+export function parseFrontmatter(content) {
   if (!content.startsWith("---")) return {};
 
   const end = content.indexOf("\n---", 3);
@@ -220,7 +220,7 @@ function parseScalar(value) {
   return trimmed;
 }
 
-function normalizeText(value) {
+export function normalizeText(value) {
   if (typeof value !== "string") return "";
   return value.replace(/\s+/g, " ").trim();
 }
@@ -230,7 +230,7 @@ function fallbackDescription(content) {
   return heading ? normalizeText(heading) : "Agent skill.";
 }
 
-function categorize(skill, existingCategories) {
+export function categorize(skill, existingCategories) {
   if (CATEGORY_OVERRIDES.has(skill.slug)) {
     return CATEGORY_OVERRIDES.get(skill.slug);
   }
@@ -975,7 +975,7 @@ function groupBySourceFamily(catalog) {
   return [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
 }
 
-function sourceFamily(slug) {
+export function sourceFamily(slug) {
   // Premiere families first — these are the hub's lead offerings.
   if (slug.startsWith("engineering/")) return "engineering/*";
   if (slug.startsWith("agent-orchestration/")) return "agent-orchestration/*";
@@ -2769,7 +2769,10 @@ async function listFiles(dir) {
   return files;
 }
 
-main().catch((error) => {
-  console.error(error instanceof Error ? error.message : error);
-  process.exitCode = 1;
-});
+const isDirectRun = process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+if (isDirectRun) {
+  main().catch((error) => {
+    console.error(error instanceof Error ? error.message : error);
+    process.exitCode = 1;
+  });
+}

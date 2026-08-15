@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-fun/tokenized-agents",
+  "name": "tokenized-agents",
+  "description": "Use when the user wants to charge users for actions. Use @pump-fun/agent-payments-sdk, to build Solana payment transactions, verify on-chain invoice payments, or integrate Solana wallet adapters for agent payment flows.",
+  "source": "https://skills.x402agent.io/api/skills/pump-fun/tokenized-agents/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/pump-fun/tokenized-agents/metadata.json",
+  "bundleHash": "sha256-20af68beee8a4faf2a484ba401aa605303c5407a7633b24775dc482bc8ab744a",
+  "merkleLeaf": "sha256-8e1ef197285d224f1a3fbba2eccde32d61ab293750159e80c5bd72e0e46ab38f",
+  "files": [
+    {
+      "path": "references/SCENARIOS.md",
+      "bytes": 2287,
+      "sha256": "sha256-97b64d2083348dc8f452382e3edc9418d75c818ea87f83a8f8d03b3c4512a646"
+    },
+    {
+      "path": "references/WALLET_INTEGRATION.md",
+      "bytes": 2221,
+      "sha256": "sha256-db4906a24fb10bd2d26afa72b35d48fe6001ef093ff72ef583678010d5a7ec4a"
+    },
+    {
+      "path": "SCENARIOS.md",
+      "bytes": 2287,
+      "sha256": "sha256-97b64d2083348dc8f452382e3edc9418d75c818ea87f83a8f8d03b3c4512a646"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 22335,
+      "sha256": "sha256-f9d97618977bb1507171056b231ce54b2b748d0992bca2dfa862fdb5baaf3b52"
+    },
+    {
+      "path": "WALLET_INTEGRATION.md",
+      "bytes": 2221,
+      "sha256": "sha256-db4906a24fb10bd2d26afa72b35d48fe6001ef093ff72ef583678010d5a7ec4a"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

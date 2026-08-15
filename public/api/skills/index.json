@@ -384,6 +384,36 @@
     "category": "Solana / Blockchain"
   },
   {
+    "slug": "pump-fun/coin-fees",
+    "name": "coin-fees",
+    "description": "Inspect and manage creator fees on pump.fun — determine fee destinations (cashback, shared config, or direct creator), collect fees, distribute shared fees to shareholders, and query vault balances. Prefer runnable Node scripts in this skill folder; use @pump-fun/pump-sdk and @pump-fun/pump-swap-sdk for custom integrations.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "pump-fun/create-coin",
+    "name": "create-coin",
+    "description": "Create coins on pump.fun — standard create with initial buy. Prefer runnable Node scripts in this skill folder; use @pump-fun/pump-sdk for custom integrations.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "pump-fun/interacting",
+    "name": "interacting",
+    "description": "PumpKit documentation for interacting with pump.fun — SDK, Telegram bots, AMM trading, fee sharing, protocol guides, and end-to-end workflows.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "pump-fun/swap",
+    "name": "swap",
+    "description": "Buy and sell tokens on pump.fun bonding curve and pump swap AMM pool, and query SOL/token balances. Prefer runnable Node scripts in this skill folder; use @pump-fun/pump-sdk and @pump-fun/pump-swap-sdk for custom integrations.",
+    "category": "Solana / Blockchain"
+  },
+  {
+    "slug": "pump-fun/tokenized-agents",
+    "name": "tokenized-agents",
+    "description": "Use when the user wants to charge users for actions. Use @pump-fun/agent-payments-sdk, to build Solana payment transactions, verify on-chain invoice payments, or integrate Solana wallet adapters for agent payment flows.",
+    "category": "Solana / Blockchain"
+  },
+  {
     "slug": "pump-mcp-server",
     "name": "pump-mcp-server",
     "description": "Build and operate a Pump.fun Model Context Protocol server for AI agents, covering stdio transport, wallet/session safety, quoting, transaction builders, fee management, analytics, AMM operations, and prompt/resource design. Use when exposing Pump.fun operations through MCP.",

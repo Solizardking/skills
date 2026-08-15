@@ -2,10 +2,10 @@
 
 <img src="./assets/hub-banner.svg" alt="Skill Hub — an animated constellation of agent skills" width="100%" />
 
-[![skills.sh](https://skills.sh/b/Solizardking/skillhub)](https://skills.sh/Solizardking/skillhub)
-![Skills](https://img.shields.io/badge/skills-594-8A2BE2?style=flat-square) ![Categories](https://img.shields.io/badge/categories-10-00C2FF?style=flat-square) ![Google](https://img.shields.io/badge/google_integration-69_skills-4285F4?style=flat-square) ![NVIDIA](https://img.shields.io/badge/nvidia_integration-229_skills-76B900?style=flat-square) ![Verified](https://img.shields.io/badge/merkle-verified-14F195?style=flat-square) ![Arweave](https://img.shields.io/badge/arweave-permanent-222222?style=flat-square) ![Solana](https://img.shields.io/badge/solana-anchored-9945FF?style=flat-square)
+[![skills.sh](https://skills.sh/b/Solizardking/skills)](https://skills.sh/Solizardking/skills)
+![Skills](https://img.shields.io/badge/skills-599-8A2BE2?style=flat-square) ![Categories](https://img.shields.io/badge/categories-10-00C2FF?style=flat-square) ![Google](https://img.shields.io/badge/google_integration-69_skills-4285F4?style=flat-square) ![NVIDIA](https://img.shields.io/badge/nvidia_integration-229_skills-76B900?style=flat-square) ![Verified](https://img.shields.io/badge/merkle-verified-14F195?style=flat-square) ![Arweave](https://img.shields.io/badge/arweave-permanent-222222?style=flat-square) ![Solana](https://img.shields.io/badge/solana-anchored-9945FF?style=flat-square)
 
-**594 installable agent skills** — including a **69-skill Google integration** and a **229-skill NVIDIA stack** (CUDA, Jetson, NeMo, DeepStream, cuOpt, TAO, Holoscan, Earth-2). Every one is a `SKILL.md` playbook your agent can pull off the shelf —
+**599 installable agent skills** — including a **69-skill Google integration** and a **229-skill NVIDIA stack** (CUDA, Jetson, NeMo, DeepStream, cuOpt, TAO, Holoscan, Earth-2). Every one is a `SKILL.md` playbook your agent can pull off the shelf —
 hashed, Merkle-rooted, and ready to be pinned to Arweave and anchored on Solana.
 
 *Pick a cabinet. Pull the lever. The right playbook lights up.* 🕹️
@@ -20,7 +20,7 @@ Ten zones. Every skill lives in exactly one. Click a zone to jump to its catalog
 
 | Zone | Skills | Power level | What lives here |
 |---|---:|---|---|
-| [🟣 **Solana / Blockchain**](#-solana--blockchain) | 122 | `██████████░░░░░░░░` | The deep end: DeFi, perps, tokens, ZK, and on-chain agents |
+| [🟣 **Solana / Blockchain**](#-solana--blockchain) | 127 | `██████████░░░░░░░░` | The deep end: DeFi, perps, tokens, ZK, and on-chain agents |
 | [🛠️ **Dev Tools / Agents**](#️-dev-tools--agents) | 70 | `██████░░░░░░░░░░░░` | Build, orchestrate, and ship with agent tooling |
 | [📣 **Google / Ads**](#-google--ads) | 11 | `█░░░░░░░░░░░░░░░░░` | Google Ads APIs, campaigns, and reporting |
 | [📈 **Google / Analytics**](#-google--analytics) | 2 | `█░░░░░░░░░░░░░░░░░` | GA4 data APIs and measurement |
@@ -37,7 +37,7 @@ The hub is a source catalog plus generated distribution surfaces. Canonical skil
 
 | Layer | What it contains | Main paths |
 |---|---|---|
-| Skill sources | 594 canonical skills. Each slug is the directory path (relative to `skills/`) that owns a `SKILL.md`. | `skills/*/SKILL.md`, `skills/google/**/SKILL.md`, `skills/nvidia/*/SKILL.md`, `skills/anthropic-skills/*/SKILL.md`, plus optional `references/`, `scripts/`, `assets/`, and `agents/` folders |
+| Skill sources | 599 canonical skills. Each slug is the directory path (relative to `skills/`) that owns a `SKILL.md`. | `skills/*/SKILL.md`, `skills/google/**/SKILL.md`, `skills/nvidia/*/SKILL.md`, `skills/anthropic-skills/*/SKILL.md`, plus optional `references/`, `scripts/`, `assets/`, and `agents/` folders |
 | Catalog builder | The single source of generated truth for README, Hub docs, catalog JSON, public API, static UI, bundle hashes, and Merkle registry. | [`scripts/build-catalog.mjs`](./scripts/build-catalog.mjs), [`catalog.json`](./catalog.json), [`skills.sh.json`](./skills.sh.json), [`HUB.md`](./HUB.md) |
 | Installer CLI | Lists and installs skills into agent skill roots without external dependencies. | [`bin/skills.mjs`](./bin/skills.mjs), [`package.json`](./package.json) |
 | Static site and API | Browser catalog, per-skill metadata, mirrored `SKILL.md` files, copied public resources, CORS-ready JSON endpoints, and generated payment config. | [`public/index.html`](./public/index.html), [`public/api/skills.json`](./public/api/skills.json), `public/api/skills/**`, [`public/api/monetization.json`](./public/api/monetization.json) |
@@ -48,14 +48,14 @@ The hub is a source catalog plus generated distribution surfaces. Canonical skil
 
 ### Source Families
 
-This is the same 594-skill inventory grouped by where the source directories live. The full per-skill catalog appears below.
+This is the same 599-skill inventory grouped by where the source directories live. The full per-skill catalog appears below.
 
 | Source family | Skills | What it covers |
 |---|---:|---|
 | `nvidia/*` | 229 | NVIDIA accelerated computing: CUDA/cuDF, Jetson BSP, NeMo, DeepStream, cuOpt, TAO, Holoscan, Earth-2, Dynamo, and digital health. |
 | `single/root skills` | 123 | One-skill source directories for local tools, messaging, utilities, media, devices, and specialized workflows. |
 | `google/*` | 69 | Nested Google Ads, Analytics, Cloud, GKE, BigQuery, Firebase, Gemini, and Well-Architected Framework skills. |
-| `pump/pumpfun/*` | 24 | Pump.fun and pump-program launch, fee, security, wallet, testing, SDK, and token-lifecycle workflows. |
+| `pump/pumpfun/*` | 29 | Pump.fun and pump-program launch, fee, security, wallet, testing, SDK, and token-lifecycle workflows. |
 | `vulcan/*` | 18 | Vulcan/Phoenix perps trading skills for onboarding, market intel, execution, grids, TWAP, TP/SL, margin, and risk. |
 | `anthropic-skills/*` | 17 | Imported Anthropic-format skills for documents, spreadsheets, design, web apps, MCP, artifacts, and skill creation. |
 | `engineering/*` | 17 | Premiere engineering playbooks: TDD, implement, triage, architecture, domain modeling, specs, and tickets. |
@@ -206,9 +206,9 @@ npx github:Solizardking/skillhub install --eve                      # eve (agent
 </details>
 
 <details>
-<summary><strong>🎰 Pump.fun mode</strong> — launch → curve → fees → security, the whole token lifecycle <em>(24 skills)</em></summary>
+<summary><strong>🎰 Pump.fun mode</strong> — launch → curve → fees → security, the whole token lifecycle <em>(29 skills)</em></summary>
 
-[`pump-admin-ops`](./skills/pump-admin-ops/SKILL.md) · [`pump-ai-agents`](./skills/pump-ai-agents/SKILL.md) · [`pump-bonding-curve`](./skills/pump-bonding-curve/SKILL.md) · [`pump-build-release`](./skills/pump-build-release/SKILL.md) · [`pump-claims-readonly`](./skills/pump-claims-readonly/SKILL.md) · [`pump-fee-sharing`](./skills/pump-fee-sharing/SKILL.md) · [`pump-fee-system`](./skills/pump-fee-system/SKILL.md) · [`pump-mcp-server`](./skills/pump-mcp-server/SKILL.md) · [`pump-rust-vanity`](./skills/pump-rust-vanity/SKILL.md) · [`pump-sdk-core`](./skills/pump-sdk-core/SKILL.md) · [`pump-security`](./skills/pump-security/SKILL.md) · [`pump-shell-scripts`](./skills/pump-shell-scripts/SKILL.md) · [`pump-solana-architecture`](./skills/pump-solana-architecture/SKILL.md) · [`pump-solana-dev`](./skills/pump-solana-dev/SKILL.md) · [`pump-solana-wallet`](./skills/pump-solana-wallet/SKILL.md) · [`pump-testing`](./skills/pump-testing/SKILL.md) · [`pump-token-incentives`](./skills/pump-token-incentives/SKILL.md) · [`pump-token-lifecycle`](./skills/pump-token-lifecycle/SKILL.md) · [`pump-ts-vanity`](./skills/pump-ts-vanity/SKILL.md) · [`pumpfun`](./skills/pumpfun/SKILL.md) · [`pumpfun-analytics`](./skills/pumpfun-analytics/SKILL.md) · [`pumpfun-fees`](./skills/pumpfun-fees/SKILL.md) · [`pumpfun-launcher`](./skills/pumpfun-launcher/SKILL.md) · [`pumpfun-trading`](./skills/pumpfun-trading/SKILL.md)
+[`pump-admin-ops`](./skills/pump-admin-ops/SKILL.md) · [`pump-ai-agents`](./skills/pump-ai-agents/SKILL.md) · [`pump-bonding-curve`](./skills/pump-bonding-curve/SKILL.md) · [`pump-build-release`](./skills/pump-build-release/SKILL.md) · [`pump-claims-readonly`](./skills/pump-claims-readonly/SKILL.md) · [`pump-fee-sharing`](./skills/pump-fee-sharing/SKILL.md) · [`pump-fee-system`](./skills/pump-fee-system/SKILL.md) · [`pump-fun/coin-fees`](./skills/pump-fun/coin-fees/SKILL.md) · [`pump-fun/create-coin`](./skills/pump-fun/create-coin/SKILL.md) · [`pump-fun/interacting`](./skills/pump-fun/interacting/SKILL.md) · [`pump-fun/swap`](./skills/pump-fun/swap/SKILL.md) · [`pump-fun/tokenized-agents`](./skills/pump-fun/tokenized-agents/SKILL.md) · [`pump-mcp-server`](./skills/pump-mcp-server/SKILL.md) · [`pump-rust-vanity`](./skills/pump-rust-vanity/SKILL.md) · [`pump-sdk-core`](./skills/pump-sdk-core/SKILL.md) · [`pump-security`](./skills/pump-security/SKILL.md) · [`pump-shell-scripts`](./skills/pump-shell-scripts/SKILL.md) · [`pump-solana-architecture`](./skills/pump-solana-architecture/SKILL.md) · [`pump-solana-dev`](./skills/pump-solana-dev/SKILL.md) · [`pump-solana-wallet`](./skills/pump-solana-wallet/SKILL.md) · [`pump-testing`](./skills/pump-testing/SKILL.md) · [`pump-token-incentives`](./skills/pump-token-incentives/SKILL.md) · [`pump-token-lifecycle`](./skills/pump-token-lifecycle/SKILL.md) · [`pump-ts-vanity`](./skills/pump-ts-vanity/SKILL.md) · [`pumpfun`](./skills/pumpfun/SKILL.md) · [`pumpfun-analytics`](./skills/pumpfun-analytics/SKILL.md) · [`pumpfun-fees`](./skills/pumpfun-fees/SKILL.md) · [`pumpfun-launcher`](./skills/pumpfun-launcher/SKILL.md) · [`pumpfun-trading`](./skills/pumpfun-trading/SKILL.md)
 
 </details>
 
@@ -246,7 +246,7 @@ Every skill, every zone. Click a zone to expand it — descriptions keep the exa
 
 ### 🟣 Solana / Blockchain
 
-> The deep end: DeFi, perps, tokens, ZK, and on-chain agents — **122 skills**
+> The deep end: DeFi, perps, tokens, ZK, and on-chain agents — **127 skills**
 
 <details>
 <summary>Open the Solana / Blockchain cabinet</summary>
@@ -317,6 +317,11 @@ Every skill, every zone. Click a zone to expand it — descriptions keep the exa
 | [`pump-claims-readonly`](./skills/pump-claims-readonly/SKILL.md) | pump-claims-readonly | Query Pump.fun claim state without sending transactions: unclaimed token incentives, creator vault balances, volume accumulators, distributable fees, current-day token previews, and Pump/PumpAMM aggregate views. Use for read-only claim and fee diagnostics. |
 | [`pump-fee-sharing`](./skills/pump-fee-sharing/SKILL.md) | pump-fee-sharing | Configure and distribute Pump.fun creator fees through the PumpFees program with BPS shareholder splits, admin management, validation, and Pump/PumpAMM fee consolidation for graduated tokens. Use when setting up or paying creator fee shares. |
 | [`pump-fee-system`](./skills/pump-fee-system/SKILL.md) | pump-fee-system | Implement and audit the Pump.fun fee system, including market-cap fee tiers, creator fee vaults across Pump and PumpAMM, basis-point arithmetic, ceiling division, fee simulation, and dust-safe calculations. Use for protocol fee logic and creator-fee accounting. |
+| [`pump-fun/coin-fees`](./skills/pump-fun/coin-fees/SKILL.md) | coin-fees | Inspect and manage creator fees on pump.fun — determine fee destinations (cashback, shared config, or direct creator), collect fees, distribute shared fees to shareholders, and query vault balances. Prefer runnable Node scripts in this skill folder; use @pump-fun/pump-sdk and @pump-fun/pump-swap-sdk for custom integrations. |
+| [`pump-fun/create-coin`](./skills/pump-fun/create-coin/SKILL.md) | create-coin | Create coins on pump.fun — standard create with initial buy. Prefer runnable Node scripts in this skill folder; use @pump-fun/pump-sdk for custom integrations. |
+| [`pump-fun/interacting`](./skills/pump-fun/interacting/SKILL.md) | interacting | PumpKit documentation for interacting with pump.fun — SDK, Telegram bots, AMM trading, fee sharing, protocol guides, and end-to-end workflows. |
+| [`pump-fun/swap`](./skills/pump-fun/swap/SKILL.md) | swap | Buy and sell tokens on pump.fun bonding curve and pump swap AMM pool, and query SOL/token balances. Prefer runnable Node scripts in this skill folder; use @pump-fun/pump-sdk and @pump-fun/pump-swap-sdk for custom integrations. |
+| [`pump-fun/tokenized-agents`](./skills/pump-fun/tokenized-agents/SKILL.md) | tokenized-agents | Use when the user wants to charge users for actions. Use @pump-fun/agent-payments-sdk, to build Solana payment transactions, verify on-chain invoice payments, or integrate Solana wallet adapters for agent payment flows. |
 | [`pump-mcp-server`](./skills/pump-mcp-server/SKILL.md) | pump-mcp-server | Build and operate a Pump.fun Model Context Protocol server for AI agents, covering stdio transport, wallet/session safety, quoting, transaction builders, fee management, analytics, AMM operations, and prompt/resource design. Use when exposing Pump.fun operations through MCP. |
 | [`pump-rust-vanity`](./skills/pump-rust-vanity/SKILL.md) | pump-rust-vanity | Build production Rust vanity-address tooling for Pump.fun/Solana wallets with Rayon parallelism, solana-sdk key generation, Base58 prefix/suffix matching, secure file output, zeroization, and Criterion benchmarks. Use for high-throughput vanity generation. |
 | [`pump-sdk-core`](./skills/pump-sdk-core/SKILL.md) | pump-sdk-core | Build and extend the Pump.fun SDK core: offline TypeScript instruction builders, online RPC helpers, account decoders, PDAs, token creation, buy/sell, migration, fee collection, PumpAMM, PumpFees, and Mayhem support. Use for SDK API and implementation work. |

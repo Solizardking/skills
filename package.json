@@ -21,6 +21,7 @@
     "scanner:serve": "python3 -m http.server 8877 --bind 127.0.0.1 --directory scanner/public",
     "smoke": "node scripts/smoke-test-skills.mjs",
     "test:premiere": "node scripts/test-premiere-skills.mjs",
+    "test:pump-fun": "node scripts/test-pump-fun-catalog.mjs",
     "publish:onchain": "node scripts/publish-onchain.mjs",
     "relay": "node scripts/skill-relay.mjs",
     "relay:watch": "node scripts/skill-relay.mjs --watch",
@@ -28,7 +29,7 @@
     "relay:upload": "node scripts/upload-relay-server.mjs",
     "relay:upload:dev": "SKILLHUB_PAYMENT_NETWORK=devnet node scripts/upload-relay-server.mjs",
     "ledger:export": "node scripts/export-public-ledger.mjs",
-    "test": "node scripts/build-catalog.mjs --check && node scripts/smoke-test-skills.mjs && node bin/skills.mjs list --json >/dev/null && node scripts/test-premiere-skills.mjs"
+    "test": "node scripts/build-catalog.mjs --check && node scripts/smoke-test-skills.mjs && node bin/skills.mjs list --json >/dev/null && node scripts/test-premiere-skills.mjs && node scripts/test-pump-fun-catalog.mjs"
   },
   "engines": {
     "node": ">=18"

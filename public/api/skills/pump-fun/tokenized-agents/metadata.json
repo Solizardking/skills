@@ -1,0 +1,7 @@
+{
+  "slug": "pump-fun/tokenized-agents",
+  "name": "tokenized-agents",
+  "description": "Use when the user wants to charge users for actions. Use @pump-fun/agent-payments-sdk, to build Solana payment transactions, verify on-chain invoice payments, or integrate Solana wallet adapters for agent payment flows.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pump-fun/tokenized-agents/SKILL.md"
+}

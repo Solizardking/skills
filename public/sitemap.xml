@@ -199,6 +199,21 @@
   <url><loc>https://skills.x402agent.io/api/skills/pump-fee-system/metadata.json</loc></url>
   <url><loc>https://skills.x402agent.io/api/skills/pump-fee-system/verification.json</loc></url>
   <url><loc>https://skills.x402agent.io/api/skills/pump-fee-system/SKILL.md</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/coin-fees/metadata.json</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/coin-fees/verification.json</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/coin-fees/SKILL.md</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/create-coin/metadata.json</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/create-coin/verification.json</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/create-coin/SKILL.md</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/interacting/metadata.json</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/interacting/verification.json</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/interacting/SKILL.md</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/swap/metadata.json</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/swap/verification.json</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/swap/SKILL.md</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/tokenized-agents/metadata.json</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/tokenized-agents/verification.json</loc></url>
+  <url><loc>https://skills.x402agent.io/api/skills/pump-fun/tokenized-agents/SKILL.md</loc></url>
   <url><loc>https://skills.x402agent.io/api/skills/pump-mcp-server/metadata.json</loc></url>
   <url><loc>https://skills.x402agent.io/api/skills/pump-mcp-server/verification.json</loc></url>
   <url><loc>https://skills.x402agent.io/api/skills/pump-mcp-server/SKILL.md</loc></url>

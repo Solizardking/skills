@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-fun/coin-fees",
+  "name": "coin-fees",
+  "description": "Inspect and manage creator fees on pump.fun — determine fee destinations (cashback, shared config, or direct creator), collect fees, distribute shared fees to shareholders, and query vault balances. Prefer runnable Node scripts in this skill folder; use @pump-fun/pump-sdk and @pump-fun/pump-swap-sdk for custom integrations.",
+  "source": "https://skills.x402agent.io/api/skills/pump-fun/coin-fees/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/pump-fun/coin-fees/metadata.json",
+  "bundleHash": "sha256-d4f09dbbc9078e31525ea867d501a19cab17fad4951444fa28c6b83ee70f19c2",
+  "merkleLeaf": "sha256-f6dfb7643f6703667bd99e3508958d38e5db7d72e7a4207df9cd5e48a82f8bdc",
+  "files": [
+    {
+      "path": "package-lock.json",
+      "bytes": 39294,
+      "sha256": "sha256-cafae0a36c0674e7164b51fb641717549c74cae28d0dc7d5fe1045dcc68d3ca9"
+    },
+    {
+      "path": "package.json",
+      "bytes": 763,
+      "sha256": "sha256-81dfcabd56ceb291aed44903785c27c620c2e3130099466ab9ead4e25b12a0e6"
+    },
+    {
+      "path": "scripts/build-collect-fee-tx.mjs",
+      "bytes": 5538,
+      "sha256": "sha256-e464b4212a1dd4c955d99ade1eb710c8abfa60fa1f814dc3aaef0eadbd4e52be"
+    },
+    {
+      "path": "scripts/build-distribute-fees-tx.mjs",
+      "bytes": 6308,
+      "sha256": "sha256-eb00e419bb57aa490afbe93b160ebe706520460c4fb10282be24510163b5c9ce"
+    },
+    {
+      "path": "scripts/build-sharing-config-tx.mjs",
+      "bytes": 10302,
+      "sha256": "sha256-37c6d69a43d23661ee1ea44b8b4627caee20edf435b374cdc4d3fdd3cfe8e130"
+    },
+    {
+      "path": "scripts/fetch-coin.mjs",
+      "bytes": 1408,
+      "sha256": "sha256-8db6dae0cc13baf74a2d67c23b79f5e54913f4d58bcbe71aad1cb77cec0dd431"
+    },
+    {
+      "path": "scripts/fetch-distributable-info.mjs",
+      "bytes": 7147,
+      "sha256": "sha256-94ea37e108ec6de076263cb83b66003e95f3f06850d6d17359575ae1e93778a4"
+    },
+    {
+      "path": "scripts/fetch-fee-info.mjs",
+      "bytes": 6050,
+      "sha256": "sha256-de3c3e5798bb48fd535d0f8842b70965f74b52d888270e3c56a54ed3f0c2fc5c"
+    },
+    {
+      "path": "scripts/lib/args.mjs",
+      "bytes": 1809,
+      "sha256": "sha256-79d5b0592096f6d53aa16c92f6159c015e6b52ea565f5a50d85cc40cb3d2c483"
+    },
+    {
+      "path": "scripts/lib/coin-api.mjs",
+      "bytes": 1114,
+      "sha256": "sha256-e8f4126f29f16473dad5af4095d382fca58da920eb89545d28b8ab48f8dece52"
+    },
+    {
+      "path": "scripts/lib/coin-resolve.mjs",
+      "bytes": 1392,
+      "sha256": "sha256-b7855f759c59aa50c00fefb787d894a4e69ff588b0f2d969203c135153c6cb2a"
+    },
+    {
+      "path": "scripts/lib/compute.mjs",
+      "bytes": 2403,
+      "sha256": "sha256-ae8d715321d454f9caa1fdfc98c2012161d3167b36a96ced4266e57e3e3bc5e2"
+    },
+    {
+      "path": "scripts/lib/constants.mjs",
+      "bytes": 567,
+      "sha256": "sha256-7f626e57cde401a70a2d65eeb949e7dd74f909922e32e2e28d1f291cba312990"
+    },
+    {
+      "path": "scripts/lib/env.mjs",
+      "bytes": 510,
+      "sha256": "sha256-fa92ab02b2b669912529c6fbaa55cc0e0a7a32e9be84e63e0278f08ccd10bb37"
+    },
+    {
+      "path": "scripts/lib/jito.mjs",
+      "bytes": 2880,
+      "sha256": "sha256-404b515ea4b313e8639a5e83657f037ffcddded676ca9fdc2cb798342bef691b"
+    },
+    {
+      "path": "scripts/lib/tx-build.mjs",
+      "bytes": 2332,
+      "sha256": "sha256-ec8636d2d4aa7f2a510285cd9d0ffc997cb1880ccaaea03d413bff3de7db792a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 21884,
+      "sha256": "sha256-889041d419c3db5532d61a0c32d48dd2949c61111c5d0236340caf67df6c2621"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

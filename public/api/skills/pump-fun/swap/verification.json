@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-fun/swap",
+  "name": "swap",
+  "description": "Buy and sell tokens on pump.fun bonding curve and pump swap AMM pool, and query SOL/token balances. Prefer runnable Node scripts in this skill folder; use @pump-fun/pump-sdk and @pump-fun/pump-swap-sdk for custom integrations.",
+  "source": "https://skills.x402agent.io/api/skills/pump-fun/swap/SKILL.md",
+  "metadata": "https://skills.x402agent.io/api/skills/pump-fun/swap/metadata.json",
+  "bundleHash": "sha256-18290abb82ec5aef7110039c7335fd48597ac2cafaa31a82be62a78835507ae1",
+  "merkleLeaf": "sha256-2f3d535089013d2029f2e728b147a95bb34fa757e450394ea057f977143ba2f0",
+  "files": [
+    {
+      "path": "package-lock.json",
+      "bytes": 39284,
+      "sha256": "sha256-c6d1e273db4a9b327659b3267dba4cd861182caef3706464dfd8a862bae5c4bb"
+    },
+    {
+      "path": "package.json",
+      "bytes": 794,
+      "sha256": "sha256-81715526ac6e66c21bcd803de6da333204cd82e15e4932be28e56a85d99c0f70"
+    },
+    {
+      "path": "scripts/build-buy-amm-tx.mjs",
+      "bytes": 5294,
+      "sha256": "sha256-9a457910b4862855c8ccc25d0dabc143b289ee461bd4ccdab321755a4cb4872c"
+    },
+    {
+      "path": "scripts/build-buy-bonding-tx.mjs",
+      "bytes": 5458,
+      "sha256": "sha256-414ab02e0adfce93fb7ad814fb24456a8377dbef9225053667f112afb9f1c2b4"
+    },
+    {
+      "path": "scripts/build-sell-amm-tx.mjs",
+      "bytes": 5272,
+      "sha256": "sha256-df972c1914e67d1f0cac614a869f0920da4d1871baecb80d39c0d7951a05121f"
+    },
+    {
+      "path": "scripts/build-sell-bonding-tx.mjs",
+      "bytes": 4880,
+      "sha256": "sha256-aa9518c240df7c759fe94d7f75abebf801c6cc70cbf0387834858ac97bee5fd3"
+    },
+    {
+      "path": "scripts/fetch-coin.mjs",
+      "bytes": 1408,
+      "sha256": "sha256-8db6dae0cc13baf74a2d67c23b79f5e54913f4d58bcbe71aad1cb77cec0dd431"
+    },
+    {
+      "path": "scripts/lib/args.mjs",
+      "bytes": 1809,
+      "sha256": "sha256-79d5b0592096f6d53aa16c92f6159c015e6b52ea565f5a50d85cc40cb3d2c483"
+    },
+    {
+      "path": "scripts/lib/coin-api.mjs",
+      "bytes": 1114,
+      "sha256": "sha256-e8f4126f29f16473dad5af4095d382fca58da920eb89545d28b8ab48f8dece52"
+    },
+    {
+      "path": "scripts/lib/coin-resolve.mjs",
+      "bytes": 1392,
+      "sha256": "sha256-b7855f759c59aa50c00fefb787d894a4e69ff588b0f2d969203c135153c6cb2a"
+    },
+    {
+      "path": "scripts/lib/compute.mjs",
+      "bytes": 2403,
+      "sha256": "sha256-ae8d715321d454f9caa1fdfc98c2012161d3167b36a96ced4266e57e3e3bc5e2"
+    },
+    {
+      "path": "scripts/lib/constants.mjs",
+      "bytes": 567,
+      "sha256": "sha256-7f626e57cde401a70a2d65eeb949e7dd74f909922e32e2e28d1f291cba312990"
+    },
+    {
+      "path": "scripts/lib/env.mjs",
+      "bytes": 510,
+      "sha256": "sha256-fa92ab02b2b669912529c6fbaa55cc0e0a7a32e9be84e63e0278f08ccd10bb37"
+    },
+    {
+      "path": "scripts/lib/jito.mjs",
+      "bytes": 2880,
+      "sha256": "sha256-404b515ea4b313e8639a5e83657f037ffcddded676ca9fdc2cb798342bef691b"
+    },
+    {
+      "path": "scripts/lib/tx-build.mjs",
+      "bytes": 2332,
+      "sha256": "sha256-ec8636d2d4aa7f2a510285cd9d0ffc997cb1880ccaaea03d413bff3de7db792a"
+    },
+    {
+      "path": "scripts/print-balances.mjs",
+      "bytes": 3318,
+      "sha256": "sha256-11dc7734ed829217d47a95d121acf8b3951185b4ecd241792a5931fbb3c1758b"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 20365,
+      "sha256": "sha256-590e59177bfc598825bd5b8c574ee755940767d0e7ad9a77acb085a84590f5af"
+    }
+  ],
+  "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

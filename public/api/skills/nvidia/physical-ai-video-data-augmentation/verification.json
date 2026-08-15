@@ -5,8 +5,8 @@
   "description": "Use when running video data augmentation and auto-labeling workflows on OSMO: flow selection, preflight, submit-time interpolation, monitoring, and output retrieval. Trigger keywords: video data augmentation, data enrichment, auto labeling, VDA demo, OSMO workflow, pseudo labeling.",
   "source": "https://skills.x402agent.io/api/skills/nvidia/physical-ai-video-data-augmentation/SKILL.md",
   "metadata": "https://skills.x402agent.io/api/skills/nvidia/physical-ai-video-data-augmentation/metadata.json",
-  "bundleHash": "sha256-04cfe8af953223f749e7bd10408614c2fb42298f7e381700454369e2e1b0b3d1",
-  "merkleLeaf": "sha256-4a6ff570398e4c484b43eb024311d15b29dc3b4203ba3788f8e1a2e2ed36fd3b",
+  "bundleHash": "sha256-f5c7f7fb5cd078f6bf9cb19591f897a689adf96bd74d22342fc19f3726e9bd14",
+  "merkleLeaf": "sha256-d6ab90894614c9d13a9de1e683b2344f6a6a465fa30c2d796c7336d7d0e89061",
   "files": [
     {
       "path": "agents/openai.yaml",
@@ -49,24 +49,9 @@
       "sha256": "sha256-25139d2d15559271ddd413d47fd74f6e4eadc790d135c18ea4c27c8b41c7e923"
     },
     {
-      "path": "assets/cookbooks/city_traffic/augmentation/prompts/prompt_polishing_system_prompt.md",
-      "bytes": 3666,
-      "sha256": "sha256-0da13f63289a013e9928750d11608bcd206300ea898a7ac0160022205f377519"
-    },
-    {
-      "path": "assets/cookbooks/city_traffic/augmentation/prompts/template_generation_system_prompt.md",
-      "bytes": 2938,
-      "sha256": "sha256-8fd364e570ed16c2ae5ef33275c4a63a7208db36565d70dcca7ae9ee06fbb7b3"
-    },
-    {
       "path": "assets/cookbooks/city_traffic/auto_labeling/auto_labeling_config.yaml",
       "bytes": 3811,
       "sha256": "sha256-289e92d4659ab4a7fb76935c5994e2b886be2e0ca944491eb4f1174ede702614"
-    },
-    {
-      "path": "assets/cookbooks/city_traffic/auto_labeling/prompts/event_analysis.md",
-      "bytes": 3103,
-      "sha256": "sha256-3df77cf1e56ffc68f0d65c0d2a049414a92929530f86e1b548004b7c8ac314a5"
     },
     {
       "path": "assets/cookbooks/city_traffic/auto_labeling/question_bank.json",
@@ -94,24 +79,9 @@
       "sha256": "sha256-5ae938b8620fa2929a9bca5750e90997146e8840584bb699a10893ae7c34c805"
     },
     {
-      "path": "assets/cookbooks/piazza/augmentation/prompts/prompt_polishing_system_prompt.md",
-      "bytes": 3506,
-      "sha256": "sha256-78da94fa2d445bde28e1128f13caac71f3eadd1e51be4fdce3637cb78a7242f8"
-    },
-    {
-      "path": "assets/cookbooks/piazza/augmentation/prompts/template_generation_system_prompt.md",
-      "bytes": 2844,
-      "sha256": "sha256-09a0e7bb7c9ba2474e5b8d6520c2d7c203336eeb4d0e846454d1ac9c55993eaa"
-    },
-    {
       "path": "assets/cookbooks/piazza/auto_labeling/auto_labeling_config.yaml",
       "bytes": 3586,
       "sha256": "sha256-07739267a7a57d296d52da2717b98ebb51e5d3c5f1885bf0c6c0e938c6d5d656"
-    },
-    {
-      "path": "assets/cookbooks/piazza/auto_labeling/prompts/event_analysis.md",
-      "bytes": 2853,
-      "sha256": "sha256-8074b98a2084bb8b828107cb69a4635649c096a57e0a461e0236f8a3585979a1"
     },
     {
       "path": "assets/cookbooks/piazza/auto_labeling/question_bank.json",
@@ -134,24 +104,9 @@
       "sha256": "sha256-56ff14a2fbb96e93329ddd63e5b8752d69344c9a88aa41224703a48df94bb940"
     },
     {
-      "path": "assets/cookbooks/robot_assembly/augmentation/prompts/prompt_polishing_system_prompt.md",
-      "bytes": 3314,
-      "sha256": "sha256-f746a7bb5efac3f78732e33b727f93e7db343cef04a834ef263a5728c41807c9"
-    },
-    {
-      "path": "assets/cookbooks/robot_assembly/augmentation/prompts/template_generation_system_prompt.md",
-      "bytes": 2489,
-      "sha256": "sha256-bc802cf1e5321cc1d2bf56d4197495376b9c6f2d056a521abc2f316867de5fbc"
-    },
-    {
       "path": "assets/cookbooks/robot_assembly/auto_labeling/auto_labeling_config.yaml",
       "bytes": 3556,
       "sha256": "sha256-476e620db04bf890e012d580af5d954c4aded7b89eb3e3623a657e17aeaa1afd"
-    },
-    {
-      "path": "assets/cookbooks/robot_assembly/auto_labeling/prompts/event_analysis.md",
-      "bytes": 2859,
-      "sha256": "sha256-145f1e6eeea96fd3b24a27dee756fa6e5d8178525bcec57f18b4bee84acbca21"
     },
     {
       "path": "assets/cookbooks/robot_assembly/auto_labeling/question_bank.json",
@@ -174,24 +129,9 @@
       "sha256": "sha256-81454be9879161285f3dfce66c1d2bc84098448babcb20d88d47f226803893ec"
     },
     {
-      "path": "assets/cookbooks/trailer_dashcam/augmentation/prompts/prompt_polishing_system_prompt.md",
-      "bytes": 3757,
-      "sha256": "sha256-615b196e68b4fd95ab5ac00978cca07fadd6b790dbc30362144d94c93eb777bb"
-    },
-    {
-      "path": "assets/cookbooks/trailer_dashcam/augmentation/prompts/template_generation_system_prompt.md",
-      "bytes": 2768,
-      "sha256": "sha256-a8cb08ad79f516f2c45d67db0b9ea62ac6af6c9c5d21a2c2cefac2833b566a90"
-    },
-    {
       "path": "assets/cookbooks/trailer_dashcam/auto_labeling/auto_labeling_config.yaml",
       "bytes": 3962,
       "sha256": "sha256-978327cb1e72d3cc12dd21c8a684d253f4455b4237af5be25fa5ed1780348450"
-    },
-    {
-      "path": "assets/cookbooks/trailer_dashcam/auto_labeling/prompts/event_analysis.md",
-      "bytes": 2940,
-      "sha256": "sha256-fd233fb627ca7a24d30c2705b1460f2b098c866531697b9b8514eb7a7024140f"
     },
     {
       "path": "assets/cookbooks/trailer_dashcam/auto_labeling/question_bank.json",
@@ -219,24 +159,9 @@
       "sha256": "sha256-d05e33fe00e1ea2e2d27f239a74352e75e70c6fb6af98783d44f91dbd28bbc91"
     },
     {
-      "path": "assets/cookbooks/warehouse/augmentation/prompts/prompt_polishing_system_prompt.md",
-      "bytes": 3732,
-      "sha256": "sha256-9aef8ea47642afbe4cc3b5ba496739f8bab3cf4751616dd9d9f800b8fe707acf"
-    },
-    {
-      "path": "assets/cookbooks/warehouse/augmentation/prompts/template_generation_system_prompt.md",
-      "bytes": 2916,
-      "sha256": "sha256-5ba1bfc61ccf127c9ec7c746e081479f8bcf11241d13e86801aa5ba8a8d67989"
-    },
-    {
       "path": "assets/cookbooks/warehouse/auto_labeling/auto_labeling_config.yaml",
       "bytes": 3602,
       "sha256": "sha256-d682b0cbb54856a0e1ba960f9a48d5088de4d9dd930804458489bb8b73039351"
-    },
-    {
-      "path": "assets/cookbooks/warehouse/auto_labeling/prompts/event_analysis.md",
-      "bytes": 2866,
-      "sha256": "sha256-b7ab1a952ee7c88082b5cf8f73c162ba58eb410c6cdc17fccfa82b8392676d87"
     },
     {
       "path": "assets/cookbooks/warehouse/auto_labeling/question_bank.json",

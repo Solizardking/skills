@@ -5,18 +5,18 @@
   "description": "Install and make Clawd, Cheshire Terminal, Solizardking, Vercel, and eve agent skills available to local coding agents. Use when a user asks to add all skills, install this repo with npx github, install into ~/.agents/skills, ~/.codex/skills, ~/.claude/skills, or an eve project's agent/skills directory.",
   "source": "https://skills.x402agent.io/api/skills/clawd-skills-installer/SKILL.md",
   "metadata": "https://skills.x402agent.io/api/skills/clawd-skills-installer/metadata.json",
-  "bundleHash": "sha256-8d91108398a90d27fc736332e4a58bf7ebc059687eb08075deae4e4d7db2ac6e",
-  "merkleLeaf": "sha256-6d7520e85a3486c44c9d4dff93d52d105e927d3bf0ebbec20268f215b6cd866b",
+  "bundleHash": "sha256-2443be0c5264466965ed6b3f605bb9ae859bbe8e13f78695223dc3ed181731cf",
+  "merkleLeaf": "sha256-2c424f54edea3f560ce2d78fa9ad3ed15fa9485066bc1e4394f28b55d516251d",
   "files": [
     {
       "path": "references/install-targets.md",
-      "bytes": 1810,
-      "sha256": "sha256-8a05e34ff935516b91ca5860d0f5dd46e35a823d7ac62dd7cb77a68a35021655"
+      "bytes": 1820,
+      "sha256": "sha256-8d3cadd812d34c88ce17a8e09014427ab71e5dc3ef159a6ffbc55c937e28e456"
     },
     {
       "path": "SKILL.md",
-      "bytes": 1662,
-      "sha256": "sha256-a8b0c205dd6d598a7d1f19b606deec589c6d2ca458a87112cb289781fb0a5a6c"
+      "bytes": 1668,
+      "sha256": "sha256-41768501373651462d34178bed5f1669db47a6a2034b719a66ffe0d502b5e805"
     }
   ],
   "registry": "https://skills.x402agent.io/.well-known/onchain-skill-registry.json",
